@@ -228,7 +228,7 @@ majority of the hits represent the desired idiomatic usage.
 
 # Results
 The output file is linked [above](#Overview). We will likely at some point
-add a listings and tables to the repository wiki (TBD).
+add summary tables and/or listings to the repository wiki (TBD).
 
 # Discussion
 
