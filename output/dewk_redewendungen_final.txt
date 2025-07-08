@@ -2443,7 +2443,7 @@ viel Holz vor der Hütte haben	2441	2441	viel Holz + vor der Hütte + HABEN		0	1
 viel um die Ohren haben	2442	2442	um die Ohren + HABEN		16	99 -> 16	17	99 -> 17							16	https://de.wiktionary.org/wiki/viel_um_die_Ohren_haben
 viel Wind um etwas machen	2443	2443	viel Wind um + MACHEN		0	0 -> 0	0	0 -> 0							0	https://de.wiktionary.org/wiki/viel_Wind_um_etwas_machen
 viral gehen	2444	2444	viral + GEHEN		81	116 -> 81	82	116 -> 82							81	https://de.wiktionary.org/wiki/viral_gehen
-Vitamin B	2445	2445	Vitamin B + MANUAL_REVIEW		14	14 -> 14	14	14 -> 14					0	No idiomatic meaning is given in the definition.	0	https://de.wiktionary.org/wiki/Vitamin_B
+Vitamin B	2445	2445	Vitamin B + MANUAL_REVIEW		14	14 -> 14	14	14 -> 14					6		6	https://de.wiktionary.org/wiki/Vitamin_B
 voll und ganz	2446	2446	voll und ganz		174	174	174	174							174	https://de.wiktionary.org/wiki/voll_und_ganz
 voll wie eine Haubitze	2447	2447	wie eine Haubitze		0	0	0	0							0	https://de.wiktionary.org/wiki/voll_wie_eine_Haubitze
 volle Kanne	2448	2448	volle Kanne		8	8	8	8							8	https://de.wiktionary.org/wiki/volle_Kanne
