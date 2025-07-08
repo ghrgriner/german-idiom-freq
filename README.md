@@ -9,9 +9,10 @@ category in German Wiktionary, retrieved 18 June 2025 (n=2,692).
 This allows interested users to get a sense of the approximate frequency
 of German idioms. We have also grouped related idioms and designated a
 primary variant for each group. For idioms where the initial match
-returned a large number hits in the corpora that we thought were not
-likely to have the given idiomatic meaning, we manually reviewed a sample
-of 50-100 records and created corrected estimates.
+returned a large number of hits in the corpora that we thought were not
+likely to have the given idiomatic meaning, we manually reviewed the
+set of matches or a random sample of the set and
+created corrected estimates.
 
 The data that is most likely of interest to repository visitors
 is the output file [output/dewki\_redewendung\_final.txt](https://github.com/ghrgriner/german-idiom-freq/blob/main/output/dewk_redewendungen_final.txt)
