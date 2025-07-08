@@ -184,13 +184,14 @@ are used in the input file.
 - For the above two bullets, if a verb is present in the idiom, we only use the
   grammatical case of the phrase that was used in the idiom, even we have not
   included the verb in the regular expression.
-- Idioms containing sepable verbs are usually formatted as in this example for
+- Idioms containing separable verbs are usually formatted as in this example for
   'ein Fass aufmachen', where the regex group is then:
-  'ein Fass + \bauf(\b|m|z|g) + \_MACHEN'. We see that there is a regex for
-  just the prefix, than cannot be capitalized and is followed by a word-boundary
-  marker, the first letter of the stem, 'z' (in order to match 'aufzumachen')
-  or 'g' (in order to match 'aufgemachen'). The '\_MACHEN' placeholder is
-  replaced by 'mach|gemacht'. Note the absense of word boundary markers in this
+  'ein Fass + \bauf(\b|m|z|g) + \_MACHEN'. The second item in the list is a
+  regex for just the verb prefix (without capitalization), followed by either:
+  the end of the word, the first letter of the verb stem,
+  'z' (in order to match 'aufzumachen') or 'g' (in order to match 'aufgemachen').
+  The '\_MACHEN' placeholder is replaced by 'mach|gemacht'. Note the absense of word
+  boundary markers in this last
   regex because the prefix might occur in front of the stem. In the case where
   we feel this might lead to too many matches, then the separable verb would
   just be entered as 'AUFMACHEN' placeholder and the necessary forms listed in
