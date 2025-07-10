@@ -17,7 +17,7 @@ created corrected estimates.
 The data that is most likely of interest to repository visitors
 is the output file [output/dewki\_redewendung\_final.txt](https://github.com/ghrgriner/german-idiom-freq/blob/main/output/dewk_redewendungen_final.txt)
 and the
-variables `Redwendung`, `main_form`, `related_headword`, and
+variables `headword`, `main_form`, `related_headword`, and
 `n_final` (where this last variable is the frequency count,
 possibly manually corrected). The `main_form` and `related_headword`
 variables can be used to identify idiom variants and groupings, if desired.
