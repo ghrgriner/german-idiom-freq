@@ -79,11 +79,11 @@ columns:
   `run_wikwork.py` program for instructions how the `Lemmaverweis.txt` input
   file can be obtained, but users who just want to use the same values
   we used can just take the column from the output file and merge it
-  to the appropriate dataset in `post_process.py`. This has a longer
+  to the appropriate dataset in `post_process.py`. This variable has a longer
   name to emphasize that in Wiktionary, the main form is only assigned
   on the wiki pages for the variant forms (sub-forms), so this will be blank
   for the main forms, unlike `main_form` which we always populate for the
-  main forms too (when the group has more than one idiom).
+  main forms too (as long as the group has more than one idiom).
 
 This second input file used when running the program has not been uploaded,
 but it can be recreated by selecting the first four columns listed above from
@@ -159,7 +159,7 @@ The distinction between `main_form` and `related_headword` is similar to the
 distinction in German Wiktionary between the lemma cross-references created using
 the `Lemmaverweis` template and other groupings (especially 'Synonyme' and 'Sinnverwandte Wörter' (synonyms)).
 When assigning the canonical forms for this project, we perform some cross-checks
-against the Wikipedia main form assigned (see `post_process.py docstring), but do
+against the Wikipedia main form assigned (see `post_process.py` docstring), but do
 not always use the same assignment as Wiktionary.
 Furthermore, no programmatic cross-checks were done to compare our `related_headword`
 field with the synonyms in Wiktionary.

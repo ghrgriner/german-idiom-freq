@@ -453,8 +453,8 @@ dem Rotstift zum Opfer fallen	451	451	dem Rotstift zum Opfer + FALLEN		2	2 -> 2	
 dem Tod von der Schippe springen	452	452	dem Tod + von der Schippe + SPRINGEN		5	1950 -> 5 -> 5	5	1950 -> 5 -> 5							5				https://de.wiktionary.org/wiki/dem_Tod_von_der_Schippe_springen
 dem Volk aufs Maul schauen	453	453	dem Volk aufs Maul + schau		2	3 -> 2	3	4 -> 3							2				https://de.wiktionary.org/wiki/dem_Volk_aufs_Maul_schauen
 den Aal abziehen	454	454	den Aal + \bab(\b|z|g) + _ZIEHEN		0	1 -> 0 -> 0	0	1 -> 0 -> 0							0				https://de.wiktionary.org/wiki/den_Aal_abziehen
-den Abflug machen	455	455	den Abflug + MACHEN		5	9 -> 5	6	9 -> 6							5			einen Abflug machen	https://de.wiktionary.org/wiki/den_Abflug_machen
-den Abgang machen	456	456	den Abgang + MACHEN		3	57 -> 3	3	57 -> 3							3	einen Abgang machen	einen Abgang machen	einen Abgang machen	https://de.wiktionary.org/wiki/den_Abgang_machen
+den Abflug machen	455	455	den Abflug + MACHEN		5	9 -> 5	6	9 -> 6							5	einen Abflug machen	einen Abflug machen	einen Abflug machen	https://de.wiktionary.org/wiki/den_Abflug_machen
+den Abgang machen	456	456	den Abgang + MACHEN		3	57 -> 3	3	57 -> 3							3	einen Abgang machen	einen Abflug machen	einen Abgang machen	https://de.wiktionary.org/wiki/den_Abgang_machen
 den Amtsschimmel reiten	457	457	dem Amtsschimmel + REITEN		0	0 -> 0	0	0 -> 0							0				https://de.wiktionary.org/wiki/den_Amtsschimmel_reiten
 den Arsch offen haben	458	458	den Arsch offen + HABEN		0	0 -> 0	0	0 -> 0							0				https://de.wiktionary.org/wiki/den_Arsch_offen_haben
 den Bach runtergehen	459	459	den Bach + \brunter(\b|z|g) + _GEHEN		43	104 -> 46 -> 43	44	104 -> 46 -> 44							43				https://de.wiktionary.org/wiki/den_Bach_runtergehen
@@ -551,7 +551,7 @@ der Schein trügt	549	549	der Schein + trüg		25	65 -> 25	26	65 -> 26							25		
 der Stand der Dinge	550	550	\b[Dd]e[rnms] Stands? der Dinge\b	der Stand der Dinge	44	44	44	44	18	18	18	18			44				https://de.wiktionary.org/wiki/der_Stand_der_Dinge
 der wahre Jakob	551	551	\b[Dd]e[rmns] wahre[nm]? Jakobs?\b	der wahre Jakob	0	0	0	0	0	0	0	0			0				https://de.wiktionary.org/wiki/der_wahre_Jakob
 der Zahn der Zeit	552	552	\b[Dd]e[rnms] Zahn(e?s)? der Zeit\b	der Zahn der Zeit	33	33	33	33	27	27	27	27			33				https://de.wiktionary.org/wiki/der_Zahn_der_Zeit
-der Zug ist abgefahren	553	553	der Zug + abgefahren + SEIN + MANUAL_REVIEW		21	576 -> 21 -> 21 -> 21	21	577 -> 21 -> 21 -> 21							21				https://de.wiktionary.org/wiki/der_Zug_ist_abgefahren
+der Zug ist abgefahren	553	553	der Zug + abgefahren + SEIN + MANUAL_REVIEW		21	576 -> 21 -> 21 -> 21	21	577 -> 21 -> 21 -> 21							21	der Zug ist abgefahren			https://de.wiktionary.org/wiki/der_Zug_ist_abgefahren
 des Wahnsinns fette Beute sein	554	554	des Wahnsinns fette Beute		0	0	0	0							0				https://de.wiktionary.org/wiki/des_Wahnsinns_fette_Beute_sein
 dicht an dicht	555	555	dicht an dicht		30	30	30	30							30				https://de.wiktionary.org/wiki/dicht_an_dicht
 dick auftragen	556	556	dick auf + _TRAGEN		6	10 -> 6	7	10 -> 7							6				https://de.wiktionary.org/wiki/dick_auftragen
@@ -687,7 +687,7 @@ dies und das	685	685	dies und das		24	24	26	26							24				https://de.wiktionary
 dieselbe Couleur in Grün	686	686	dieselbe Couleur in Grün		0	0	0	0							0	dasselbe in Grün		dasselbe in Grün	https://de.wiktionary.org/wiki/dieselbe_Couleur_in_Gr%C3%BCn
 dieselbe Sprache sprechen	687	687	dieselbe Sprache + SPRECHEN		4	7 -> 4	7	7 -> 7							4				https://de.wiktionary.org/wiki/dieselbe_Sprache_sprechen
 dieser Tage	688	688	dieser Tage		366	366	366	366							366				https://de.wiktionary.org/wiki/dieser_Tage
-dieser Zug ist abgefahren	689	689	dieser Zug + abgefahren + SEIN		3	22 -> 3 -> 3	3	22 -> 3 -> 3							3			der Zug ist abgefahren	https://de.wiktionary.org/wiki/dieser_Zug_ist_abgefahren
+dieser Zug ist abgefahren	689	689	dieser Zug + abgefahren + SEIN		3	22 -> 3 -> 3	3	22 -> 3 -> 3							3	der Zug ist abgefahren		der Zug ist abgefahren	https://de.wiktionary.org/wiki/dieser_Zug_ist_abgefahren
 doppelt gemoppelt hält besser	690	690	doppelt gemoppelt hält besser		0	0	0	0							0	doppelt hält besser		doppelt hält besser	https://de.wiktionary.org/wiki/doppelt_gemoppelt_h%C3%A4lt_besser
 doppelt genäht hält besser	691	691	doppelt + besser + genäht + HALTEN		0	1474 -> 7 -> 0 -> 0	0	1474 -> 7 -> 0 -> 0							0	doppelt hält besser		doppelt hält besser	https://de.wiktionary.org/wiki/doppelt_gen%C3%A4ht_h%C3%A4lt_besser
 doppelt hält besser	692	692	doppelt + besser + HALTEN		3	1474 -> 7 -> 3	3	1474 -> 7 -> 3							3	doppelt hält besser			https://de.wiktionary.org/wiki/doppelt_h%C3%A4lt_besser
@@ -819,8 +819,8 @@ einem nackten Mann in die Tasche fassen	817	817	einem nackten Mann + in die Tasc
 einem nackten Mann in die Tasche greifen	818	818	einem nackten Mann in die Tasche + GREIFEN	einem nackten Mann + in die Tasche	0	1 -> 0	0	1 -> 0	2	3 -> 2	2	3 -> 2			0	einem nackten Mann in die Tasche + GREIFEN			https://de.wiktionary.org/wiki/einem_nackten_Mann_in_die_Tasche_greifen
 einem Schatten nachjagen	819	819	einem Schatten + \bnach(\b|j|z|g) + jag		0	4 -> 0 -> 0	0	4 -> 0 -> 0							0				https://de.wiktionary.org/wiki/einem_Schatten_nachjagen
 einen abbeißen	820	820	einen + \bab(\b|b|z|g) + _BEIẞEN + MANUAL_REVIEW		8	152725 -> 5046 -> 8 -> 8	13	152734 -> 6138 -> 13 -> 13							8				https://de.wiktionary.org/wiki/einen_abbei%C3%9Fen
-einen Abflug machen	821	821	einen Abflug + MACHEN		1	1 -> 1	1	1 -> 1							1		einen Abgang machen		https://de.wiktionary.org/wiki/einen_Abflug_machen
-einen Abgang machen	822	822	einen Abgang + MACHEN	Abgang + MACHEN	1	25 -> 1	1	25 -> 1	16	584 -> 16	17	584 -> 17			1	einen Abgang machen	einen Abgang machen		https://de.wiktionary.org/wiki/einen_Abgang_machen
+einen Abflug machen	821	821	einen Abflug + MACHEN		1	1 -> 1	1	1 -> 1							1	einen Abflug machen	einen Abflug machen		https://de.wiktionary.org/wiki/einen_Abflug_machen
+einen Abgang machen	822	822	einen Abgang + MACHEN	Abgang + MACHEN	1	25 -> 1	1	25 -> 1	16	584 -> 16	17	584 -> 17			1	einen Abgang machen	einen Abflug machen		https://de.wiktionary.org/wiki/einen_Abgang_machen
 einen abseilen	823	823	einen + \bab(\b|s|z|g) + seil		4	152725 -> 5977 -> 4	14	152734 -> 9045 -> 14							4				https://de.wiktionary.org/wiki/einen_abseilen
 einen alten Zopf abschneiden	824	824	einen alten Zopf + \bab(\b|s|z|g) + _SCHNEIDEN		0	0 -> 0 -> 0	0	0 -> 0 -> 0							0	alte Zöpfe abschneiden		alte Zöpfe abschneiden	https://de.wiktionary.org/wiki/einen_alten_Zopf_abschneiden
 einen am Rad haben	825	825	einen am Rad + HABEN		0	0 -> 0	0	0 -> 0							0				https://de.wiktionary.org/wiki/einen_am_Rad_haben
@@ -1303,7 +1303,7 @@ in die Eisen gehen	1301	1301	in die Eisen + GEHEN		1	6 -> 1	1	6 -> 1							1				
 in die ewigen Jagdgründe eingehen	1302	1302	in die ewigen Jagdgründe + \bein(\b|z|g) + _GEHEN		0	0 -> 0 -> 0	0	0 -> 0 -> 0							0				https://de.wiktionary.org/wiki/in_die_ewigen_Jagdgr%C3%BCnde_eingehen
 in die Federn	1303	1303	in die Federn		0	0	0	0							0				https://de.wiktionary.org/wiki/in_die_Federn
 in die Hose gehen	1304	1304	in die Hose + GEHEN		71	98 -> 71	72	98 -> 72							71				https://de.wiktionary.org/wiki/in_die_Hose_gehen
-in die Höhle des Löwen gehen	1305	1305	in die Höhle des Löwen + GEHEN		0	6 -> 0	0	6 -> 0							0			sich in die Höhle des Löwen wagen	https://de.wiktionary.org/wiki/in_die_H%C3%B6hle_des_L%C3%B6wen_gehen
+in die Höhle des Löwen gehen	1305	1305	in die Höhle des Löwen + GEHEN		0	6 -> 0	0	6 -> 0							0		sich in die Höhle des Löwen wagen	sich in die Höhle des Löwen wagen	https://de.wiktionary.org/wiki/in_die_H%C3%B6hle_des_L%C3%B6wen_gehen
 in die Irre gehen	1306	1306	in die Irre + GEHEN		6	89 -> 6	7	89 -> 7							6				https://de.wiktionary.org/wiki/in_die_Irre_gehen
 in die Luft fliegen	1307	1307	in die Luft + FLIEGEN		30	529 -> 30	31	529 -> 31							30		in die Luft jagen		https://de.wiktionary.org/wiki/in_die_Luft_fliegen
 in die Luft jagen	1308	1308	in die Luft + jag		54	529 -> 54	55	529 -> 55							54		in die Luft jagen		https://de.wiktionary.org/wiki/in_die_Luft_jagen
@@ -1318,7 +1318,7 @@ in einem fort	1316	1316	in einem fort		4	4	8	8							4				https://de.wiktionary.
 in einem goldenen Käfig sitzen	1317	1317	in einem goldenen Käfig + SITZEN		0	4 -> 0	0	4 -> 0							0				https://de.wiktionary.org/wiki/in_einem_goldenen_K%C3%A4fig_sitzen
 in einem Stück	1318	1318	in einem Stück		27	27	27	27							27				https://de.wiktionary.org/wiki/in_einem_St%C3%BCck
 in einem Zug	1319	1319	in einem Zug + MANUAL_REVIEW		78	78 -> 78	78	78 -> 78							78	in einem Zug			https://de.wiktionary.org/wiki/in_einem_Zug
-in einem Zuge	1320	1320	in einem Zuge		8	8	8	8							8			in einem Zug	https://de.wiktionary.org/wiki/in_einem_Zuge
+in einem Zuge	1320	1320	in einem Zuge		8	8	8	8							8	in einem Zug		in einem Zug	https://de.wiktionary.org/wiki/in_einem_Zuge
 in etwas zu Hause sein	1321	1321	in + zu Hause + SEIN + MANUAL_REVIEW		340	1209189 -> 896 -> 340 -> 340	344	1209309 -> 897 -> 344 -> 344					74	11/50 * 338	74				https://de.wiktionary.org/wiki/in_etwas_zu_Hause_sein
 in Fahrt	1322	1322	in Fahrt		165	165	165	165							165				https://de.wiktionary.org/wiki/in_Fahrt
 in festen Händen sein	1323	1323	in festen Händen		12	12	12	12							12	in festen Händen sein	in guten Händen sein		https://de.wiktionary.org/wiki/in_festen_H%C3%A4nden_sein
@@ -1351,7 +1351,7 @@ in Saus und Braus leben	1349	1349	in Saus und Braus + LEBEN		4	11 -> 4	10	11 -> 
 in Schach halten	1350	1350	in Schach + HALTEN		83	86 -> 83	83	86 -> 83							83		sich in Grenzen halten		https://de.wiktionary.org/wiki/in_Schach_halten
 in See gehen	1351	1351	in See + GEHEN		4	64 -> 4	4	64 -> 4							4		in See stechen	in See stechen	https://de.wiktionary.org/wiki/in_See_gehen
 in See stechen	1352	1352	in See + STECHEN		54	64 -> 54	54	64 -> 54							54		in See stechen		https://de.wiktionary.org/wiki/in_See_stechen
-in See stoßen	1353	1353	in See + STOẞEN		0	64 -> 0	0	64 -> 0							0			in See stechen	https://de.wiktionary.org/wiki/in_See_sto%C3%9Fen
+in See stoßen	1353	1353	in See + STOẞEN		0	64 -> 0	0	64 -> 0							0		in See stechen	in See stechen	https://de.wiktionary.org/wiki/in_See_sto%C3%9Fen
 in sicheren Händen sein	1354	1354	in sicheren Händen		3	3	3	3							3	in festen Händen sein	in guten Händen sein	in guten Händen sein	https://de.wiktionary.org/wiki/in_sicheren_H%C3%A4nden_sein
 in sieben Sprachen schweigen	1355	1355	in sieben Sprachen + SCHWEIGEN		0	3 -> 0	0	3 -> 0							0				https://de.wiktionary.org/wiki/in_sieben_Sprachen_schweigen
 in Stein gemeißelt sein	1356	1356	in Stein gemeißelt + SEIN		26	38 -> 26	26	38 -> 26							26				https://de.wiktionary.org/wiki/in_Stein_gemei%C3%9Felt_sein
@@ -1885,7 +1885,7 @@ mit etwas schwanger gehen	1883	1883	mit + schwanger + GEHEN + MANUAL_REVIEW		6	5
 mit Fleiß	1884	1884	mit Fleiß		8	8	9	9							8				https://de.wiktionary.org/wiki/mit_Flei%C3%9F
 mit Fug und Recht	1885	1885	Fug und Recht		17	17	17	17							17				https://de.wiktionary.org/wiki/mit_Fug_und_Recht
 mit Füßen getreten werden	1886	1886	mit Füßen getreten + WERDEN		33	39 -> 33	33	39 -> 33							33				https://de.wiktionary.org/wiki/mit_F%C3%BC%C3%9Fen_getreten_werden
-mit genauer Not	1887	1887	mit genauer Not		0	0	0	0							0			mit knapper Not	https://de.wiktionary.org/wiki/mit_genauer_Not
+mit genauer Not	1887	1887	mit genauer Not		0	0	0	0							0	mit knapper Not		mit knapper Not	https://de.wiktionary.org/wiki/mit_genauer_Not
 mit gespaltener Zunge reden	1888	1888	gespaltener Zunge + REDEN		0	4 -> 0	2	4 -> 2							0	mit gespaltener Zunge reden			https://de.wiktionary.org/wiki/mit_gespaltener_Zunge_reden
 mit gespaltener Zunge sprechen	1889	1889	mit gespaltener Zunge + SPRECHEN		1	3 -> 1	1	3 -> 1							1	mit gespaltener Zunge reden			https://de.wiktionary.org/wiki/mit_gespaltener_Zunge_sprechen
 mit gezinkten Karten spielen	1890	1890	mit gezinkten Karten + spiel		3	4 -> 3	3	4 -> 3							3				https://de.wiktionary.org/wiki/mit_gezinkten_Karten_spielen
@@ -1907,7 +1907,7 @@ mit jemandem Tuchfühlung aufnehmen	1905	1905	mit + Tuchfühlung + \bauf(\b|n|g|
 mit jemandem Tuchfühlung halten	1906	1906	Tuchfühlung + HALTEN		1	46 -> 1	1	46 -> 1							1	mit jemandem Tuchfühlung halten			https://de.wiktionary.org/wiki/mit_jemandem_Tuchf%C3%BChlung_halten
 mit Kanonen auf Spatzen schießen	1907	1907	mit Kanonen + auf Spatzen + SCHIEẞEN		5	14 -> 5 -> 5	5	14 -> 5 -> 5							5				https://de.wiktionary.org/wiki/mit_Kanonen_auf_Spatzen_schie%C3%9Fen
 mit Kind und Kegel	1908	1908	mit Kind und Kegel		9	9	9	9							9				https://de.wiktionary.org/wiki/mit_Kind_und_Kegel
-mit knapper Not	1909	1909	mit knapper Not		14	14	14	14							14				https://de.wiktionary.org/wiki/mit_knapper_Not
+mit knapper Not	1909	1909	mit knapper Not		14	14	14	14							14	mit knapper Not			https://de.wiktionary.org/wiki/mit_knapper_Not
 mit Leib und Seele	1910	1910	mit Leib und Seele		39	39	39	39							39	Leib und Seele			https://de.wiktionary.org/wiki/mit_Leib_und_Seele
 mit List und Tücke	1911	1911	mit List und Tücke		1	1	1	1							1				https://de.wiktionary.org/wiki/mit_List_und_T%C3%BCcke
 mit Müh und Not	1912	1912	mit Müh und Not		5	5	5	5							5	mit Müh und Not		mit Mühe und Not	https://de.wiktionary.org/wiki/mit_M%C3%BCh_und_Not
@@ -2054,9 +2054,9 @@ Pustekuchen	2052	2052	Pustekuchen		6	6	6	6							6				https://de.wiktionary.org/
 päpstlicher als der Papst sein	2053	2053	päpstlicher + als der Papst + SEIN		0	22 -> 2 -> 0	0	22 -> 2 -> 0							0	päpstlicher als der Papst sein			https://de.wiktionary.org/wiki/p%C3%A4pstlicher_als_der_Papst_sein
 pünktlich wie die Maurer	2054	2054	pünktlich + wie die Maurer		0	601 -> 0	0	601 -> 0							0				https://de.wiktionary.org/wiki/p%C3%BCnktlich_wie_die_Maurer
 Quadratur des Kreises	2055	2055	Quadratur des Kreises		17	17	17	17							17				https://de.wiktionary.org/wiki/Quadratur_des_Kreises
-Quark mit Soße	2056	2056	Quark mit Soße		0	0	0	0							0	Quatsch mit Soße			https://de.wiktionary.org/wiki/Quark_mit_So%C3%9Fe
-Quatsch mit Sauce	2057	2057	Quatsch mit Sauce		0	0	0	0							0	Quatsch mit Soße		Quatsch mit Soße	https://de.wiktionary.org/wiki/Quatsch_mit_Sauce
-Quatsch mit Soße	2058	2058	Quatsch mit Soße		0	0	0	0							0	Quatsch mit Soße			https://de.wiktionary.org/wiki/Quatsch_mit_So%C3%9Fe
+Quark mit Soße	2056	2056	Quark mit Soße		0	0	0	0							0	Quatsch mit Soße	Quatsch mit Soße		https://de.wiktionary.org/wiki/Quark_mit_So%C3%9Fe
+Quatsch mit Sauce	2057	2057	Quatsch mit Sauce		0	0	0	0							0	Quatsch mit Soße	Quatsch mit Soße	Quatsch mit Soße	https://de.wiktionary.org/wiki/Quatsch_mit_Sauce
+Quatsch mit Soße	2058	2058	Quatsch mit Soße		0	0	0	0							0	Quatsch mit Soße	Quatsch mit Soße		https://de.wiktionary.org/wiki/Quatsch_mit_So%C3%9Fe
 quod erat demonstrandum	2059	2059	quod erat demonstrandum		0	0	0	0							0				https://de.wiktionary.org/wiki/quod_erat_demonstrandum
 quod erat faciendum	2060	2060	quod erat faciendum		0	0	0	0							0				https://de.wiktionary.org/wiki/quod_erat_faciendum
 Ratte der Lüfte	2061	2061	Ratte der Lüfte		0	0	0	0							0				https://de.wiktionary.org/wiki/Ratte_der_L%C3%BCfte
@@ -2081,7 +2081,7 @@ Sachen gibt’s, die gibt’s gar nicht	2079	2079	Sachen gibt’s + die gibt’s
 sag bloß	2080	2080	sag bloß		0	0	0	0							0				https://de.wiktionary.org/wiki/sag_blo%C3%9F
 sage und schreibe	2081	2081	sage und schreibe		69	69	69	69							69				https://de.wiktionary.org/wiki/sage_und_schreibe
 saufen wie ein Loch	2082	2082	wie ein Loch + sauf		0	2 -> 0	0	2 -> 0							0				https://de.wiktionary.org/wiki/saufen_wie_ein_Loch
-Schas mit Quasteln	2083	2083	Schas mit Quasteln		0	0	0	0							0			Quatsch mit Soße	https://de.wiktionary.org/wiki/Schas_mit_Quasteln
+Schas mit Quasteln	2083	2083	Schas mit Quasteln		0	0	0	0							0		Quatsch mit Soße	Quatsch mit Soße	https://de.wiktionary.org/wiki/Schas_mit_Quasteln
 scheiß der Hund drauf	2084	2084	scheiß der Hund drauf		0	0	0	0							0				https://de.wiktionary.org/wiki/schei%C3%9F_der_Hund_drauf
 Scheiße bauen	2085	2085	Scheiß(e) + BAUEN		4	103 -> 4	6	144 -> 6							4				https://de.wiktionary.org/wiki/Schei%C3%9Fe_bauen
 Schicht im Schacht	2086	2086	Schicht im Schacht		7	7	7	7							7				https://de.wiktionary.org/wiki/Schicht_im_Schacht
@@ -2376,8 +2376,8 @@ Tränen vergießen	2374	2374	Tränen + VERGIEẞEN		15	898 -> 15	15	904 -> 15			
 trübe Tulpe	2375	2375	trübe Tulpe		0	0	0	0							0				https://de.wiktionary.org/wiki/tr%C3%BCbe_Tulpe
 Trübsal blasen	2376	2376	Trübsal + BLASEN		16	26 -> 16	16	26 -> 16							16				https://de.wiktionary.org/wiki/Tr%C3%BCbsal_blasen
 Trümpfe aus der Hand geben	2377	2377	Trümpfe aus der Hand + GEBEN		0	0 -> 0	0	0 -> 0							0				https://de.wiktionary.org/wiki/Tr%C3%BCmpfe_aus_der_Hand_geben
-Tulpe tun	2378	2378	Tulpe + TUN		0	16 -> 0	0	16 -> 0							0				https://de.wiktionary.org/wiki/Tulpe_tun
-tun wie ’ne Tulpe	2379	2379	wie (ei|.)ne Tuple + TUN		0	0 -> 0	0	0 -> 0							0			Tulpe tun	https://de.wiktionary.org/wiki/tun_wie_%E2%80%99ne_Tulpe
+Tulpe tun	2378	2378	Tulpe + TUN		0	16 -> 0	0	16 -> 0							0	Tulpe tun			https://de.wiktionary.org/wiki/Tulpe_tun
+tun wie ’ne Tulpe	2379	2379	wie (ei|.)ne Tuple + TUN		0	0 -> 0	0	0 -> 0							0	Tulpe tun		Tulpe tun	https://de.wiktionary.org/wiki/tun_wie_%E2%80%99ne_Tulpe
 türein, türaus	2380	2380	türein, türaus	\b[Tt]ürein\b.*\b[Tt]üraus\b	0	0	0	0	0	0	0	0			0				https://de.wiktionary.org/wiki/t%C3%BCrein%2C_t%C3%BCraus
 Tüten kleben	2381	2381	Tüten + kleb		2	103 -> 2	2	103 -> 2							2				https://de.wiktionary.org/wiki/T%C3%BCten_kleben
 um den Dreh	2382	2382	um den Dreh		1	1	1	1							1	um den Dreh			https://de.wiktionary.org/wiki/um_den_Dreh
