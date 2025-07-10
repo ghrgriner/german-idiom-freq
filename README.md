@@ -33,7 +33,9 @@ to create an Anki flashcard deck with example excerpts from Wikipedia
 or Wiktionary that is ordered by idiom approximate frequency. (TBD: add link
 to deck when published).
 
-# Input
+# Methods
+
+# Input Files
 
 The input file used by [get\_counts.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/get_counts.py)
 has four variables.
@@ -51,29 +53,46 @@ Once `get_counts.py` is run, the counts can be manually corrected
 if desired. A second input file can be passed to `post_process.py` along
 with the output from `get_counts.py`. This second input file has the
 columns:
-- **Redewendung**: Same as above
+- **headword**: Equal to the `Redewendung` field from the first input file.
+    (TBD: when the first input file is next uploaded, the field name
+     there will also be changed to `headword`.)
 - **n_manual**: [Manually corrected](#Manual-Correction-of-Frequency) count
 - **n_manual_cmt**: Manual correction comment
-- **Hauptform**: This gives the primary form for related idioms, e.g.,
-  'Bauklötze stauen' and 'Bauklötzer stauen' both exist in the input
-  file and have 'Bauklötze stauen' assigned as the primary form.
-  This is also used to group idioms with the same meaning and structure
-  but that use different words, e.g. 'aufpassen wie ein Haftelmacher',
-  'aufpassen wie ein Heftelmacher', 'aufpassen wie ein Luchs',
-  'aufpassen wie ein Schießhund'. We prefer to choose the most frequent
-  form as the 'Hauptform'. Sometimes we have used [Google Books Ngram Viewer](https://books.google.com/ngrams/info)
-  to compare frequency variants when corpus frequencies were low and/or zero.
-  Note that we do not intend to
-  constantly revise the Hauptform if there are minor swings in counts due
-  to changes in the program, addition of more corpora, etc.
+- **main_form**: This assigns a canonical form to related idioms for
+  the purpose of grouping related idioms. For example, 'Bauklötze stauen'
+  and 'Bauklötzer stauen' both exist in the input file and we assign
+  'Bauklötze stauen' as the canonical form.
+  This is used for minor differences in the headwords, or differences
+  with an obvious meaning ('gute Karten haben', 'schlechten Karten haben').
+  Here 'canonical form' typically means the most frequent form observed,
+  but when the difference is small we may use the canonical form given in
+  German Wiktionary (as identified in the `{{Lemmaverweis|}}` tag).
+  See [Related Entries](#Related-Entries) below for details.
+- **related_headword**: This selects one idiom as a group identifier for
+  the purpose of grouping related idioms. It is like the `main_form` variable,
+  except the idioms may be less closely related. Often the relationship is
+  idioms with the same or similar meanings where the idioms are not
+  minor variants of each other.
+  See [Related Entries](#Related-Entries) below for details.
+- **dewk_main_form_on_variant**: The main form for the page as assigned
+  by the `Lemmaverweis` tag on German Wiktionary for the page. See the
+  `run_wikwork.py` program for instructions how the `Lemmaverweis.txt` input
+  file can be obtained, but users who just want to use the same values
+  we used can just take the column from the output file and merge it
+  to the appropriate dataset in `post_process.py`. This has a longer
+  name to emphasize that in Wiktionary, the main form is only assigned
+  on the wiki pages for the variant forms (sub-forms), so this will be blank
+  for the main forms, unlike `main_form` which we always populate for the
+  main forms too (when the group has more than one idiom).
 
 This second input file used when running the program has not been uploaded,
-but it can be recreated by selecting the three columns listed above from
-the program output.
+but it can be recreated by selecting the first four columns listed above from
+the program output (or the first five columns if using the same
+`dewk_main_form_on_variant` variable is desired).
 
-# Output
+# Output File
 
-- **Redewengung**: From input
+- **headword**: Equal to the `Redewendung` field from the first input file.
 - **sort_order**: From the `orig order` input field
 - **id**: Also from the `orig order` input field (so currently identical
   to `sort_order`, but if we decide to update the program to add idioms,
@@ -109,7 +128,49 @@ the program output.
 - **n_manual**: From second input file
 - **n_manual_cmt**: From second input file
 - **n_final**: `n_manual` if not empty, otherwise, `n_cum_1`.
+- **main_form**, **related_form**, **dewk_main_form_on_variant**: See
+  documentation [above](#Input-Files)
 - **link**: Link to the Wiktionary page for the idiom
+
+# Methodological Details
+
+## Related Entries
+
+It's useful to identify related idioms. For example, if multiple idioms have
+the same meaning, then language learners will likely want to know which is
+the more common variant, especially among variants that are otherwise the
+same (i.e., no difference in register). When creating flashcards to learn
+idioms, idioms in groups that have the same meaning may need to be handled
+differently (e.g., if a user creates a task where the goal is to produce
+one of the idioms, there will need to be sufficient context which is desired).
+
+Consider the following group of idioms: {'zum Anbeißen aussehen' (n=1),
+'zum Anbeißen sein' (n=3), 'zum Anknabbern aussehen' (n=0), 'zum Anknabbern sein' (n=0)}.
+The first two have `main_form` set to 'zum Anbeißen sein' and the last
+two have `main form` set to 'zum Anknabbern sein'. All four have
+`related_headword` set to 'zum Anbeißen sein', which has the highest frequency.
+
+Often `related_headword` is used to define groups of synonyms, but it
+might also be used to group variants of the same concept, e.g.
+'jemandem Rede und Antwort stehen' vs 'jemanden zur Rede stellen', or
+'seine Schäfchen im Trockenen haben' vs 'seine Schäfchen ins Trockene bringen'.
+
+The distinction between `main_form` and `related_headword` is similar to the
+distinction in German Wiktionary between the lemma cross-references created using
+the `Lemmaverweis` template and other groupings (especially 'Synonyme' and 'Sinnverwandte Wörter' (synonyms)).
+When assigning the canonical forms for this project, we perform some cross-checks
+against the Wikipedia main form assigned (see `post_process.py docstring), but do
+not always use the same assignment as Wiktionary.
+Furthermore, no programmatic cross-checks were done to compare our `related_headword`
+field with the synonyms in Wiktionary.
+
+We have sometimes used [Google Books Ngram Viewer](https://books.google.com/ngrams/info)
+to compare frequency variants when corpus frequencies were low and/or zero.
+
+Note that even if Wiktionary does not imply a preferred form, we do not intend
+to constantly revise the `main_form` and `related_headword` fields if there
+are minor changes in counts due to changes in the program logic, input regular
+expressions, addition of more corpora, etc.
 
 ## Regular Expression Groups in Input File
 The `re1` and `re2` fields are what we will call a regular expression group

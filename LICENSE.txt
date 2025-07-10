@@ -62,7 +62,8 @@ a link to a page with authorship history is available.
 The following fields are © Ray Griner, 2025: the fields `re1` and `re2`
 in the file in the input/ directory, and the following fields in the
 file in the output/ directory: fields with names starting with
-starting with `n_` and `verb_search_cat_`, and the `Hauptform` field.
+starting with `n_` and `verb_search_cat_`, and the `main_form` and
+`related_headword` field.
 
 --------------
 
