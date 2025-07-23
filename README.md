@@ -48,7 +48,7 @@ Wikimedia Foundation.
 
 # Input Files
 
-The input file used by [count\_regexes.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/count_regexes.py)
+The input file used by [count\_regexes.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/count_regexes.py)
 has four variables.
 - **headword**: Headword on the Wiktionary page.
 - **orig order**: Sort order
@@ -61,7 +61,7 @@ has four variables.
   determine which of two variant forms of an idiom were more common.
 
 Once `count_regexes.py` is run, the counts can be manually corrected
-if desired. The optional program [sample\_for\_review.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/sample_for_review.py)
+if desired. The optional program [sample\_for\_review.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/sample_for_review.py)
 can be used to automatically create samples of selected variables for
 review.
 - **headword**: From first input file
@@ -69,7 +69,7 @@ review.
   create file(s) with the starting set of matches and the sample.
   If empty, no files will be created for the given idiom.
 
-The final file to run is [post\_process.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/post_process.py).
+The final file to run is [post\_process.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/post_process.py).
 This takes as input a third input file and merges these fields onto
 the file or counts obtained from `count_regexes.py` to generate the
 final output file. Various diagnostics are performed and listings created,
