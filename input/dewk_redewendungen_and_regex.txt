@@ -1,0 +1,3225 @@
+headword	orig order	re1	re2
+A-a machen	1	A-a + MACHEN	
+Aa machen	2	Aa + MACHEN	
+ab die Post	3	ab die Post	
+ab durch die Mitte	4	ab durch die Mitte	
+ab geht die Luzie	5	ab geht die Luzie	
+ab nach Kassel	6	ab nach Kassel	
+ab trimo	7	ab trimo	
+ab urbe condita	8	ab urbe condita	
+Abbitte leisten	9	Abbitte + leiste	
+Abbitte tun	10	Abbitte + TUN	
+abblitzen lassen	11	abblitzen + LASSEN	
+aber hallo	12	aber hallo	
+aber nicht doch	13	aber nicht doch	
+aber so was von	14	aber so was von	
+aber wie	15	\b[Aa]ber wie(!|\.)\b	
+aber, aber	16	\b[Aa]ber, aber\b	
+abgehen wie Schmidts Katze	17	wie Schmidts Katze	
+abspenstig machen	18	abspenstig + MACHEN	
+Abstimmung mit den Füßen	19	Abstimmung mit den Füßen	
+abwarten und Tee trinken	20	\bab(\b|w|z|g) + wart + Tee + TRINKEN	
+Achtung gebietend	21	Achtung gebietend	
+Achtung, fertig, los	22	Achtung + fertig + los	
+ad acta legen	23	ad acta + LEGEN	
+ad arma	24	ad arma	
+Alarmstufe Rot	25	Alarmstufe Rot	
+alle Brücken hinter sich abbrechen	26	alle Brücken hinter SICHB + \bab(\b|b|z|g) + _BRECHEN	
+alle Hebel in Bewegung setzen	27	alle Hebel in Bewegung + SETZEN	
+alle heiligen Zeiten	28	alle heiligen Zeiten	
+alle heiligen Zeiten einmal	29	alle heiligen Zeiten + einmal	
+alle Hände voll zu tun haben	30	alle Hände + voll zu tun	Hände + voll zu tun
+alle Jubeljahre	31	alle Jubeljahre	
+alle naselang	32	alle naselang	
+alle naslang	33	alle naslang	
+alle Register ziehen	34	alle Register + ZIEHEN	
+alle Trümpfe in den Händen haben	35	alle Trümpfe in den Händen + HABEN	Trümpfe in den Händen + HABEN
+alle Trümpfe in den Händen halten	36	alle Trümpfe in den Händen + HALTEN	Trümpfe in den Händen + HALTEN
+alle Trümpfe in der Hand haben	37	alle Trümpfe in der Hand + HABEN	Trümpfe in der Hand + HABEN
+alle Trümpfe in der Hand halten	38	alle Trümpfe in der Hand + HALTEN	Trümpfe in der Hand + HALTEN
+alle Trümpfe in Händen haben	39	alle Trümpfe in Händen + HABEN	Trümpfe in Händen + HABEN
+alle Trümpfe in Händen halten	40	alle Trümpfe in Händen + HALTEN	Trümpfe in Händen + HALTEN
+alle viere von sich strecken	41	alle viere + von SICHD + streck	
+allein auf weiter Flur	42	allein auf weiter Flur	
+allen Ernstes	43	allen Ernstes	
+aller Ehren wert sein	44	aller Ehren wert + SEIN	
+allererste Sahne sein	45	allereste Sahne + SEIN	
+alles auf eine Karte setzen	46	alles auf eine Karte + SETZEN	
+alles beim Alten lassen	47	alles beim Alten + LASSEN	
+alles durch die rosarote Brille sehen	48	alle(s)? + durch die rosarote Brille + SEHEN	
+alles fit im Schritt	49	alles fit im Schritt	
+alles gut	50	alles gut + MANUAL_REVIEW	
+alles hat ein Ende, nur die Wurst hat zwei	51	alles hat ein Ende + Wurst	
+alles im grünen Bereich sein	52	im grünen Bereich	
+alles in Butter	53	alles in Butter	
+alles in einen Topf werfen	54	in einen Topf + WERFEN	alle(s)? + in einen Topf + WERFEN
+alles in schwarzen Farben malen	55	alles in schwarzen Farben + MALEN	
+alles paletti	56	alles paletti	
+alles über einen Kamm scheren	57	über einen Kamm + scher	alle(s) + über einen Kamm + scher
+alles, was Beine hat	58	alles, was Beine hat	
+allez hopp	59	allez hopp	
+als ob	60	als ob	
+als Tiger springen und als Bettvorleger landen	61	als Tiger + als Bettvorleger	
+alt aussehen	62	alt + \baus(\b|s|zusehen|gesehen) + _SEHEN + MANUAL_REVIEW	alt + \baus(\b|s|z|g) + _SEHEN + MANUAL_REVIEW
+alte Zöpfe abschneiden	63	alte Zöpfe + \bab(\b|s|z|g) + _SCHNEIDEN	
+Alter vor Schönheit	64	Alter vor Schönheit	
+alter Wein in neuen Schläuchen	65	alter Wein + neuen Schläuchen	
+am Abend wird der Faule fleißig	66	am Abend + der Faule + fleißig + WERDEN	
+am Arsch	67	am Arsch	
+am Arsch der Welt	68	am Arsch der Welt	
+am Ball bleiben	69	am Ball + BLEIBEN	
+am Boden sein	70	am Boden + SEIN	
+am Boden zerstört sein	71	am Boden zerstört + SEIN	
+am dransten sein	72	am dransten	
+am Drücker sein	73	am Drücker + SEIN	
+am Ende des Tages	74	am Ende des Tages + MANUAL_REVIEW	
+am Hungertuch nagen	75	am Hungertuch + NAGEN	
+am langen Arm verhungern lassen	76	am langen Arm + verhungern + LASSEN	
+am längeren Hebel sitzen	77	am längeren Heben + SITZEN	
+am Rad drehen	78	am Rad + dreh	
+am Sankt-Nimmerleins-Tag	79	am Sankt-Nimmerleins-Tag	
+an allen Ecken und Enden	80	an allen Ecken und Enden	
+an allen Ecken und Kanten	81	an allen Ecken und Kanten	
+an der Matratze horchen	82	an der Matratze + horch	
+an der Nadel hängen	83	an der Nädel + HÄNGENHING	
+an der Scholle hängen	84	an der Scholle + HÄNGENHING	
+an der Scholle kleben	85	an der Scholle + kleb	
+an der Tagesordnung sein	86	an der Tagesordnung + MANUAL_REVIEW	
+an die Decke gehen	87	an die Decke + GEHEN	
+an die Hand geben	88	an die Hand + GEBEN	
+an einem seidenen Faden hängen	89	([Aa]m einem|[Aa]m) seidenen Faden  + HÄNGENHING	an einem seidenen Faden + HÄNGENHING
+an einem Strang ziehen	90	an einem Strang + ZIEHEN	am gleichen Strang + ZIEHEN
+an etwas keinen Kopf und keinen Arsch finden	91	an + keinen Kopf und keinen Arsch + FINDEN	
+an jemandes Händen klebt Blut	92	Händen + klebt + Blut	
+an jemandes Stuhl sägen	93	(an (seinem|ihrem|meinem|unsererm)|am) Stuhl + säg	
+an sich halten	94	an SICHB + HALTEN	
+anbieten wie sauer Bier	95	wie sauer Bier	
+anbieten wie Sauerbier	96	wie Sauerbier + \ban(\b|b|z|g) + _BIETEN	
+angedeihen lassen	97	angedeihen + LASSEN	
+angst und bange sein	98	angst und bange + SEIN	
+anno dazumal	99	anno dazumal	
+anno Tobak	100	anno Tobak	
+ans Bett gefesselt sein	101	ans Bett gefesselt + SEIN	
+Anstalten machen	102	Anstalten + MACHEN	
+Anstalten treffen	103	Anstalten + TREFFEN	
+anything goes	104	anything goes	
+arbeiten wie ein Pferd	105	wie ein Pferd + arbeite	
+Arm und Reich	106	Arm und Reich	
+arm wie eine Kirchenmaus sein	107	arm wie eine Kirchenmaus	
+Arsch der Welt	108	Arsch der Welt	
+Asbach uralt	109	Asbach uralt	
+Asche aufs Haupt streuen	110	Asche aufs Haupt + streu	
+Atem schöpfen	111	Atem + schöpf	
+auch nur mit Wasser kochen	112	nur + mit Wasser + koch	
+auf Abbruch heiraten	113	auf Abbruch + heirate	
+auf Achse sein	114	auf Achse + SEIN	
+auf allen Hochzeiten tanzen	115	auf allen Hochzeiten + tanz	
+auf alten Schiffen lernt man segeln	116	auf alten Schiffen + segeln +LERNEN	
+auf Anhieb	117	auf Anhieb	
+auf Biegen und Brechen	118	auf Biegen und Brechen	
+auf dem Absatz kehrtmachen	119	auf dem Absatz + \bkehrt(\b|m|z|g) + _MACHEN	
+auf dem absteigenden Ast sein	120	auf dem absteigenden Ast	
+auf dem Boden der Tatsachen bleiben	121	auf dem Boden der Tatsachen + BLEIBEN	
+auf dem falschen Dampfer sein	122	auf dem falschen Dampfer + SEIN	
+auf dem Gewissen haben	123	auf dem Gewissen	
+auf dem Holzweg sein	124	auf dem Holzweg + SEIN	
+auf dem Kieker haben	125	auf dem Kieker	
+auf dem kleinen Dienstweg	126	auf dem kleinen Dienstweg	
+auf dem Laufenden sein	127	auf dem Laufenden + SEIN	auf dem Laufenden
+auf dem letzten Loch pfeifen	128	auf dem letzten Loch + PFEIFEN	
+auf dem Papier	129	auf dem Papier	
+auf dem Schlauch stehen	130	auf dem Schlauch + STEHEN	auf dem Schlauch + SEIN
+auf dem Spiel stehen	131	auf dem Spiel + STEHEN	auf dem Spiel
+auf dem Sünderstühlchen sitzen	132	auf dem Sünderstühlchen + SITZEN	
+auf dem Teppich bleiben	133	auf dem Teppich + BLEIBEN	
+auf dem Trockenen sitzen	134	auf dem Trockenen + SITZEN	
+auf dem Zahnfleisch gehen	135	auf dem Zahnfleisch + GEHEN	
+auf den Busch klopfen	136	auf den Busch + klopf	
+auf den fahrenden Zug aufspringen	137	auf den Zug + \bauf(\b|spr.ng|zuspringen|gesprungen) + _SPRINGEN	auf den fahrenden Zug + \bauf(\b|spr.ng|zuspringen|gesprungen) + _SPRINGEN
+auf den Geist gehen	138	auf den Geist + GEHEN	
+auf den Hund kommen	139	auf den Hund + KOMMEN	
+auf den Kopf hauen	140	auf den Kopf + HAUEN	
+auf den Leim gehen	141	auf den Leim + GEHEN	
+auf den letzten Drücker	142	auf den letzten Drücker	
+auf den Plan treten	143	auf den Plan + TRETEN	
+auf den Punkt kommen	144	auf den Punkt + KOMMEN	
+auf den Putz hauen	145	auf den Putz + HAUEN	
+auf den Sack gehen	146	auf den Sack + GEHEN	
+auf den Sankt-Nimmerleins-Tag	147	auf den Sankt-Nimmerleins-Tag	
+auf den Stutz	148	auf den Stutz	
+auf den Swutsch gehen	149	auf den Swutsch + GEHEN	
+auf der Bärenhaut liegen	150	auf der Bärenhaut 	
+auf der Dacken liegen	151	auf der Dacken + LIEGEN	
+auf der faulen Haut liegen	152	auf der faulen Haut + LIEGEN	
+auf der gleichen Wellenlänge sein	153	auf der gleichen Wellenlänge + SEIN	
+auf der Hand liegen	154	auf der Hand + LIEGEN	
+auf der Hut sein	155	auf der Hut + SEIN	
+auf der Kippe stehen	156	auf der Kippe	auf der Kippe + STEHEN
+auf der Lauer liegen	157	auf der Lauer + LIEGEN	
+auf der Stelle	158	auf der Stelle	
+auf der Straße leben	159	auf der Straße + LEBEN + MANUAL_REVIEW	
+auf der Strecke bleiben	160	auf der Strecke + BLEIBEN	auf der Strecke
+auf der Tacken liegen	161	auf der Tacken + LIEGEN	
+auf des Messers Schneide stehen	162	auf des Messers Schneide + STEHEN	auf des Messers Schneide
+auf die Barrikaden gehen	163	auf die Barrikaden + GEHEN	
+auf die Kacke hauen	164	auf die Kacke + HAUEN	
+auf die Nase binden	165	auf die Nase + BINDEN	
+auf die Nase fallen	166	auf die Nase + FALLEN	
+auf die Nerven gehen	167	auf die Nerven + GEHEN	
+auf die Pauke hauen	168	auf die Pauke + HAUEN	
+auf die schiefe Bahn geraten	169	auf die Schiefe Bahn	
+auf die Schnelle	170	auf die Schnelle	
+auf die Straße gehen	171	auf die Straße + GEHEN	
+auf die Tränendrüse drücken	172	auf die Tränendrüse + drück	
+auf die Tube drücken	173	auf die Tube + drück	
+auf Draht sein	174	auf Draht + SEIN	
+auf dünnem Eis	175	auf dünnem Eis	auf dünnes Eis
+auf eigene Faust	176	auf eigene Faust	
+auf eigene Gefahr	177	auf eigene Gefahr	
+auf eigene Rechnung	178	auf eigene Rechnung	
+auf eigenen Beinen stehen	179	auf eigenen Beinen + STEHEN	
+auf ein Haar	180	auf ein Haar	
+auf etwas erpicht sein	181	auf + erpicht + SEIN	
+auf etwas nichts kommen lassen	182	auf + nichts kommen + LASSEN	
+auf ex trinken	183	auf ex + TRINKEN	
+auf freiem Fuß sein	184	auf freiem Fuß	
+auf freien Fuß setzen	185	auf freien Fuß + SETZEN	
+auf Freiersfüßen gehen	186	auf Freiersfüßen + GEHEN	
+auf Freiersfüßen wandeln	187	auf Freiersfüßen + wand(el|le)	
+auf Gedeih und Verderb	188	auf Gedeih und Verderb	
+auf Granit beißen	189	auf Granit + BEIẞEN	
+auf großem Fuß leben	190	auf großem Fuß + LEBEN	
+auf Grund laufen	191	auf Grund + LAUFEN	
+auf gut Deutsch	192	auf gut Deutsch	
+auf gutem Fuß stehen	193	auf gutem Fuß + STEHEN	
+auf Heller und Pfennig	194	auf Heller und Pfennig	
+auf Herz und Nieren prüfen	195	auf Herz und Nieren + prüf	
+auf Holz klopfen	196	auf Holz + klopf	
+auf jeden Fall	197	auf jeden Fall	
+auf Kante nähen	198	auf Kante + NÄHEN	
+auf keine Kuhhaut gehen	199	auf keine Kuhhaut + GEHEN	
+auf keinen Fall	200	auf keinen Fall	
+auf keinen grünen Zweig kommen	201	keinen grünen Zweig + KOMMEN	
+auf Krawall gebürstet sein	202	auf Krawall gebürstet + SEIN	
+auf laut stellen	203	auf laut + STELLEN	
+auf Messers Schneide stehen	204	auf Messers Schneide	auf des Messers Schneide
+auf Nimmerwiedersehen	205	auf Nimmerwiedersehen	
+auf Nummer sicher gehen	206	auf Nummer + sicher	
+auf offener Straße	207	auf offener Straße	
+auf Pump leben	208	auf Pump + LEBEN	
+auf Punkt und Beistrich	209	auf Punkt und Beistrich	
+auf Punkt und Komma	210	auf Punkt und Komma	
+auf Sand gebaut haben	211	auf Sand gebaut	
+auf Schusters Rappen	212	auf Schusters Rappen	
+auf sich warten lassen	213	auf SICHA warten + LASSEN	
+auf Spitz und Knopf stehen	214	auf Spitz und Knopf + STEHEN	
+auf taube Ohren stoßen	215	auf taube Ohren + STOẞEN	auf offene Ohren + STOẞEN
+auf Teufel komm raus	216	auf Teufel + (\b|\bhe)raus(\b|k.m|zukommen|gekommen) + _KOMMEN	auf Teufel + (\b|\bhe)raus(\b|k|z|g) + _KOMMEN
+auf tönernen Füßen stehen	217	auf tönernen Füßen + STEHEN	auf tönernen Füßen + SEIN
+auf und davon	218	auf und davon	
+auf verlorenem Posten stehen	219	auf verlorenem Posten + STEHEN	auf verlorenem Posten + SEIN
+auf Vordermann bringen	220	auf Vordermann + BRINGEN	
+auf Wolke sieben schweben	221	auf Wolke sieben	auf Wolke sieben + schweb
+auf Zack bringen	222	auf Zack + BRINGEN	
+auf Zack sein	223	auf Zack + SEIN	
+auf Zuwachs berechnet sein	224	auf Zuwachs + berechnet + SEIN	
+auf zwei Hochzeiten tanzen	225	auf zwei Hochzeiten + tanz	
+aufgehen wie ein Hefekloß	226	wie ein Hefekloß	
+aufgehen wie ein Pfannkuchen	227	wie ein Pfannkuchen + \bauf + _GEHEN	
+aufn Swutsch gehen	228	aufn Swutsch + GEHEN	
+aufpassen wie ein Haftelmacher	229	wie ein Haftelmacher	
+aufpassen wie ein Heftelmacher	230	wie ein Heftelmacher + \bauf(\b|p|z|g) + pass	
+aufpassen wie ein Luchs	231	wie ein Luchs + auf + pass	
+aufpassen wie ein Schießhund	232	wie ein Schießhund	
+aufs Ganze gehen	233	aufs Ganze + GEHEN	
+aufs Haar	234	aufs Haar	
+Aufsehen erregen	235	Aufsehen + \berreg	
+Auge um Auge	236	Auge um Auge	
+Auge um Auge, Zahn um Zahn	237	Auge um Auge + Zahn um Zahn	
+Augen zu und durch	238	Augen zu und durch	
+aus allen Himmeln fallen	239	aus allen Himmeln + FALLEN	
+aus allen Himmeln stürzen	240	aus allen Himmeln + stürz	
+aus allen Wolken fallen	241	aus allen Wolken + FALLEN	
+aus Daffke	242	aus Daffke	
+aus dem Blechnapf fressen	243	aus dem Blechnapf + FRESSEN	
+aus dem Feuer reißen	244	aus dem Feuer + REIẞEN	
+aus dem Handgelenk	245	aus dem Handgelenk	
+aus dem Hinterhalt pupen	246	aus dem Hinterhalt + PUPEN	
+aus dem Hut zaubern	247	aus dem Hut + zauber	
+aus dem Knick kommen	248	aus dem Knick + KOMMEN	
+aus dem Koffer leben	249	aus dem Koffer + LEBEN	
+aus dem Kopf	250	aus dem Kopf	
+aus dem Lameng	251	aus dem Lameng	
+aus dem Leim gehen	252	aus dem Leim + GEHEN	
+aus dem letzten Loch pfeifen	253	aus dem letzten Lock + PFEIFEN	
+aus dem Nähkästchen plaudern	254	aus dem Nähkästchen + plauder	
+aus dem Rahmen fallen	255	aus dem Rahmen + FALLEN	
+aus dem Ruder laufen	256	aus dem Ruder + LAUFEN	
+aus dem Schneider sein	257	aus dem Schneider + SEIN	
+aus dem Vollen schöpfen	258	aus dem Vollen + schöpf	
+aus den Augen verlieren	259	aus den Augen + VERLIEREN	
+aus den Federn	260	aus den Federn	
+aus den Fugen gehen	261	aus den Fugen + GEHEN	
+aus den Fugen geraten	262	aus den Fugen + GERATEN	
+aus den Latschen kippen	263	aus den Latschen + kipp	
+aus der Art schlagen	264	aus der Art + SCHLAGEN	
+aus der Decke schlagen	265	aus der Decke + SCHLAGEN	
+aus der Haut fahren	266	aus der Haut + FAHREN	
+aus der Hüfte schießen	267	aus der Hüfte + SCHIEẞEN	
+aus der Lamäng	268	aus der Lamäng	
+aus der Portokasse zahlen	269	aus der Portokasse + zahl	
+aus der Reihe tanzen	270	aus der Reihe + tanz	
+aus die Maus	271	aus die Maus	
+aus einem Furz einen Donnerschlag machen	272	aus einem Furz + einen Donnerschlag + MACHEN	
+aus einer Mücke einen Elefanten machen	273	Mücke + Elefanten + MACHEN	
+aus etwas Honig saugen	274	Honig + SAUGEN	
+aus etwas Kleinholz machen	275	aus + Kleinholz + MACHEN	
+aus freien Stücken	276	aus freien Stücken	
+aus jemandem Hackfleisch machen	277	aus + Hackfleisch + MACHEN	
+aus jemandem Kleinholz machen	278	aus + Kleinholz + MACHEN	
+aus Scheiße Geld machen	279	aus Scheiße + Geld + MACHEN	
+aus seinem Herzen keine Mördergrube machen	280	aus SEINMND Herzen keine Mördergrube + MACHEN	
+aus sich heraus	281	aus SICHD heraus	
+aus vollem Hals	282	aus vollem Hals	
+aus vollem Halse	283	aus vollem Halse	
+aus voller Brust	284	aus voller Brust	
+aus voller Kehle	285	aus voller Kehle	
+ausgehen wie das Hornberger Schießen	286	wie das Hornberger Schieße	
+Ausnahmen bestätigen die Regel	287	Ausnahmen + bestätigen + die Regel	
+Ausschau halten	288	Ausschau + HALTEN	
+aussehen wie das Leiden Christi	289	wie das Leiden Christi	
+außer Rand und Band geraten	290	außer Rand und Band + GERATEN	
+außer sich sein	291	außer SICHD + SEIN	
+außer Spesen nichts gewesen	292	außer Spesen nichts gewesen	
+Bacchus huldigen	293	Bacchug + huldig	
+bar auf die Hand	294	bar auf die Hand	
+Bauklötze staunen	295	Bauklötze + staun	
+Bauklötzer staunen	296	Bauklötzer + staun	
+Bedenken tragen	297	Bedenken + TRAGEN	
+bei Adam und Eva anfangen	298	bei Adam und Eva + \ban(\b|f|z|g) + _FANGEN	
+bei Fuß	299	bei Fuß	
+bei jemandem abgegessen haben	300	abgegessen + HABEN + MANUAL_REVIEW	
+bei jemandem auf den Busch klopfen	301	auf den Busch + klopf	
+bei jemandem einen Stein im Brett haben	302	einen Stein + im Brett	
+bei jemandem gut Wetter machen	303	bei + gut Wetter + MACHEN	
+bei jemandem hat der Staatsanwalt den Finger drauf	304	\b[Bb]ei\b + der Staatsanwalt + den Finger + \bdrauf + HABEN	
+bei jemandem hat der Staatsanwalt noch den Finger drauf	305	\b[Bb]ei\b + der Staatsanwalt + den Finger + \bdrauf + HABEN	
+bei jemandem ist der Groschen gefallen	306	der Groschen + gefallen + SEIN + bei	
+bei jemandem ist Schmalhans Küchenmeister	307	bei + Schmalhans Küchenmeister + SEIN	
+bei jemandem schrillen die Alarmglocken	308	bei + die Alarmglocken + schrill	bei + die Alarmglocken + läut|kling[el]|schrill
+bei Philippi sehen wir uns wieder	309	bei Philippi + wieder + _SEHEN	
+bei Wasser und Brot sitzen	310	bei Wasser und Brot + SITZEN	
+bei Wind und Wetter	311	bei Wind und Wetter	
+beide Hände voll zu tun haben	312	beide Hände + voll zu tun	Hände + voll zu tun
+beim Kranich zu Gast sein	313	beim Kranich zu Gast	
+bekannt sein wie ein bunter Hund	314	wie ein bunter Hund + bekannt	
+bekannt sein wie ein scheckiger Hund	315	wie ein scheckiger Hund + bekannt	
+Berge versetzen können	316	Berge versetzen + KÖNNEN	
+Bescheid sagen	317	Bescheid + SAGEN	
+betrunken wie eine Strandhaubitze	318	betrunken + wie + Strandhaubitze	
+Bilanz ziehen	319	Bilanz + ZIEHEN + MANUAL_REVIEW	
+Bindfäden regnen	320	Bindfäden + regn	
+bis an die Zähne bewaffnet sein	321	bis an die Zähne bewaffnet + SEIN	
+bis bald	322	bis bald	
+bis dann	323	bis dann	
+bis hierher und nicht weiter	324	bis hierher und nicht weiter	
+bis in die Puppen	325	bis in die Puppen	
+bis ins Kleinste	326	bis ins Kleinste	
+bis Oberkante Unterlippe	327	bis Oberkante Unterlippe	
+bis zum Geht-nicht-mehr	328	bis zum Geht-nicht-mehr	
+bis zum Gehtnichtmehr	329	bis zum Gehtnichtmehr	
+bis zum Sankt-Nimmerleins-Tag	330	bis zum Sankt-Nimmerleins-Tag	
+bis über beide Ohren verliebt sein	331	über beide Ohren + verliebt + SEIN	
+bis über die Ohren verliebt sein	332	über die Ohren + verliebt + SEIN	
+bitte schön	333	bitte schön	
+bitten und betteln	334	BITTEN + bett(el|le)	
+bleich wie der Tod	335	bleich wie der Tod	
+blind vor Wut sein	336	blind vor Wut + SEIN	
+blind wie ein Maulwurf	337	wie ein Maulwurf	
+blinde Passagierin	338	blinde Passagierin	
+blinder Passagier	339	blinder? Passagiere?	
+Blumen sprechen lassen	340	Blumen sprechen + LASSEN	
+Blut lecken	341	Blut + LECKEN	
+Blut sehen wollen	342	Blut sehen + WOLLEN	
+Blut und Wasser schwitzen	343	Blut und Wasser + schwitz	
+blutenden Herzens	344	blutenden Herzens	
+blühender Unsinn	345	blühender Unsinn	
+Bohnen in den Ohren haben	346	Bohnen in den Ohren + HABEN	
+breite Brust	347	breite Brust	
+brennen wie ein Luster	348	wie ein Luster + BRENNEN	
+brennen wie Zunder	349	wie Zunder + BRENNEN	
+brüllen wie am Spieß	350	wie am Spieß + brüll	
+Butter bei die Fische	351	Butter bei die Fische	
+Bände sprechen	352	Bände + SPRECHEN	
+bäule gehen	353	bäule + GEHEN	
+böhmische Dörfer	354	böhmische Dörfer	
+Böses im Schilde führen	355	Böses + im Schilde + FÜHREN	
+carpe noctem	356	carpe noctem	
+ceterum censeo	357	ceterum censeo	
+Chomez batteln	358	Chomez + batt(el|le)	
+Così fan tutte	359	Così fan tutte	
+da beißt die Maus keinen Faden ab	360	die Maus + keinen Faden + \bab(\b|b|z|g) + _BEIẞEN	
+da beißt sich die Katze in den Schwanz	361	SICH + die Katze in den Schwanz + BEIẞEN	
+da brat mir einer einen Storch	362	einen Storch + BRATEN	
+da liegt der Hase im Pfeffer	363	der Hase im Pfeffer + LIEGEN	
+da liegt der Hund begraben	364	liegt + der Hund + BEGRABEN	
+da nicht für	365	da nicht für	
+da scheiden sich die Geister	366	SICH + die Geister + SCHEIDEN	
+da wird doch der Hund in der Pfanne verrückt	367	der Hund in der Pfanne	
+dafür nicht	368	dafür nicht + MANUAL_REVIEW	
+daheim ist daheim	369	daheim ist daheim	
+damit ist kein Blumentopf zu gewinnen	370	Blumentopf + zu gewinnen + SEIN	
+Dampf ablassen	371	Dampf + \bab(\b|l|zulassen|gelassen) + _LASSEN	Dampf + \bab(\b|l|z|g) + _LASSEN
+danke für die Blumen	372	danke für die Blumen	
+danke schön	373	danke schön	
+dann wollen wir mal	374	dann wollen wir mal	
+darauf kann jemand Gift nehmen	375	auf + Gift nehmen + KÖNNEN	
+das A und das O	376	\b[Dd](as|em) A und d(as|em) O\b	das A und das O
+das A und O	377	\b[Dd](as|em) A und O\b	das A und O
+das Abendmahl auf etwas nehmen	378	das Abendmahl auf + NEHMEN	
+das Alpha und das Omega	379	\b[Dd](as|em) Alpha und d(as|em) Omega\b	das Alpha und das Omega
+das Auge des Gesetzes	380	\b[Dd](as|es|em) Auges? des Gesetzes\b	das Auge des Gesetzes
+das Bett hüten	381	das Bett + hüt	
+das Blaue vom Himmel herunter lügen	382	das Blaue vom Himmel + herunter + LÜGEN	
+das Blaue vom Himmel versprechen	383	das Blaue vom Himmel + herunter + VERSPRECHEN	
+das Eis brechen	384	das Eis + BRECHEN + MANUAL_REVIEW	
+das Fass ins Rollen bringen	385	das Fass ins Rollen + BRINGEN	
+das Feld räumen	386	das Feld + RÄUMEN	
+das fünfte Rad am Wagen sein	387	fünfte[smn]? Rad' + am Wagen	
+das Gelbe vom Ei	388	\b[Dd](as|es|em) Gelbes? vom Ei\b	das Gelbe vom Ei
+das Gelbe vom Ei sein	389	das Gelbe vom Ei + SEIN	
+das Geld zum Fenster hinauswerfen	390	das Geld zum Fenster + \bhinaus(\b|w|z|g) + _WERFEN	
+das Genick brechen	391	das Genick + BRECHEN	
+das geringere Übel wählen	392	geringere Übel + wähl	
+das Gesicht verlieren	393	das Gesicht + VERLIEREN	
+das Gnadenbrot bekommen	394	das Gnadenbrot + BEKOMMEN	
+das Gras wachsen hören	395	das Gras + wachsen + hör	
+das Grauen hat einen Namen	396	das Grauen + einen Namen + HABEN	
+das Haar in der Suppe suchen	397	Haar in der Suppe + SUCHEN	
+das Hackl im Kreuz spüren	398	das Hackl im Kreuz + spür	
+das Hackl im Kreuz stecken haben	399	das Hackl im Kreuz stecken + HABEN	
+das Handtuch werfen	400	das Handtuch + WERFEN	
+das Heft in der Hand halten	401	Heft in der Hand + HALTEN	
+das Herz am rechten Fleck haben	402	Herz + Fleck + recht	Herz + am rechten Fleck + HABEN
+das Herz auf dem rechten Fleck haben	403	Herz + Fleck + recht	Herz + auf dem rechten Fleck + HABEN
+das horizontale Gewerbe	404	\b[Dd](as|es|em) horizontale[mn]? Gewerbes?\b	das horizontale Gewerbe
+das Huhn, das goldene Eier legt, schlachten	405	das Huhn + das goldene Eier legt + schlacht	
+das ist ein weites Feld	406	ein weites Feld + SEIN	
+das Kind beim Namen nennen	407	das Kind beim Namen + NENNEN	
+das Kind im Manne	408	\b[Dd](as|es|em) Kind(e?s)? im Manne\b	das Kind im Manne
+das Kind mit dem Bade ausschütten	409	\baus + das Kind mit dem Bade	
+das kommt davon	410	das kommt davon	
+das Kriegsbeil ausgraben	411	das Kriegsbeil + \baus(\b|z|g) + _GRABEN	
+das Kriegsbeil begraben	412	das Kriegsbeil + BEGRABEN	
+das Leben ist kein Ponyhof	413	das Leben + kein Ponyhof + SEIN	
+das Licht der Welt erblicken	414	das Licht der Welt + erblick	
+das macht das Kraut auch nicht fett	415	das Kraut + auch nicht fett + MACHEN	
+das macht das Kraut nicht fett	416	das Kraut + nicht fett + MACHEN	
+das macht den Braten auch nicht fett	417	den Braten + auch nicht fett + MACHEN	den Braten + nicht fett + MACHEN
+das macht den Kohl auch nicht fett	418	den Kohl + auch nicht fett + MACHEN	
+das macht den Kohl nicht fett	419	den Kohl + nicht fett + MACHEN	
+das macht nichts	420	das macht nichts + MANUAL_REVIEW	
+das Maß aller Dinge	421	\b[Dd](as|es|em) Maß(es)? aller Dinge\b	das Maß aller Dinge
+das Maß ist voll	422	das Maß ist voll	
+das Maul halten	423	das Maul + HALTEN	SEINNA Maul + HALTEN
+das pfeifen die Spatzen von den Dächern	424	die Spatzen von den Dächern + PFEIFEN	
+das Pferd am Schwanz aufzäumen	425	das Pferd + am Schwanz + \bauf(\b|z|g) + zäum	
+das Pferd beim Schwanz aufzäumen	426	das Pferd + beim Schwanz + \bauf(\b|z|g) + zäum	
+das Pferd von hinten aufzäumen	427	das Pferd + von hinten + \bauf(\b|z|g) + zäum	
+das Rückgrat brechen	428	das Rückgrat + BRECHEN	
+das Sagen haben	429	das Sagen + HABEN	
+das schleckt keine Geiß weg	430	keine Geiß + \bweg + schleck	
+das schwarze Schaf sein	431	das schwarze Schaf + SEIN	
+das sieht doch ein Blinder	432	doch ein Blinder + SEHEN	
+das sieht doch ein Blinder mit dem Krückstock	433	doch ein Blinder + mit dem Krückstock + SEHEN	
+das Weite suchen	434	das Weite + SUCHEN	
+das Zeitliche segnen	435	das Zeitliche + segne	
+das Zeug zu etwas haben	436	das Zeug zu + HABEN	
+das Zünglein an der Waage sein	437	Zünglein + an der Waage	Zünglein + an der Waage + SEIN
+das älteste Gewerbe der Welt	438	\b[Dd](as|em|es) älteste[mn]? Gewerbes? der Welt\b	das älteste Gewerbe der Welt
+das Übel an der Wurzel packen	439	an der Wurzel + pack	Übel + an der Wurzel + pack
+dasselbe in Grün	440	dasselbe in Grün	
+dastehen wie bestellt und nicht abgeholt	441	wie bestellt  + nicht + abgeholt + _STEHEN	
+dastehen wie der Ochse vor dem Scheunentor	442	wie der Ochse + vor dem Scheunentor	
+dastehen wie die Kuh vorm neuen Tor	443	wie die Kuh + vor + Tor	
+dein Wort in Gottes Ohr	444	dein Wort in Gottes Ohr	Ihr Wort in Gottes Ohr
+dem Bacchus huldigen	445	dem Bacchus + huldig	
+dem Erdboden gleichmachen	446	dem Erdboden + gleich + _MACHEN	
+dem Fass den Boden ausschlagen	447	dem Fass + den Boden + \baus(\b|s|z|g) + _SCHLAGEN	
+dem Fass die Krone ins Gesicht schlagen	448	dem Fass + die Krone + ins Gesicht + SCHLAGEN	
+dem lieben Gott den Tag stehlen	449	dem lieben Gott + den Tag + STEHLEN	
+dem lieben Gott die Zeit stehlen	450	dem lieben Gott + die Zeit + STEHLEN	
+dem Rotstift zum Opfer fallen	451	dem Rotstift zum Opfer + FALLEN	
+dem Tod von der Schippe springen	452	dem Tod + von der Schippe + SPRINGEN	
+dem Volk aufs Maul schauen	453	dem Volk aufs Maul + SCHAUEN	
+den Aal abziehen	454	den Aal + \bab(\b|z|g) + _ZIEHEN	
+den Abflug machen	455	den Abflug + MACHEN	
+den Abgang machen	456	den Abgang + MACHEN	
+den Amtsschimmel reiten	457	dem Amtsschimmel + REITEN	
+den Arsch offen haben	458	den Arsch offen + HABEN	
+den Bach runtergehen	459	den Bach + \brunter(\b|zugehen|g) + _GEHEN	den Bach + \brunter(\b|z|g) + _GEHEN
+den Ball flach halten	460	den Ball + flach + HALTEN	
+den Ball unter sich begraben	461	den Ball + unter SICHA + BEGRABEN	
+den Bock zum Gärtner machen	462	den Bock + zum Gärtner + MACHEN	
+den Boden unter den Füßen wegziehen	463	den Boden unter den Füßen + \bweg(\b|z|g) + _ZIEHEN	
+den Bogen raushaben	464	den Bogen + \braus(\b|h|z|g) + _HABEN	
+den Bogen überspannen	465	den Bogen + \büber(\b|spann|zuspannen|gespannt) + spann	den Bogen + \büber(\b|s|z|g) + spann
+den Braten riechen	466	den Braten + RIECHEN	
+den Bund fürs Leben schließen	467	den Bund fürs Leben + SCHLIEẞEN	
+den Faden verlieren	468	den Faden + VERLIEREN	
+den Faden wiederfinden	469	den Faden + \bwieder + _FINDEN	
+den Fall setzen	470	den Fall + SETZEN	
+den Fehdehandschuh aufnehmen	471	den Fehdehandschuh + \bauf(\b|n|z|g) + _NEHMEN	
+den Fehdehandschuh hinwerfen	472	den Fehdehandschuh + \bhin(\b|w|z|g) + _WERFEN	
+den Finger am Puls der Zeit haben	473	den Finger am Puls der Zeit + HABEN	
+den Finger auf die brennende Wunde legen	474	den Finger + auf die brennende Wunde + LEGEN	
+den Finger auf die Wunde legen	475	den Finger + auf die Wunde + LEGEN	
+den Geist aufgeben	476	den Geist + \bauf(\b|z|g) + _GEBEN	
+den gordischen Knoten zerschlagen	477	gordischen Knoten + ZERSCHLAGEN	
+den Gürtel enger schnallen	478	den Gürtel + enger + schnall	
+den Hals aus der Schlinge ziehen	479	den Hals aus der Schlinge + ZIEHEN	
+den Hals nicht vollkriegen	480	den Hals + nicht + \bvoll(\b|k|z|g) + KRIEGEN	
+den Hut nehmen	481	den Hut + NEHMEN	SEINMA Hut + NEHMEN
+den inneren Schweinehund überwinden	482	den inneren Schweinehund + \büber(\b|w|z|g) + _WINDEN	
+den Kaffee aufhaben	483	den Kaffee + \bauf(\b|h|z|g) + _HABEN	
+den Karren aus dem Dreck ziehen	484	den Karren + aus dem Dreck	
+den Kochlöffel schwingen	485	den Kochlöffel + SCHWINGEN	
+den Kopf aus der Schlinge ziehen	486	den Kopf aus der Schlinge + ZIEHEN	
+den Kopf hängen lassen	487	den Kopf + hängen + LASSEN	
+den Kopf in den Sand stecken	488	den Kopf + in den Sand	
+den Kopf verlieren	489	den Kopf + VERLIEREN	
+den Kopf über Wasser halten	490	den Kopf über Wasser + HALTEN	
+den Kreis eckig kriegen	491	den Kreis eckig + KRIEGEN	
+den Kürzeren ziehen	492	den Kürzeren + ZIEHEN	
+den Laufpass bekommen	493	den Laufpass + BEKOMMEN	
+den Laufpass kriegen	494	den Laufpass + KRIEGEN	
+den letzten Atemzug tun	495	den letzten Atemzug + TUN	
+den lieben Gott einen guten Mann sein lassen	496	den lieben Gott + einen guten Mann + \bsein\b + LASSEN	
+den längeren Atem haben	497	den längeren Atem + HABEN	
+den Löffel abgeben	498	den Löffel + \bab(\b|z|g) + _GEBEN	
+den Mond anbellen	499	den Mond + \ban(\b|b|z|g) + bell	
+den Nagel auf den Kopf treffen	500	den Nagel auf den Kopf + TREFFEN	
+den Ochsen hinter den Pflug spannen	501	den Ochsen + hinter den Pflug + spann	
+den Pegasus reiten	502	den Pegasus + REITEN	
+den Pflug vor den Ochsen spannen	503	den Pflug + vor den Ochsen + spann	
+den Pflug vor die Ochsen spannen	504	den Pflug vor die Ochsen + spann	
+den Rest geben	505	den Rest + GEBEN	
+den richtigen Riecher haben	506	den richtigen Riecher	
+den Rubikon überschreiten	507	den Rubikon + \büber(\b|s|z|g) + _SCHREITEN	
+den Rücken kehren	508	den Rücken + kehr	
+den Rücken stärken	509	den Rücken + stärk	
+den Sabbel halten	510	den Sabbel + HALTEN	
+den Sack zumachen	511	den Sack + \bzu + _MACHEN	
+den Schalk im Nacken haben	512	den Schalk im Nacken + HABEN	
+den Schalter umlegen	513	den Schalter + \bum(\b|leg|zulegen|gelegt) + _LEGEN	den Schalter + \bum(\b|l|z|g) + _LEGEN
+den Schein wahren	514	den Schen + wahr	
+den Scherm aufhaben	515	den Scherm + \bauf(\b|h|z|g) + _HABEN	
+den Schlaf der Gerechten schlafen	516	Schlaf der Gerechten + SCHLAFEN	
+den Schlaf des Gerechten schlafen	517	Schlaf des Gerechten + SCHLAFEN	
+den Schleier nehmen	518	den Schleier + NEHMEN	
+den Schnabel halten	519	den Schnabel + HALTEN	
+den Schoaß in der Finstern schmecken	520	den Schoaß + Finstern + schmeck	
+den Schwanz einziehen	521	den Schwanz + \bein + _ZIEHEN	
+den Spieß umdrehen	522	den Spieß + \bum + dreh	
+den Splitter im fremden Auge, aber nicht den Balken im eigenen sehen	523	den Splitter im fremden Auge	den Balken im eigenen
+den Stab über jemanden brechen	524	den Stab über + BRECHEN	
+den starken Mann markieren	525	den starken Mann + markier	
+den Teufel an die Wand malen	526	den Teufel an die Wand + MALEN	
+den Teufel durch Beelzebub austreiben	527	den Teufel + durch Beelzebub + \baus(\b|t|z|g) + _TREIBEN	
+den Teufel mit Beelzebub austreiben	528	den Teufel + mit Beelzebub + \baus(\b|t|z|g) + _TREIBEN	
+den Tod erleiden	529	den Tod + ERLEIDEN	
+den Tod finden	530	den Tod + FINDEN	
+den Vogel abschießen	531	den Vogel + \bab + _SCHIEẞEN	
+den Wald vor lauter Bäumen nicht sehen	532	den Wald + vor (lauter )?Bäumen nicht + SEHEN	
+den Weg alles Irdischen gehen	533	den Weg alles Irdischen + GEHEN	
+den Wurm baden	534	den Wurm + BADEN	
+den Zahn der Zeit treffen	535	den Zahn der Zeit + TREFFEN	
+der Arsch sein	536	der Arsch + SEIN	
+der Drops ist gelutscht	537	der Drops + gelutscht + SEIN	
+der Fisch stinkt immer vom Kopfe her	538	der Fisch + vom Kopfe + \bher + _STINKEN	
+der Gefahr ins Auge sehen	539	der Gefahr ins Auge + SEHEN	
+der große Bruder	540	\b[Dd]e[rmns] große[nm]? Bruders? + MANUAL_REVIEW	der große Bruder
+der Hecht im Karpfenteich	541	\b[Dd]e[rnms] Hechts? im Karpfenteich\b	der Hecht im Karpfenteich
+der Kelch geht an jemandem vorüber	542	der Kelch + (\bdr|\bdar|\b)an\b + \bvorüber + _GEHEN	
+der kleine Mann	543	\b[Dd]e[rnms] kleine[nm]? Mann(e?s)?\b	der kleine Mann
+der langen Rede kurzer Sinn	544	der langen Rede + kurzer Sinn	
+der Liebe keinen Abbruch tun	545	der Liebe keinen Abbruch + TUN	
+der Länge nach	546	der Länge nach	
+der Narr muss ein Abzeichen haben	547	der Narr muss ein Abzeichen haben	
+der Prügelknabe sein	548	der Prügelknabe + SEIN	
+der Schein trügt	549	der Schein + trüg	
+der Stand der Dinge	550	\b[Dd]e[rnms] Stands? der Dinge\b	der Stand der Dinge
+der wahre Jakob	551	\b[Dd]e[rmns] wahre[nm]? Jakobs?\b	der wahre Jakob
+der Zahn der Zeit	552	\b[Dd]e[rnms] Zahn(e?s)? der Zeit\b	der Zahn der Zeit
+der Zug ist abgefahren	553	der Zug + abgefahren + SEIN + MANUAL_REVIEW	
+des Wahnsinns fette Beute sein	554	des Wahnsinns fette Beute	
+dicht an dicht	555	dicht an dicht	
+dick auftragen	556	dick auf + _TRAGEN	
+dicke Luft	557	dicke Luft	
+die Abwechslung lieben	558	die Abwechslung + LIEBEN	
+die Arschkarte zeigen	559	die Arschkarte + ZEIGEN	
+die Arschkarte ziehen	560	die Arschkarte + ZIEHEN	
+die Augen für immer schließen	561	die Augen + für immer + SCHLIEẞEN	
+die Axt an die Wurzel legen	562	Axt + an die Wurzel + LEGEN	
+die Axt an etwas legen	563	die Axt + an\b + LEGEN	
+die Beine breitmachen	564	die Beine + breit + _MACHEN	
+die Beine in die Hand nehmen	565	Beine in die Hand + NEHMEN	
+die Biege machen	566	die Biege + MACHEN	
+die Bombe platzen lassen	567	die Bombe + platzen + LASSEN	
+die Bretter, die die Welt bedeuten	568	Bretter + die Welt + bedeut	
+die Brücken hinter sich abbrechen	569	die Brücke hinter SICHB + \bab + _BRECHEN	
+die Bäume wachsen nicht in den Himmel	570	die Bäume + in den Himmel + nicht + WACHSEN	
+die Einschläge kommen näher	571	die Einschläge + näher + KOMMEN	
+die erste Geige spielen	572	die erste Geige + spiel	
+die Faxen dick haben	573	die Faxen dick + HABEN	
+die Faxen dicke haben	574	die Faxen dicke + HABEN	
+die Felle wegschwimmen sehen	575	die Felle wegschwimmen + SEHEN	
+die Feste feiern, wie sie fallen	576	die Feste + wie sie fallen + feier	die Feste + wie sie kommen + feier
+die Feste feiern, wie sie kommen	577	die Feste + wie sie kommen + feier	die Feste + wie sie fallen + feier
+die Finger im Spiel haben	578	die Finger im Spiel + HABEN	die (Hand|Hände) im Spiel + HABEN
+die Finger von etwas lassen	579	die Finger von + LASSEN	
+die Fliege machen	580	die Fliege + MACHEN	
+die Flinte ins Korn werfen	581	die Flinte + ins Korn + WERFEN	
+die Fresse halten	582	die Fresse + HALTEN	
+die Front wechseln	583	die Front + wechs(el|le)	
+die Fäden in der Hand haben	584	die Fäden + in der Hand	
+die Fäden ziehen	585	die Fäden + ZIEHEN	
+die Führung auf dem Fuß haben	586	die Führung auf dem Fuß + HABEN	
+die Füße unter den Arm nehmen	587	die Füße + unter den Arm + NEHMEN	
+die ganze Innung blamieren	588	die ganze Innung + blamier	
+die Gelegenheit beim Schopfe packen	589	Gelegenheit + beim Schopfe? + pack	Gelegenheit + ERGREIFEN
+die grauen Zellen	590	grauen Zellen	
+die Grätsche machen	591	die Grätsche + MACHEN	
+die Herren der Schöpfung	592	Herren + der Schöpfung	
+die Honneurs machen	593	die Honneurs + MACHEN	
+die Hosen anhaben	594	die Hosen + \ban(\b|h|z|g) + _HABEN	
+die Hosen auf halbmast tragen	595	die Hosen auf halbmast + TRAGEN	
+die Hosen herunterlassen	596	die Hosen herunter + _LASSEN	
+die Hände in den Schoß legen	597	die Hände + in den Schoß + LEGEN	
+die Hände in Unschuld waschen	598	die Hände in Unschuld + WASCHEN	
+die Hölle auf Erden	599	\b[Dd](ie|er) Hölle auf Erden\b	die Hölle auf Erden
+die Hülle und Fülle	600	\b[Dd](ie|er) Hülle und Fülle\b	die Hülle und Fülle
+die Hüllen fallen lassen	601	die Hüllen fallen + LASSEN	
+die Kacke ist am Dampfen	602	Kacke + am Dampfen	
+die kalte Schulter zeigen	603	die kalte Schulter + ZEIGEN	
+die Katze aus dem Sack lassen	604	die Katze aus dem Sack + LASSEN	
+die Katze im Sack kaufen	605	die Katze im Sack + KAUFEN	
+die Kiemen nicht auseinanderkriegen	606	Kiemen + nicht + \bauseinander(\b|k|z|g) + KRIEGEN	
+die Kirche im Dorf lassen	607	die Kirche im Dorf + LASSEN	
+die Klappe aufreißen	608	Klappe + \bauf(\b|r|z|g) + _REIẞEN	
+die Klappe halten	609	die Klappe + HALTEN	
+die kleinen grauen Zellen	610	kleinen grauen Zellen	
+die Kuh vom Eis bringen	611	die Kuh vom Eis + BRINGEN	
+die Kuh vom Eis führen	612	die Kuh vom Eis + FÜHREN	
+die Kuh vom Eis holen	613	die Kuh vom Eis + HOLEN	
+die Kuh vom Eis kriegen	614	die Kuh vom Eis + KRIEGEN	
+die Kuh vom Eis schieben	615	die Kuh vom Eis + SCHIEBEN	
+die Kuh vom Eis ziehen	616	die Kuh vom Eis + ZIEHEN	
+die Kurve kratzen	617	die Kurve + kratz	
+die Latte höher legen	618	die Latte + (höher|hoch) + _LEGEN	
+die Luft aus dem Glas lassen	619	die Luft + aus dem Glas + LASSEN	
+die Messe ist gelesen	620	die Messe + gelesen + SEIN	
+die Muskeln spielen lassen	621	die Muskeln spielen + LASSEN	
+die Mücke machen	622	die Mücke + MACHEN	
+die Nachhut bilden	623	die Nachhut + bild	
+die Nadel im Heuhaufen suchen	624	Nadel im Heuhaufen	Nadel im Heuhaufen + SUCHEN
+die Nase voll haben	625	die Nase voll + HABEN	
+die Nase vorn haben	626	die Nase vorn + HABEN	
+die Nerven liegen blank	627	die Nerven + blank + LIEGEN	
+die Nerven verlieren	628	die Nerven + VERLIEREN	
+die Notbremse ziehen	629	die Notbremse + ZIEHEN	
+die oberen Zehntausend	630	\b[Dd](ie|er) oberen Zehntausend\b	die oberen Zehntausend
+die Oberhand gewinnen	631	die Oberhand + GEWINNEN	die Oberhand + BEHALTEN
+die Ochsen hinter den Pflug spannen	632	die Ochsen hinter den Pflug + spann	
+die Ohren auf Durchzug schalten	633	die Ohren + auf Durchzug + schalt	
+die Ohren hängen lassen	634	die Ohren + hängen + LASSEN	
+die Ohren spitzen	635	die Ohren + spitz	
+die Ohren steif halten	636	die Ohren steif + HALTEN	
+die Platte putzen	637	die Platte + putz	
+die Qual der Wahl haben	638	die Qual der Wahl	
+die Radieschen von unten ansehen	639	die Radieschen von unten + \ban(\b|s|z|g) + _SEHEN	
+die Radieschen von unten betrachten	640	die Radieschen von unten + betracht	
+die Ratten verlassen das sinkende Schiff	641	das sinkende Schiff + VERLASSEN	die Ratten + das sinkende Schiff + VERLASSEN
+die Rechnung ohne den Wirt machen	642	die Rechnung ohne den Wirt + MACHEN	
+die Reißleine ziehen	643	die Reißleine + ZIEHEN	
+die Ruhe vor dem Sturm	644	Ruhe + vor dem Sturm	
+die Runde machen	645	die Runde + MACHEN	
+die Sache ist die, und der Umstand ist der	646	die Sache ist die, und der Umstand ist der	
+die Sau rauslassen	647	die Sau raus + _LASSEN	
+die Schafe von den Böcken scheiden	648	die Schafe + vor den Böcken + SCHEIDEN	
+die Schere im Kopf haben	649	die Schere im Kopf + HABEN	
+die Schiffe hinter sich verbrennen	650	die Schiffe hinter SICHB + VERBRENNEN	
+die Schnauze halten	651	die Schnauze + HALTEN	
+die Schnauze voll haben	652	die Schnauze voll + HABEN	
+die Schotten dichtmachen	653	die Schotten dicht+ _MACHEN	
+die Schulbank drücken	654	die Schulbank + drück	
+die Schäflein im Trockenen haben	655	die Schäflein + im Trockenen + HABEN	
+die Seele baumeln lassen	656	die Seele + baumeln + LASSEN	
+die Segel streichen	657	die Segel + STREICHEN	
+die Spendierhosen anhaben	658	die Spendierhosen + \ban(\b|h|z|g) + _HABEN	
+die Sprache auf etwas bringen	659	die Sprache auf + BRINGEN	
+die Spreu vom Weizen trennen	660	die Spreu + Weizen	
+die Stecknadel im Heuhaufen suchen	661	Stecknadel im Heuhaufen + SUCHEN	
+die Sterne vom Himmel holen wollen	662	die Sterne + vom Himmel + holen + WOLLEN	
+die Stille vor dem Sturm	663	Stille + vor dem Sturm	
+die Stirn bieten	664	die Stirn + BIETEN	
+die Stirn haben	665	die Stirn + HABEN	
+die Straße abklappern	666	die Straße + \bab(\b|k|z|g) + klapper	
+die Straße fegen	667	die Straße + FEGEN	
+die Stunde der Wahrheit	668	\b[Dd](ie|er) Stunde der Wahrheit\b	die Stunde der Wahrheit
+die Suppe auslöffeln	669	die Suppe + \baus(\b|l|z|g) + löff(el|le)	
+die Tafel aufheben	670	die Tafel + \bauf(\b|h|z|g) + _HEBEN	
+die Waffen strecken	671	die Waffen + streck	
+die Wahl haben zwischen Pest und Cholera	672	die Wahl + zwischen Pest und Cholera + HABEN	
+die Weichen für etwas stellen	673	die Weichen für + STELLEN	
+die Weisheit nicht mit Löffeln gefressen haben	674	die Weisheit + Löffeln? + gefressen	
+die Weisheit nicht mit Löffeln gegessen haben	675	die Weisheit + Löffeln? + gegessen	
+die Wogen glätten	676	die Wogen + glätt	
+die Wände haben Ohren	677	die Wände haben Ohren	
+die Würmer baden	678	die Würmer + BADEN	
+die Zeit totschlagen	679	die Zeit + \btot(\b|s|z|g) + _SCHLAGEN	
+die Zelte abbrechen	680	die Zelte + \bab(\b|b|z|g) + _BRECHEN	
+die zweite Geige spielen	681	die zweite Geige + spiel	
+die Zähne zusammenbeißen	682	die Zähne + \bzusammen(\b|b|zubeißen|gebissen) + _BEIẞEN	die Zähne + \bzusammen(\b|b|z|g) + _BEIẞEN
+die Ärmel hochkrempeln	683	die Ärmel + \bhoch(\b|kremp|zukrempeln|gekrempelt) + kremp(el|le)	die Ärmel + \bhoch(\b|k|z|g) + kremp(el|le)
+die üblichen Verdächtigen	684	(die|den) üblichen Verdächtigen	
+dies und das	685	dies und das	
+dieselbe Couleur in Grün	686	dieselbe Couleur in Grün	
+dieselbe Sprache sprechen	687	dieselbe Sprache + SPRECHEN	
+dieser Tage	688	dieser Tage	
+dieser Zug ist abgefahren	689	dieser Zug + abgefahren + SEIN	
+doppelt gemoppelt hält besser	690	doppelt gemoppelt hält besser	
+doppelt genäht hält besser	691	doppelt + besser + genäht + HALTEN	
+doppelt hält besser	692	doppelt + besser + HALTEN	
+dos à dos	693	dos à dos	
+Dreck am Stecken haben	694	Dreck am Stecken	
+Dreh- und Angelpunkt	695	Dreh-? + und Angelpunkt	
+drei Kreuze machen	696	drei Kreuze + MACHEN	
+dreimal umgezogen ist einmal abgebrannt	697	dreimal umgezogen + einmal abgebrannt	
+Druck auf der Nille haben	698	Druck auf der Nille + HABEN	
+Druck ausüben	699	Druck + \baus(\b|üb|zuüben|geübt) + AUSÜBEN	Druck + \baus(\b|ü|z|g) + AUSÜBEN
+drunter und drüber	700	drunter und drüber	
+dumm wie Bohnenstroh	701	wie Bohnenstroh	
+dumm wie Brot	702	dumm wie Brot	
+dumm wie hundert Meter Feldweg sein	703	dumm wie hundert Meter Feldweg	
+durch Abwesenheit glänzen	704	durch Abwesenheit + glänz	
+durch den Kakao ziehen	705	durch den Kakao + ZIEHEN	
+durch den Tüdel kommen	706	durch den Tüdel + KOMMEN	
+durch die rosarote Brille sehen	707	durch die rosarote Brille + SEHEN	
+durch Mark und Bein gehen	708	durch Mark und Bein	
+durch und durch	709	durch und durch	
+Däumchen drehen	710	Däumchen + dreh	
+dümmer sein, als die Polizei erlaubt	711	dümmer + SEIN + als die Polizei erlaubt\w*	
+Ei des Columbus	712	Ei des Columbus	
+Ei des Kolumbus	713	Ei des Kolumbus	
+eierlegende Wollmilchsau	714	eierlegende Wollmilchsau	
+Eierstöcke in der Hose haben	715	Eierstöcke in der Hose + HABEN	
+eigene vier Wände	716	eigene vier Wände	
+ein Aas auf der Bassgeige sein	717	ein Aas + auf der Bassgeige + SEIN	
+ein abgebrochener Gartenzwerg	718	ein abgebrochener Gartenzwerg	abgebrochene\w* Gartenzwergs?
+ein abgebrochener Riese	719	ein abgebrochener Riese	abgebrochene\w* Riese
+ein alter Hase sein	720	ein alter Hase + SEIN	
+ein alter Hut sein	721	ein alte[rmn] Hut + SEIN	ein alter Hut + SEIN
+ein alter Zopf sein	722	ein alter Zopf + SEIN	
+ein armes Schwein sein	723	ein armes Schwein + SEIN	
+ein Ass auf der Bassgeige sein	724	ein Ass auf der Bassgeige	
+ein Auge auf etwas werfen	725	ein Auge auf + WERFEN	
+ein Auge riskieren	726	ein Auge + riskier	
+ein Auge zudrücken	727	ein Auge + \bzu(\b|drück|zudrücken|gedrückt) + drück	ein Auge + \bzu(\b|d|z|g) + drück
+ein Bad nehmen	728	ein Bad + NEHMEN	
+ein Brett vor dem Kopf haben	729	ein Brett vor dem Kopf + HABEN	
+ein düsteres Bild zeichnen	730	ein düsteres Bild + zeichn	
+ein Ei legen	731	ein Ei + LEGEN	
+ein Einsehen haben	732	ein Einsehen + HABEN	
+ein Esel in der Löwenhaut	733	ein Esel in der Löwenhaut	Esel in der Löwenhaut
+ein Exempel statuieren	734	ein Exempel + statuier	
+ein falscher Fuffziger	735	ein falscher Fuffziger	falscher Fuffziger
+ein falsches Spiel spielen	736	ein falsches Spiel + spiel	
+ein falsches Spiel treiben	737	ein falsches Spiel + TREIBEN	
+ein Fass aufmachen	738	ein Fass + \bauf(\b|m|z|g) + _MACHEN	
+ein Fass ohne Boden sein	739	ein Fass ohne Boden + SEIN	
+ein Fingerhut	740	ein\w* Fingerhut	
+ein frühes Grab finden	741	ein frühes Grab + FINDEN	
+ein für alle Mal	742	ein für alle Mal	
+ein für alle Mal aus der Welt schaffen	743	für alle Mal + aus der Welt + schaff	
+ein Gedächtnis wie ein Sieb haben	744	Gedächtnis + wie ein Sieb + HABEN	
+ein Gemüt wie ein Fleischerhund haben	745	ein Gemüt wie ein Fleischerhund + HABEN	
+ein gerüttelt Maß	746	ein gerüttelt Maß	\bgerüttelt\w* Maß
+ein Gruß aus der Küche	747	ein\w* Gruß aus der Küche	ein Gruß aus der Küche
+ein Haar in der Suppe finden	748	Haar in der Suppe + FINDEN	
+ein Haus machen	749	ein Haus + MACHEN + MANUAL_REVIEW	
+ein heißes Eisen	750	\b[Hh]eiße\w* Eisen\b	heiße\w* Eisen
+ein heißes Eisen anfassen	751	heiß + Eisen + \ban(\b|f|z|g) + fass	
+ein Herz fassen	752	ein Herz + fass	
+ein Herz und eine Seele sein	753	ein Herz und eine Seele + SEIN	
+ein Hintertürchen offenhalten	754	ein Hintertürchen + \boffen(\b|h|z|g) + _HALTEN	
+ein Hirn wie ein Nudelsieb haben	755	ein Hirn + wie ein Nudelsieb + HABEN	
+ein Händchen für etwas haben	756	ein glückliches Händchen + HABEN	
+ein Kind des Todes sein	757	ein\w* Kind des Todes	Kind des Todes
+ein klein wenig	758	ein klein wenig	
+ein Königreich für ein …	759	ein Königreich für ein	
+ein Machtwort sprechen	760	ein Machtwort + SPRECHEN	
+ein Mann von Welt	761	Mann von Welt	ein Mann von Welt
+ein Mann, ein Wort	762	ein Mann, ein Wort	
+ein paar Zerquetschte	763	ein paar Zerquetschte	
+ein Prediger in der Wüste	764	Prediger + in der Wüste	
+ein Rad abhaben	765	ein Rad + \bab(\b|h|z|g) + _HABEN	
+ein Raub der Flammen werden	766	ein Raub der Flammen + WERDEN	
+ein Ritt über den Bodensee	767	ein Ritt über den Bodensee	Ritt + über den Bodensee
+ein Rohr verlegen	768	ein Rohr + \bverleg	
+ein rosiges Bild zeichnen	769	ein rosiges Bild + zeichn	
+ein Rufer in der Wüste	770	Rufer + in der Wüste	
+ein Schelm, wer Böses dabei denkt	771	ein Schelm + Böses + dabei + DENKEN	
+ein Schnittlauch auf allen Suppen sein	772	ein Schnittlauch + auf allen Suppen + SEIN	
+ein Schuss in den Ofen	773	ein Schuss + in den Ofen	Schuss + in den Ofen
+ein schöner Zug von jemandem sein	774	ein schöner Zug (da)?von + SEIN	
+ein Silberstreifen am Horizont	775	ein Silberstreifen am Horizont	Silberstreifen + am Horizont
+ein Spiel mit dem Feuer	776	Spiel + mit dem Feuer	ein Spiel + mit dem Feuer
+ein Tropfen auf den heißen Stein	777	Tropfen + auf + heißen Stein	ein\w* Tropfen + auf + heißen Stein
+ein und aus gehen	778	ein und aus + GEHEN	
+ein Unding sein	779	ein Unding + SEIN	
+ein wandelndes Lexikon sein	780	ein wandelndes Lexikon + SEIN	
+ein wenig	781	ein wenig	
+ein Wetter zum Eierlegen	782	Wetter zum Eierlegen	
+einander die Bälle zuspielen	783	die Bälle + \bzu(\b|s|z|g) + spiel	
+einander nichts schenken	784	einander + nichts + schenk	
+eine Aktie zeichnen	785	eine Akite + zeichn	
+eine andere Sprache sprechen	786	eine andere Sprache + SPRECHEN	
+eine Anleihe zeichnen	787	eine Anleihe + zeichn	
+eine Bauchlandung machen	788	eine Bauchlandung + MACHEN	
+eine bittere Pille schlucken müssen	789	eine bittere Pille + schluck	eine bittere Pille + schlucken + MÜSSEN
+eine deutliche Sprache sprechen	790	eine deutliche Sprache + SPRECHEN	eine klare Sprache + SPRECHEN
+eine dicke Lippe riskieren	791	eine dicke Lippe + riskier	
+eine Doktorarbeit aus etwas machen	792	eine Doktorarbeit aus + MACHEN	
+eine Frau von Welt	793	Frau von Welt	eine Frau von Welt
+eine gute Figur machen	794	eine gute Figur + MACHEN	
+eine halbe Portion	795	eine halbe Portion+ MANUAL_REVIEW	halbe\w* Portion + MANUAL_REVIEW
+eine harte Nuss zu knacken haben	796	eine harte Nuss zu knacken	
+eine heilige Kuh schlachten	797	heilige Kuh + schlacht	
+eine Lage schmeißen	798	eine Lage + SCHMEIẞEN	
+eine lange Leitung haben	799	eine lange Leitung + HABEN	
+eine Lanze brechen	800	eine Lanze + BRECHEN	
+eine Leiche im Keller haben	801	Leichen? + im Keller + MANUAL_REVIEW	
+eine Meise haben	802	eine Meise + HABEN	
+eine Mütze Schlaf	803	Mütze Schlaf	eine Mütze Schlaf
+eine Nacht darüber schlafen	804	eine Nacht d(a)?rüber + SCHLAFEN	
+eine Nadel fallen hören können	805	eine Nadel + fallen hören + KÖNNEN	
+eine Party schmeißen	806	eine Party + SCHMEIẞEN	
+eine rauchen	807	eine + RAUCHEN + MANUAL_REVIEW	
+eine Rolle spielen	808	eine Rolle + spiel	
+eine ruhige Kugel schieben	809	ruhige Kugel + SCHIEBEN	
+eine Schlange am Busen nähren	810	eine Schlange am Busen + nähr	
+eine Schraube locker haben	811	eine Schraube locker + HABEN	
+eine schöne Leich	812	eine schöne Leich	schöne\w* Leich
+eine sichere Bank sein	813	eine sichere Bank + SEIN	
+eine Standpauke halten	814	eine Standpauke + HALTEN	
+eine weiße Weste haben	815	eine weiße Weste	
+eine Wissenschaft für sich sein	816	eine Wissenschaft + für SICHA + SEIN	
+einem nackten Mann in die Tasche fassen	817	einem nackten Mann + in die Tasche + fass	einem nackten Mann + in die Tasche
+einem nackten Mann in die Tasche greifen	818	einem nackten Mann in die Tasche + GREIFEN	einem nackten Mann + in die Tasche
+einem Schatten nachjagen	819	einem Schatten + \bnach(\b|j|z|g) + jag	
+einen abbeißen	820	einen + \bab(\b|b|z|g) + _BEIẞEN + MANUAL_REVIEW	
+einen Abflug machen	821	einen Abflug + MACHEN	
+einen Abgang machen	822	einen Abgang + MACHEN	Abgang + MACHEN
+einen abseilen	823	einen + \bab(\b|s|z|g) + seil	
+einen alten Zopf abschneiden	824	einen alten Zopf + \bab(\b|s|z|g) + _SCHNEIDEN	
+einen am Rad haben	825	einen am Rad + HABEN	
+einen an der Klatsche haben	826	einen an der Klatsche + HABEN	
+einen Ausflug halten	827	einen Ausflug + HALTEN	
+einen Bart haben	828	einen Bart + HABEN	
+einen Besen fressen	829	einen Besen + FRESSEN	
+einen Blick werfen	830	einen Blick + WERFEN	
+einen Braten in der Röhre haben	831	einen Braten in der Röhre + HABEN	
+einen Clown gefrühstückt haben	832	einen Clown + gefrühstückt + HABEN	
+einen Dachschaden haben	833	einen Dachschaden + HABEN	
+einen fahren lassen	834	einen fahren + LASSEN	
+einen fahrenlassen	835	einen fahrenl + MANUAL_REVIEW	
+einen Fleischergang machen	836	einen Fleischergang + MACHEN	
+einen fliegen lassen	837	einen fliegen + LASSEN	
+einen Frosch im Hals haben	838	einen Frosch im Hals + HABEN	
+einen Frosch im Halse haben	839	einen Frosch im Halse + HABEN	
+einen Gang hochschalten	840	einen Gang + \bhoch(\b|s|z|g) + schalt	
+einen grünen Daumen haben	841	einen grünen Daumen + HABEN	
+einen guten Schnitt machen	842	einen guten Schnitt + MACHEN	
+einen Hermann machen	843	einen Hermann + MACHEN	
+einen Hund aus dem Ofen locken	844	einen Hund + aus dem Ofen + lock	
+einen im Tee haben	845	einen im Tee + HABEN	
+einen in der Krone haben	846	einen in der Krone + HABEN	
+einen Kloß im Hals haben	847	einen Kloß im Hals + HABEN	
+einen Knall haben	848	einen Knall + HABEN	
+einen Korb bekommen	849	einen Korb + BEKOMMEN	
+einen Korb kriegen	850	einen Korb + KRIEGEN	
+einen Krebs fangen	851	einen Krebs + FANGEN	
+einen kühlen Kopf bewahren	852	einen kühlen Kopf + bewahr	einen kühlen Kopf + BEHALTEN
+einen Lauf haben	853	einen Lauf + HABEN	
+einen Metzgergang machen	854	einen Metzgergang + MACHEN	
+einen Metzgersgang machen	855	einen Metzgersgang + MACHEN	
+einen Mohren weiß waschen wollen	856	einen Mohren + weiß + waschen + WOLLEN	
+einen Narren an jemandem gefressen haben	857	\b(Narren|Närrin)\b + gefressen	
+einen Neger abseilen	858	einen Neger + \bab(\b|s|z|g) + seil	
+einen Pik auf jemanden haben	859	einen Pik auf + HABEN	
+einen rauchen	860	einen + RAUCHEN + MANUAL_REVIEW	
+einen Reif anstecken	861	einen Reif + \ban(\b|s|z|g) + _STECKEN	
+einen Reif ausstecken	862	einen Reif + \baus(\b|s|z|g) + _STECKEN	
+einen runterholen	863	einen + \brunter(\b|h|z|g) + _HOLEN	
+einen Rückzieher machen	864	einen Rückzieher + MACHEN	
+einen Schatten haben	865	einen Schatten + HABEN	
+einen Schlachtergang machen	866	einen Schlachtergang + MACHEN	
+einen Schlussstrich ziehen	867	einen Schlusstrich + ZIEHEN	
+einen Schmarren	868	einen Schmarren	
+einen Schnitt machen	869	einen Schnitt + MACHEN	
+einen sitzen haben	870	einen sitzen + HABEN	
+einen Sprung in der Schüssel haben	871	einen Sprung in der Schüssel + HABEN	
+einen Stock im Arsch haben	872	einen Stock im Arsch + HABEN	
+einen Türken bauen	873	einen Türken + BAUEN + MANUAL_REVIEW	
+einen Versuchsballon starten	874	einen Versuchsballon + start	
+einen Vogel haben	875	einen Vogel + HABEN + MANUAL_REVIEW	
+einen Zahn zulegen	876	Zahn zu(\b|leg|zulegen|gelegt) + _LEGEN	einen Zahn zu(\b|leg|zulegen|gelegt) + _LEGEN
+einen zur Brust nehmen	877	einen + zur Brust + NEHMEN	
+einer Sache auf den Grund gehen	878	auf den Grund + GEHEN	
+einer Sache freien Lauf lassen	879	freien Lauf + LASSEN	
+einer Sache ihren Lauf lassen	880	SEINMA Lauf + LASSEN	
+einmal hü und einmal hott sagen	881	einmal hü und einmal hott + SAGEN	
+einmal mehr	882	einmal mehr	
+einpacken können	883	einpacken + KÖNNEN	
+eins a	884	eins a	
+eins auf den Pelz brennen	885	auf den Pelz + BRENNEN	
+eins hinter die Löffel geben	886	eins hinter die Löffel + GEBEN	
+eins und eins zusammenzählen	887	eins und eins + zusammen	zwei und zwei + zusammen
+einschlagen wie eine Bombe	888	wie eine Bombe + \bein(\b|schl.g|zuschlagen|geschlagen) + _SCHLAGEN	wie eine Bombe + \bein(\b|s|z|g) + _SCHLAGEN
+einstürzen wie ein Kartenhaus	889	wie ein Kartenhaus	
+einzig und allein	890	einzig und allein	
+empfindlich wie eine Mimose sein	891	empfindlich + wie eine Mimose	
+erfroren sind schon viele, aber erstunken ist noch keiner	892	erfroren sind schon viele + erstunken + noch + keiner	
+erlaubt ist, was gefällt	893	erlaubt ist, was gefällt	
+erste Sahne sein	894	erste Sahne + SEIN	
+Erster von hinten	895	Erster von hinten	
+erstunken und erlogen	896	erstunken und erlogen	
+es darauf ankommen lassen	897	es + darauf ankommen + LASSEN	
+es drauf ankommen lassen	898	es + drauf ankommen + LASSEN	
+es faustdick hinter den Ohren haben	899	faustdick hinter den Ohren + HABEN	
+es geht die Rede	900	es + die Rede + GEHEN	
+es geht um die Wurst	901	um die Wurst + GEHEN	
+es ist höchste Eisenbahn	902	höchste Eisenbahn + SEIN	
+es ist um jemanden geschehen	903	um + geschehen + SEIN + MANUAL_REVIEW	
+es jemandem gleichtun	904	es + \bgleich(t|g|\b) + GLEICHTUN	
+es jemandem recht machen	905	es + recht + MACHEN	
+es juckt jemandem in den Fingern	906	in den Fingern + juck	
+es koste, was es wolle	907	es koste + was es wolle	
+es krachen lassen	908	es krachen + LASSEN	
+es kurz machen	909	es kurz + MACHEN	
+es mit jemandem treiben	910	es + mit + TREIBEN + MANUAL_REVIEW	
+es sich anders überlegen	911	es + SICH + anders + \büber(\b|l|z|g) + _LEGEN	
+es zieht wie Hechtsuppe	912	wie Hechtsuppe + ZIEHEN	
+es zieht wie in einem Vogelhaus	913	wie in einem Vogelhaus + ZIEHEN	
+es zu bunt treiben	914	es + zu bunt + TREIBEN	
+es über sich gewinnen, etwas zu tun	915	es + über SICHB + GEWINNEN	
+etwas am Kerbholz haben	916	etwas am Kerbholz + HABEN	
+etwas an den Haaren herbeiziehen	917	an den Haaren + \bherbei(\b|z|gezogen) + _ZIEHEN	an den Haaren + \bherbei(\b|z|g) + _ZIEHEN
+etwas an den Mann bringen	918	an den Mann + BRINGEN	
+etwas an den Nagel hängen	919	an den Nagel + häng	
+etwas an den Tag legen	920	an den Tag + LEGEN	
+etwas an die große Glocke hängen	921	an die große Glocke + HÄNGENHÄNGTE	
+etwas an die Wand fahren	922	an die Wand + FAHREN	
+etwas auf Abbruch verkaufen	923	auf Abbruch + verkauf	
+etwas auf dem Buckel haben	924	auf dem Buckel + HABEN	
+etwas auf dem Kasten haben	925	auf dem Kasten + HABEN	
+etwas auf dem Kerbholz haben	926	auf dem Kerbholz	
+etwas auf den Kopf stellen	927	auf den Kopf + STELLEN	
+etwas auf der Pfanne haben	928	auf der Pfanne + HABEN	
+etwas auf die hohe Kante legen	929	auf die hohe Kante + LEGEN	
+etwas auf die lange Bank schieben	930	auf die lange Bank + SCHIEBEN	
+etwas auf die leichte Schulter nehmen	931	auf die leichte Schulter + NEHMEN	
+etwas auf die Sprünge helfen	932	auf die Sprünge + HELFEN	
+etwas auf Eis legen	933	auf Eis + LEGEN	
+etwas auf Pump kaufen	934	auf Pump + KAUFEN	
+etwas auf seine Kappe nehmen	935	auf SEINFA Kappe + NEHMEN	
+etwas aufs Spiel setzen	936	auf Spiel + SETZEN	
+etwas aufsaugen wie ein Schwamm	937	wie ein Schwamm + \bauf(\b|s|z|g) + _SAUGEN	
+etwas aus dem Boden stampfen	938	aus dem Boden + stampf	
+etwas aus dem Ärmel schütteln	939	aus dem Ärmel + schütt(el|le)	
+etwas aus den Angeln heben	940	aus den Angeln + HEBEN	
+etwas aus der Taufe heben	941	aus der Taufe + HEBEN	
+etwas aus der Welt schaffen	942	aus der Welt + schaff	
+etwas ausbaden müssen	943	ausbaden + MÜSSEN	
+etwas ausgefressen haben	944	etwas ausgefressen + HABEN	
+etwas außer Dienst stellen	945	außer Dienst + STELLEN	
+etwas den letzten Schliff geben	946	den letzten Schliff + GEBEN	
+etwas die Spitze abbrechen	947	die Spitze + \bab(\b|b|z|g) + _BRECHEN	
+etwas die Spitze nehmen	948	die Spitze + NEHMEN	
+etwas durch die rosarote Brille sehen	949	durch die rosarote Brille + SEHEN	
+etwas eine Abfuhr erteilen	950	eine Abfuhr + \berteil	
+etwas für bare Münze nehmen	951	für bare Münze + NEHMEN	
+etwas für einen Apfel und ein Ei kaufen	952	für einen Apfel und ein Ei + KAUFEN	
+etwas fürchten wie der Teufel das Weihwasser	953	wie der Teufel + das Weihwasser	
+etwas gebacken kriegen	954	etwas gebacken + KRIEGEN	
+etwas gegen die Wand fahren	955	gegen die Wand + FAHREN	
+etwas geht jemandem am Arsch vorbei	956	am Arsch + \bvorbei(\b|z|g) + _GEHEN	
+etwas Herr werden	957	Herr + WERDEN + MANUAL_REVIEW	
+etwas hängt einem zum Hals raus	958	einem zum Hals + \braus(\b|h|z|g) + häng	
+etwas im Auge haben	959	im Auge + HABEN	
+etwas im Griff haben	960	im Griff + HABEN	
+etwas im Keim ersticken	961	im Keim + erstick	
+etwas im Kopf haben	962	im Kopf + HABEN	
+etwas im Schilde führen	963	im Schilde + FÜHREN	
+etwas im Urin haben	964	im Urin + HABEN	
+etwas im Urin spüren	965	im Urin + spür	
+etwas in Abrede stellen	966	in Abrede + STELLEN	
+etwas in Angriff nehmen	967	in Angriff + NEHMEN	
+etwas in Brand setzen	968	in Brand + SETZEN	
+etwas in Brand stecken	969	in Brand + STECKEN	
+etwas in den falschen Hals bekommen	970	in den falschen Hals + BEKOMMEN	
+etwas in den Raum stellen	971	in den Raum + STELLEN	
+etwas in den Sand setzen	972	in den Sand + SETZEN	
+etwas in der Tasche haben	973	in der Tasche + HABEN	
+etwas in die Hand nehmen	974	in die Hand + NEHMEN	
+etwas in die Wege leiten	975	in die Wege + LEITEN	
+etwas in Gang bringen	976	in Gang + BRINGEN	
+etwas in Gang setzen	977	in Gang + SETZEN	
+etwas in Grenzen halten	978	in Grenzen + HALTEN	
+etwas in Kauf nehmen	979	in Kauf + NEHMEN + MANUAL_REVIEW	
+etwas in petto haben	980	etwas in petto + HABEN	
+etwas in Schuss halten	981	in Schuss + HALTEN	
+etwas in Schutt und Asche legen	982	in Schutt und Asche + LEGEN	
+etwas in vollen Zügen genießen	983	in vollen Zügen + GENIEẞEN	
+etwas in- und auswendig kennen	984	auswendig + KENNEN	
+etwas ins Auge fassen	985	ins Auge + fass	
+etwas ins Leben rufen	986	ins Leben + RUFEN	
+etwas ist so wichtig, wie wenn ein Sack Reis in China umfällt	987	wichtig + ein Sack Reis + in China + umfällt	
+etwas ist zum Mäusemelken	988	zum Mäusemelken + SEIN	
+etwas keinen Abbruch tun	989	keinen Abbruch + TUN	
+etwas kommt jemandem spanisch vor	990	spanisch + \bvor(\b|k.m|zukommen|gekommen) + _KOMMEN	spanisch + \bvor(\b|k|z|g) + _KOMMEN
+etwas Lügen strafen	991	Lügen + straf	
+etwas mit Argusaugen beobachten	992	mit Argusaugen + beobachte	
+etwas mit der Muttermilch aufsaugen	993	mit der Muttermilch + \bauf(\b|s|z|g) + _SAUGEN	
+etwas mit der Muttermilch einsaugen	994	mit der Muttermilch + \bein(\b|s|z|g) + _SAUGEN	
+etwas mit einem lachenden und einem weinenden Auge sehen	995	mit einem lachendem + weinenden + SEHEN	
+etwas mit Kusshand nehmen	996	mit Kusshand + NEHMEN	
+etwas mitgehen lassen	997	mitgehen + LASSEN	
+etwas nicht auf sich sitzen lassen	998	nicht auf SICHB sitzen + LASSEN	
+etwas Revue passieren lassen	999	Revue passieren + LASSEN	
+etwas rund machen	1000	rund + MACHEN + MANUAL_REVIEW	
+etwas rückgängig machen	1001	rückgängig + MACHEN	
+etwas satt haben	1002	satt + HABEN	satt + _HABEN
+etwas sein Eigen nennen	1003	sein Eigen + NENNEN	
+etwas unter Dach und Fach bringen	1004	unter Dach und Fach + BRINGEN	
+etwas unter die Lupe nehmen	1005	unter die Lupe + NEHMEN	
+etwas vom Stapel lassen	1006	vom Stapel + LASSEN	
+etwas vom Zaun brechen	1007	vom Zaun + BRECHEN	
+etwas vor die Wand fahren	1008	vor die Wand + FAHREN	
+etwas wörtlich nehmen	1009	wörtlich + NEHMEN	
+etwas zu den Akten legen	1010	zu den Akten + LEGEN	
+etwas zu Geld machen	1011	zu Geld + MACHEN	
+etwas zu hinterlistigen Zwecken verwenden	1012	zu hinterlistigen Zwecken + VERWENDEN	
+etwas zu Tode hetzen	1013	zu Tode + hetz	
+etwas zu Tode reiten	1014	zu Tode + REITEN	
+etwas zum Besten geben	1015	zum Besten + GEBEN	
+etwas zur Schau stellen	1016	zur Schau + STELLEN	
+etwas zur Seite legen	1017	zur Seite + LEGEN	
+etwas zur Sprache bringen	1018	zur Sprache + BRINGEN	
+etwas zur Strecke bringen	1019	zur Strecke + BRINGEN	
+etwas zwischen die Kiemen bekommen	1020	zwischen die Kiemen + BEKOMMEN	
+etwas zwischen die Kiemen kriegen	1021	zwischen die Kiemen + KRIEGEN	
+etwas zwischen die Zähne bekommen	1022	zwischen die Zähne + BEKOMMEN	
+etwas zwischen die Zähne kriegen	1023	zwischen die Zähne + KRIEGEN	
+etwas über den Haufen schmeißen	1024	über den Haufen + SCHMEIẞEN	
+etwas über den Haufen werfen	1025	über den Haufen + WERFEN	
+etwas über die Bühne bringen	1026	über die Bühne + BRINGEN	
+etwas übers Knie brechen	1027	übers Knie + BRECHEN	
+Eulen nach Athen tragen	1028	Eulen + nach Athen + TRAGEN	
+ewig und drei Tage	1029	ewig und drei Tage	
+Fahrt aufnehmen	1030	Fahrt + \bauf(\b|n|zunehmen|genommen) + _NEHMEN	Fahrt + \bauf(\b|n|z|g) + _NEHMEN
+falsch wie Galgenholz	1031	wie Galgenholz	
+falsche Schlange	1032	falsche Schlange	
+Farbe bekennen	1033	Farbe + BEKENNEN	
+Fersengeld geben	1034	Fersengeld + GEBEN	
+fest im Sattel sitzen	1035	fest im Sattel + SITZEN	
+Feuer fangen	1036	Feuer + FANGEN	
+Feuer frei	1037	Feuer frei	
+Feuer und Flamme sein	1038	Feuer und Flamme + SEIN	
+feurige Kohlen auf jemandes Haupt sammeln	1039	feurige Kohlen + Haupt + samm(el|le)	
+fit wie ein Turnschuh	1040	fit + wie ein Turnschuh	
+fix und fertig	1041	fix und fertig	
+fix und foxi	1042	fix und foxi	
+fixe Idee	1043	fixe Idee	
+Flagge zeigen	1044	Flagge + ZEIGEN	
+Flausen im Kopf haben	1045	Flausen im Kopf	
+fluchen wie ein Bierkutscher	1046	wie ein Bierkutscher	
+fluchen wie ein Landsknecht	1047	wie ein Landsknecht + fluch	
+flüssiges Brot	1048	\b[Ff]lüssige[sm]? Brot(es)?\b	
+französischer Kuss	1049	französischer Kuss	
+frech wie Oskar	1050	frech wie Oskar	
+frei Haus	1051	frei Haus	
+frei Schnauze	1052	frei Schnauze	
+frei von der Leber weg	1053	frei + von der Leber + weg	
+frei von der Leber weg reden	1054	frei + von der Leber + \bweg\b + REDEN	
+frei von der Leber weg sprechen	1055	frei + von der Leber + \bweg\b + SPRECHEN	
+fressen wie ein Scheunendrescher	1056	wie ein Scheunendrescher	
+Freund und Feind	1057	Freund und Feind	
+frieren wie ein Schneider	1058	wie ein Schneider	
+frische Luft schnappen	1059	frische Luft + schnapp	
+frische Luft schöpfen	1060	frische Luft + schöpf	
+friss, Vogel, oder stirb	1061	friss + Vogel + oder stirb	
+frohes Schaffen	1062	frohes Schaffen	
+fröhliche Urständ feiern	1063	fröliche Urständ + feier	
+Früchte tragen	1064	Früchte + TRAGEN	
+früher oder später	1065	früher oder später	
+Fuß fassen	1066	Fuß + fass	
+für den Arsch sein	1067	für den Arsch	
+für den Hugo sein	1068	für den Hugo + SEIN	
+für die Katz sein	1069	für die Katz	
+für etwas die Hand ins Feuer legen	1070	die Hand ins Feuer + LEGEN	SEINFA Hand ins Feuer + LEGEN
+für jemanden die Hand ins Feuer legen	1071	die Hand ins Feuer + LEGEN	
+für jemanden die Kastanien aus dem Feuer holen	1072	Kastanien + aus dem Feuer + HOLEN	Kohlen + aus dem Feuer + HOLEN
+für jemanden durchs Feuer gehen	1073	für + durchs Feuer + GEHEN	
+für jemanden ein Buch mit sieben Siegeln sein	1074	ein Buch + mit sieben Siegeln + SEIN	für + ein Buch + mit sieben Siegeln + SEIN
+für jemanden ein Fremdwort sein	1075	für + ein Fremdwort + SEIN	
+für lau	1076	für lau	
+für sich	1077	für SICHA + MANUAL_REVIEW	
+für umme	1078	für umme	
+für ’n Appel und ’n Ei	1079	Appel und + Ei	Appel und + Ei + \b[Ff]ür(\b|'|`)
+gang und gäbe	1080	gang und gäbe	
+ganz Auge und Ohr sein	1081	ganz Auge und Ohr + SEIN	
+ganz Ohr sein	1082	ganz Ohr + SEIN	
+ganz und gar	1083	ganz und gar	
+gar nicht	1084	gar nicht	
+Gas geben	1085	Gas + GEBEN	
+Geben ist seliger als Nehmen	1086	Geben + seliger + Nehmen	
+Geben ist seliger denn Nehmen	1087	Geben + seliger + Nehmen	
+gebranntes Kind	1088	\b[Gg]ebrannte[smn]? Kind(er|(e?s)?)\b	gebrannte Kind
+gedacht sein	1089	gedacht + SEIN + MANUAL_REVIEW	
+Gedanken lesen	1090	Gedanken + LESEN	
+geduldig wie ein Lamm	1091	wie ein Lamm + geduldig	
+Gefahr laufen	1092	Gefahr + LAUFEN	
+gegangen werden	1093	gegangen + WERDEN	
+gegen den Strom schwimmen	1094	gegen den Strom + SCHWIMMEN	
+gegen eine Mauer reden	1095	gegen eine Mauer + REDEN	
+gegen eine Wand reden	1096	gegen eine Wand + REDEN	
+gegen Windmühlen kämpfen	1097	gegen Windmühlen + kämpf	
+gegeneinander ausspielen	1098	gegeneinander + \baus(\b|spiel|zuspielen|gespielt) + spiel	gegeneinander + \baus(\b|s|z|g) + spiel
+Gegensätze ziehen sich an	1099	Gegensätze + SICH + \ban(\b|z|g) + _ZIEHEN	
+geh kacken	1100	geh kacken	
+geht doch	1101	geht doch	
+geht’s noch	1102	geht’s noch	
+geil ins Kraut schießen	1103	geil + ins Kraut + SCHIEẞEN	
+Geld allein macht nicht glücklich	1104	Geld allein macht nicht glücklich	
+Geld genug macht dumme Leute klug	1105	Geld genug macht dumme Leute klug	
+Geld regiert die Welt	1106	Geld + die Welt + regier	
+Geld stinkt nicht	1107	Geld stinkt nicht	
+Geld wie Heu haben	1108	Geld wie Heu + HABEN	
+geliefert sein	1109	geliefert + SEIN + MANUAL_REVIEW	
+gemeinsame Sache machen	1110	gemeinsame Sache + MACHEN	
+genug ist genug	1111	genug ist genug	
+gesagt, getan	1112	gesagt, getan	
+Geschmacksfäden ziehen	1113	Geschmacksfäden + ZIEHEN	
+gesiebte Luft atmen	1114	gesiebte Luft + atme	
+gesund wie ein Fisch im Wasser	1115	gesund + wie ein Fisch im Wasser	
+Gift und Galle speien	1116	Gift und Galle + spei	
+Gift und Galle spucken	1117	Gift und Galle + spuck	
+glatt wie ein Aal sein	1118	glatt + wie ein Aal	
+glänzen wie ein Judenei	1119	wie ein Judenei + glänz + MANUAL_REVIEW	
+glühende Kohlen auf jemandes Haupt sammeln	1120	glühende Kohlen + Haupt + samm(el|le)	
+Gnade vor Recht ergehen lassen	1121	Gnade vor Recht + ergehen + LASSEN	
+Gold in der Kehle haben	1122	Gold in der Kehle + HABEN	
+Gold wert sein	1123	Gold wert + SEIN	
+goldener Fallschirm	1124	goldener Fallschirm	
+Gott hab ihn selig	1125	Gott hab (ihn|sie) selig	
+Gott hab sie selig	1126	Gott hab (ihn|sie) selig	
+Gott sei Dank	1127	Gott sei Dank	
+Gras über etwas wachsen lassen	1128	Gras über + wachsen + LASSEN	
+Griff ins Klo	1129	Griff ins Klo	
+grinsen wie ein Honigkuchenpferd	1130	wie ein Honigkuchenpferd	
+grobes Geschütz auffahren	1131	grobes Geschütz + \bauf(\b|f|z|g) + _FAHREN	
+große Augen machen	1132	große Augen + MACHEN	
+große Rosinen im Kopf haben	1133	große Rosinen im Kopf + HABEN	Rosinen im Kopf + HABEN
+große Töne spucken	1134	große Töne + spuck	
+Grund genug sein	1135	Grund genug + SEIN	
+Gruppenbild mit Dame	1136	Gruppenbild mit Dame	
+grün und blau schlagen	1137	grün und blau + SCHLAGEN	
+grüne Weihnachten	1138	grüne Weihnachten	
+grünes Licht geben	1139	grünes Licht + GEBEN	
+Grütze im Kopf haben	1140	Grütze im Kopf + HABEN	
+gut beieinander sein	1141	gut beieinander	
+gut im Zug sein	1142	gut im Zug + SEIN	
+gute Karten haben	1143	gute Karten + HABEN	
+gute Miene zum bösen Spiel machen	1144	gute Miene zum bösen Spiel + MACHEN	
+guten Appetit	1145	guten Appetit	
+guten Mutes sein	1146	guten Mutes + SEIN	
+guter Dinge	1147	guter Dinge	
+guter Hoffnung sein	1148	guter Hoffnung + SEIN	
+gutes Geld schlechtem hinterherwerfen	1149	gutes Geld + schlechtem + \bhinterher(\b|w|z|g) + _WERFEN	
+gäng und gäbe	1150	gäng und gäbe	
+Göttin sei Dank	1151	Göttin sei Dank	
+Haare auf den Zähnen haben	1152	Haare auf den Zähne + HABEN	
+Hackl im Kreuz	1153	Hackl im Kreuz	
+Hahn im Korb sein	1154	Hahn im Korb + SEIN	
+Hahn im Korbe sein	1155	Hahn im Korbe + SEIN	
+halbes Hemd	1156	\b[Hh]albe[smn]? Hemd(e?s)?\b	
+Halbgott in Weiß	1157	Halbgott in Weiß	
+halblang machen	1158	halblang + MACHEN	
+Hals über Kopf	1159	Hals über Kopf	
+Hals- und Beinbruch	1160	Hals-? + und Beinbruch	
+halten wie ein Dachdecker	1161	wie ein Dachdecker	
+halt’s Maul	1162	halt[’`]s Maul	
+Hand an sich legen	1163	Hand an SICHA + LEGEN	
+Hand anlegen	1164	Hand + \ban(\b|leg|zulegen|gelegt) + _LEGEN	Hand + \ban(\b|l|z|g) + _LEGEN
+Hand aufs Herz	1165	Hand aufs Herz	
+Hand und Fuß haben	1166	Hand und Fuß + HABEN + MANUAL_REVIEW	
+Hans Dampf in allen Gassen	1167	Hans Dampf + in allen Gassen	
+Hans was Heiri	1168	Hans was Heiri	
+Hansdampf in allen Gassen	1169	Hansdampf + in allen Gassen	
+hart auf hart kommen	1170	hart auf hart + KOMMEN	
+hart im Nehmen sein	1171	hart im Nehmen	
+hasch mich, ich bin der Frühling	1172	hasch + der Frühling + SEIN	
+Haus und Hof	1173	Haus und Hof	
+hegen und pflegen	1174	heg + pfleg	
+heiße Luft	1175	heiße Luft	
+hellhörig werden	1176	hellhörig + WERDEN	
+heraus mit der Sprache	1177	(he)?raus mit der Sprache	
+Heulen und Zähneklappern	1178	Heulen und Zähneklappern	
+heulen wie ein Schlosshund	1179	wie ein Schlosshund + heul	
+hie und da	1180	hie und da	
+Hier und Jetzt	1181	Hier und Jetzt	
+Himmel und Hölle in Bewegung setzen	1182	Himmel und Hölle + in Bewegung + SETZEN	
+hin und her	1183	hin und her	
+Hin- und Widerrennen	1184	Hin + und Widerrennen	
+Hin- und Wiederrennen	1185	Hin + und Wiederrennen	
+hinten Lyzeum, vorne Museum	1186	hinten Lyzeum + vorne Museum	
+hinter dem Mond leben	1187	hinter dem Mond + LEBEN	
+hinter den Kulissen	1188	hinter den Kulissen	hinter die Kulissen
+hinter die Ohren schreiben	1189	hinter die Ohren + SCHREIBEN	
+hinter Gittern sitzen	1190	hinter Gittern + SITZEN	
+hinter Schloss und Riegel kommen	1191	hinter Schloss und Riegel	
+hinter schwedischen Gardinen sitzen	1192	hinter schwedischen Gardinen + SITZEN	
+hinter verschlossenen Türen	1193	hinter verschlossenen Türen	
+hinter vorgehaltener Hand	1194	hinter vorgehaltener Hand	
+Hinz und Kunz	1195	Hinz und Kunz	
+hoch zehn	1196	hoch zehn	
+Holla die Waldfee	1197	Holla die Waldfee	
+Holz in den Wald tragen	1198	Holz + in den Wald + TRAGEN	
+Holz vor der Hütte haben	1199	Holz + vor der Hütte + HABEN	viel Holz vor der Hütte + HABEN
+Holzauge, sei wachsam	1200	Holzauge, sei wachsam	
+Hopfen und Malz ist verloren	1201	Hopfen und Malz + verloren + SEIN	
+Hotel Mama	1202	Hotel Mama	
+Hummeln im Hintern haben	1203	Hummeln in Hintern	
+hupf in Gatsch und schlog a Wölln	1204	hupf in Gatsch und schlog a Wölln	
+husch, husch, die Waldfee	1205	husch + die Waldfee	
+Hustekuchen	1206	Hustekuchen	
+Hut ab	1207	Hut ab	
+hätte, hätte, Fahrradkette	1208	hätte, hätte, Fahrradkette	
+hüben und drüben	1209	hüben und drüben	
+hüben wie drüben	1210	hüben wie drüben	
+ich glaub, mein Schwein pfeift	1211	glaub + ein Schwein + PFEIFEN	
+ihres Zeichens	1212	ihres Zeichens	
+im Argen liegen	1213	im Argen + LIEGEN	
+im Arsch sein	1214	im Arsch + SEIN	
+im Begriff sein	1215	im Begriff + SEIN	
+im besten Zuge sein	1216	im besten Zuge + SEIN	
+im Clinch liegen	1217	im Clinch + LIEGEN	
+im Dreck sitzen	1218	im Dreck + SITZEN	
+im Dreck stecken	1219	im Dreck + STECKEN	
+im Dreh sein	1220	im Dreh + SEIN	
+im Dreieck springen	1221	im Dreieck + SPRINGEN	
+im Dunkeln tappen	1222	im Dunkeln + tapp	
+im Eimer sein	1223	im Eimer + SEIN	
+im Fall	1224	im Fall + MANUAL_REVIEW	
+im falschen Film sein	1225	im falschen Film + SEIN	
+im falschen Zug sitzen	1226	im falschen Zug + SITZEN	
+im Ganzen	1227	im Ganzen	
+im Geld schwimmen	1228	im Geld + SCHWIMMEN	
+im gleichen Boot sitzen	1229	im gleichen Boot + SITZEN	
+im großen Stil	1230	im großen Stil	
+im Großen und Ganzen	1231	im Großen und Ganzen	
+im Handumdrehen	1232	im Handumdrehen	
+im Krieg bleiben	1233	im Krieg + BLEIBEN	
+im Laufe der Zeit	1234	im Laufe der Zeit	
+im Lot sein	1235	im Lot + SEIN	
+im Munde zergehen lassen	1236	im Munde zergehen + LASSEN	
+im Namen	1237	im Namen	
+im Namen von	1238	im Namen von	
+im Nebel herumstochern	1239	im Nebel + \bherum(\b|s|z|g) + stocher	
+im Nebel stochern	1240	im Nebel + stocher	
+im Nu	1241	im Nu	
+im Sand verlaufen	1242	im Sand + VERLAUFEN	
+im Sande verlaufen	1243	im Sande + VERLAUFEN	
+im Schlaf	1244	im Schlaf + MANUAL_REVIEW	
+im Schweiße seines Angesichts	1245	im Schweiße SEINMNG Angesichts	
+im siebten Himmel sein	1246	im siebten Himmel	
+im Spiel sein	1247	im Spiel + SEIN	
+im Sterben liegen	1248	im Sterben + LIEGEN	
+im Trüben fischen	1249	im Trüben + fisch	
+im wahrsten Sinne des Wortes	1250	im wahrsten Sinne des Wortes	
+im Zeichen von etwas stehen	1251	im Zeichen von + STEHEN	im Zeichen von + SEIN
+in Abrahams Wurstkessel	1252	in Abrahams Wurstkessel	
+in aller Munde sein	1253	in aller Munde	
+in Amt und Würden	1254	Amt und Würden	
+in anderen Umständen sein	1255	in anderen Umständen	
+in Angst und Schrecken versetzen	1256	Angst und Schrecken + versetz	
+in Asche legen	1257	in Asche + LEGEN	
+in Bausch und Bogen	1258	in Bausch und Bogen	
+in besten Händen sein	1259	in besten Händen	
+in Betracht ziehen	1260	in Betracht + ZIEHEN	
+in das Reich der Schatten hinabsteigen	1261	in das Reich der Schatten + \bhinab(\b|s|z|g) + _STEIGEN	
+in den Arsch gehen	1262	in den Arsch + GEHEN	
+in den Arsch kriechen	1263	in den Arsch + KRIECHEN	
+in den Boden versinken	1264	in den Boden + VERSINKEN	
+in den Clinch gehen	1265	in den Clinch + GEHEN	
+in den Clinch nehmen	1266	in den Clinch + NEHMEN	
+in den Federn	1267	in den Federn	
+in den Hafen der Ehe einlaufen	1268	in den Hafen der Ehe + \bein(\b|l|z|g) + _LAUFEN	
+in den Keller gehen, um zu lachen	1269	um zu lachen + in den Keller + GEHEN	
+in den letzten Zügen liegen	1270	in den letzten Zügen + LIEGEN	
+in den Rücken fallen	1271	in den Rücken + FALLEN	
+in den Sand setzen	1272	in den Sand + SETZEN	
+in den sauren Apfel beißen	1273	in den sauren Apfel	
+in den Schatten stellen	1274	in den Schatten + STELLEN	
+in den Seilen hängen	1275	in den Seilen + häng	
+in den Startlöchern scharren	1276	in den Startlöchern + scharr	
+in den Startlöchern sein	1277	in den Startlöchern + SEIN	
+in den Startlöchern sitzen	1278	in den Startlöchern + SITZEN	
+in den Startlöchern stehen	1279	in den Startlöchern + STEHEN	
+in den Startlöchern warten	1280	in den Startlöchern + warte	
+in den Sternen geschrieben stehen	1281	in den Sternen geschrieben + STEHEN	in den Sternen geschrieben + SEIN
+in den Sternen stehen	1282	in den Sternen + STEHEN	in den Sternen + SEIN
+in der Klemme sitzen	1283	in der Klemme + SITZEN	
+in der Klemme stecken	1284	in der Klemme + STECKEN	
+in der Kreide stehen	1285	in der Kreide + STEHEN	
+in der Lage sein	1286	in der Lage + SEIN	
+in der Luft liegen	1287	in der Luft + LIEGEN	
+in der Patsche sitzen	1288	in der Patsche + SITZEN	
+in der Scheiße sitzen	1289	in der Scheiße + SITZEN	
+in der Scheiße stecken	1290	in der Scheiße + STECKEN	
+in der Schmiere sitzen	1291	in der Schmiere + SITZEN	
+in der Tat	1292	in der Tag	
+in der Tinte sitzen	1293	in der Tinte + SITZEN	
+in der Versenkung verschwinden	1294	in der Versenkung + \bverschw.nd	
+in die Beine gehen	1295	in die Beine + GEHEN	
+in die Binsen gehen	1296	in die Binsen + GEHEN	
+in die Bredouille bringen	1297	in die Bredouille + BRINGEN	
+in die Bresche springen	1298	in die Bresche + SPRINGEN	
+in die Brüche gehen	1299	in die Brüche + GEHEN	
+in die eigene Tasche wirtschaften	1300	in die eigene Tasche + wirtschafte	
+in die Eisen gehen	1301	in die Eisen + GEHEN	
+in die ewigen Jagdgründe eingehen	1302	in die ewigen Jagdgründe + \bein(\b|z|g) + _GEHEN	
+in die Federn	1303	in die Federn	
+in die Hose gehen	1304	in die Hose + GEHEN	
+in die Höhle des Löwen gehen	1305	in die Höhle des Löwen + GEHEN	
+in die Irre gehen	1306	in die Irre + GEHEN	
+in die Luft fliegen	1307	in die Luft + FLIEGEN	
+in die Luft jagen	1308	in die Luft + jag	
+in die Pilze gehen	1309	in die Pilze + GEHEN	
+in die Puschen kommen	1310	in die Puschen + KOMMEN	
+in die Steinzeit zurückbomben	1311	in die Steinzeit + \bzurück(\b|b|z|g) + bomb	
+in die Suppe schauen mehr Augen hinein als heraus	1312	in die Suppe + mehr Augen + hinein + heraus + SCHAUEN	
+in die Trickkiste greifen	1313	in die Trickkiste + GREIFEN	
+in ein Wespennest stechen	1314	in ein Wespennest + STECHEN	
+in einem Affenzahn	1315	in einem Affenzahn	
+in einem fort	1316	in einem fort	
+in einem goldenen Käfig sitzen	1317	in einem goldenen Käfig + SITZEN	
+in einem Stück	1318	in einem Stück	
+in einem Zug	1319	in einem Zug + MANUAL_REVIEW	
+in einem Zuge	1320	in einem Zuge	
+in etwas zu Hause sein	1321	in + zu Hause + SEIN + MANUAL_REVIEW	
+in Fahrt	1322	in Fahrt	
+in festen Händen sein	1323	in festen Händen	
+in flagranti	1324	in flagranti	
+in Flammen aufgehen	1325	in Flammen + \bauf(\b|zugehen|g) + _GEHEN	in Flammen + \bauf(\b|z|g) + _GEHEN
+in Flammen stehen	1326	in Flammen + STEHEN	in Flammen + SEIN
+in Frage kommen	1327	in Frage + KOMMEN	
+in freier Wildbahn	1328	in freier Wildbahn	
+in Furcht und Schrecken versetzen	1329	Furcht und Schrecken + versetz	
+in Gottes Namen	1330	in Gottes Namen	
+in guten Händen sein	1331	in guten Händen	in sicheren Händen
+in Hülle und Fülle	1332	in Hülle und Fülle	
+in jemandem seinen Meister finden	1333	SEINMA Meister + FINDEN	
+in jemandes Namen	1334	in SEINMND Namen	
+in Kauf nehmen	1335	in Kauf + NEHMEN + MANUAL_REVIEW	
+in Kraft treten	1336	in Kraft + TRETEN	in Kraft + SEIN
+in Lohn und Brot sein	1337	in Lohn und Brot	
+in Lohn und Brot stehen	1338	in Lohn und Brot	
+in Minne	1339	in Minne	
+in Morpheus’ Armen	1340	in Morpheus + Armen	
+in Morpheus’ Armen ruhen	1341	in Morpheus + Armen + RUHEN	
+in natura	1342	in natura	
+in Not und Tod	1343	in Not und Tod	
+in null Komma nichts	1344	in null Komma nichts	
+in Rauch und Flammen aufgehen	1345	in Rauch und Flammen + \bauf(\b|z|g) + _GEHEN	
+in rauen Mengen	1346	in rauen Mengen	
+in Reih und Glied	1347	in Reih und Glied	
+in Sack und Asche gehen	1348	in Sack und Asche + GEHEN	
+in Saus und Braus leben	1349	in Saus und Braus + LEBEN	
+in Schach halten	1350	in Schach + HALTEN	
+in See gehen	1351	in See + GEHEN	
+in See stechen	1352	in See + STECHEN	
+in See stoßen	1353	in See + STOẞEN	
+in sicheren Händen sein	1354	in sicheren Händen	
+in sieben Sprachen schweigen	1355	in sieben Sprachen + SCHWEIGEN	
+in Stein gemeißelt sein	1356	in Stein gemeißelt + SEIN	
+in Strömen regnen	1357	in Strömen + regn	
+in Teufels Küche kommen	1358	in Teufels Küche + KOMMEN	
+in trockenen Tüchern	1359	in trockenen Tüchern	
+in vollem Gange sein	1360	in vollem Gange + SEIN	
+in vorauseilendem Gehorsam	1361	in vorauseilendem Gehorsam	
+in Wind und Wetter	1362	in Wind und Wetter	
+in Windeseile	1363	in Windeseile	
+in Zungen sprechen	1364	in Zungen + SPRECHEN	
+in Züchten	1365	in Züchten	
+innere Stimme	1366	innere Stimme	
+ins Auge gehen	1367	ins Auge + GEHEN	
+ins Blaue	1368	ins Blaue	
+ins Bockshorn jagen	1369	ins Bockshorn + jag	
+ins Fettnäpfchen treten	1370	ins Fettnäpfchen + TRETEN	
+ins Gedränge geraten	1371	ins Gedränge + GERATEN	
+ins Gedränge kommen	1372	ins Gedränge + KOMMEN	
+ins Gewicht fallen	1373	ins Gewicht + FALLEN	
+ins gleiche Horn blasen	1374	ins gleiche Horn + BLASEN	
+ins gleiche Horn stoßen	1375	ins gleiche Horn + STOẞEN	
+ins gleiche Horn tuten	1376	ins gleiche Horn + TUTEN	
+ins Gras beißen	1377	ins Gras + BEIẞEN	
+ins Hintertreffen geraten	1378	ins Hintertreffen + GERATEN	
+ins kalte Wasser springen	1379	ins kalte Wasser + SPRINGEN	
+ins Klo greifen	1380	ins Klo + GREIFEN	
+ins Kraut schießen	1381	ins Kraut + SCHIEẞEN	
+ins Lot kommen	1382	ins Lot + KOMMEN	
+ins Ohr gehen	1383	ins Ohr + GEHEN	
+ins rechte Licht rücken	1384	ins rechte Licht + rück	
+ins Reich der Fabel gehören	1385	ins Reich der Fabel + gehör	
+ins Reine schreiben	1386	ins Reine + SCHREIBEN	
+ins Schwarze treffen	1387	ins Schwarze + TREFFEN	
+ins Stocken geraten	1388	ins Stocken + GERATEN	
+ins Wasser fallen	1389	ins Wasser + FALLEN + MANUAL_REVIEW	
+ins Wasser gehen	1390	ins Wasser + GEHEN + MANUAL_REVIEW	
+Ironie des Schicksals	1391	Ironie des Schicksals	
+Irren ist menschlich	1392	Irren ist menschlich	
+Jacke wie Hose sein	1393	Jacke wie Hose	
+jahraus, jahrein	1394	jahraus, jahrein	
+je oller, je doller	1395	je oller, je doller	
+jede Menge	1396	jede Menge	
+jedem das Seine	1397	jedem das Seine	
+jedem Tierchen sein Pläsierchen	1398	jedem Tierchen SEINNA Pläsierchen	
+jeden Pfennig dreimal umdrehen	1399	Pfennig + dreimal + \bum(\b|d|z|g) + dreh	
+jeden Pfennig dreimal umdrehen müssen	1400	Pfennig + dreimal + umdrehen + MÜSSEN	
+jeden Pfennig zweimal umdrehen	1401	Pfennig + zweimal + \bum(\b|d|z|g) + dreh	
+jeden Pfennig zweimal umdrehen müssen	1402	Pfennig + zweimal + umdrehen + MÜSSEN	
+jeder hat sein Bündel zu tragen	1403	SEINNA Bündel zu tragen	
+jedes Wort auf die Goldwaage legen	1404	Wort + auf die Goldwaage + LEGEN	
+jedes Wort auf die Goldwage legen	1405	Wort + auf die Goldwage + LEGEN	
+jemand bekommt Wasser auf die Mühle	1406	Wasser auf die Mühle + BEKOMMEN	
+jemand hat einen Zahn drauf	1407	einen Zahn drauf + HABEN	
+jemandem alles aus der Nase ziehen müssen	1408	alles aus der Nase + ZIEHEN	
+jemandem am Arsch vorbeigehen	1409	am Arsch + \bvorbei(\b|z|g) + _GEHEN	
+jemandem am Herzen liegen	1410	am Herzen + LIEGEN	
+jemandem an die Wäsche gehen	1411	an die Wäsche + GEHEN	
+jemandem ans Bein pissen	1412	ans Bein + piss	
+jemandem ans Herz gewachsen sein	1413	ans Herz + gewachsen + SEIN	
+jemandem auf den Geist gehen	1414	auf den Geist + GEHEN	
+jemandem auf den Keks gehen	1415	auf den Keks + GEHEN	
+jemandem auf den Nägeln brennen	1416	auf den Nägeln + BRENNEN	
+jemandem auf den Senkel gehen	1417	auf den Senkel + GEHEN	
+jemandem auf den Wecker fallen	1418	auf den Wecker + FALLEN	
+jemandem auf den Wecker gehen	1419	auf den Wecker + GEHEN	
+jemandem auf den Zahn fühlen	1420	auf den Zahn + FÜHLEN	
+jemandem auf der Nase herumtanzen	1421	auf der Nase + \bherum(\b|tanz|zutanzen|getanzt) + tanz	auf der Nase + \bherum(\b|t|z|g) + tanz
+jemandem auf der Tasche liegen	1422	auf der Tasche + LIEGEN	
+jemandem auf der Zunge liegen	1423	auf der Zunge + LIEGEN	
+jemandem auf die Finger klopfen	1424	auf die Finger + klopf	
+jemandem auf die Füße treten	1425	auf die Füße + TRETEN	
+jemandem auf die Hühneraugen treten	1426	auf die Hühneraugen + TRETEN	
+jemandem auf die Schliche kommen	1427	auf die Schliche + KOMMEN	
+jemandem auf die Schulter klopfen	1428	auf die Schulter + klopf	
+jemandem auf die Sprünge helfen	1429	auf die Sprünge + HELFEN	
+jemandem aufs Dach steigen	1430	aufs Dach + STEIGEN	
+jemandem aus der Hand fressen	1431	aus der Hand + FRESSEN	
+jemandem aus der Patsche helfen	1432	aus der Patsche + HELFEN	aus der Klemme + HELFEN
+jemandem Avancen machen	1433	Avancen + MACHEN	
+jemandem Bescheid geben	1434	Bescheid + GEBEN	
+jemandem bleibt der Bissen im Hals stecken	1435	der Bissen +  im Hals	
+jemandem bleibt die Sprache weg	1436	die Sprache + \bweg(\b|b|z|g) + _BLEIBEN	
+jemandem bleibt die Spucke weg	1437	die Spucke + \bweg(\b|b|z|g) + _BLEIBEN	
+jemandem Brief und Siegel geben	1438	Brief und Siegel + GEBEN	
+jemandem böhmische Dörfer sein	1439	böhmische Dörfer + SEIN	
+jemandem Dampf machen	1440	Dampf + MACHEN	
+jemandem das Fell gerben	1441	das Fell + gerb	
+jemandem das Fell über die Ohren ziehen	1442	das Fell + über die Ohren + ZIEHEN	
+jemandem das Gas abdrehen	1443	das Gas + \bab(\b|d|z|g) + dreh	
+jemandem das Hackl ins Kreuz hauen	1444	das Hackl ins Kreuz + HAUEN	
+jemandem das Hackl ins Kreuz werfen	1445	das Hackl ins Kreuz + WERFEN	
+jemandem das Handwerk legen	1446	das Handwerk + LEGEN	
+jemandem das Herz abdrücken	1447	das Herz + \bab(\b|d|z|g) + drück	
+jemandem das Herz brechen	1448	das Herz + BRECHEN + MANUAL_REVIEW	
+jemandem das Kraut ausschütten	1449	das Kraut + \baus(\b|s|z|g) + schütte	
+jemandem das letzte Geleit geben	1450	das letzte Geleit + GEBEN	
+jemandem das Ohr abkauen	1451	das Ohr + \bab(\b|k|z|g) + KAUEN	
+jemandem das Salz in der Suppe nicht gönnen	1452	das Salz in der Suppe + nicht + gönn	
+jemandem das Wasser abgraben	1453	das Wasser + \bab(\b|zugraben|g) + _GRABEN	das Wasser + \bab(\b|z|g) + _GRABEN
+jemandem den Buckel runterrutschen	1454	den Buckel + \brunter(\b|r|z|g) + rutsch	
+jemandem den Garaus machen	1455	den Garaus + MACHEN	
+jemandem den Geldhahn abdrehen	1456	den Geldhahn + \bab(\b|d|z|g) + dreh	
+jemandem den Hals abdrehen	1457	den Hals + \bab(\b|d|z|g) + dreh	
+jemandem den Hof machen	1458	den Hof + MACHEN	
+jemandem den Kopf verdrehen	1459	den Kopf + verdreh	
+jemandem den Laufpass geben	1460	den Laufpass + GEBEN	den Laufpass + BEKOMMEN
+jemandem den Leviten lesen	1461	den Leviten + LESEN	
+jemandem den Marsch blasen	1462	den Marsch + BLASEN	
+jemandem den Mund verbieten	1463	den Mund + VERBIETEN	
+jemandem den Rücken freihalten	1464	den Rücken + \bfrei(\b|h|z|g) + _HALTEN	
+jemandem den Rücken stärken	1465	den Rücken + stärk	
+jemandem den Schwarzen Peter zuschieben	1466	den Schwarzen Peter + \bzu(\b|sch|zuschieben|geschoben) + _SCHIEBEN	den Schwarzen Peter + \bzu(\b|s|z|g) + _SCHIEBEN
+jemandem den Schwarzen Peter zuspielen	1467	den Schwarzen Peter + \bzu(\b|s|z|g) + spiel	
+jemandem den Vogel zeigen	1468	den Vogel + ZEIGEN	
+jemandem den Wind aus den Segeln nehmen	1469	den Wind aus den Segeln + NEHMEN	
+jemandem den Zahn ziehen	1470	den Zahn + ZIEHEN	
+jemandem die Butter vom Brot nehmen	1471	die Butter + vom Brot + NEHMEN	
+jemandem die Daumen drücken	1472	die Daumen + drück	
+jemandem die Flötentöne beibringen	1473	die Flötentöne + \bbei(\b|b|z|g) + _BRINGEN	
+jemandem die Fresse polieren	1474	die Fresse + polier	
+jemandem die Füße küssen	1475	die Füße + küss	
+jemandem die Gurgel abdrehen	1476	die Gurgel + \bab(\b|d|z|g) + dreh	
+jemandem die Hammelbeine lang ziehen	1477	die Hammelbeine + lang + ZIEHEN	
+jemandem die Hammelbeine langziehen	1478	Hammelbeine + \blang(\b|z|z|g) + _ZIEHEN	
+jemandem die Hörner aufsetzen	1479	die Hörner + \bauf(\b|s|z|g) + _SETZEN	
+jemandem die Hörner zeigen	1480	die Hörner + ZEIGEN	
+jemandem die kalte Schulter zeigen	1481	die kalte Schulter	die kalte Schulter + ZEIGEN
+jemandem die Laune verhageln	1482	die Laune + verhag(el|le)	
+jemandem die Leviten lesen	1483	die Leviten + LESEN	
+jemandem die Luft abdrehen	1484	die Luft + \bab(\b|d|z|g) + dreh	
+jemandem die Luft abdrücken	1485	die Luft + \bab(\b|d|z|g) + drück	
+jemandem die Löffel langziehen	1486	die Löffel + \blang(\b|z|z|g) + _ZIEHEN	
+jemandem die Ohren abkauen	1487	die Ohren + \bab(\b|k|z|g) + KAUEN	
+jemandem die Ohren langziehen	1488	die Ohren + \blang(\b|z|z|g) + _ZIEHEN	
+jemandem die Pistole auf die Brust setzen	1489	die Pistole + auf die Brust + SETZEN	
+jemandem die Schuld in die Schuhe schieben	1490	die Schuld + in die Schuhe + SCHIEBEN	
+jemandem die Sprache rauben	1491	die Sprache + raub	
+jemandem die Sprache verschlagen	1492	die Sprache + VERSCHLAGEN	
+jemandem die Stange halten	1493	die Stange + HALTEN	
+jemandem die Stiefel lecken	1494	die Stiefel + LECKEN	
+jemandem die Suppe versalzen	1495	die Suppe + versalz	
+jemandem die Worte in den Mund legen	1496	die Worte + in den Mund + LEGEN	
+jemandem die Zeit stehlen	1497	die Zeit + STEHLEN + MANUAL_REVIEW	
+jemandem die Zunge lösen	1498	die Zunge + LÖSEN	
+jemandem diesen Zahn ziehen	1499	diesen Zahn + ZIEHEN	
+jemandem dreht sich alles im Kreis	1500	SICH + alles im Kreis + dreh	
+jemandem durch die Finger schlüpfen	1501	durch die Finger + schlüpf	
+jemandem durch die Lappen gehen	1502	durch die Lappen + GEHEN	
+jemandem ein Buch mit sieben Siegeln sein	1503	ein Buch + mit sieben Siegeln + SEIN	
+jemandem ein Dorn im Auge sein	1504	ein Dorn im Auge	
+jemandem ein Kuckucksei ins Nest legen	1505	ein Kuckucksei + ins Nest + LEGEN	
+jemandem ein Ohr abkauen	1506	ein Ohr + \bab(\b|k|z|g) + KAUEN	
+jemandem ein Ohr abreden	1507	ein Ohr + \bab(\b|r|z|g) + _REDEN	
+jemandem ein paar scheuern	1508	ein paar + scheuer + MANUAL_REVIEW	
+jemandem ein Schnippchen schlagen	1509	ein Schippchen + SCHLAGEN	
+jemandem ein X für ein U vormachen	1510	ein X + für ein U \bvor(\b|m|z|g) + _MACHEN	
+jemandem eine Abfuhr erteilen	1511	eine Abfuhr + \berteil	
+jemandem eine auflegen	1512	eine + \bauf(\b|leg|zulegen|gelegt) + _LEGEN + MANUAL_REVIEW	eine + \bauf(\b|l|z|g) + _LEGEN + MANUAL_REVIEW
+jemandem eine kleben	1513	eine + kleb + MANUAL_REVIEW	
+jemandem eine scheuern	1514	eine + scheuer + MANUAL_REVIEW	
+jemandem einen Bären aufbinden	1515	einen Bären + \bauf(\b|b|z|g) + _BINDEN	
+jemandem einen Bärendienst erweisen	1516	einen Bärendienst + ERWEISEN	
+jemandem einen Denkzettel geben	1517	einen Denkzettel + GEBEN	
+jemandem einen Denkzettel verpassen	1518	einen Denkzettel + verpass	
+jemandem einen Floh ins Ohr setzen	1519	einen Floh ins Ohr + SETZEN	
+jemandem einen Korb geben	1520	einen Korb + GEBEN	
+jemandem einen Lichasdienst erweisen	1521	einen Lichasdienst + ERWEISEN	
+jemandem einen Maulkorb verpassen	1522	einen Maulkorb + verpass	
+jemandem einen Strich durch die Rechnung machen	1523	einen Strich + durch die Rechnung	
+jemandem einen Strick aus etwas drehen	1524	einen Strick + aus + dreh	
+jemandem einen Vogel zeigen	1525	einen Vogel + ZEIGEN	
+jemandem eins auswischen	1526	eins + \baus(\b|wisch|zuwischen|gewischt) + wisch	eins + \baus(\b|w|z|g) + wisch
+jemandem etwas aufs Auge drücken	1527	aufs Auge + drück	
+jemandem etwas aus der Nase ziehen	1528	aus der Nase + ZIEHEN	
+jemandem etwas hoch anrechnen	1529	hoch + \ban(\b|rechn|zurechnen|gerechnet) + rechn	hoch + \ban(\b|r|z|g) + rechn
+jemandem etwas in die Schuhe schieben	1530	in die Schuhe + SCHIEBEN	
+jemandem etwas mit gleicher Münze heimzahlen	1531	Münze + gleich + zahl	
+jemandem fehlen die Worte	1532	die Worte + fehl	
+jemandem Feuer unterm Arsch machen	1533	Feuer (unterm|unter dem) Arsch + MACHEN	
+jemandem Feuer unterm Hintern machen	1534	Feuer (unterm|unter dem) Hintern + MACHEN	
+jemandem Flötentöne beibringen	1535	Flötentöne + \bbei(\b|b|z|g) + _BRINGEN	
+jemandem fällt das Monokel in den Kakao	1536	das Monokel + in den Kakao + FALLEN	
+jemandem fällt die Decke auf den Kopf	1537	die Decken auf den Kopf + FALLEN	
+jemandem fällt ein Stein vom Herzen	1538	ein Stein + vom Herzen + FALLEN	
+jemandem gegen den Strich gehen	1539	gegen den Strich + GEHEN	
+jemandem geht das Messer im Sack auf	1540	das Messer + im Sack + \bauf(\b|g|z) + _GEHEN	
+jemandem geht das Messer in der Hose auf	1541	das Messer + in der Hose + \bauf(\b|g|z) + _GEHEN	
+jemandem geht das Messer in der Tasche auf	1542	das Messer + in der Tasche + \bauf(g|\b) + _GEHEN	
+jemandem geht der Arsch auf Grundeis	1543	der Arsch auf Grundeis + GEHEN	
+jemandem geht der Hut hoch	1544	der Hut + \bhoch(\b|z|g) + _GEHEN	
+jemandem geht einer ab	1545	einer + \bab(\b|zugehen|g) + _GEHEN	einer + \bab(\b|z|g) + _GEHEN
+jemandem Glauben schenken	1546	Glauben + schenk	
+jemandem gleich sein	1547	gleich + SEIN + MANUAL_REVIEW	
+jemandem Honig um den Bart schmieren	1548	Honig um den Bart + schmier	
+jemandem Honig um den Mund schmieren	1549	Honig um den Mund + schmier	
+jemandem Honig ums Maul schmieren	1550	Honig ums Maul + schmier	Honig um den (Bart|Mund) + schmier
+jemandem hängt der Magen in den Kniekehlen	1551	der Magen + in den Kniekehlen	
+jemandem hängt die Zunge zum Hals heraus	1552	die Zunge + zum Hals + \bheraus(\b|h|z|g) + häng	
+jemandem Hörner aufsetzen	1553	Hörner + \bauf(\b|s|z|g) + _SETZEN	
+jemandem im Nacken sitzen	1554	im Hacken + SITZEN	
+jemandem in den Kram passen	1555	in den Kram + pass	
+jemandem in den Schoß fallen	1556	in den Schoß + FALLEN	
+jemandem in den Suppentopf fallen	1557	in den Suppentopf + FALLEN	
+jemandem in die Glieder fahren	1558	in die Glieder + FAHREN	
+jemandem in die Karten schauen	1559	in die Karten + SCHAUEN + MANUAL_REVIEW	
+jemandem in die Suppe fallen	1560	in die Suppe + FALLEN	
+jemandem in die Suppe spucken	1561	in die Suppe + spuck	
+jemandem ins Handwerk pfuschen	1562	ins Handwerk + pfusch	
+jemandem ist eine Laus über die Leber gelaufen	1563	eine Laus + über die Leben + gelaufen + SEIN	
+jemandem jemanden auf den Hals hetzen	1564	auf den Half + hetz	
+jemandem kann man das Vaterunser durch die Backen blasen	1565	das Vaterunser + durch die Backen + BLASEN	
+jemandem keinen Bissen Brot gönnen	1566	Bissen + Brot + gönn	
+jemandem kocht das Blut in den Adern	1567	das Blut + in den Adern + koch	
+jemandem Kontra geben	1568	Kontra + GEBEN	
+jemandem Löcher in den Bauch fragen	1569	Löcher + in den Bauch + frag	
+jemandem nicht das Schwarze unter den Fingernägeln gönnen	1570	nicht + das Schwarze + unter den Fingernägeln + gönn	
+jemandem nicht das Schwarze unter den Nägeln gönnen	1571	das Schwarze + unter den Nageln + gönn	
+jemandem nicht das Wasser reichen können	1572	nicht das Wasser reichen + KÖNNEN	
+jemandem nicht den Bissen Brot gönnen	1573	Bissen + Brot + gönn	
+jemandem nicht die Butter auf dem Brot gönnen	1574	nicht die Butter auf dem Brot + gönn	
+jemandem nicht grün sein	1575	nicht grün + SEIN	
+jemandem nichts abgucken	1576	nichts + \bab(\b|g|z) + guck	
+jemandem nichts weggucken	1577	nichts + \bweg(\b|z|g) + guck	
+jemandem platzt der Kragen	1578	der Kragen + platz	
+jemandem Rede und Antwort stehen	1579	Rede und Antwort	zur Rede + STELLEN
+jemandem reinen Wein einschenken	1580	reinen Wein + \bein(\b|schenk|zuschenken|geschenkt) + schenk	reinen Wein + \bein(\b|s|z|g) + schenk
+jemandem Sand in die Augen streuen	1581	Sand in die Augen + streu	
+jemandem schöne Augen machen	1582	schöne Augen + MACHEN	
+jemandem sind die Hände gebunden	1583	die Hände + gebunden	
+jemandem steht das Wasser bis zum Hals	1584	Wasser + bis zum Hals + STEHEN	
+jemandem steht das Wasser bis zur Kehle	1585	das Wasser + bis zur Kehle + STEHEN	
+jemandem unter den Fingernägeln brennen	1586	unter den Fingernägeln + BRENNEN	
+jemandem unter den Nägeln brennen	1587	unter den Nägeln + BRENNEN	
+jemandem verschlägt es die Sprache	1588	es + die Sprache + VERSCHLAGEN	
+jemandem zu Bewusstsein kommen	1589	zu Bewusstsein + KOMMEN	
+jemandem zu nahe treten	1590	zu nahe + TRETEN	
+jemandem zum Bewusstsein kommen	1591	zum Bewusstsein + KOMMEN	
+jemandem zur Hand gehen	1592	zur Hand + GEHEN	
+jemandem zur Last fallen	1593	zur Last + FALLEN	
+jemandem zur Seite springen	1594	zur Seite + SPRINGEN	
+jemandem zur Seite treten	1595	zur Seite + TRETEN	
+jemandem über den Weg laufen	1596	über den Weg + LAUFEN	
+jemanden am Schlafittchen haben	1597	am Schlafittchen	
+jemanden an den Bettelstab bringen	1598	an den Bettelstab + BRINGEN	
+jemanden an den Galgen bringen	1599	an den Galgen + BRINGEN	
+jemanden an der Nase herumführen	1600	an der Nase + \bherum(\b|führ|zuführen|geführt) + FÜHREN	an der Nase + \bherum(\b|f|z|g) + FÜHREN
+jemanden an die Kandare bekommen	1601	an die Kandare + BEKOMMEN	
+jemanden an die Kandare bringen	1602	an die Kandare + BRINGEN	
+jemanden an die Kandare nehmen	1603	an die Kandare + NEHMEN	
+jemanden an die Wand spielen	1604	an die Wand + spiel	
+jemanden an die Wand stellen	1605	an die Wand + STELLEN	
+jemanden auf den Arm nehmen	1606	auf den Arm + NEHMEN	
+jemanden auf den Plan rufen	1607	auf den Plan + RUFEN	
+jemanden auf die Folter spannen	1608	auf die Folter + spann	
+jemanden auf die Hörner nehmen	1609	auf die Hörner + NEHMEN	
+jemanden auf die Palme bringen	1610	auf die Palme + BRINGEN	
+jemanden auf die Schaufel nehmen	1611	auf die Schaufel + NEHMEN	
+jemanden auf die Schippe nehmen	1612	auf die Schippe + NEHMEN	
+jemanden aufs Altenteil schicken	1613	aufs Altenteil + schick	
+jemanden aufs Korn nehmen	1614	aufs Korn + NEHMEN	
+jemanden aus der Gosse auflesen	1615	aus der Gosse + \bauf(\b|l|z|g) + _LESEN	
+jemanden ausnehmen wie eine Weihnachtsgans	1616	wie eine Weihnachtsgans	
+jemanden bringen keine zehn Pferde irgendwohin	1617	keine zehn Pferde + BRINGEN	
+jemanden den Teufel scheren	1618	den Teufel + scher	
+jemanden den Wölfen zum Fraß vorwerfen	1619	den Wölfen zum Fraß + \bvor(\b|w|z|g) + _WERFEN	
+jemanden durch den Kakao ziehen	1620	durch den Kakao + ZIEHEN	
+jemanden durch den Wolf drehen	1621	durch den Wolf + dreh	durch den Fleischwolf + dreh
+jemanden einen feuchten Kehricht angehen	1622	einen feuchten Kehricht + \ban(\b|z|g) + _GEHEN	
+jemanden einen Kopf kürzer machen	1623	einen Kopf kürzer + MACHEN	
+jemanden für dumm verkaufen	1624	für dumm + verkauf	
+jemanden für voll ansehen	1625	für voll + \ban(\b|s|z|g) + _SEHEN	
+jemanden für voll nehmen	1626	für voll + NEHMEN	
+jemanden fürchten wie der Teufel das Weihwasser	1627	wie der Teufel + das Weihwasser	
+jemanden gefressen haben	1628	gefressen + HABEN + MANUAL_REVIEW	
+jemanden gut im Zug haben	1629	gut im Zug + HABEN	
+jemanden hellhörig machen	1630	hellhörig + MACHEN	
+jemanden hinter die Fichte führen	1631	hinter die Fichte + FÜHREN	
+jemanden hinters Licht führen	1632	hinters Licht + FÜHREN	
+jemanden im eigenen Saft schmoren lassen	1633	im eigenen Saft schmoren + LASSEN	
+jemanden im Regen stehen lassen	1634	im Regen stehen + LASSEN	
+jemanden im Stich lassen	1635	im Stich + LASSEN	
+jemanden in Atem halten	1636	in Atem + HALTEN	
+jemanden in den April schicken	1637	in den April + schick	
+jemanden in den Senkel stellen	1638	in den Senkel + STELLEN	
+jemanden in die Finger bekommen	1639	in die Finger + BEKOMMEN	
+jemanden in die Finger kriegen	1640	in die Finger + KRIEGEN	
+jemanden in die Knie zwingen	1641	in die Knie + ZWINGEN	
+jemanden in die Mangel nehmen	1642	in die Mangel + NEHMEN	
+jemanden in die Wüste schicken	1643	in die Wüste + schick	
+jemanden in die Zange nehmen	1644	in die Zange + NEHMEN	
+jemanden in Watte packen	1645	in Watte + pack	
+jemanden in Zuckerwatte packen	1646	in Zuckerwatte + pack	
+jemanden ins Herz schließen	1647	ins Herz + SCHLIEẞEN	
+jemanden ins kalte Wasser werfen	1648	ins Kalte Wasser + WERFEN	
+jemanden koram nehmen	1649	koram + NEHMEN	
+jemanden kreuzweise können	1650	kreuzweise + KÖNNEN	
+jemanden Lügen strafen	1651	Lügen + straf	
+jemanden mit Glacéhandschuhen anfassen	1652	mit Glac.handschuhen + \ban(\b|f|z|g) + fass	
+jemanden mit ins Boot holen	1653	ins Boot + HOLEN	
+jemanden mit offenen Armen aufnehmen	1654	mit offenen Armen + \bauf(\b|n|zunehmen|genommen) + _NEHMEN	mit offenen Armen + \bauf(\b|n|z|g) + _NEHMEN
+jemanden mit offenen Armen empfangen	1655	mit offenen Armen + EMPFANGEN	
+jemanden mit Samthandschuhen anfassen	1656	mit Samthandschuhen + \ban(\b|f|z|g) + fass	
+jemanden Mores lehren	1657	Mores + lehr	
+jemanden Moritz lehren	1658	Moritz + lehr	
+jemanden mundtot machen	1659	mundtot + MACHEN	
+jemanden nicht für voll nehmen	1660	jemanden nicht für voll nehmen	
+jemanden nicht mit dem Arsch angucken	1661	nicht + mit dem Arsch + \ban(\b|s|z|g) + guck	
+jemanden nicht mit dem Arsch ansehen	1662	nicht + mit dem Arsch + \ban(\b|s|z|g) + _SEHEN	
+jemanden teuer zu stehen kommen	1663	teuer zu stehen + KOMMEN	
+jemanden um den kleinen Finger wickeln	1664	um den Finger + wick(el|le)	um den kleinen Finger + wickel
+jemanden um die Ecke bringen	1665	um die Ecke + BRINGEN	
+jemanden um Lohn und Brot bringen	1666	um Lohn und Brot + BRINGEN	
+jemanden ungespitzt in den Boden hauen	1667	ungespitz + in den Boden + HAUEN	
+jemanden ungespitzt in den Boden rammen	1668	ungespitzt + in den Boden + ramm	
+jemanden ungespitzt in den Boden schlagen	1669	ungespitzt + in den Boden + SCHLAGEN	
+jemanden unter der Fuchtel haben	1670	unter der Fuchtel + HABEN	
+jemanden unter die Erde bringen	1671	unter die Erde + BRINGEN	
+jemanden unter Druck setzen	1672	unter Druck + SETZEN	
+jemanden unter seine Fittiche nehmen	1673	unter SEINPA Fittiche + NEHMEN	
+jemanden vom Hocker hauen	1674	vom Hocker + HAUEN	
+jemanden vom Hocker reißen	1675	vom Hocker + REIẞEN	
+jemanden vom rechten Weg abbringen	1676	vom rechten Weg + \bab(\b|b|z|g) + _BRINGEN	vom rechten Weg + \bab(b|k|z|g) + _KOMMEN
+jemanden vor seinen Karren spannen	1677	vor seinen Karren + spann	
+jemanden wie Luft behandeln	1678	wie Luft + behand(el|le)	
+jemanden windelweich prügeln	1679	windelweich + prüg(el|le)	
+jemanden windelweich schlagen	1680	winderweich + SCHLAGEN	
+jemanden zum Hahnrei machen	1681	zum Hahnrei + MACHEN	
+jemanden zum Narren halten	1682	zum Narren + HALTEN	
+jemanden zum Teufel schicken	1683	zum Teufel + schick	
+jemanden zur Minna machen	1684	zur Minna + MACHEN	
+jemanden zur Rede stellen	1685	zur Rede + STELLEN	
+jemanden zur Schnecke machen	1686	zur Schnecke + MACHEN	
+jemanden zur Seite nehmen	1687	zur Seite + NEHMEN	
+jemanden zur Strecke bringen	1688	zur Strecke + BRINGEN	
+jemanden über den Haufen fahren	1689	über den Haufen + FAHREN	
+jemanden über den Haufen rennen	1690	über den Haufen + RENNEN	
+jemanden über den Löffel barbieren	1691	über den Löffel + barbier	
+jemanden über den Tisch ziehen	1692	über den Tisch + ZIEHEN	
+jemanden übers Knie legen	1693	übers Knie + LEGEN	
+jemandes bessere Hälfte	1694	SEINFN bessere Hälfte	
+jemandes Herr werden	1695	Herr + WERDEN + MANUAL_REVIEW	
+jemandes Kreise stören	1696	SEINFA Kreise + STÖREN	
+jemandes letztes Stündlein hat geschlagen	1697	Stündlein + geschlagen + HABEN	
+jemandes Mann sein	1698	SEINMN Mann + SEIN	
+jemandes Strümpfe ziehen Wasser	1699	Strümpfe + (ziehen|zogen|gezogen) + Wasser	
+jetzt schlägts dreizehn	1700	jetzt schlägt.?s dreizehn	
+Jubel, Trubel, Heiterkeit	1701	Jubel + Trubel + Heiterkeit	
+junges Gemüse	1702	\b[Jj]unge[smn]? Gemüses?\b	
+kalte Dusche	1703	\b[Kk]alte\b.*Dusche\b	
+kalte Füße bekommen	1704	kalte Füße + BEKOMMEN	
+kaltes Blut bewahren	1705	kaltes Blut + \bbewahr	
+katholischer als der Papst sein	1706	katholischer + als der Papst + SEIN	
+kein Aas	1707	kein\w* Aas	kein Aas
+kein Arsch	1708	kein\w* Arsch	
+kein Auge zutun	1709	kein Auge + \bzu(\b|t|z|g) + ZUTUN	
+kein Blatt vor den Mund nehmen	1710	kein Blatt + vor den Mund + NEHMEN	
+kein Einsehen haben	1711	kein Einsehen + HABEN	
+kein gutes Haar an etwas lassen	1712	kein gutes Haar + an + LASSEN	
+kein gutes Haar an jemandem lassen	1713	kein gutes Haar + an + LASSEN	
+kein heuriger Hase sein	1714	kein heuriger Hase + SEIN	
+kein Kind von Traurigkeit sein	1715	kein\w* Kind von Traurigkeit	
+kein Krösus sein	1716	kein Krösus + SEIN	
+kein schöner Zug von jemandem sein	1717	kein schöner Zug (da)?von + SEIN	
+kein Sterbenswörtchen sagen	1718	kein Sterbenswörtchen + SAGEN	
+kein unbeschriebenes Blatt sein	1719	kein unbeschriebenes Blatt + SEIN	
+kein Wunder	1720	kein\w* Wunder	
+kein Wässerchen trüben können	1721	kein Wässerchen + trüben + KÖNNEN	
+kein Zuckerschlecken sein	1722	kein Zuckerschlecken + SEIN	
+keine Aktien in etwas haben	1723	keine Aktien in + HABEN	
+keine Augen im Kopf haben	1724	keine Augen im Kopf + HABEN	
+keine Eier in der Hose haben	1725	keine Eier in der Hose + HABEN	
+keine Hand rühren	1726	keine Hand + rühr	
+keine Menschenseele	1727	keine\w* Menschenseele	
+keine Rolle spielen	1728	keine Rolle + spiel	
+keine Sau	1729	keine\w* Sau	
+keine Schnitte haben	1730	keine Schnitte + HABEN	
+keine Verwandten kennen	1731	keine Verwandten + KENNEN	
+keinen Abgang finden	1732	keinen Abgang + FINDEN	
+keinen Arsch in der Hose haben	1733	keinen Arsch in der Hose + HABEN	
+keinen blassen Dunst haben	1734	keinen blassen Dunst + HABEN	
+keinen blassen Schimmer haben	1735	keinen (blassen)*Schimmer + HABEN	
+keinen Bock haben	1736	keinen Bock	
+keinen Fick auf etwas geben	1737	keinen Fick auf + GEBEN	
+keinen Finger krumm machen	1738	keinen Finger krumm + MACHEN	
+keinen Finger rühren	1739	keinen Finger + rühr	
+keinen Groschen wert sein	1740	keinen Groschen wert + SEIN	
+keinen guten Faden an jemandem lassen	1741	keinen guten Faden + an + LASSEN	
+keinen guten Faden miteinander spinnen	1742	keinen guten Faden + einander + spinn	
+keinen Hehl aus etwas machen	1743	\b([Kk]einen|[Nn]ie einen) Hehl\b + aus + MACHEN	einen Hehl + aus +MACHEN
+keinen Heller wert sein	1744	keinen Heller wert + SEIN	
+keinen Pfennig wert sein	1745	keinen Pfennig wert + SEIN	
+keinen Pfifferling wert sein	1746	keinen Pfifferling wert + SEIN	
+keinen Plan haben	1747	keinen Plan + HABEN	
+keinen Schimmer haben	1748	keinen Schimmer + HABEN	
+Kette geben	1749	Kette\b + GEBEN + MANUAL_REVIEW	
+Kilometer fressen	1750	Kilometer + FRESSEN	
+Klappe zu, Affe tot	1751	Klappe zu, Affe tot	
+klar Schiff machen	1752	klar Schiff + MACHEN	
+klar wie Kloßbrühe	1753	Kloßbrühe	
+klar zum Halsen	1754	klar zum Halsen	
+klar zum Wenden	1755	klar zum Wenden	
+klein beigeben	1756	klein + \bbei(\b|g.b|zugeben|gegeben) + _GEBEN	klein + \bbei(\b|z|g) + _GEBEN
+klein, aber fein	1757	klein, aber fein	
+klein-klein spielen	1758	klein-klein + spiel	
+kleine Brötchen backen	1759	kleine Brötchen + back	
+kleinere Brötchen backen	1760	kleinere Brötchen + back	
+Kleinvieh macht auch Mist	1761	Kleinvieh + auch + Mist + MACHEN	
+Klinken putzen	1762	Klinken + putz	
+klipp und klar	1763	klipp und klar	
+Knast schieben	1764	Knast + SCHIEBEN	
+Kohldampf schieben	1765	Kohldampf + SCHIEBEN	
+komme, was wolle	1766	komme\b + was wolle\b	
+Kommen und Gehen	1767	Kommen und Gehen	
+kommt Zeit, kommt Rat	1768	kommt Zeit + kommt Rat	
+Kopf hoch	1769	Kopf hoch	
+Kopf und Kragen riskieren	1770	Kopf und Kragen + riskier	
+koste es, was es wolle	1771	koste es + was es wolle	
+Kreide fressen	1772	Kreide + FRESSEN	
+Kreise ziehen	1773	Kreise + ZIEHEN	
+Krethi und Plethi	1774	Krethi und Plethi	
+Kult sein	1775	Kult + SEIN + MANUAL_REVIEW	
+kurz angebunden	1776	kurz angebunden	
+kurz und bündig	1777	kurz und bündig	
+kurz vor Ultimo	1778	kurz vor Ultimo	
+Lack gesoffen haben	1779	Lack gesoffen + HABEN	
+Land gewinnen	1780	Land + GEWINNEN + MANUAL_REVIEW	
+Land unter	1781	Land unter + MANUAL_REVIEW	
+landauf, landab	1782	landauf, landab	
+lange Rede, kurzer Sinn	1783	lange Rede + kurzer Sinn	
+langer Rede kurzer Sinn	1784	langer Rede + kurzer Sinn	
+laut denken	1785	laut + DENKEN	
+Laut geben	1786	Laut + GEBEN + MANUAL_REVIEW	
+leben und leben lassen	1787	leben und leben + LASSEN	
+leben wie Gott in Frankreich	1788	wie Gott in Frankreich	
+leck mich am Arsch	1789	leck mich am Arsch	
+leeres Stroh dreschen	1790	leeres Stroh + dresch	
+leeres Versprechen	1791	\b[Ll]eere[smn]? Versprechens?\b	
+Leib und Leben	1792	Leib und Leben	
+Leib und Seele	1793	Leib und Seele	
+leichten Herzens	1794	leichten Herzens	
+Leine ziehen	1795	Leine + ZIEHEN	
+letzte Grüße aus Davos	1796	letzte Grüße aus Davos	
+let’s fetz	1797	let’s fetz	
+lichterloh im Strafraum brennen	1798	lichterloh + im Strafraum + BRENNEN	
+Liebe auf den ersten Blick	1799	Liebe auf den ersten Blick	
+Liebe machen	1800	Liebe + MACHEN	
+Liebe macht blind	1801	Liebe macht blind	
+Liebe und Grießschmarren	1802	Liebe und Grießschmarren	
+lieben lernen	1803	lieben + LERNEN + MANUAL_REVIEW	
+lieber ein Ende mit Schrecken als ein Schrecken ohne Ende	1804	ein Ende mit Schrecken + ein Schrecken ohne Ende	
+linke Tasche, rechte Tasche	1805	linke Tasche, rechte Tasche	
+links liegen lassen	1806	links liegen + LASSEN	
+locker vom Hocker	1807	locker vom Hocker	
+Luft holen	1808	Luft + HOLEN	
+Luftschlösser bauen	1809	Luftschlösser + BAUEN	
+Lunte riechen	1810	Lunte + RIECHEN	
+lästiges Wimmerl	1811	\b[Ll]ästige[smn]? Wimmerls?\b	
+lügen wie gedruckt	1812	wie gedruckt + LÜGEN	
+lügen, dass sich die Balken biegen	1813	die Balken + LÜGEN	
+macht nichts	1814	macht nichts + MANUAL_REVIEW	
+machtlos vis-à-vis stehen	1815	machtlos vis-à-vis + STEHEN	machtlos vis-à-vis + SEIN
+mach’s gut	1816	mach’s gut	
+man lernt nie aus	1817	man lernt nie aus	
+Mann und Maus	1818	Mann und Maus	
+Manschetten haben	1819	Manschetten + HABEN	
+Marke Bahndamm	1820	Marke Bahndamm	
+Marke Eigenbau	1821	Marke Eigenbau	
+maschallah	1822	maschallah	
+matt setzen	1823	matt + SETZEN	
+Matthäi am Letzten sein	1824	Matthäi am Letzten + SEIN	
+Maulaffen feilhalten	1825	Maulaffen + \bfeil(\b|h|z|g) + _HALTEN	
+mehr Glück als Verstand haben	1826	mehr Glück als Verstand + HABEN	
+mehr schlecht als recht	1827	mehr schlecht als recht	
+mehr Schulden als Haare auf dem Kopf haben	1828	Schulden + Haare auf dem Kopf + HABEN	
+mehrere Eisen im Feuer haben	1829	Eisen im Feuer	
+mein lieber Herr Gesangsverein	1830	mein lieber Herr Gesangsverein	
+mein lieber Scholli	1831	mein lieber Scholli	
+mein lieber Schwan	1832	mein lieber Schwan	
+mein Name ist Hase	1833	mein Name ist Hase	
+meine Fresse	1834	meine Fresse	
+meine Wenigkeit	1835	meine Wenigkeit	
+mir nichts, dir nichts	1836	mir nichts, dir nichts	
+mit Abstand	1837	mit Abstand	
+mit Ach und Krach	1838	mit Ach und Krach	
+mit allem und jedem rechnen	1839	mit allem und jedem + rechn	
+mit allen Hunden gehetzt sein	1840	mit allen Hunden gehetzt + SEIN	
+mit allen Schikanen	1841	mit allen Schikanen	
+mit allen Wassern gewaschen sein	1842	mit allen Wassern + gewaschen + SEIN	
+mit Alsterwasser getauft sein	1843	mit Alsterwasser + getauft + SEIN	
+mit angezogener Handbremse	1844	mit angezogener Handbremse	
+mit Blitzesschnelle	1845	mit Blitzesschnelle	
+mit bloßem Auge	1846	mit bloßem Auge	
+mit Bomben und Granaten	1847	mit Bomben und Granaten	
+mit dem Feuer spielen	1848	mit dem Feuer + spiel	ein Spiel + mit dem Feuer
+mit dem Klammerbeutel gepudert sein	1849	mit dem Klammerbeutel gepudert + SEIN	
+mit dem Kopf durch die Wand wollen	1850	mit dem Kopf + durch die Wand + WOLLEN	
+mit dem Latein am Ende sein	1851	mit dem Latein am Ende + SEIN	
+mit dem linken Fuß zuerst aufgestanden sein	1852	mit dem linken Fuß + aufgestanden + SEIN	
+mit dem Ofenrohr ins Gebirge gucken	1853	mit dem Ofenohr + ins Gebirge + guck	
+mit dem Ofenrohr ins Gebirge schauen	1854	mit dem Ofenrohr + ins Gebirge + SCHAUEN	
+mit dem Rücken zur Wand stehen	1855	mit dem Rücken zur Wand	
+mit dem Strom schwimmen	1856	mit dem Strom + SCHWIMMEN	
+mit dem Säbel rasseln	1857	mit dem Säbel + rass(el|le)	
+mit dem Zaunpfahl winken	1858	mit + Zaunpfahl + wink	
+mit den Hufen scharren	1859	mit den Hufen + scharr	
+mit den Schultern zucken	1860	mit den Schultern + zuck	
+mit den Wölfen heulen	1861	mit + Wölfen + heul	
+mit der fünfzinkigen Gabel essen	1862	mit der fünfzinkigen Gabel + ESSEN	
+mit der Sprache herausrücken	1863	mit der Sprache + \bheraus(\b|r|z|g) + rück	
+mit der Tür ins Haus fallen	1864	mit der Tür ins Haus + FALLEN	
+mit der Wurst nach dem Schinken werfen	1865	mit der Wurst + nach dem Schinken + WERFEN	
+mit doppelter Zunge reden	1866	mit doppelter Zunge + REDEN	
+mit doppelter Zunge sprechen	1867	mit doppelter Zunge + SPRECHEN	
+mit einem Avec	1868	mit einem Avec	
+mit einem Bein im Gefängnis stehen	1869	mit einem Bein im Gefängnis + STEHEN	mit einem Bein im Gefängnis + SEIN
+mit einem blauen Auge davonkommen	1870	mit einen blauen Auge + \bdavon(\b|k|z|g) + _KOMMEN	
+mit einem Fuß im Grab stehen	1871	mit + Fuß im Grab + STEHEN	
+mit einem Mal	1872	mit einem Mal	
+mit einem Schlag	1873	mit einem Schlag	
+mit eisernem Besen kehren	1874	mit eisernem Besen + kehr	
+mit erhobenem Zeigefinger	1875	mit erhobenem Zeigefinger	
+mit etwas hinter dem Berg halten	1876	hinter dem Berg + HALTEN	
+mit etwas hinterm Berg halten	1877	mit + \b([Hh]interm|[Hh]inter dem) Berg\b + HALTEN	
+mit etwas ist es nicht getan	1878	mit + es nicht getan	
+mit etwas nichts zu tun haben	1879	mit + nichts zu tun + HABEN	
+mit etwas nichts zu tun haben wollen	1880	mit + nichts zu tun + haben + WOLLEN	
+mit etwas nur so um sich werfen	1881	nur so um SICHB + WERFEN	
+mit etwas Schindluder treiben	1882	mit + Schindluder + TREIBEN	
+mit etwas schwanger gehen	1883	mit + schwanger + GEHEN + MANUAL_REVIEW	
+mit Fleiß	1884	mit Fleiß	
+mit Fug und Recht	1885	Fug und Recht	
+mit Füßen getreten werden	1886	mit Füßen getreten + WERDEN	
+mit genauer Not	1887	mit genauer Not	
+mit gespaltener Zunge reden	1888	gespaltener Zunge + REDEN	
+mit gespaltener Zunge sprechen	1889	mit gespaltener Zunge + SPRECHEN	
+mit gezinkten Karten spielen	1890	mit gezinkten Karten + spiel	
+mit Haken und Ösen	1891	mit Haken und Ösen	
+mit harten Bandagen kämpfen	1892	mit harten Bandagen + kämpf	
+mit heißer Nadel gestrickt	1893	mit heißer Nadel + strick	
+mit Hängen und Würgen	1894	mit Hängen und Würgen	
+mit jemandem Deutsch reden	1895	Deutsch + REDEN + MANUAL_REVIEW	
+mit jemandem ein Hühnchen zu rupfen haben	1896	mit + ein Hühnchen + zu rupfen	
+mit jemandem gehen	1897	mit + GEHEN + MANUAL_REVIEW	
+mit jemandem in die Wolle geraten	1898	mit + in die Wolle + GERATEN	
+mit jemandem ins Bett steigen	1899	ins Bett + STEIGEN	
+mit jemandem ist nicht gut Kirschen essen	1900	mit + nicht + gut + Kirschen ESSEN	
+mit jemandem Katz und Maus spielen	1901	Katz und Maus + spiel	
+mit jemandem nichts zu tun haben wollen	1902	mit + nichts zu tun + haben + WOLLEN	
+mit jemandem noch ein Hühnchen zu rupfen haben	1903	mit + \bnoch\b + ein Hühnchen + zu rupfen	
+mit jemandem Schindluder treiben	1904	mit + Schindluder + TREIBEN	
+mit jemandem Tuchfühlung aufnehmen	1905	mit + Tuchfühlung + \bauf(\b|n|g|z) + _NEHMEN	
+mit jemandem Tuchfühlung halten	1906	Tuchfühlung + HALTEN	
+mit Kanonen auf Spatzen schießen	1907	mit Kanonen + auf Spatzen + SCHIEẞEN	
+mit Kind und Kegel	1908	mit Kind und Kegel	
+mit knapper Not	1909	mit knapper Not	
+mit Leib und Seele	1910	mit Leib und Seele	
+mit List und Tücke	1911	mit List und Tücke	
+mit Müh und Not	1912	mit Müh und Not	
+mit Mühe und Not	1913	mit Mühe und Not	
+mit offenem Visier kämpfen	1914	mit offenem Visier + kämpf	
+mit offenen Augen ins Unglück rennen	1915	mit offenen Augen + (in|ins) + RENNEN	
+mit offenen Karten spielen	1916	mit offenen Karten + spiel	
+mit Pauken und Trompeten	1917	mit Pauken und Trompeten	
+mit rechten Dingen zugehen	1918	mit rechten Dingen + ZU_GEHEN	
+mit Sack und Pack	1919	mit Sack und Pack	
+mit seinem Latein am Ende sein	1920	mit SEINMND Latein am Ende + SEIN	mit SEINMND Latein zu Ende + SEIN
+mit seinem Latein zu Ende sein	1921	mit SEINMND Latein zu Ende + SEIN	
+mit seinen Pfunden wuchern	1922	mit SENEN Pfunden + wucher	
+mit sich reden lassen	1923	mit SICHD + reden + LASSEN	
+mit Speck fängt man Mäuse	1924	mit Speck + (Maus|Mäuse) + FANGEN	
+mit spitzer Feder rechnen	1925	mit spitzer Feder + rechn	
+mit Spreewasser getauft sein	1926	mit Spreewasser + getauft + SEIN	
+mit unbewaffnetem Auge	1927	mit unbewaffnetem Auge	
+mit verdeckten Karten spielen	1928	mit verdeckten Karten + spiel	
+mit von der Partie sein	1929	mit von der Partie + SEIN	
+mit wehenden Fahnen	1930	mit wehenden Fahnen	
+mit Zitronen handeln	1931	mit Zitronen + hand(el|le)	
+mit zweierlei Maß messen	1932	mit zweierlei Maß + MESSEN	
+miteinander schlafen	1933	miteinander + SCHLAFEN	
+mitgefangen, mitgehangen	1934	mitgefangen + mitgehangen	
+mitgegangen, mitgefangen	1935	mitgegangen + mitgefangen	
+mitgegangen, mitgehangen	1936	mitgegangen + mitgehangen	
+Moos ansetzen	1937	Moos + \ban(\b|s|z|g) + _SETZEN	
+Morgenluft schnuppern	1938	Morgenluft + schnupper	
+Morgenluft wittern	1939	Morgenluft + witter	
+mutatis mutandis	1940	mutatis mutandis	
+Mutter Courage	1941	Mutter Courage	
+Männchen machen	1942	Männchen + MACHEN	
+Männlein und Weiblein	1943	Männlein und Weiblein	
+Mücken seihen und Kamele verschlucken	1944	Mücken + Kamele + verschluck	
+na und	1945	\bna und\b	
+nach Adam Ries	1946	nach Adam Ries	
+nach Adam Riese	1947	nach Adam Riese	
+nach dem Mond gehen	1948	nach dem Mond + GEHEN	
+nach den Sternen greifen	1949	nach den Sternen + GREIFEN	
+nach Herzenslust	1950	nach Herzenslust	
+nach hinten losgehen	1951	nach hinten + \blos(\b|zugehen|g) + _GEHEN	nach hinten + \blos(\b|z|g) + _GEHEN
+nach Lust und Laune	1952	nach Lust und Laune	
+nach menschlichem Ermessen	1953	nach menschlichem Ermessen	
+nach Schema F	1954	nach Schema F	
+nach sich ziehen	1955	nach SICHD + ZIEHEN	
+nach Strich und Faden	1956	nach Strich und Faden	
+nachtaus, nachtein	1957	nachtaus.*nachtein	
+nachtein, nachtaus	1958	nachtein.*nachtaus	
+nah am Wasser gebaut	1959	nah am Wasser gebaut	
+nass bis auf die Haut	1960	nass + bis auf die Haut	
+Nebelkerzen werfen	1961	Nebelkerzen + WERFEN	
+neben der Kappe sein	1962	neben der Kappe	
+Nerven wie Drahtseile haben	1963	Nerven wie Drahtselie + HABEN	
+Nerven wie Stahl haben	1964	Nerven wie Stahl + HABEN	
+Nerven wie Stricke haben	1965	Nerve wie Stricke + HABEN	
+neue Besen kehren gut	1966	neue Besen + kehren + gut	
+nicht alle Latten am Zaun haben	1967	alle Latten am Zaun + HABEN	
+nicht alle Pfeile im Köcher haben	1968	nicht alle Pfeile im Köcher + HABEN	
+nicht alle Tassen im Schrank haben	1969	alle Tassen + im Schrank	alle Latten + am Zaun
+nicht auf allen Hochzeiten gleichzeitig tanzen können	1970	nicht + auf allen Hochzeiten gleichzeitig tanzen + KÖNNEN	
+nicht auf allen Hochzeiten tanzen können	1971	nicht + auf allen Hochzeiten tanzen + KÖNNEN	
+nicht auf den Mund gefallen sein	1972	nicht auf den Mund gefallen + SEIN	
+nicht auf der Brennsuppe dahergeschwommen sein	1973	auf der Brennsuppe + MANUAL_REVIEW	
+nicht auf zwei Hochzeiten gleichzeitig tanzen können	1974	nicht + auf zwei Hochzeiten gleichzeitig tanzen + KÖNNEN	
+nicht auf zwei Hochzeiten tanzen können	1975	nicht + auf zwei Hochzeiten tanzen + KÖNNEN	
+nicht aus dem Quark kommen	1976	nicht aus dem Quark + KOMMEN	
+nicht aus der Welt sein	1977	nicht aus der Welt + SEIN	
+nicht das Gelbe vom Ei sein	1978	nicht das Gelbe vom Ei + SEIN	
+nicht der Rede wert sein	1979	nicht der Rede wert + SEIN	
+nicht die Bohne	1980	nicht die Bohne	
+nicht die Bohne interessieren	1981	nicht + die Bohne + interessier	
+nicht die feine englische Art sein	1982	nicht die feine englische Art + SEIN	
+nicht ganz bei Trost sein	1983	nicht ganz bei Trost + SEIN	
+nicht gerade das Gelbe vom Ei sein	1984	nicht gerade das Gelbe vom Ei + SEIN	
+nicht gerade die tiefen Teller erfunden haben	1985	die tiefen Teller + erfunden + HABEN	
+nicht im Entferntesten	1986	nicht im Entferntesten	
+nicht jemandes Bier sein	1987	nicht SEINNN Bier + SEIN	
+nicht lange fackeln	1988	nicht lange + fack(el|le)	
+nicht müde werden	1989	nicht müde + WERDEN	
+nicht ohne sein	1990	nicht ohne + SEIN + MANUAL_REVIEW	
+nicht um Haaresbreite nachgeben	1991	um Haaresbreite + \bnach(\b|z|g) + _GEBEN	
+nicht ums Verrecken	1992	nicht ums Verrecken	
+nicht vom Fleck kommen	1993	nicht vom Fleck + KOMMEN	
+nicht von gestern sein	1994	nicht von gestern + SEIN	
+nicht von schlechten Eltern	1995	nicht von schlechten Eltern	
+nicht von zwölf bis Mittag	1996	nicht von zwölf bis Mittag	
+nicht zu Schmidtchen gehen, sondern zu Schmidt	1997	nicht zu Schmidtchen + sondern zu Schmidt	
+nichts anbrennen lassen	1998	nichts anbrennen + LASSEN	
+nichts für ungut	1999	nichts für ungut	
+nichts Gutes im Schilde führen	2000	nichts Gutes + im Schilde + FÜHREN	
+nichts wie …	2001	nichts wie + MANUAL_REVIEW	
+nichts zu melden haben	2002	nichts zu melden + HABEN	
+Nille kauen	2003	Nille + KAUEN	
+Nille knabbern	2004	Nille + knabber	
+noch einen Pfeil im Köcher haben	2005	einen Pfeil + im Köcher + HABEN	
+noch grün hinter den Ohren sein	2006	noch grün + hinter den Ohren + SEIN	
+noch in den Kinderschuhen stecken	2007	in den Kinderschuhen + STECKEN	
+noch ist Polen nicht verloren	2008	Polen + nicht + verloren + noch + SEIN	
+noch und noch	2009	noch und noch	
+nomen est omen	2010	nomen est omen	
+nun schlägts dreizehn	2011	nun schlägts dreizehn	
+nur Bahnhof verstehen	2012	nur Bahnhof + VERSTEHEN	
+nur Bares ist Wahres	2013	nur Bares ist Wahres	
+nur die Spitze des Eisbergs sein	2014	die Spitze des Eisbergs	nur + die Spitze des Eisbergs + SEIN
+nur mit dem Finger schnippen müssen	2015	mit dem Finger + schnippen + MÜSSEN	
+nur mit dem Finger schnipsen müssen	2016	mit dem Finger + schnipsen + MÜSSEN	
+nur noch ein Schatten seiner selbst sein	2017	ein Schatten + SEING selbst + SEIN	
+nur über meine Leiche	2018	über SEINFA Leiche	
+Nägel mit Köpfen machen	2019	Nägel mit Köpfen + MACHEN	
+oben ohne	2020	oben ohne	
+ohne eine Miene zu verziehen	2021	ohne eine Miene zu verziehen	
+ohne mit der Wimper zu zucken	2022	ohne mit der Wimper zu zucken	
+ohne Moos nichts los	2023	ohne Moos nichts los	
+ohne Moos nix los	2024	ohne Moos nix los	
+ohne Punkt und Komma	2025	ohne Punkt und Komma	
+ohne Unterlass	2026	ohne Unterlass	
+ohne Wenn und Aber	2027	ohne Wenn und Aber	
+ohne Zahl	2028	ohne Zahl	
+Optik schieben	2029	Optik + SCHIEBEN	
+ortsfest wie ein Schneemann sein	2030	ortsfest + wie ein Schneemann	
+pacta sunt servanda	2031	pacta sunt servanda	
+panta rhei	2032	panta rhei	
+par ordre du mufti	2033	par ordre du mufti	
+Paroli bieten	2034	Paroli + BIETEN	
+passen wie die Faust aufs Auge	2035	wie die Faust aufs Auge	
+Pate stehen	2036	Pate + STEHEN	
+per du sein	2037	per su + SEIN	
+per Taille	2038	per Taille	
+Perlen vor die Säue werfen	2039	Perlen vor die Säue + WERFEN	
+peu à peu	2040	peu à peu	
+Pfeifendeckel	2041	Pfeifendeckel	
+Pfiffkas	2042	Pfiffkas	
+pfui Teufel	2043	pfui Teufel	
+Pi mal Daumen	2044	Pi mal Daumen	
+Pipi in den Augen haben	2045	Pipi in den Augen	
+polnische Wirtschaft	2046	polnische Wirtschaft + MANUAL_REVIEW	
+post festum	2047	post festum	
+pro bono	2048	pro bono	
+pro Nase	2049	pro Nase	
+Protokoll errichten	2050	Protokoll + erricht	
+Pusteblume	2051	\bPusteblume	
+Pustekuchen	2052	Pustekuchen	
+päpstlicher als der Papst sein	2053	päpstlicher + als der Papst + SEIN	
+pünktlich wie die Maurer	2054	pünktlich + wie die Maurer	
+Quadratur des Kreises	2055	Quadratur des Kreises	
+Quark mit Soße	2056	Quark mit Soße	
+Quatsch mit Sauce	2057	Quatsch mit Sauce	
+Quatsch mit Soße	2058	Quatsch mit Soße	
+quod erat demonstrandum	2059	quod erat demonstrandum	
+quod erat faciendum	2060	quod erat faciendum	
+Ratte der Lüfte	2061	Ratte der Lüfte	
+rauchen wie ein Schlot	2062	wie ein Schlot	
+Rechenschaft ablegen	2063	Rechenschaft + \bab(\b|leg|zulegen|gelegt) + _LEGEN	Rechenschaft + \bab(\b|l|z|g) + _LEGEN
+recht in der Annahme gehen	2064	recht in der Annahme + GEHEN	
+reden wie ein Wasserfall	2065	wie ein Wasserfall	
+rein in die Kartoffeln, raus aus den Kartoffeln	2066	rein in die Kartoffeln + raus aus den Kartoffeln	
+Reißaus nehmen	2067	Reißaus + NEHMEN	
+reißenden Absatz finden	2068	reißenden Absatz + FINDEN	
+requiescat in pace	2069	requiescat in pace	
+Rheumatismus zwischen Daumen und Zeigefinger haben	2070	Rheumatismus zwischen Daumen und Zeigefinger + HABEN	
+Rosinen im Kopf haben	2071	Rosinen im Kopf + HABEN	große Rosinen im Kopf + HABEN
+Ross und Reiter nennen	2072	Ross und Reiter + NENNEN	
+rote Zahlen schreiben	2073	rote Zahlen + SCHREIBEN	
+roter Faden	2074	\b([Rr]ote[rnm]? Faden)\b	
+Rotz und Wasser heulen	2075	Rotz und Wasser + heul	
+ruhig Blut bewahren	2076	ruhig Blut + \bbewahr	
+Rücken haben	2077	Rücken + HABEN + MANUAL_REVIEW	
+Sachen gibts, die gibts gar nicht	2078	Sachen gibts + die gibts gar nicht	
+Sachen gibt’s, die gibt’s gar nicht	2079	Sachen gibt’s + die gibt’s gar nicht	
+sag bloß	2080	sag bloß	
+sage und schreibe	2081	sage und schreibe	
+saufen wie ein Loch	2082	wie ein Loch + sauf	
+Schas mit Quasteln	2083	Schas mit Quasteln	
+scheiß der Hund drauf	2084	scheiß der Hund drauf	
+Scheiße bauen	2085	Scheiß(e) + BAUEN	
+Schicht im Schacht	2086	Schicht im Schacht	
+schief gewickelt sein	2087	schief gewickelt + SEIN	
+schimpfen wie ein Rohrspatz	2088	wie ein Rohrspatz	
+schlafen wie ein Murmeltier	2089	wie ein Murmeltier + SCHLAFEN	
+schlafen wie ein Stein	2090	wie ein Stein + SCHLAFEN	
+schlecht beieinander sein	2091	schlecht beieinander + SEIN	
+schlecht und recht	2092	schlecht und recht	
+schlechte Karten haben	2093	schlechte Karten + HABEN	
+Schluss machen	2094	Schluss + MACHEN	
+Schluss mit lustig	2095	Schluss mit lustig	
+Schlösser in die Luft bauen	2096	Schlösser in die Luft + BAUEN	
+Schmetterlinge im Bauch haben	2097	Schmetterlinge im Bauch + HABEN	
+Schmiere stehen	2098	Schmiere + STEHEN	
+Schmonzes mit Lakritzen	2099	Schmonzes mit Lakritzen	
+schmutzige Wäsche waschen	2100	schmutzige + Wäsche	
+Schnecken	2101	Schnecken + MANUAL_REVIEW	
+Schnee von gestern	2102	Schnee von gestern	
+schreien wie am Spieß	2103	wie am Spieß	
+Schritt für Schritt	2104	Schritt für Schritt	
+Schrödingers Arschloch	2105	Schrödingers Arschloch	
+Schulter an Schulter	2106	Schulter an Schulter	
+Schwamm drüber	2107	Schwamm drüber	
+schwarz auf weiß	2108	schwarz auf weiß	
+schwarze Zahlen schreiben	2109	schwarze Zahlen + SCHREIBEN	
+Schwein haben	2110	Schwein + HABEN + MANUAL_REVIEW	
+schweren Herzens	2111	schweren Herzens	
+schweres Geschütz auffahren	2112	\b[Ss]chwere[smn]? Geschütz + \bauf(\b|f|z|g) + _FAHREN	
+Seemannsgarn spinnen	2113	Seemannsgarn + spinn	
+sehenden Auges	2114	sehenden Auges	
+sein blaues Wunder erleben	2115	\b[Bb]laue[smn]? Wunder + \berleb	
+sein Damaskus erleben	2116	SEINNA Damaskus + \berleb	
+sein Dasein fristen	2117	Dasein + frist	
+sein greises Haupt schütteln	2118	SEINNA greises Haupt + schütt(el|le)	
+sein Herz auf den Lippen tragen	2119	SEINNA Herz + auf den Lippen + TRAGEN	
+sein Herz auf der Zunge tragen	2120	SEINNA Herz + auf der Zunge + TRAGEN	
+sein Ithaka finden	2121	SEINNA Ithaka + FINDEN	
+sein Leben lassen	2122	SEINNA Leben + LASSEN	
+sein Leben selbst in die Hand nehmen	2123	sein Leben + selbst + in die Hand + NEHMEN	
+sein Mäntelchen nach dem Wind hängen	2124	SEINNA Mäntelchen + nach dem Wind + häng	
+sein Scherflein beitragen	2125	SEINNA Scherflein + \bbei(\b|t|z|g) + _TRAGEN	
+sein Schäfchen ins Trockene bringen	2126	sein Schäfchen ins Trockene + BRINGEN	
+sein Wasser abschlagen	2127	sein Wasser + \bab(\b|s|z|g) + _SCHLAGEN	
+seine Felle wegschwimmen sehen	2128	SEINPA Felle wegschwimmen + SEHEN	
+seine Füße finden	2129	SEINFA Füße + FINDEN	
+seine Haut so teuer wie möglich verkaufen	2130	SEINFA Haut so teuer wie möglich + verkauf	
+seine Klappe halten	2131	SEINFA Klappe + HALTEN	
+seine Notdurft verrichten	2132	Notdurft + verricht	
+seine Pappenheimer kennen	2133	seine Pappenheimer	
+seine Schäfchen im Trockenen haben	2134	Schäfchen + im Trockenen + HABEN	
+seine Schäfchen ins Trockene bringen	2135	seine Schäfchen ins Trockene + BRINGEN	
+seine Schäflein im Trockenen haben	2136	SEINFA Schäflein + im Trockenen + HABEN	
+seine Schäflein ins Trockene bringen	2137	seine Schäflein ins Trockene + BRINGEN	
+seine Siebensachen packen	2138	SEINPA Siebensachen + pack	
+seine Zelte abbrechen	2139	SEINPA Zelte + \bab(\b|br.ch|zubrechen|gebrochen) + _BRECHEN	SEINPA Zelte + \bab(\b|b|z|g) + _BRECHEN
+seinem Herzen Luft machen	2140	SEINMND Herzen + Luft + MACHEN	
+seinem Ärger Luft machen	2141	(seinem|ihrem|unserem|meinem) Ärger + Luft + MACHEN	
+seinen Arsch verwetten	2142	SEINMA Arsch + verwetten	
+seinen Augen nicht trauen	2143	SEINPD Augen nicht + TRAUEN	
+seinen Beitrag leisten	2144	SEINMA Beitrag + leiste	
+seinen Dreh nicht kriegen	2145	SEINMA Dreh + nicht + KRIEGEN	
+seinen Frieden mit etwas machen	2146	SEINMA Frieden mit + MACHEN	
+seinen Geist aufgeben	2147	SEINMA Geist \bauf(\b|z|g) + _GEBEN	
+seinen Geist aushauchen	2148	SEINMA Geist + \baus + hauch	
+seinen Hut nehmen	2149	SEINMA Hut + NEHMEN	den Hut + NEHMEN
+seinen Jürgen würgen	2150	SEINMA Jürgen + würg	
+seinen Lauf nehmen	2151	seinen Lauf + NEHMEN	
+seinen Mann stehen	2152	SEINMA Mann + STEHEN	
+seinen Schnitt machen	2153	einen Schnitt + MACHEN	
+seinen Segen zu etwas geben	2154	SEINMA Segen zu + GEBEN	
+seinen Senf dazugeben	2155	SEINMA Senf + \bdazu(\b|zugeben|g) + _GEBEN	SEINMA Senf + \bdazu(\b|z|g) + _GEBEN
+seinen Tag von Damaskus erleben	2156	SEINMA Tag von Damaskus + \berleb	
+seines Zeichens	2157	seines Zeichens	
+selber essen macht fett	2158	selber essen macht fett	
+seligen Angedenkens	2159	seligen Angedenkens	
+seltsame Blüten treiben	2160	seltsame Blüten + TREIBEN	
+shit happens	2161	shit happens	
+sich alle zehn Finger abschlecken können	2162	alle zehn Finger + abschlecken + KÖNNEN + SICH	
+sich am Riemen reißen	2163	am Riemen + REIẞEN + SICH	
+sich an die eigene Nase fassen	2164	an die eigene Nase + fass + SICH	
+sich an etwas die Zunge abbrechen	2165	die Zunge + \bab(\b|b|z|g) + _BRECHEN + SICH	
+sich an etwas die Zähne ausbeißen	2166	an + die Zähne + \baus(\b|b|z|g) + _BEIẞEN + SICH	
+sich an etwas machen	2167	an + MACHEN + SICH + MANUAL_REVIEW	
+sich an jemandes Fersen heften	2168	an + Fersen + heft + SICH	
+sich anheischig machen	2169	anheischig + MACHEN + SICH	
+sich Asche aufs Haupt streuen	2170	Asche aufs Haupt + streu + SICH	
+sich auf den Hosenboden setzen	2171	auf den Hosenbodne + SETZEN + SICH	
+sich auf die faule Haut legen	2172	auf die faule Haut + LEGEN + SICH	
+sich auf die Socken machen	2173	auf die Socken + MACHEN + SICH	
+sich auf die Zunge beißen	2174	auf die Zunge + BEIẞEN + SICH	
+sich auf Französisch empfehlen	2175	auf Französich + EMPFEHLEN + SICH	
+sich auf Französisch verabschieden	2176	auf Französisch + verabschied + SICH	
+sich auf seine vier Buchstaben setzen	2177	auf SEINPA vier Buchstaben + SETZEN + SICH	
+sich auf seinen Lorbeeren ausruhen	2178	auf SEINMA Lorbeeren + \baus(\b|r|z|g) + AUSRUHEN + SICH	
+sich aufs Ohr hauen	2179	aufs Ohr + HAUEN + SICH	
+sich aufs Ohr legen	2180	aufs Ohr + LEGEN + SICH	
+sich aus dem Fenster lehnen	2181	aus dem Fenster + lehn + SICH	
+sich aus dem Staub machen	2182	aus dem Staub + MACHEN + SICH	
+sich aus dem Staube machen	2183	aus dem Staube + MACHEN + SICH	
+sich aus der Klemme ziehen	2184	aus der Klemme + ZIEHEN + SICH	
+sich ausschütten vor Lachen	2185	vor Lachen + \baus(\b|s|z|g) + schütte + SICH	
+sich bei jemandem sehen lassen	2186	bei + sehen + LASSEN + SICH	
+sich benehmen wie die Axt im Walde	2187	wie + Axt + im Walde + BENEHMEN + SICH	
+sich bis auf die Knochen blamieren	2188	bis auf die Knochen + blamier + SICH	
+sich blind verstehen	2189	blind + VERSTEHEN + SICH	
+sich das Leben nehmen	2190	das Leben + NEHMEN + SICH	
+sich das Wasser abschlagen	2191	das Wasser + \bab(\b|s|z|g) + _SCHLAGEN + SICH	
+sich den Arsch aufreißen	2192	den Arsch + \bauf(\b|r|z|g) + _REIẞEN + SICH	
+sich den Bauch vollschlagen	2193	den Bauch + \bvoll(\b|s|z|g) + _SCHLAGEN + SICH	
+sich den Hals abdrehen	2194	den Hals + \bab(\b|d|z|g) + dreh + SICH	
+sich den Kopf zerbrechen	2195	den Kopf + ZERBRECHEN + SICH	
+sich den Mund fusselig reden	2196	den Mund fusselig + REDEN + SICH	
+sich den Schneid abkaufen lassen	2197	den Schneid + abkaufen + LASSEN + SICH	
+sich den Schuh nicht anziehen	2198	den Schuch + nicht + \ban(\b|z|z|g) + _ZIEHEN + SICH	
+sich den Wolf laufen	2199	den Wolf + LAUFEN + SICH	
+sich die Augen ausweinen	2200	die Augen + \baus(\b|w|z|g) + wein + SICH	
+sich die Beine in den Bauch stehen	2201	die Beine in den Bauch + SICH	
+sich die Beine in den Leib stehen	2202	die Beine in den Leib + SICH	
+sich die besten Rosinen herauspicken	2203	die besten Rosinen + \bheraus(\b|p|z|g) + pick + SICH	
+sich die dicksten Rosinen herauspicken	2204	die dicksten Rosinen + \bheraus(\b|p|z|g) + pick + SICH	
+sich die Eier schaukeln	2205	die Eier + schauk(el|le) + SICH	
+sich die Finger abarbeiten	2206	die Finger + \bab(\b|a|z|g) + arbeite + SICH	
+sich die Finger schmutzig machen	2207	die Finger + schmutzig + MACHEN + SICH	
+sich die größten Rosinen herauspicken	2208	die größten Rosinen + \bheraus(\b|p|z|g) + pick + SICH	
+sich die Hand geben	2209	die Hand + GEBEN + SICH	
+sich die Hörner abstoßen	2210	die Hörner + \bab(\b|s|z|g) + _STOẞEN + SICH	
+sich die Kante geben	2211	die Kante + GEBEN + SICH	
+sich die Kehle anfeuchten	2212	die Kehle + \ban(\b|f|z|g) + feucht + SICH	
+sich die Klinke in die Hand geben	2213	die Klinke in die Hand + GEBEN + SICH	
+sich die Nacht um die Ohren schlagen	2214	die Nacht um die Ohren + SCHLAGEN + SICH	
+sich die Nille verbrannt haben	2215	die Nille verbrannt + HABEN + SICH	
+sich die Rosinen aus dem Kuchen picken	2216	die Rosinen aus dem Kuchen + pick + SICH	
+sich die Rosinen herauspicken	2217	die Rosinen + \bheraus(\b|p|z|g) + pick + SICH	
+sich die Seele aus dem Leib weinen	2218	die Seele aus dem Leib + wein + SICH	
+sich durchs Leben schlagen	2219	durchs Leben + SCHLAGEN + SICH	
+sich ein Bild von etwas machen	2220	ein Bild + von + MACHEN + SICH	
+sich ein Bild von jemandem machen	2221	ein Bild + von + MACHEN + SICH	
+sich ein Ei legen	2222	ein Ei + LEGEN + SICH	
+sich ein Herz fassen	2223	ein Herz + fass + SICH	
+sich ein Monogramm in den Hintern beißen	2224	ein Monogramm + in den Hintern + BEIẞEN + SICH	
+sich eine goldene Nase verdienen	2225	eine goldene Nase + verdien + SICH	
+sich einen abasten	2226	\bab(\b|a|z|g) + ABASTEN + SICH	
+sich einen abfrieren	2227	einen + \bab(\b|f|z|g) + _FRIEREN + SICH + MANUAL_REVIEW	
+sich einen Ast lachen	2228	einen Ast + lach + SICH	
+sich einen feuchten Kehricht für etwas interessieren	2229	einen feuchten Kehricht + interessier + SICH	
+sich einen feuchten Kehricht um etwas kümmern	2230	einen feuchten Kehricht + kümmer + SICH	
+sich einen feuchten Kehricht um etwas scheren	2231	einen feuchten Kehricht + scher + SICH	
+sich einen guten Abgang verschaffen	2232	einen guten Abgang + verschaff + SICH	
+sich einen hinter die Binde gießen	2233	einen hinter die Binde + GIEẞEN + SICH	
+sich einen hinter die Binde kippen	2234	einen hinter die Binde + kipp + SICH	
+sich einen Klotz ans Bein binden	2235	einen Klotz + ans Bein + BINDEN + SICH	
+sich einen Reim auf etwas machen	2236	keinen Reim darauf machen + KÖNNEN + SICH	
+sich einen Ruck geben	2237	einen Ruck + GEBEN + SICH	
+sich einen schlanken Fuß machen	2238	einen schlanken Fuß + MACHEN + SICH	
+sich einen Spreißel einziehen	2239	einen Spreißel + \bein(\b|z|z|g) + _ZIEHEN + SICH	
+sich einen Stiefel einbilden	2240	einen Stiefel + \bein(\b|b|z|g) + bild + SICH	
+sich einen von der Palme wedeln	2241	einen von der Palme + wed(el|le) + SICH	
+sich einen Wolf laufen	2242	einen Wolf + LAUFEN + SICH	
+sich eins feixen	2243	eins feixen + SICH	
+sich entschuldigen lassen	2244	entschuldigen + LASSEN + SICH	
+sich etwas auf die Fahne schreiben	2245	auf die Fahnen + SCHREIBEN + SICH	
+sich etwas aus den Fingern saugen	2246	aus den Fingern + SAUGEN + SICH	
+sich etwas durch den Kopf gehen lassen	2247	durch den Kopf gehen + LASSEN + SICH	
+sich etwas durch die Lappen gehen lassen	2248	durch die Lappen gehen + LASSEN + SICH	
+sich etwas gefallen lassen	2249	gefallen + LASSEN + SICH	
+sich etwas hinter die Ohren schreiben	2250	hinter die Ohren + SCHREIBEN + SICH	
+sich etwas ins Bewusstsein rufen	2251	ins Bewusstsein + RUFEN + SICH	
+sich etwas unter den Nagel reißen	2252	unter den Nagel + REIẞEN + SICH	
+sich etwas zu Gemüte führen	2253	zu Gemüte + FÜHREN + SICH	
+sich etwas zur Brust nehmen	2254	zur Brust + NEHMEN + SICH	
+sich etwas zwischen die Kiemen schieben	2255	zwischen die Kiemen + SCHIEBEN + SICH	
+sich französisch empfehlen	2256	französisch + EMPFEHLEN + SICH	
+sich französisch verabschieden	2257	französisch + verabschied + SICH	
+sich freuen wie ein Schneekönig	2258	wie ein Schneekönig + freu + SICH	
+sich für jemanden die Hand abschlagen lassen	2259	für + die Hand abschlagen + LASSEN + SICH	
+sich gehen lassen	2260	gehen + LASSEN + SICH	
+sich gerädert fühlen	2261	gerädert + FÜHLEN + SICH	
+sich grün und blau ärgern	2262	grün und blau + ÄRGERN + SICH	
+sich häuslich einrichten	2263	häuslich + \bein(\b|r|z|g) + richt + SICH	
+sich im freien Fall befinden	2264	im freien Fall + BEFINDEN + SICH	
+sich im Kreis bewegen	2265	im Kreis + beweg + SICH	
+sich im Kreis drehen	2266	im Kreis + dreh + SICH	
+sich in Acht nehmen	2267	in Acht + NEHMEN + SICH	
+sich in anderen Umständen befinden	2268	in anderen Umständen + BEFINDEN + SICH	
+sich in den Haaren liegen	2269	in den Haaren + LIEGEN + SICH	
+sich in die Brust werfen	2270	in die Brust + WERFEN + SICH	
+sich in die eigene Tasche lügen	2271	in die Tasche + LÜGEN + SICH	
+sich in die Falle hauen	2272	in die Falle + HAUEN + SICH	
+sich in die Haare fahren	2273	in die Haare + FAHREN + SICH	
+sich in die Haare geraten	2274	in die Haare + GERATEN + SICH	in die Haare + LIEGEN
+sich in die Haare kriegen	2275	in die Haare + KRIEGEN + SICH	
+sich in die Hose machen	2276	in die Hose + MACHEN + SICH	
+sich in die Höhle des Löwen begeben	2277	in die Höhle des Löwen + BEGEBEN + SICH	
+sich in die Höhle des Löwen wagen	2278	in die Höhle des Löwen + WAGEN + SICH	
+sich in die Riemen legen	2279	in die Riemen + LEGEN + SICH	
+sich in die Ruder legen	2280	in die Ruder + LEGEN + SICH	
+sich in ein gemachtes Bett legen	2281	in ein gemachtes Bett + LEGEN + SICH	
+sich in geistige Unkosten stürzen	2282	in geistige Unkosten + stürz + SICH	
+sich in Grenzen halten	2283	in Grenzen + HALTEN + SICH	
+sich in Luft auflösen	2284	in Luft + \bauf(\b|lös|zulösen|gelöst) + AUFLÖSEN + SICH	in Luft + \bauf(\b|l|z|g) + AUFLÖSEN + SICH
+sich in Schale schmeißen	2285	in Schale + SCHMEIẞEN + SICH	
+sich in Schale werfen	2286	in Schale + WERFEN + SICH	
+sich in seine Bestandteile auflösen	2287	in SEINPA Bestandteile + \bauf(\b|l|z|g) + AUFLÖSEN + SICH	
+sich in Szene setzen	2288	in Szene + SETZEN + SICH	
+sich in Wohlgefallen auflösen	2289	in Wohlgefallen + \bauf(\b|l|z|g) + AUFLÖSEN + SICH	
+sich ins eigene Fleisch schneiden	2290	ins eigene Fleisch + SCHNEIDEN + SICH	
+sich ins Fäustchen lachen	2291	ins Fäustchen + lach + SICH	
+sich ins gemachte Bett legen	2292	ins gemachte Bett + LEGEN + SICH	
+sich ins Hemd machen	2293	ins Hemd + MACHEN + SICH	
+sich ins Knie ficken	2294	ins Knie + fick + SICH	
+sich ins Koma saufen	2295	ins Koma + sauf + SICH	
+sich ins Zeug legen	2296	ins Zeug + LEGEN + SICH	
+sich jemanden zur Brust nehmen	2297	zur Brust + NEHMEN + SICH	
+sich kein Bein ausreißen	2298	kein Bein + \baus(\b|r|z|g) + _REIẞEN + SICH	
+sich keine Spinne übers Maul wachsen lassen	2299	keine Spinne + übers Maul wachsen + LASSEN + SICH	
+sich keine Verzierung abbrechen	2300	keine Verzierung + \bab(\b|b|z|g) + _BRECHEN + SICH	
+sich keinen abbrechen	2301	keinen + \bab(\b|b|z|g) + _BRECHEN + SICH	
+sich krümmen wie ein Aal	2302	wie ein Aal + krümm + SICH	
+sich lieber die Zunge abbeißen	2303	lieber + die Zunge + \bab(\b|b|z|g) + _BEIẞEN + SICH	
+sich mit fremden Federn schmücken	2304	mit fremden Federn + schmück + SICH	
+sich nicht die Butter vom Brot nehmen lassen	2305	nicht die Butter vom Brot nehmen + LASSEN + SICH	
+sich nicht in die Karten schauen lassen	2306	nicht in die Karten + schauen + LASSEN + SICH	
+sich nicht lumpen lassen	2307	nicht lumpen + LASSEN + SICH	
+sich nichts schenken	2308	nichts + schenk + SICH	
+sich nützlich machen	2309	nützlich + MACHEN + SICH	
+sich schadlos halten	2310	schadlos + HALTEN + SICH	
+sich schwarz ärgern	2311	schwarz + ÄRGERN + SICH	
+sich um jeden Hosenknopf kümmern	2312	um jeden Hosenknopf + kümmer + SICH	
+sich um Kopf und Kragen reden	2313	um Kopf und Kragen + REDEN + SICH	
+sich verkaufen wie geschnitten Brot	2314	wie geschnitten Brot + verkauf + SICH	
+sich vom Acker machen	2315	vom Acker + MACHEN + SICH	
+sich von jemandem eine Scheibe abschneiden können	2316	eine Scheibe + abschneiden + KÖNNEN + SICH	
+sich vor Lachen ausschütten	2317	vor Lachen + \baus(\b|s|z|g) + schütte + SICH	
+sich vor seinem eigenen Schatten fürchten	2318	vor SEINMND eigenen Schatten + fürcht + SICH	
+sich wie ein Elefant im Porzellanladen benehmen	2319	wie ein Elefant + im Porzellanladen + BENEHMEN + SICH	
+sich wie gerädert fühlen	2320	wie gerädert + FÜHLEN + SICH	
+sich winden wie ein Aal	2321	ein Aal + wie + WINDEN + SICH	
+sich zu Tode lachen	2322	zu Tode + lach + SICH	
+sich zu Tode saufen	2323	zu Tode + sauf + SICH	
+sich zum Affen machen	2324	zum Affen + MACHEN + SICH	
+sich zum Narren machen	2325	zum Narren + MACHEN + SICH	
+sich über etwas im Klaren sein	2326	über + im Klaren + SEIN + SICH	
+sicher wie in Abrahams Schoß	2327	sicher + wie in Abrahams Schoß	
+sieben fette Jahre	2328	sieben fette Jahre	
+sitzt, passt, wackelt und hat Luft	2329	sitzt, passt, wackelt und hat Luft	
+so lala	2330	so lala	
+so sicher wie das Amen in der Kirche	2331	sicher + wie das Amen in der Kirche	
+so um den Dreh	2332	so um den Dreh	
+so weit das Auge reicht	2333	so weit das Auge + reich	
+so weit die Füße tragen	2334	soweit + die Füße + TRAGEN	
+so weit, so gut	2335	so weit, so gut	
+soziale Hängematte	2336	soziale Hängematte	
+Spitz auf Knopf stehen	2337	Spitz auf Knopf + STEHEN	Spitz auf Knopf + SEIN
+Stachel im Fleisch	2338	Stachel + im Fleisch	
+Stachel im Fleische	2339	Stachel + im Fleische	
+starker Tobak sein	2340	starker Tobak + SEIN	
+Station machen	2341	Station + MACHEN	
+Staub aufwirbeln	2342	Staub + \bauf(\b|wirb|zuwirbeln|gewirbelt) + wirb(el|le)	Staub + \bauf(\b|w|z|g) + wirb(el|le)
+stehen vor Dreck	2343	vor Dreck + STEHEN	
+stehenden Fußes	2344	stehenden Fußes	
+steif und fest	2345	steif und fest	
+steiler Zahn	2346	\b[Ss]teile[rmns]? Zahn(es)?\b	
+Stein des Anstoßes	2347	Stein des Anstoßes	
+Stein und Bein schwören	2348	Stein und Bein + schwör	
+stinken wie die Pest	2349	wie die Pest	
+stolz wie ein Pfau	2350	stolz + wie ein Pfau	
+stolz wie Oskar sein	2351	stolz + wie Oskar	
+straßauf, straßab	2352	straßauf, straßab	
+stumm wie ein Fisch	2353	stumm + wie ein Fisch	
+Sturm im Wasserglas	2354	Sturm im Wasserglas	
+summa summarum	2355	summa summarum	
+Süßholz raspeln	2356	Süßholz + rasp(el|le)	
+Tabula rasa machen	2357	Tabula rasa + MACHEN	
+Tacheles reden	2358	Tacheles + REDEN	
+Tacheles sprechen	2359	Tacheles + SPRECHEN	
+Tag für Tag	2360	Tag für Tag	
+Tag und Nacht	2361	Tag und Nacht	
+tagaus, tagein	2362	tagaus, tagein	\b[Tt]agaus\b.*\b[Tt]agein\b
+tagein, tagaus	2363	tagein,? tagaus	\b[Tt]agein\b.*\b[Tt]agaus\b
+taube Nuss	2364	taube Nuss	
+tausend Tode sterben	2365	tausend Tode + STERBEN	
+teile und herrsche	2366	teile und herrsche	
+tief in die Tasche greifen müssen	2367	in die Tasche + GREIFEN	
+Tomaten auf den Augen haben	2368	Tomaten auf den Augen + HABEN	
+tote Hose	2369	tote Hose	
+trau, schau, wem	2370	trau, schau, wem	
+treppauf, treppab	2371	treppauf, treppab	
+treulose Tomate	2372	treulose Tomate	
+Tränen lachen	2373	Tränen + lach	
+Tränen vergießen	2374	Tränen + VERGIEẞEN	
+trübe Tulpe	2375	trübe Tulpe	
+Trübsal blasen	2376	Trübsal + BLASEN	
+Trümpfe aus der Hand geben	2377	Trümpfe aus der Hand + GEBEN	
+Tulpe tun	2378	Tulpe + TUN	
+tun wie ’ne Tulpe	2379	wie (ei|.)ne Tuple + TUN	
+türein, türaus	2380	türein, türaus	\b[Tt]ürein\b.*\b[Tt]üraus\b
+Tüten kleben	2381	Tüten + kleb	
+um den Dreh	2382	um den Dreh	
+um den heißen Brei herumreden	2383	heißen Brei + herum	
+um den Pudding gehen	2384	um den Pudding + GEHEN	
+um die Ecke	2385	um die Ecke	
+um die Ecke denken	2386	um die Ecke + DENKEN	
+um die goldene Ananas	2387	um die goldene Ananas	
+um ein Haar	2388	um ein Haar	
+um jeden Preis	2389	um jeden Preis	
+um sich greifen	2390	um SICHA + GREIFEN	
+um Welten	2391	um Welten	
+umhergehen wie ein brüllender Löwe	2392	wie ein brüllender Löwe + umher + _GEHEN	
+ums Leben kommen	2393	ums Leben + KOMMEN	
+ums Verrecken nicht	2394	ums Verrecken nicht	
+und ob	2395	und ob + MANUAL_REVIEW	
+und tschüs	2396	und tschüs	
+und tschüss	2397	und tschüss	
+und täglich grüßt das Murmeltier	2398	täglich + grüßte? + das Murmeltier	
+ungeschoren davonkommen	2399	ungeschoren + \bdavon(\b|k.m|zukommen|gekommen) + _KOMMEN	ungeschoren + \bdavon(\b|k|z|g) + _KOMMEN
+ungeschriebenes Gesetz	2400	ungeschriebenes Gesetz	
+Unkraut verdirbt nicht	2401	Unkraut + nicht + VERDERBEN	
+Unkraut vergeht nicht	2402	Unkraut + nicht + VERGEHEN	
+Unrat wittern	2403	Unrat + witter	
+unter aller Kanone	2404	unter aller Kanone	
+unter aller Sau	2405	unter aller Sau	
+unter Dach und Fach	2406	unter Dach und Fach	
+unter dem Messer liegen	2407	unter dem Messer + LIEGEN	
+unter dem Siegel der Verschwiegenheit	2408	unter dem Siegel der Verschwiegenheit	
+unter den Hammer bringen	2409	unter den Hammer	unter den Hammer + BRINGEN
+unter den Hammer kommen	2410	unter den Hammer	unter den Hammer + KOMMEN
+unter den Teppich kehren	2411	unter den Teppich + kehr	
+unter der Erde liegen	2412	unter der Erde + LIEGEN	
+unter der Hand	2413	unter der Hand	
+unter der Tuchent	2414	unter der Tuchent	
+unter der Woche	2415	unter der Woche	
+unter die Gürtellinie gehen	2416	unter die Gürtellinie + GEHEN	
+unter die Haube bringen	2417	unter die Haube + BRINGEN	
+unter die Haut gehen	2418	unter die Haut + GEHEN	
+unter einen Hut bringen	2419	unter einen Hut + BRINGEN	
+unter einer Decke stecken	2420	unter einer Decke + _STECKEN	
+unter ferner liefen	2421	unter ferner liefen	
+unter jemandes Fuchtel stehen	2422	unter + Fuchtel + STEHEN	unter + Fuchtel + SEIN
+unter Strom stehen	2423	unter Strom + STEHEN	
+unter Tage	2424	unter Tage	
+unter uns Pastorentöchtern	2425	unter uns Pastorentöchtern	
+unter uns Pfarrerstöchtern	2426	unter uns Pfarrerstöchtern	
+unter vier Augen	2427	unter vier Augen	
+unter Waffen stehen	2428	unter Waffen + STEHEN	
+Urlaub auf Balkonien machen	2429	Urlaub auf Balkonien + MACHEN	
+va banque spielen	2430	va banque + spiel	
+vae victis	2431	vae victis	
+Vaterfreuden entgegensehen	2432	Vaterfreuden + \bentgegen(\b|s|z|g) + _SEHEN	
+verantwortlich zeichnen	2433	verantwortlich + zeichn	
+verbogene Nille	2434	verbogene Nille	
+verdammte Axt	2435	verdammte Axt	
+verlängerte Nille	2436	verlängerte Nille	
+vernagelt sein	2437	vernagelt + SEIN	
+Versicherung an Eides statt	2438	an Eides statt + (\bVersicherung|\bversicher)	
+Versicherung an Eides Statt	2439	an Eides Statt + (\bVersicherung|\bversicher)	
+viel Geschrei und wenig Wolle	2440	viel Geschrei und wenig Wolle	
+viel Holz vor der Hütte haben	2441	viel Holz + vor der Hütte + HABEN	
+viel um die Ohren haben	2442	um die Ohren + HABEN	
+viel Wind um etwas machen	2443	viel Wind um + MACHEN	
+viral gehen	2444	viral + GEHEN	
+Vitamin B	2445	Vitamin B + MANUAL_REVIEW	
+voll und ganz	2446	voll und ganz	
+voll wie eine Haubitze	2447	wie eine Haubitze	
+volle Kanne	2448	volle Kanne	
+vom Fleck weg	2449	vom Fleck weg	
+vom Fleisch fallen	2450	vom Fleisch + FALLEN	
+vom Hundertsten ins Tausendste kommen	2451	vom Hundertsten ins Tausendste + KOMMEN	
+vom Hölzchen aufs Stöckchen kommen	2452	vom Hölzchen aufs Stöckchen + KOMMEN	
+vom Laster gefallen	2453	vom Laster gefallen	
+vom Leder ziehen	2454	vom Leder + MANUAL_REVIEW	
+vom Pfad der Tugend abweichen	2455	vom Pfad der Tugend + \bab(\b|w|z|g) + _WEICHEN	
+vom Regen in die Traufe kommen	2456	vom Regen in die Traufe	
+vom Schiff aus	2457	vom Schiff aus	
+vom Tisch sein	2458	vom Tisch + SEIN	
+von A bis Z	2459	von A bis Z	
+von allen guten Geistern verlassen sein	2460	von allen + guten Geistern verlassen	
+von Auge	2461	von Auge + MANUAL_REVIEW	
+von blossem Auge	2462	von blossem Auge	
+von dannen ziehen	2463	von dannen + ZIEHEN	
+von den Socken sein	2464	von den Socken + SEIN	
+von der Bühne abtreten	2465	von der Bühne + \bab(\b|t|z|g) + _TRETEN 	
+von der Hand in den Mund leben	2466	von der Hand + Mund + LEBEN	
+von der Steuer absetzen	2467	von der Steuer + \bab(\b|setz|zusetzen|gesetzt) + _SETZEN	von der Steuer + \bab(\b|s|z|g) + _SETZEN
+von der Wiege bis zur Bahre	2468	von der Wiege bis zur Bahre	
+von etwas Wind bekommen	2469	von + Wind + BEKOMMEN	
+von früh bis spät	2470	von früh bis spät	
+von Haus aus	2471	von Haus aus	
+von Herzen kommen	2472	von Herzen + KOMMEN	
+von heute auf morgen	2473	von heute auf morgen	
+von hinten Lyzeum, von vorne Museum	2474	von hinten Lyzeum + von vorne Museum	
+von Höcksken auf Stöcksken kommen	2475	von Höcksken auf Stöcksken + KOMMEN	
+von jetzt auf gleich	2476	von jetzt auf gleich	
+von keiner Kultur beleckt sein	2477	von keiner Kultur beleckt + SEIN	
+von Kindesbeinen an	2478	von Kindesbeinen an	
+von klein auf	2479	von klein auf	
+von langer Hand	2480	von langer Hand	
+von Luft und Liebe leben	2481	von Luft und Liebe	
+von null auf hundert	2482	von null auf hundert	
+von oben herab	2483	von oben herab	
+von Pontius zu Pilatus	2484	von Pontius zu Pilatus	
+von sich aus	2485	\b[Vv]on SICHD aus\b	
+von Tuten und Blasen keine Ahnung haben	2486	von Tuten und Blasen + keine Ahnung + HABEN	
+von vornherein	2487	von vornherein	
+von Zeit zu Zeit	2488	von Zeit zu Zeit	
+vor der eigenen Tür kehren	2489	vor der eigenen Tür + kehr	
+vor die Hunde gehen	2490	vor die Hunde + GEHEN	
+vor Dreck stehen	2491	vor Dreck + STEHEN	
+vor Faulheit stinken	2492	vor Faulheit + STINKEN	
+vor Freude an die Decke springen	2493	vor Freue an die Decke + SPRINGEN	
+vor Gesundheit strotzen	2494	vor Gesundheit + strotz	
+vor versammelter Mannschaft	2495	vor versammelter Mannschaft	
+vorne und hinten nicht	2496	vorne und hinten nicht	
+Wachs in jemandes Händen sein	2497	Wachs in SEINPD Händen	
+was das Zeug hält	2498	was das Zeug + HALTEN	
+was die Glocke geschlagen hat	2499	was + die Glocke + geschlagen + HABEN	
+was liegt, das pickt	2500	was liegt, das pickt	
+was man nicht im Kopf hat, hat man in den Beinen	2501	was man nicht im Kopf hat, hat man in den Beinen	
+was weiß ich	2502	was weiß ich	
+Wasser auf jemandes Mühle leiten	2503	Wasser auf SEINFA Mühle + LEITEN	
+Wasser ins Meer tragen	2504	Wasser + ins Meer + TRAGEN	
+Wasser lassen	2505	Wasser + LASSEN	
+Wasser predigen und Wein trinken	2506	Wasser + predig + Wein + TRINKEN	
+weder Hand noch Fuß haben	2507	weder Hand noch Fuß + HABEN	
+weder noch	2508	weder noch	
+weder Tod noch Teufel fürchten	2509	weder Tod noch Teufel + fürcht	
+weg vom Fenster sein	2510	weg vom Fenster + SEIN	
+weggehen wie heiße Semmeln	2511	wie (die )?heiße Semmeln + \bweg(\b|z|g) + _GEHEN	
+weggehen wie warme Semmeln	2512	wie (die )?warme Semmeln + \bweg(\b|z|g) + _GEHEN	wie (die )?warme Semmeln + verkauf + SICH
+wehret den Anfängen	2513	den Anfängen + (\bwehr|gewehrt)	
+weinen wie ein Schlosshund	2514	wie ein Schlosshund + wein	
+weiß der Geier	2515	der Geier + WISSEN	
+weiße Weihnachten	2516	weiße Weihnachten	
+weit hergeholt	2517	weit hergeholt	
+weitab vom Schuss sein	2518	weitab vom Schuss + SEIN	
+Wellen schlagen	2519	Wellen + SCHLAGEN	
+wenn alle Stricke reißen	2520	wenn + alle Stricke + REIẞEN	
+wenn es hoch kommt	2521	wenn es hoch kommt	
+wenn Ostern und Pfingsten auf einen Tag fallen	2522	Ostern und Pfingsten + auf einen Tag + FALLEN	
+wenn Ostern und Weihnachten auf einen Tag fallen	2523	Ostern und Weihnachten + auf einen Tag + FALLEN	
+wenn schon, denn schon	2524	\b[Ww]enn schon\b.*\bdenn schon\b	
+wennschon, dennschon	2525	\b[Ww]ennschon\b.*\bdennschon\b	
+wer lesen kann, ist klar im Vorteil	2526	wer lesen kann + klar + im Vorteil + SEIN	
+wer’s glaubt, wird selig	2527	wer.?s glaubt, wird selig	
+wes Brot ich ess, des Lob ich sing	2528	wes Brot ich ess + des Lob ich sing	
+wie am Schnürchen	2529	wie am Schnürchen	
+wie angegossen passen	2530	wie angegossen + pass	
+wie auch schon	2531	wie auch schon	
+wie aus dem Bilderbuch	2532	wie aus dem Bilderbuch	
+wie aus demselben Ei gebrütet	2533	wie aus demselben Ei + brüte	
+wie aus demselben Ei gekrochen	2534	wie aus demselben Ei + KRIECHEN	
+wie aus der Pistole geschossen	2535	wie aus (der|einer) Pistole geschossen	
+wie aus Eimern gießen	2536	aus Eimern + GIEẞEN	
+wie aus Eimern schütten	2537	aus Eimern + schütte	
+wie aus einem Guss	2538	aus einem Guss	
+wie bei den Hottentotten	2539	wie bei den Hottentotten	
+wie bei Hempels unterm Sofa	2540	wie bei Hempels unterm Sofa	
+wie bei Muttern	2541	wie bei Muttern	
+wie Bolle	2542	wie Bolle	
+wie Braunbier mit Spucke aussehen	2543	wie Braunbier mit Spucke	
+wie Braunbier und Spucke aussehen	2544	wie Braunbier und Spucke	
+wie das Leiden Christi aussehen	2545	wie das Leiden Christi	
+wie die Feuerwehr	2546	wie die Feuerwehr	
+wie die Hölle	2547	wie die Hölle	
+wie die Nase des Mannes, so sein Johannes	2548	wie die Nase des Mannes, so sein Johannes	
+wie die Pest	2549	wie die Pest	
+wie ein Affe auf dem Schleifstein sitzen	2550	ein Affe auf dem Schleifstein	
+wie ein begossener Pudel	2551	wie ein begossener Pudel	
+wie ein Besengter	2552	wie ein Besengter	
+wie ein Ei dem anderen gleichen	2553	wie ein Ei dem anderen + GLEICHEN	
+wie ein geölter Blitz	2554	wie ein geölter Blitz	
+wie ein Grab schweigen	2555	wie ein Grab + SCHWEIGEN	
+wie ein Kaninchen vor der Schlange stehen	2556	wie ein Kaninchen vor der Schlange	
+wie ein Lauffeuer	2557	wie ein Lauffeuer	
+wie ein Schweizer Uhrwerk	2558	ein Schweizer Uhrwerk	
+wie ein Storch im Salat	2559	wie ein Storch im Salat	
+wie ein Veilchen im Verborgenen blühen	2560	wie ein Veilchen im Verborgenen	
+wie Espenlaub zittern	2561	wie Espenlaub + zitter	
+wie geht es dir	2562	wie geht es dir	
+wie gerädert sein	2563	wie gerädert + SEIN	
+wie gestochen	2564	wie gestochen	
+wie im Bilderbuch	2565	wie im Bilderbuch	
+wie in Abrahams Schoß	2566	wie in Abrahams Schoß	
+wie Kastor und Pollux sein	2567	wie Kastor und Pollux	
+wie Katz und Maus	2568	wie Katz und Maus	
+wie Kraut und Rüben	2569	wie Kraut und Rüben	
+wie mit Eimern gießen	2570	wie mit Eimern + GIEẞEN	
+wie Pilze aus dem Boden schießen	2571	wie Pilze + aus dem Boden + SCHIEẞEN	ins Kraut + SCHIEẞEN
+wie Sand am Meer	2572	wie Sand am Meer	
+wie Schmidts Katze	2573	wie Schmidts Katze	
+wie spät ist es	2574	wie spät ist es	
+wie Titte mit Ei schmecken	2575	wie Titte mit Ei + schmeck	
+wie vernagelt sein	2576	wie vernagelt + SEIN	
+wie vom Donner gerührt	2577	wie vom Donner gerührt	
+wie vom Erdboden verschluckt	2578	wie vom Erdboden + verschluck	
+wie von der Tarantel gestochen	2579	wie von der Tarantel + gestochen	
+wie’s Katzenmachen gehen	2580	Katzenmachen + GEHEN	
+wild ins Kraut schießen	2581	wild + ins Kraut + SCHIEẞEN	
+wilde Ehe	2582	wilde Ehe	
+willens sein	2583	willens + SEIN	
+Wink mit dem Zaunpfahl	2584	Wink mit dem Zaunpfahl	
+wir werden das Kind schon schaukeln	2585	das Kind + schon + schaukeln + WERDEN	
+wissen, wo Barthel den Most holt	2586	wo (der )?Barthel den Most holt + WISSEN	wo Barthel den Most holt + ZEIGEN
+wissen, wo Bartli den Most holt	2587	wo (der )?Bartli den Most holt + WISSEN	
+wissen, wo der Bartl den Most holt	2588	wo (der )?Bartl den Most holt + WISSEN	
+wo der Schuh drückt	2589	wo der Schuh drückt(e)	
+wo die Liebe hinfällt	2590	wo die Liebe hinfällt	
+wo ein Aas ist, sammeln sich die Raben	2591	SICH + die Raben + samm(el|le)	
+wo man hinspuckt	2592	wo man hinspuckt	
+wo Rauch ist, ist auch Feuer	2593	wo Rauch + auch + Feuer + SEIN	
+wo rohe Kräfte sinnlos walten	2594	rohe Kräfte + sinnlos + walte	
+woher nehmen und nicht stehlen	2595	nehmen und nicht + STEHLEN	
+wohl bekomms	2596	wohl bekomms	
+Wohl und Wehe	2597	Wohl und Wehe	
+Würmer baden	2598	Würmer + BADEN	
+Zahlemann und Söhne	2599	Zahlemann und Söhne	
+Zapfen haben	2600	Zapfen + HABEN	
+zarte Bande knüpfen	2601	zarte Bände + knüpf	
+zeigen, wo Barthel den Most holt	2602	wo (der )?Barthel den Most holt + ZEIGEN	
+zeigen, wo Bartli den Most holt	2603	wo (der )?Bartli den Most holt + ZEIGEN	
+zeigen, wo der Bartl den Most holt	2604	wo (der )?Bartl den Most holt + ZEIGEN	
+zeigen, wo der Frosch die Locken hat	2605	wo der Frosch die Locken hat + ZEIGEN	
+Zeit verstreichen lassen	2606	Zeit + verstreichen + LASSEN	
+Zeit von der Uhr nehmen	2607	Zein + von der Uhr + NEHMEN	
+Zeter und Mordio schreien	2608	Zeter und Mordio + schrei	
+zu allem Ja und Amen sagen	2609	zu allem Ja und Amen + SAGEN	
+zu Bett sein	2610	zu Bett + SEIN	
+zu Buche schlagen	2611	zu Buche + SCHLAGEN	
+zu etwas kommen wie die Jungfrau zum Kind	2612	wie die Jungfrau zum Kind + KOMMEN	
+zu Händen von	2613	zu Händen von	
+zu jemandem halten	2614	zu + HALTEN + MANUAL_REVIEW	
+zu Kreuze kriechen	2615	zu Kreuze + KRIECHEN	
+zu kurz kommen	2616	zu kurz + KOMMEN	
+zu Neige gehen	2617	zu Neige + GEHEN	
+zu Potte kommen	2618	zu Potte + KOMMEN	
+zu Rande kommen	2619	zu Rande + KOMMEN	
+zu sich kommen	2620	\b[Zz]u SICHD\b + KOMMEN	
+zu Staub und Asche werden	2621	zu Staub und Asche + WERDEN	
+zu tief ins Glas blicken	2622	zu tief ins Glas + blick	
+zu tief ins Glas schauen	2623	zu tief ins Glas + SCHAUEN	
+zu Tode kommen	2624	zu Tode + KOMMEN	
+zu weit gehen	2625	zu weit + GEHEN	
+zu Wort kommen	2626	zu Wort + KOMMEN	
+zu wünschen übrig lassen	2627	zu wünschen + übrig + LASSEN	
+zu zweien	2628	zu zweien	
+zu zweit	2629	zu zweit	
+Zucht und Ordnung	2630	Zucht und Ordnung	
+Zuckerbrot und Peitsche	2631	Zuckerbrot und Peitsche	
+zum alten Eisen zählen	2632	zum alten Eisen + gehör	zum alten Eisen + zähl
+zum Anbeißen aussehen	2633	zum Anbeißen + \baus(\b|s|z|g) + _SEHEN	
+zum Anbeißen sein	2634	zum Anbeißen + SEIN	
+zum Anfassen	2635	zum Anfassen	
+zum Anknabbern aussehen	2636	zum Anknabbern + \baus(\b|s|z|g) + _SEHEN	
+zum Anknabbern sein	2637	zum Anknabbern + SEIN	
+zum Donnerwetter	2638	zum Donnerwetter	
+zum Lachen in den Keller gehen	2639	zum Lachen in den Keller + GEHEN	
+zum Punkt kommen	2640	zum Punkt + KOMMEN	
+zum Saufüttern	2641	zum Saufürttern	
+zum Teufel gehen	2642	zum Teufel + GEHEN	
+zum Vorschein bringen	2643	zum Vorschein + BRINGEN	
+zum Vorschein kommen	2644	zum Vorschein + KOMMEN	zum Vorschein + BRINGEN
+zum Zuge kommen	2645	zum Zuge + KOMMEN	
+zur Engelmacherin gehen	2646	zur Engelmacherin + GEHEN	
+zur Flasche greifen	2647	zur Flasche + GREIFEN	
+zur Genüge	2648	zur Genüge	
+zur Neige gehen	2649	zur Neige + GEHEN	
+zur Sache kommen	2650	zur Sache + KOMMEN	
+zur Salzsäule erstarren	2651	zur Salzsäule + erstarr	
+zur See fahren	2652	zur See + FAHREN + MANUAL_REVIEW	
+zur Sprache kommen	2653	zur Sprache + KOMMEN	
+zur Welt bringen	2654	zur Welt + BRINGEN	
+Zustände kriegen	2655	Zustände + KRIEGEN	
+zwei Fliegen mit einer Klappe schlagen	2656	zwei Fliegen + Klappe + SCHLAGEN	
+zwei linke Hände haben	2657	zwei linke Hände	
+zwei Seelen wohnen, ach, in meiner Brust	2658	zwei Seelen wohnen + in meiner Brust	
+zweiter Klasse	2659	zweiter Klasse	
+zwischen Baum und Borke stehen	2660	zwischen Baum und Borke + STEHEN	zwischen Baum und Borke
+zwischen den Jahren	2661	zwischen den Jahren	
+zwischen den Zeilen lesen	2662	zwischen den Zeilen + LESEN	
+zwischen die Fronten geraten	2663	zwischen die Fronten + GERATEN	
+zwischen Skylla und Charybdis sein	2664	zwischen Skylla und Charybdis + SEIN	
+zwischen Tür und Angel	2665	zwischen Tür und Angel	
+ägyptische Finsternis	2666	ägyptische Finsternis	
+Äpfel mit Birnen vergleichen	2667	Äpfel mit Birnen + VERGLEICHEN	
+Öl auf die Wogen gießen	2668	Öl + auf + Wogen + GIEẞEN	
+Öl ins Feuer gießen	2669	Öl + ins Feuer + GIEẞEN	
+über alle Berge sein	2670	über alle Berge + SEIN	
+über alle Zweifel erhaben sein	2671	über alle Zweifel + erhaben + SEIN	
+über das Ziel hinausschießen	2672	über das Ziel + \bhinaus(\b|sch|zuschießen|geschossen) + _SCHIEẞEN	über das Ziel + \bhinaus(\b|s|z|g) + _SCHIEẞEN
+über dem Berg sein	2673	über dem Berg + SEIN	
+über den Berg sein	2674	über den Berg + SEIN	
+über den eigenen Schatten springen	2675	über den (eigenen )?Schatten + SPRINGEN	
+über den eigenen Schatten stolpern	2676	über den eigenen Schatten + stolper	
+über den grünen Klee loben	2677	über den grünen Klee + LOBEN	
+über den Jordan gehen	2678	über den Jorden + GEHEN	
+über den Tellerrand schauen	2679	über den Tellerrand + SCHAUEN	
+über die Runden kommen	2680	über die Runden + KOMMEN	
+über die Schnur schlagen	2681	über die Schnur + SCHLAGEN	
+über die Stränge schlagen	2682	über die Stränge + SCHLAGEN	
+über die Wupper gehen	2683	über die Wupper + GEHEN	
+über Gebühr	2684	über Gebühr	
+über Gott und die Welt reden	2685	über Gott und die Welt + REDEN	
+über Leichen gehen	2686	über Leichen + GEHEN	
+über seine Verhältnisse leben	2687	über SEINPA Verhältnisse + LEBEN	
+über seinen Schatten springen	2688	über SEINMA (eigenen )?Schatten + SPRINGEN	über den eigenen Schatten + SPRINGEN
+über Stock und Stein	2689	über Stock und Stein	
+überflüssig wie ein Kropf sein	2690	wie ein Kropf	
+übers Ohr hauen	2691	übers Ohr + HAUEN	
+’s Maul halten	2692	[’`]s Maul + HALTEN	
+'n Appel und 'n Ei	2693	Appel und + Ei	Appel und + Ei + \b[Ff]ür(\b|'|`)
+ab und zu	2694	ab und zu	
+abbügeln	2695	\bab(\b|büg|zubügeln|gebügelt) + büg(el|le)	\bab(\b|b|z|g) + büg(el|le)
+abfahren	2696	auf + \bab(\b|f.hr|zufahren|gefahren) + _FAHREN + MANUAL_REVIEW	\bab(\b|f|z|g) + _FAHREN + MANUAL_REVIEW
+abgekartete Sache	2697	\b[Aa]bgekartete[rn]? Sachen?\b	
+abgekartetes Spiel	2698	\b[Aa]bgekartete[smn]? Spiele?\b	
+abkönnen	2699	\bab(\b|k.nn|zukönnen|gekonnt) + _KÖNNEN + MANUAL_REVIEW	\bab(\b|b|z|g) + _KÖNNEN + MANUAL_REVIEW
+Alarm schlagen	2700	Alarm + SCHLAGEN	
+alt werden	2701	alt + WERDEN + MANUAL_REVIEW	
+alter Hut	2702	alte[rmn] Hut	
+am helllichten Tag	2703	am helllichten Tag	
+am Herd stehen	2704	am Herd + STEHEN	
+am laufenden Band	2705	am laufenden Band	
+am seidenen Faden hängen	2706	([Aa]m einem|[Aa]m) seidenen Faden + HÄNGENHING	am seidenen Faden + HÄNGENHING
+am Wickel haben	2707	am Wickel + HABEN	
+an Boden gewinnen	2708	an Boden + GEWINNEN	
+an den Bettelstab bringen	2709	an den Bettelstab + BRINGEN	
+an den Haaren herbeigezogen	2710	an den Haaren + \bherbei(\b|z|gezogen) + _ZIEHEN	an den Haaren + \bherbei(\b|z|g) + _ZIEHEN
+an den Mann bringen	2711	an den Mann + BRINGEN	
+an den Pranger stellen	2712	an den Pranger + STELLEN	
+an den Tag legen	2713	an den Tag + LEGEN	
+an der Ecke	2714	an der Ecke	
+an der falschen Adresse sein	2715	an der falschen Adresse + SEIN	
+an der Nase herumführen	2716	an der Nase + \bherum(\b|führ|zuführen|geführt) + FÜHREN	an der Nase + \bherum(\b|f|z|g) + FÜHREN
+an die Kandare nehmen	2717	an die Kandare + NEHMEN	
+an die Wand stellen	2718	an die Wand + STELLEN	
+an Sankt Nimmerlein	2719	an Sankt Nimmerlein	
+anderes Ufer	2720	\b[Aa]ndere[smn]? Ufer\b	
+ans Licht kommen	2721	ans Licht + KOMMEN	
+Anteil nehmen	2722	Anteil + NEHMEN	
+arglistige Täuschung	2723	\b[Aa]rglistige[rn]? Täuschung(en)?	
+Arsch in der Hose	2724	Arsch in der Hose	
+Arschkriecher	2725	\bArschkriechers?\b	
+Arschkriecherei	2726	Arschkriecherei	
+Ass im Ärmel	2727	Ass im Ärmel	
+auch andere Mütter haben schöne Töchter	2728	andere Mütter + schöne Töchter + HABEN	
+auf 180	2729	\b[Aa]uf 180\b + MANUAL_REVIEW	
+auf dem Damm	2730	auf dem Damm	
+auf dem falschen Dampfer	2731	auf dem falschen Dampfer	
+auf dem Kriegspfad	2732	auf dem Kriegspfad	
+auf dem Laufenden halten	2733	auf dem Laufenden + HALTEN	auf dem Laufenden
+auf dem richtigen Dampfer	2734	auf dem rightigen Dampfer	
+auf dem Spiel	2735	auf dem Spiel	
+auf den Arm nehmen	2736	auf den Arm + NEHMEN	
+auf den Keks gehen	2737	auf den Keks + GEHEN	
+auf den Schlips treten	2738	auf den Schlips + TRETEN	
+auf den Senkel gehen	2739	auf den Senkel + GEHEN	
+auf den Wecker gehen	2740	auf den Wecker + GEHEN	
+auf den Zahn fühlen	2741	auf den Zahn + FÜHLEN	
+auf den Zeiger gehen	2742	auf den Zeiger + GEHEN	
+auf den Zug aufspringen	2743	auf den Zug + \bauf(\b|spr.ng|zuspringen|gesprungen) + _SPRINGEN	auf den Zug + \bauf(\b|s|z|g) + _SPRINGEN
+auf der gleichen Wellenlänge	2744	auf der gleichen Wellenlänge	
+auf der grünen Wiese	2745	auf der grünen Wiese	
+auf der Kippe	2746	auf der Kippe	
+auf die leichte Schulter nehmen	2747	auf die leichte Schulter + NEHMEN	
+auf die Schippe nehmen	2748	auf die Schippe + NEHMEN	
+auf die Sprünge helfen	2749	auf die Sprünge + HELFEN	
+auf einem anderen Blatt stehen	2750	auf einem anderen Blatt + STEHEN	
+auf einen Sprung vorbeikommen	2751	auf einen Sprung + \bvorbei(\b|k|z|g) + _KOMMEN	
+auf etwas Gift nehmen können	2752	auf + Gift nehmen + KÖNNEN	
+auf keine Kuhhaut passen	2753	auf keine Kuhhaut + pass	
+auf Trab halten	2754	auf Trab + HALTEN	
+aufs Geld gucken	2755	aufs Geld + gucken	
+aufs Korn nehmen	2756	aufs Korn + NEHMEN	
+Augen machen	2757	große Augen + MACHEN + MANUAL_REVIEW	
+aus blauem Himmel	2758	aus blauem Himmel	
+aus dem Ärmel schütteln	2759	aus dem Ärmel + schütt(el|le)	
+aus dem gleichen Holz geschnitzt sein	2760	aus dem gleichen Holz + geschnitzt + SEIN	
+aus dem Off	2761	aus dem Off	
+aus der Not eine Tugend machen	2762	aus der Not + eine Tugend + MACHEN	
+aus einem Guss	2763	aus einem Guss	
+aus etwas Kapital schlagen	2764	aus + Kapital + SCHLAGEN	
+aus heiterem Himmel	2765	aus heiterem Himmel	
+ausbaden	2766	\baus(\b|bade|zubaden|gebadet) + bade + MANUAL_REVIEW	\baus(\b|b|z|g) + bade + MANUAL_REVIEW
+außen hui, innen pfui	2767	außen hui + innen pfui	
+außer Betracht bleiben	2768	außer Betracht + BLEIBEN	
+außer Betracht lassen	2769	außer Betracht + LASSEN	
+außer Frage	2770	außer Frage	
+außer Kontrolle geraten	2771	außer Kontrolle + GERATEN	
+außer sich	2772	außer sich	
+Avancen machen	2773	Avancen + MACHEN	
+bei allem gebotenen Respekt	2774	bei allem gebotenen Respekt	
+bei aller Liebe	2775	bei aller Liebe	
+bei jemandem sein	2776	bei + SEIN + MANUAL_REVIEW	
+bei sich sein	2777	bei SICHD + SEIN + MANUAL_REVIEW	
+beim Barte des Propheten	2778	beim Barte des Propheten	
+beim besten Willen	2779	beim besten Willen	
+Beine bis zum Boden	2780	Beine bis zum Boden	
+beleidigte Leberwurst	2781	beleidigte Leberwurst	
+Bescheid geben	2782	Bescheid + GEBEN	
+bin ich Jesus	2783	bin ich Jesus	
+blauer Dunst	2784	\bblaue[rnm]? Dunst\b	
+Blech reden	2785	Blech + reden	
+böses Erwachen	2786	\b[Bb]öse[smn]? Erwachen\b	
+Brief und Siegel	2787	Brief und Siegel	
+Briefmarkensammlung	2788	Briefmarkensammlung	
+Chinesisch sprechen	2789	Chinesisch + sprechen + MANUAL_REVIEW	
+Crème de la Crème	2790	Crème de la Crème	
+da fährt die Eisenbahn drüber	2791	die Eisenbahn + \b[Dd]a?rüber + FAHREN	
+da haben wir den Salat	2792	den Salat + HABEN + MANUAL_REVIEW	
+da lachen ja die Hühner	2793	die Hühner + lach	
+Damaskuserlebnis	2794	Damaskuserlebnis	
+das Fell gerben	2795	das Fell + gerb	
+das Fell über die Ohren ziehen	2796	das Fell + über die Ohren + ZIEHEN	
+das Gesicht wahren	2797	das Gesicht + wahr	
+das kann man wohl sagen	2798	wohl sagen + KÖNNEN	
+das kannst du laut sagen	2799	laut sagen + KÖNNEN	
+das Kind fällt in den Brunnen	2800	das Kind + in den Brunnen + FALLEN	
+das Kraut fett machen	2801	das Kraut + fett + MACHEN	
+das Rad neu erfinden	2802	das Rad + neu + ERFINDEN	
+das Wasser reichen können	2803	das Wasser + reichen + KÖNNEN	
+dem Braten nicht trauen	2805	dem Braten + nicht + TRAUEN	
+dem Frieden nicht trauen	2806	dem Frieden + nicht + TRAUEN	
+den Arsch aufreißen	2807	den Arsch + \bauf(\b|r|z|g) + _REIẞEN	
+den Ast absägen, auf dem man sitzt	2808	den Ast + \bab(\b|s|z|g) + säg + SITZEN	
+den Boden bereiten	2809	den Boden + \bbereite	
+den Buckel hinhalten	2810	den Buckel + \bhin(\b|h|z|g)	
+den grünen Daumen haben	2811	den grünen Daumen + HABEN	
+den Herrgott einen guten Mann sein lassen	2812	den Herrgott + einen guten Mann + sein + LASSEN	
+den Hof machen	2813	den Hof + MACHEN	
+den Kopf hinhalten	2814	den Kopf + \bhin(\b|h|z|g) + HALTEN	
+den Schwarzen Peter zuschieben	2815	den Schwarzen Peter + \bzu(\b|sch|zuschieben|geschoben) + _SCHIEBEN	den Schwarzen Peter + \bzu(\b|s|z|g) + _SCHIEBEN
+den Stecker ziehen	2816	den Stecker + ZIEHEN	
+den Weg ebnen	2817	den Weg + ebne	
+den Wölfen zum Fraß vorwerfen	2818	den Wölfen + zum Fraß + \bvor(\b|w|z|g) + _WERFEN	
+der Appetit kommt beim Essen	2819	der Appetit + beim Essen + KOMMEN	
+der Hut brennt	2820	der Hut + \b(brennt|brannte|gebrannt)	
+dicht auf den Fersen	2821	dicht + auf den Fersen	
+dickes Fell	2822	[Dd]icke[smn]? Fell	
+die andere Wange hinhalten	2823	die andere Wange + \bhin(\b|h|z|g) + _HALTEN	
+die Bank sprengen	2824	die Bank + spreng	
+die Bienchen und Blümchen	2825	Bienchen und Blümchen	
+die Dinge beim Namen nennen	2826	die Dinge + beim Namen + NENNEN	
+die Ecke	2827	die Ecke + MANUAL_REVIEW	
+die Gunst der Stunde nutzen	2829	die Gunst der Stunde + nutz	
+die Haare vom Kopf fressen	2830	die Haare vom Kopf + FRESSEN	
+die Hoffnung stirbt zuletzt	2831	die Hoffnung + zuletzt + \b(stirbt|starb|gestorben)	
+die Hölle heißmachen	2832	die Hölle + \bheiß(\b|m|z|g) + _MACHEN	
+die Katze beißt sich in den Schwanz	2834	die Katze + in den Schwanz + \b(beißt|biss|gebissen)	
+die Klingen kreuzen	2835	die Klingen + kreuz	
+die Krätze kriegen	2836	die Krätze + KRIEGEN	
+die Krise kriegen	2837	die Krise + KRIEGEN	
+die Leviten lesen	2838	die Leviten + LESEN	
+die Pfanne heiß haben	2839	die Pfanne + \b[Hh]eiß\b + HABEN	
+die Ruhe weghaben	2840	die Ruhe + \bweg(\b|h|z|g) + _HABEN	
+die Stange halten	2841	die Stange + HALTEN	
+die Sterne vom Himmel	2842	die Sterne vom Himmel	
+die Stiefel lecken	2843	die Stiefel + LECKEN	
+die Suppe versalzen	2844	die Suppe + \bversalz	
+die Tage	2845	die Tage + MANUAL_REVIEW	
+die Würfel sind gefallen	2846	die Würfel + \b(sind|waren)\b + gefallen	
+Dorn im Auge	2848	Dorn im Auge	
+Drahtzieher	2849	Drahtzieher	
+Dreck am Stecken	2850	Dreck am Stecken	
+Drogenfalle	2851	Drogenfalle	
+durch den Wind	2852	durch den Wind	
+durch die Finger schauen	2853	durch die Finger + SCHAUEN	
+durch die Lappen gehen	2854	durch die Lappen + GEHEN	
+durch die Weltgeschichte gondeln	2855	durch die Weltgeschichte + gond(el|le)	
+durch die Weltgeschichte reisen	2856	durch die Weltgeschichte + REISEN	
+eher geht ein Kamel durch ein Nadelöhr	2857	Kamel + Nadelöhr + GEHEN	
+Eiertanz	2858	Eiertanz	
+ein Ass im Ärmel haben	2859	Ass im Ärmel	ein Ass im Ärmel + HABEN
+ein Esel schimpft den andern Langohr	2860	Esel + Langohr + schimpf	
+ein Gedächtnis wie ein Sieb	2861	Gedächtnis + wie ein Sieb	
+ein Hühnchen rupfen	2862	ein Hühnchen + rupf	
+ein Indianer kennt keinen Schmerz	2863	keinen Schmerz + Indianer + KENNEN	
+ein Liedchen singen können	2864	ein Liedchen + singen + KÖNNEN	
+ein Stein fällt auf den Kopf	2865	Stein + auf den Kopf + FALLEN	
+Einbruch der Dunkelheit	2866	Einbruch der Dunkelheit	
+Einbruch der Nacht	2867	Einbruch der Nacht	
+eine lange Nase machen	2868	eine lange Nase + MACHEN	
+eine Nase drehen	2869	eine Nase + dreh	
+eine Nummer schieben	2870	eine Nummer + SCHIEBEN	
+eine Nummer zu groß	2871	eine Nummer zu groß	
+eine Scheibe abschneiden	2872	eine Scheibe + \bab(\b|schn|zuschneiden|geschnitten) + _SCHNEIDEN	eine Scheibe + \bab(\b|s|z|g) + _SCHNEIDEN
+einen an der Waffel haben	2873	einen + an der Waffel + HABEN	
+einen Bären aufbinden	2874	einen Bären + \bauf(\b|b|z|g) + _BINDEN	
+einen Besuch abstatten	2875	einen Besuch + \bab(\b|statt|zustatten|gestattet)	einen Besuch + \bab(\b|s|z|g)
+einen guten Draht haben	2876	einen guten Draht + HABEN	
+einen Korb geben	2877	einen Korb + GEBEN	
+einen Riegel vorschieben	2878	einen Riegel + \bvor(\b|sch|zuschieben|geschoben) + SCHIEBEN	einen Riegel + \bvor(\b|s|z|g) + SCHIEBEN
+einen Strick drehen	2879	einen Strick + dreh	
+einen Vogel zeigen	2880	einen Vogel + ZEIGEN	
+einer Fliege etwas zuleide tun	2881	Fliege + etwas zuleide + TUN	
+einer Sache Rechnung tragen	2882	Rechnung + TRAGEN	
+einfach so	2883	einfach so + MANUAL_REVIEW	
+einfädeln	2884	\bein(\b|fäd|zufädeln|gefädelt) + fäd(el|le)	\bein(\b|f|z|g) + fäd(el|le)
+einseifen	2885	\bein(\b|seif|zuseifen|geseift) + seif	\bein(\b|s|z|g) + seif
+eiserner Bestand	2886	eiserne(r|n|m|n) Best[aä]nd(e|en)?	
+Elfenbeinturm	2887	Elfenbeinturm	
+Ende der Fahnenstange	2888	Ende der Fahnenstange	
+englische Härte	2889	englische[rn]? Härte.?	
+englische Woche	2890	englische[rn]? Wochen?	
+Entsafter	2891	Entsafter + MANUAL_REVIEW	
+Ernst	2892	SEINMN Ernst	
+erst recht	2893	erst recht + MANUAL_REVIEW	
+es kommt darauf an	2894	es + kommt + da?rauf + an	
+es selber machen	2895	es + selber + MACHEN	
+es von den Lebenden nehmen	2896	es + von den Lebenden + NEHMEN	
+etwas am Hals haben	2897	am Hals + HABEN	
+etwas aus der Luft greifen	2898	aus der Luft + GREIFEN	
+etwas einreißen lassen	2899	einreißen + LASSEN	
+etwas im Zaum halten	2900	im Zaum + HALTEN	
+etwas in den Wind schlagen	2901	in den Wind + SCHLAGEN	
+etwas in die Schanze schlagen	2902	in die Schanze + SCHLAGEN	
+etwas unter den Teppich kehren	2903	unter den Teppich + kehr	
+etwas zu Tage fördern	2904	zu Tage + förder	
+fehl am Platz	2905	fehl am Platz	
+Fehl und Tadel	2906	Fehl und Tadel	
+Feld-Wald-und-Wiesen-	2907	\bFeld-Wald-und-Wiesen-	
+feucht hinter den Ohren	2908	feucht + hinter den Ohren	
+Feuerprobe	2909	Feuerprobe + MANUAL_REVIEW	
+fick dich	2910	fick dich	
+Fisch muss schwimmen	2911	Fische? + schwimmen + MÜSSEN + MANUAL_REVIEW	
+flach wie Holland	2912	flach + wie Holland	
+flöten gehen	2913	flöten + GEHEN	
+fündig werden	2914	fündig + WERDEN	
+Fünfjahresplan	2915	Fünfjahresplan	
+fünftes Rad am Wagen	2916	fünfte[smn]? Rad' + am Wagen	
+für das Protokoll	2917	für das Protokoll	
+fürs Protokoll	2918	fürs Protokoll	
+ganz dicht sein	2919	ganz dicht + MANUAL_REVIEW	ganz dicht + SEIN + MANUAL_REVIEW
+ganz schön	2920	ganz schön	
+gehüpft wie gesprungen	2921	gehüpft + wie gesprungen	
+gelb vor Neid	2922	gelb + vor Neid	
+gelinde gesagt	2923	gelinde gesagt	
+gemeiner Mitteleuropäer	2924	[Gg]emeine[rnms]? Mitteleuropäer[ns]?	
+gesund und munter	2925	gesund und munter	
+Gewalt antun	2926	Gewalt + ANTUN	
+große Liebe	2927	[Gg]roße[rn]? Lieben?	
+grün vor Neid	2928	grün + vor Neid	
+grüne Grenze	2929	[Gg]rüne[rn]? Grenzen?	
+gut Ding will Weile haben	2930	gut Ding + Weile + haben + WOLLEN	
+gut Wetter machen	2931	gut Wetter + MACHEN + MANUAL_REVIEW	
+guten Glaubens	2932	guten Glaubens	
+guter Hoffnung	2933	guter Hoffnung	
+Haar in der Suppe	2934	Haar in der Suppe	
+haben können	2935	haben + KÖNNEN + MANUAL_REVIEW	
+halbe Miete	2936	halbe[rn]? Mieten?	
+handeln	2937	es + sich + \b(handelte?|gehandelt)\b + um + MANUAL_REVIEW	
+harte Nuss	2938	[Hh]arte[rn]? Nuss	
+heißes Eisen	2939	\b[Hh]eiße\w* Eisen\b	
+hergehen	2940	HER_GEHEN	\bher(\b|z|g) + _GEHEN
+Herz aus Gold	2941	Herz aus Gold	
+Herz aus Stein	2942	Herz aus Stein	
+hingehen, wo der Pfeffer wächst	2943	\bhin(\b|z|g) + _GEHEN + wo der Pfeffer + WACHSEN	
+hinters Licht führen	2944	hinters Licht + FÜHREN	
+hinwegfegen	2945	\bhinweg(\b|feg|zufegen|gefegt) + _FEGEN	\bhinweg(\b|f|z|g) + _FEGEN
+hochnehmen	2946	\bhoch(\b|n|zunehmen|genommen) + _NEHMEN	\bhoch(\b|n|z|g) + _NEHMEN
+hochspielen	2947	\bhoch(\b|spiel|zuspielen|gespielt) + spiel	\bhoch(\b|s|z|g) + spiel
+hohe Kante	2948	[Hh]ohe[rn]? Kante	
+hohe Stirn	2949	[Hh]ohe[rn]? Stirn	
+Höhen und Tiefen	2950	Höhen und Tiefen	
+Holz vor der Hütte	2951	Holz + vor der Hütte	
+Honig um den Bart schmieren	2952	Honig um den Bart + schmier	
+Honig um den Mund schmieren	2953	Honig um den Mund + schmier	
+Honig ums Maul schmieren	2954	Honig ums Maul + schmier	
+Hopfen und Malz, Gott erhalt's	2955	Hopfen und Malz + Gott erhalt.?s	
+Hundeleben	2956	Hundeleben	
+Hundertschaft	2957	Hundertschaft	
+i-Tüpfelchen	2958	i-Tüpfelchen	
+im Auftrag	2959	im Auftrag	
+im Auge behalten	2960	im Auge + BEHALTEN	
+im Auge haben	2961	im Auge + HABEN	
+im Bilde über etwas sein	2962	im Bilde + über + SEIN	
+im falschen Film	2963	im falschen Film	
+im Feld bleiben	2964	im Feld + BLEIBEN	
+im Gebälk knacken	2965	im Gebälk + knack	
+im Gebälk knirschen	2966	im Gebälk + knirsch	
+im Gebälk knistern	2967	im Gebälk + knister	
+im Gebälk krachen	2968	im Gebälk + krach	
+im Gebälk rascheln	2969	im Gebälk + rasch(el|le)	
+im Griff haben	2970	im Griff + HABEN	
+im Kopf haben	2971	im Kopf + HABEN	
+im selben Atemzug	2972	im selben Atemzug	
+im Sturm einnehmen	2973	im Sturm + \bein(\b|n|z|g) + _NEHMEN	
+im Sturm nehmen	2974	im Sturm + NEHMEN	
+in acht Tagen	2975	in acht Tagen + MANUAL_REVIEW	
+in Acht und Bann	2976	in Acht und Bann	
+in Betracht kommen	2977	in Betracht + KOMMEN	
+in den Himmel heben	2978	in den Himmel + HEBEN	
+in den Tee tun	2979	in den Tee + TUN	
+in den Wind schlagen	2980	in den Wind + SCHLAGEN	
+in den Wind sprechen	2981	in den Wind + SPRECHEN	
+in der Weltgeschichte herumgondeln	2982	in der Weltgeschichte + \bherum(\b|z|g) + gond(el|le)	
+in der Weltgeschichte herumreisen	2983	in der Weltgeschichte + \bherum(\b|z|g) + _REISEN	
+in die Ehe bringen	2984	in die Ehe + BRINGEN	
+in die Enge treiben	2985	in die Enge + TREIBEN	
+in die Hand beißen, die einen füttert	2986	in die Hand + BEIẞEN + die + \b(ge)?fütterte?\b	
+in die Luft sprengen	2987	in die Luft + spreng	
+in die Pfanne hauen	2988	in die Pfanne + HAUEN	
+in die Pflicht nehmen	2989	in die Pflicht + NEHMEN	
+in die Quere kommen	2990	in die Quere + KOMMEN	
+in die Wege leiten	2991	in die Wege + LEITEN	
+in Eile gefreit, in Muße bereut	2992	in Eile + frei + in Muße + \bereu	
+in eine Schublade stecken	2993	in eine Schublade + STECKEN	
+in einen Sack stecken und draufhauen	2994	in einen Sack + STECKEN + \bda?rauf(\b|h|z|g) + _HAUEN	
+in guter Gesellschaft	2995	in guter Gesellschaft	
+in höchstem Maße	2996	in höchstem Maße	
+in puncto	2997	in puncto	
+in Ungnade fallen	2998	in Ungnade + FALLEN	
+in Vertretung	2999	in Vertretung	
+in Zukunft	3000	in Zukunft	
+ins Bild setzen	3001	ins Bild + SETZEN	
+ins Detail gehen	3002	ins Detail + GEHEN	
+ins Einzelne gehen	3003	ins Einzelne + GEHEN	
+ins Feld führen	3004	ins Feld + FÜHREN	
+ins Reine bringen	3005	ins Reine + BRINGEN	
+ins Reine kommen	3006	ins Reine + KOMMEN	
+ins Treffen führen	3007	ins Treffen + FÜHREN	
+ins Visier geraten	3008	ins Visier + GERATEN	
+ins Visier nehmen	3009	ins Visier + NEHMEN	
+ins Ziel gehen	3010	ins Ziel + GEHEN	
+Jacke wie Hose	3011	Jacke wie Hose	
+jemandem ans Bein pinkeln	3012	ans Bein + pink(el|le)	
+jemandem den Arsch lecken	3013	den Arsch + LECKEN	
+jemandem die Stirn bieten	3014	die Stirn + BIETEN	
+jemandem etwas zur Last legen	3015	zur Last + LEGEN	
+jemandem in den Arsch kriechen	3017	in den Arsch + KRIECHEN	
+jemandem in den Hintern kriechen	3018	in den Hintern + KRIECHEN	
+jemandem in Fleisch und Blut übergehen	3019	in Fleisch und Blut + \büber(\b|z|g) + _GEHEN	
+jemandem Saures geben	3020	Saures + GEBEN	
+jemandem stehen die Haare zu Berge	3021	die Haare + zu Berge + STEHEN	
+jemandem zur Seite stehen	3022	zur Seite + STEHEN	
+jemanden am Arsch lecken	3023	am Arsch + LECKEN	
+jemanden mal können	3024	\b[DdMm]ich\b + mal + \b[Kk]ann(st)?	mal + KÖNNEN + MANUAL_REVIEW
+jemandes Speichel lecken	3025	Speichel + LECKEN	
+jetzt schlägt's dreizehn	3026	jetzt schlägt.?s dreizehn	
+Kaiser von China	3027	Kaiser von China	
+kalter Bauer	3028	\b[Kk]alte[rnms] Bauer[ns]?\b	
+Katz-und-Maus-Spiel	3029	Katz-und-Maus-Spiel	
+katzenfreundlich	3030	katzenfreundlich	
+kein Kommentar	3031	kein Kommentar	
+kein Pardon kennen	3032	kein Pardon + KENNEN	
+keine halben Sachen machen	3034	keine halben Sachen + MACHEN	
+keine zehn Pferde	3035	keine zehn Pferde	
+Königsweg	3036	Königsweg	
+Kopf und Kragen	3037	Kopf und Kragen	
+Kost und Logis	3038	Kost und Logis	
+kreidebleich	3039	kreidebleich	
+Kuhdorf	3040	Kuhdorf	
+laufen lassen	3041	laufen + LASSEN	
+Leber	3042	\b[Dd](ie|er) Leber\b + MANUAL_REVIEW	
+Leiche im Keller	3043	Leichen? + im Keller + MANUAL_REVIEW	
+leichter gesagt als getan	3044	[Ll]eichter gesagt + als getan	
+lieb und teuer	3045	lieb und teuer	
+Löwenanteil	3046	Löwenanteil	
+Lüdenscheid-Nord	3047	Lüdenscheid-Nord	
+Luftschloss	3048	Luftschloss	
+Lügen strafen	3049	Lügen + straf	
+meines Wissens	3050	meines Wissens	
+Melkkuh	3051	Melkkuh	
+mit allem Drum und Dran	3052	mit allem Drum und Dran	
+mit anderen Worten	3053	mit anderen Worten	
+mit angehaltenem Atem	3054	mit angehaltenem Atem	
+mit Argusaugen beobachten	3055	mit Argusaugen + \bbeobachte	
+mit dem Kopf durch die Wand	3056	mit dem Kopf + durch die Wand	
+mit der Zeit gehen	3057	mit der Zeit + GEHEN	
+mit etwas Schritt halten	3058	mit + Schritt + HALTEN	
+mit gewaschenem Hals	3059	mit gewaschenem Hals	
+mit jemandem ins Gericht gehen	3060	mit + ins Gericht + GEHEN	
+mit jemandem Schlitten fahren	3061	mit + Schlitten + FAHREN	
+mit leeren Händen	3062	mit leeren Händen	
+mit offenen Augen schlafen	3063	mit offenen Augen + SCHLAFEN	
+mit Schimpf und Schande	3064	mit Schimpf und Schande	
+mit sich bringen	3065	mit sich + BRINGEN + MANUAL_REVIEW	
+mitgehen lassen	3066	mitgehen + LASSEN	
+Mittel zum Zweck	3067	Mittel zum Zweck	
+mitzeichnen	3068	\bmit(\b|zeichne|zuzeichnen|gezeichnet) + MITZEICHNEN + MANUAL_REVIEW	\bmit(\b|z|g) + zeichne
+möglich	3069	\b[Aa]lle.? möglich\w* [A-ZÜÄÖ]	
+mundtot machen	3070	mundtot + MACHEN	
+Müßiggang ist aller Laster Anfang	3071	Müßiggang + aller Laster Anfang + SEIN	
+na also	3072	\b[Nn]a,? also\b	
+nach oben buckeln und nach unten treten	3073	nach oben + buck(el|le) + nach unten + TRETEN	
+nach seiner Fasson selig werden	3074	nach seiner Fasson + selig + WERDEN	
+Nadel im Heuhaufen	3075	Nadel im Heuhaufen	
+näher	3076	\b[Nn]äher + MANUAL_REVIEW	
+nasses Element	3077	[Nn]asse[smn]? Element	
+Negermusik	3078	Negermusik	
+nicht der hellste Stern am Himmel	3079	nicht der hellste Stern am Himmel	
+nicht einmal mit der Kneifzange anfassen	3080	mit der Kneifzange + nicht (ein)?mal + \ban(\b|f|z|g) + fass	
+nichts mit Hast als Flöhe fangen	3081	mit Hast + als Flöhe + nichts + FANGEN	
+nichts zu suchen haben	3082	nichts zu suchen + HABEN	
+niemand hat die Absicht	3083	niemand + die Absicht + HABEN	
+niet- und nagelfest	3084	niet- und nagelfest	
+noch nicht aller Tage Abend sein	3085	aller Tage + Abend + noch + nicht + SEIN	
+Not kennt kein Gebot	3086	Not + kein Gebot + KENNEN	
+ob man will oder nicht	3087	[Oo]b (ich w(ill|ollte)|du w(illst|olltest)|(er|sie|man) w(ill|ollte)|(wir|sie) (wollen|wollten)) oder nicht	
+offenes Ohr	3088	offenes Ohr	
+ohne Trauschein	3089	ohne Trauschein	
+Ostfront	3090	Ostfront + MANUAL_REVIEW	
+Ostküste	3091	Ostküste + MANUAL_REVIEW	
+Platz nehmen	3092	Platz + NEHMEN + MANUAL_REVIEW	
+ranhalten	3093	\bran(\b|h|zuhalten|gehalten) + _HALTEN	\bran(\b|h|z|g) + _HALTEN
+rechts ist, wo der Daumen links ist	3094	wo der Daumen links	
+Rechtspflege	3095	Rechtspflege + MANUAL_REVIEW	
+Rede und Antwort stehen	3096	Rede und Antwort + STEHEN	
+Rehauge	3097	\bRehauge + MANUAL_REVIEW	
+reinen Wein einschenken	3098	reinen Wein + \bein(\b|schenk|zuschenken|geschenkt) + schenk	reinen Wein + \bein(\b|s|z|g) + schenk
+reinsetzen	3099	\brein(\b|setz|zusetzen|gesetzt) + _SETZEN	\brein(\b|s|z|g) + _SETZEN
+reinspucken	3100	\brein(\b|s|z|g) + spuck	
+Reiz und Reaktion	3101	Reiz und Reaktion	
+Rettungsring	3102	\bRettungsring + MANUAL_REVIEW	
+rot-weiß	3103	\b[Rr]ot-weiß + MANUAL_REVIEW	
+rund um die Uhr	3104	rund um die Uhr	
+Sahnehäubchen	3105	Sahnehäubchen + MANUAL_REVIEW	
+Salz in die Wunde streuen	3106	Salz + in die Wunde + streu	
+schauen wie der Ochs vorm Berg	3107	wie der Ochs + vorm Berg + SCHAUEN	
+Schenkelklopfer	3108	Schenkelklopfer + MANUAL_REVIEW	
+Schenkelpracker	3109	Schenkelpracker + MANUAL_REVIEW	
+schlachtfertig	3110	\b[Ss]chlachtfertig	
+Schrei	3111	letzter? Schrei + MANUAL_REVIEW	
+schreiben	3112	wie man + SCHREIBEN + MANUAL_REVIEW	
+Schubladendenken	3113	Schubladendenken	
+Schuss vor den Bug	3114	Schuss + vor den Bug	
+schwarzweiß	3115	schwarzweiß	
+Schwarzweißdenken	3116	Schwarzweißdenken	
+Schwarzweißmalerei	3117	Schwarzweißmalerei	
+Schweinsauge	3118	Schweinsauge	
+Seele von Mensch	3119	Seele von Mensch	
+sein Licht unter den Scheffel stellen	3120	hinters Licht + FÜHREN	
+sein wahres Gesicht zeigen	3121	SEINNA wahres Gesicht + ZEIGEN	
+seine Wunden lecken	3122	SEINPA Wunden + LECKEN	
+Selbstmord aus Angst vor dem Tod	3123	Selbstmord + aus Angst vor dem Tod	
+sich aus den Fingern saugen	3124	aus den Fingern + SAUGEN + SICH	
+sich blicken lassen	3125	blicken + LASSEN + SICH	
+sich den Strick nehmen	3126	den Strick + NEHMEN + SICH	
+sich die Butter vom Brot nehmen lassen	3127	die Butter + vom Brot + nehmen + LASSEN + SICH	
+sich die Seele aus dem Leib scheißen	3128	die Seele aus dem Leib + SCHEIẞEN + SICH	
+sich die Wunden lecken	3129	die Wunden + LECKEN + SICH	
+sich ehrlich machen	3130	ehrlich + MACHEN + SICH	
+sich erkenntlich zeigen	3131	erkenntlich + ZEIGEN + SICH	
+sich etwas zu eigen machen	3132	zu eigen + MACHEN + SICH	
+sich geschlagen geben	3133	geschlagen + GEBEN + SICH	
+sich lieb Kind machen	3134	lieb Kind + MACHEN + SICH	
+sich Mühe geben	3135	Mühe + GEBEN + SICH	
+sich nicht vom Fleck rühren	3136	nicht vom Fleck + rühr + SICH	
+sich wacker schlagen	3137	wacker + SCHLAGEN + SICH	
+sie alle haben	3138	sie + alle + \b(haben|hätten|hatten)\b	
+silberne Löffel klauen	3139	silberne Löffel + KLAUEN	
+Silberstreifen am Horizont	3140	Silberstreifen am Horizont	
+Sinn und Verstand	3141	Sinn und Verstand	
+Sitz im Leben	3142	Sitz im Leben	
+sitzen bleiben	3143	sitzen + BLEIBEN + MANUAL_REVIEW	
+so spielt man mit Studenten	3144	mit Student(en)? + spiel + MANUAL_REVIEW	
+so tun, als ob	3145	so + TUN + als ob	
+spanisch sprechen	3146	spanisch + SPRECHEN	
+Spendierhosen	3147	Spendierhosen	
+Spitze des Eisbergs	3148	die Spitze des Eisbergs	
+Spitzentanz	3149	Spitzentanz	
+starker Tobak	3150	[Ss]tarke[rmns]? Tobak(es|en)?	
+Steigbügelhalter	3151	Steigbügelhalter	
+Stinkefinger	3152	Stinkefinger	
+Strippenzieher	3153	Strippenzieher	
+Stuhlgang haben	3154	Stuhlgang + HABEN	
+Stunde der Wahrheit	3155	Stune der Wahrheit	
+Sturm der Entrüstung	3156	Sturm der Entrüstung	
+tagein tagaus	3157	tagein,? tagaus	
+Tatterich	3158	Tatterich	
+Treppchen	3159	Treppchen	
+Trittbrettfahrer	3160	Trittbrettfahrer	
+Tropfen, der das Fass zum Überlaufen bringt	3161	das Fass + zum Überlaufen + BRINGEN	
+tun, was man nicht lassen kann	3162	nicht lassen + TUN + was + KÖNNEN	
+über den Durst trinken	3163	über den Durst + TRINKEN	
+über den Löffel barbieren	3164	über den Löffel + barbier	
+über die Dörfer	3166	über die Dörfer	
+über die Planke gehen	3167	über die Planke + GEHEN	
+über einen Kamm scheren	3170	über einen Kamm + scher	
+über Nacht	3172	über Nacht + MANUAL_REVIEW	
+überwerfen	3174	\büber(\b|w.rf|zuwerfen|geworfen) + _WERFEN + SICH	\büber(\b|w|z|g) + _WERFEN
+um den Finger wickeln	3175	um den Finger + wick(el|le)	
+um Rat fragen	3176	um Rat + frag	
+unter uns	3177	unter uns	
+unterste Schublade	3178	\b[Uu]nterste[rn] Schubladen?\b	
+verschlagen	3179	\b([Dd]ie Sprache|[Dd]en Atem)\b + VERSCHLAGEN	
+Versuchsballon	3180	Versuchsballon	
+vier Buchstaben	3181	vier Buchstaben	
+vom rechten Weg abbringen	3182	vom rechten Weg + \bab(\b|b|z|g) + _BRINGEN	
+vom Tellerwäscher zum Millionär	3183	Tellerwäscher + Millionär	
+von einem Tag auf den anderen	3184	von einem Tag auf den anderen	
+von ganzem Herzen	3185	von ganzem Herzen	
+von gestern	3186	von gestern + MANUAL_REVIEW	
+von Grund auf	3187	von Grund auf	
+von Mann zu Mann	3188	von Mann zu Mann	
+von vorn	3189	von vorn + MANUAL_REVIEW	
+vor den Kopf stoßen	3190	vor den Kopf + STOẞEN	
+vor nichts haltmachen	3191	vor nichts + \bhalt(\b|m|z|g) + _MACHEN	
+Vorschlag zur Güte	3192	Vorschlag zur Güte	
+warm essen	3193	warm + ESSEN + MANUAL_REVIEW	
+was Sie nicht sagen	3194	\b[Ww]as (Sie|du) nicht (sagen|sagst)\b	
+was zum Kuckuck	3195	\b[Ww]as,? zum Kuckuck	
+Weltkriegsgefreiter	3196	Weltkriegsgefreiter	
+wenn der Berg nicht zum Propheten kommt, muss der Prophet wohl zum Berge kommen	3197	der Prophet + zum Berge + KOMMEN + MANUAL_REVIEW	
+wenn man vom Teufel spricht, kommt er	3198	vom Teufel + SPRECHEN + KOMMEN	
+wer nie sein Brot im Bette aß, weiß nicht, wie Krümel piken	3199	SEINNA Brot + im Bette? + ESSEN + pik + Krümel	
+wider Erwarten	3200	wider Erwarten	
+Widerspruch in sich	3201	Widerspruch in SICHB	
+wie Arsch auf Eimer passen	3202	Arsch auf Eimer + pass	
+wie die Made im Speck leben	3203	Made + im Speck + LEBEN	
+wie die Ölsardinen	3204	wie die Ölsardinen	
+wie die Pest meiden	3205	wie die Pest + meid	
+wie ein Blinder von der Farbe reden	3206	wie ein Blinder + REDEN	
+wie ein Blitz aus heiterem Himmel	3207	wie ein Blitz + aus heiterem Himmel	
+wie ein Pferd arbeiten	3208	wie ein Pferd + arbeite	
+wie gewonnen, so zerronnen	3209	wie gewonnen + zerronnen	
+wie Gott ihn schuf	3210	wie Gott + \b(schuf|geschaffen)\b	
+wie Gott in Frankreich leben	3211	wie Gott in Frankreich	
+wie Pastor Nolte	3212	wie Pastor Nolte	
+wie von Geisterhand	3213	wie von Geisterhand	
+wie von Zauberhand	3214	wie von Zauberhand	
+wir sind wieder wer	3215	\b[Ww]ir (sind|waren) wieder wer\b	
+wissen, was man getan hat	3216	WISSEN + was + getan + HABEN	
+Witz, komm raus	3217	Witz + \braus(\b|k|z|g) + KOMMEN	
+wohl oder übel	3218	wohl oder übel	
+Wurzeln schlagen	3219	Wurzeln + SCHLAGEN	
+zu Gesicht bekommen	3220	zu Gesicht + BEKOMMEN	
+zu Grabe tragen	3221	zu Grabe + TRAGEN	
+zu gut, um wahr zu sein	3222	zu gut + um wahr zu sein	
+zu Herzen nehmen	3223	zu Herzen + NEHMEN	
+zugehen	3224	ZU_GEHEN + MANUAL_REVIEW	\bzu(\b|z|g) + _GEHEN + MANUAL_REVIEW
+zum einen Ohr hinein- und zum anderen wieder hinausgehen	3225	einen Ohr + hinein + anderen + hinaus	
+zum Narren halten	3226	zum Narren + HALTEN	
+zum Teufel schicken	3227	zum Teufel + schick	
+zum Tragen kommen	3228	zum Tragen + KOMMEN	
+Zünglein an der Waage	3229	Zünglein + an der Waage	
+zur Schau tragen	3230	zur Schau + TRAGEN	
+zur Strecke bringen	3231	zur Strecke + BRINGEN	
+zweiter Sieger	3232	zweite[rmn]? Siegern?	
+Zwerg auf den Schultern von Giganten	3233	Zwerg + auf den Schultern + Giganten	
+Zwerg auf den Schultern von Riesen	3234	Zwerg + auf den Schultern + Riesen	
+Zwölfjähriges Reich	3235	Zwölfjährige[smn] Reiche?	

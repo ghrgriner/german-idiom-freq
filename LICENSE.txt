@@ -1,0 +1,140 @@
+---------------------------------------
+License for Python code in this package
+---------------------------------------
+The code (*.py files) in this package is licensed under the
+GNU General Public License v3. See LICENSE_GPL_v3_for_py_files.txt
+in this directory for the license.
+
+-------------------------------------------------------------
+License and attribution information for files in input/ and output/ directories.
+-------------------------------------------------------------
+Files in the input/ and output/ directories are made available
+under the CC BY-SA 4.0 license.
+
+URL of a human-readable summary of the CC BY-SA 4.0 license:
+    https://creativecommons.org/licenses/by-sa/4.0/.
+
+URL of the CC BY-SA 4.0 license itself. The summary is not a substitute for the license:
+    https://creativecommons.org/licenses/by-sa/4.0/legalcode.
+
+Note the disclaimer of warranties in the CC BY-SA 4.0 license:
+
+Section 5 – Disclaimer of Warranties and Limitation of Liability.
+
+    Unless otherwise separately undertaken by the Licensor, to the extent
+possible, the Licensor offers the Licensed Material as-is and as-available,
+and makes no representations or warranties of any kind concerning the
+Licensed Material, whether express, implied, statutory, or other. This
+includes, without limitation, warranties of title, merchantability, fitness
+for a particular purpose, non-infringement, absence of latent or other
+defects, accuracy, or the presence or absence of errors, whether or not
+known or discoverable. Where disclaimers of warranties are not allowed in
+full or in part, this disclaimer may not apply to You.
+    To the extent possible, in no event will the Licensor be liable to You
+on any legal theory (including, without limitation, negligence) or
+otherwise for any direct, special, indirect, incidental, consequential,
+punitive, exemplary, or other losses, costs, expenses, or damages arising
+out of this Public License or use of the Licensed Material, even if the
+Licensor has been advised of the possibility of such losses, costs,
+expenses, or damages. Where a limitation of liability is not allowed in
+full or in part, this limitation may not apply to You.
+    The disclaimer of warranties and limitation of liability provided above
+shall be interpreted in a manner that, to the extent possible, most closely
+approximates an absolute disclaimer and waiver of all liability.
+
+--------------
+
+The `headword` column in input/dewk_redewendungen_and_regex.txt
+(and the identical column in input/sample_config.txt)
+is the union of (1) an unmodified list of all entries in the 'Redewendung' category on
+the German-language Wiktionary retrieved June 18, 2025, and (2) an unmodified list of
+all entries in the 'German idioms' category on the English-language Wiktionary
+retrieved July 11, 2025:
+   (1) https://de.wiktionary.org/wiki/Kategorie:Redewendung_(Deutsch)
+   (2) https://en.wiktionary.org/wiki/Category:German_idioms
+
+List (1) is made available on the German-language Wiktionary under the license
+"Lizenz Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 Unported",
+(https://creativecommons.org/licenses/by-sa/4.0/deed.de).
+List (2) is made available on the English-language Wiktionary under the license
+"Creative Commons Attribution-ShareAlike License",
+(https://creativecommons.org/licenses/by-sa/4.0/).
+
+The `link_de` and `link_en` columns in the file in the output/ directory
+are transformations of the `headword` column into a URL according to
+Wiktionary conventions.
+These links link to the Wiktionary page for an item in list (1) and/or (2), respectively,
+for each idiom in list (1) and/or (2). From there, a link to a page with authorship history
+is available.
+
+--------------
+
+The following fields are © Ray Griner, 2025: the fields `re1` and `re2`
+in the file in the input/ directory, and the same fields in the
+file in the output/ directory as well as fields with names starting with
+starting with `n_` and `verb_search_cat_`, and the `main_form` and
+`related_headword` fields.
+
+--------------
+
+Creation of the output file uses a corpus (three corpus files) derived from the
+February 2022 extract of the German-language Wikipedia as created by
+Philip May, available for download at:
+    https://github.com/GermanT5/wikipedia2corpus
+with the files themselves at:
+    https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-01
+    https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-02
+    https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-03
+
+The Wikipedia extract was modified to create the corpus file. Philip May
+gives this description on the GitHub page linked two paragraphs above:
+"We use WikiExtractor to extract the Wikipedia database dumps. The texts
+ are split into sentences by using SoMaJo. Each line of the text corpus
+ contains one single sentence. Between each Wikipedia article is a blank line."
+
+Before using the corpus file in our program we concatenated the three
+files, unzipped the resulting file, took a 10% sample of lines and sorted
+the results before saving the output. The saved file then had empty lines
+removed before processing. Example code is provided in `download_sample.py`,
+but the key point to document reproducibility is to note that after setting
+seed=692031 for the random number generator, each line had a random number
+assigned using `random.random()`. Lines where this value was <= .10 were
+retained. Python v3.13.3 was used.
+
+The corpus file was then processed without further modification to generate the
+counts of matches but the resulting counts were sometimes then corrected
+to obtain the frequency estimate of each idiom. (See README.md and other
+project documentation for details.)
+
+The corpus files are not distributed with this program.
+
+The corpus and the given extract of Wikipedia on which it is based
+are published under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+(https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported)
+
+URL of a human-readable summary of the CC BY-SA 3.0 unported license:
+    https://creativecommons.org/licenses/by-sa/3.0/.
+
+URL of the license itself. The summary is not a substitute for the license:
+    https://creativecommons.org/licenses/by-sa/3.0/legalcode.
+
+Note the disclaimer of warranties in the CC BY-SA 3.0 unported license:
+
+5. Representations, Warranties and Disclaimer
+
+UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING AND TO THE FULLEST
+EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO
+REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED,
+STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE,
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE
+OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER
+OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED
+WARRANTIES, SO THIS EXCLUSION MAY NOT APPLY TO YOU.
+
+6. Limitation on Liability.
+
+EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE
+TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR
+EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF
+LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
