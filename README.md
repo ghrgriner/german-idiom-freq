@@ -174,8 +174,8 @@ one of the idioms, there will need to be sufficient context which is desired).
 
 Consider the following group of idioms: {'einen Korb geben', 'jemandem einen Korb geben',
 'einen Korb bekommen', 'einen Korb kriegen'}. The first two have
-`main_form` set to 'einen Korb bekommen' and the last
-two have `main form` set to 'jemandem einen Korb geben'. All four have
+`main_form` set to 'jemandem einen Korb geben' and the last
+two have `main form` set to 'einen Korb bekommen'. All four have
 `related_headword` set to 'jemandem einen Korb geben', as the variants
 with 'geben' have higher frequency than those with 'bekommen' or 'kriegen'.
 
