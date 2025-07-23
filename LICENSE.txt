@@ -2,7 +2,7 @@
 License for Python code in this package
 ---------------------------------------
 The code (*.py files) in this package is licensed under the
-GNU General Public License v3. See LICENSE_GPL_v3_for_py_files.txt
+GNU General Public License v3. See src/LICENSE_GPL_v3_for_py_files.txt
 in this directory for the license.
 
 -------------------------------------------------------------
