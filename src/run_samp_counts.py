@@ -34,14 +34,15 @@ NROWS = None
 IDIOM_START = 1
 IDIOM_STOP = None
 CHUNKSIZE = 10000
+OUTPUT_DIR = 'for_review_before_sampling'
 IDIOM_FILE = os.path.join('input', 'dewk_redewendungen_and_regex.txt')
-OUTPUT_FILE = os.path.join('samp_output', 'dewk_redewendungen_counts.txt')
-SAMPLE_CONFIG_FILE = os.path.join('manual', 'dewk_redewendungen_v1.txt')
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'dewk_redewendungen_counts.txt')
+SAMPLE_CONFIG_FILE = os.path.join('input', 'sample_config.txt')
 CORPUS_DIR = 'sentences'
 file1 = os.path.join(CORPUS_DIR, 'dewiki-20220201-clean-notblank.txt')
 CORPUS_FILES = (file1,)
-PVS_OUTPUT_FILE = os.path.join('samp_output', 'prob_verb_stems.txt')
-MATCH_FILE = os.path.join('samp_output', 'match_file.txt')
+PVS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'prob_verb_stems.txt')
+MATCH_FILE = os.path.join(OUTPUT_DIR, 'match_file.txt')
 N_CORES = None
 
 #------------------------------------------------------------------------------

@@ -49,8 +49,8 @@ import pandas as pd
 IDIOM_STOP = None
 IDIOM_FILE = os.path.join('input', 'dewk_redewendungen_and_regex.txt')
 SAMPLE_CONFIG_FILE = os.path.join('input', 'sample_config.txt')
-MATCH_FILE = os.path.join('samp_output', 'match_file.txt')
-OUTPUT_DIR = 'manrev'
+MATCH_FILE = os.path.join('for_review_before_sampling', 'match_file.txt')
+OUTPUT_DIR = 'for_review'
 
 #------------------------------------------------------------------------------
 # Main entry point
