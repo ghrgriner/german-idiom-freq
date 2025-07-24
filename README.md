@@ -61,9 +61,11 @@ has four variables.
   determine which of two variant forms of an idiom were more common.
 
 Once `count_regexes.py` is run, the counts can be manually corrected
-if desired. The optional program [sample\_for\_review.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/sample_for_review.py)
-can be used to automatically create samples of selected variables for
-review.
+if desired. The programs
+[save\_matches\_for\_sampling.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/save_matches_for_sampling.py)
+and
+[sample\_for\_review.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/sample_for_review.py)
+can be used to samples or full listings of selected idioms for review.
 - **headword**: From first input file
 - **n_manual_sampsize**: Either 'all' or the sample size to use to
   create file(s) with the starting set of matches and the sample.
@@ -72,7 +74,7 @@ review.
 The final file to run is [post\_process.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/post_process.py).
 This takes as input a third input file and merges these fields onto
 the file or counts obtained from `count_regexes.py` to generate the
-final output file. Various diagnostics are performed and listings created,
+final output file. Various diagnostics are performed and listings created.
 see the docstring of the file for details.
 
 This third input file has the columns:
@@ -383,14 +385,14 @@ be considered, but the manual review has not been performed.
 9. The corpus might not match the [register](https://en.wikipedia.org/wiki/Register_(sociolinguistics))/formality that a user
 wants to speak in, since it is derived from an online encyclopedia.
 
-10. The author of this deck is not a native speaker of German.
+10. The repository author is not a native speaker of German.
 
 11. The English Wiktionary includes some single-word separable-verb entries.
     This is contrast to the German-language Wiktionary where single-word
     entries were limited to nouns. Since these single-word separable-word
     entries have no objects or other words to further restrict the results,
-    there is a risk that the regular expressions used will overcount
-    by a non-trivial amount. We may change
+    there is a risk that the regular expressions used will overestimate
+    the frequency by a non-trivial amount. We may change
     [how separable verbs are handled](#separable-verb-conventions)
     to ensure that the string matching the separable prefix is either
     attached to the verb or detached after the verb. (See handling of the
@@ -409,7 +411,8 @@ compared to our approach.
 
 # Run-Time
 The file `run_wp2022_counts.py` (which calls `count_regexes()` in `count_regexes.py`)
-takes about 2 hours on our laptop to run.
+takes about 2 hours on our laptop to run. The optional `run_wikwork.py`
+program probably takes an equivalent time to run, but we did not record the run-time.
 
 # References
 <a name="ref-dewk-mit-jdm-gehen">[1]</a>
