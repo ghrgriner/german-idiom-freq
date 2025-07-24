@@ -287,7 +287,7 @@ aus voller Kehle	285	285	aus voller Kehle		2	2	2	2							2				https://de.wiktion
 ausgehen wie das Hornberger Schießen	286	286	wie das Hornberger Schieße		0	0	0	0							0				https://de.wiktionary.org/wiki/ausgehen_wie_das_Hornberger_Schie%C3%9Fen	
 Ausnahmen bestätigen die Regel	287	287	Ausnahmen + bestätigen + die Regel		1	1277 -> 1 -> 1	1	1278 -> 1 -> 1							1				https://de.wiktionary.org/wiki/Ausnahmen_best%C3%A4tigen_die_Regel	
 Ausschau halten	288	288	Ausschau + HALTEN		79	79 -> 79	80	80 -> 80							79				https://de.wiktionary.org/wiki/Ausschau_halten	
-aussehen wie das Leiden Christi	289	289	wie das Leiden Christi		0	0	0	0							0	wie das Leiden Christi			https://de.wiktionary.org/wiki/aussehen_wie_das_Leiden_Christi	
+aussehen wie das Leiden Christi	289	289	wie das Leiden Christi		0	0	0	0							0	aussehen wie das Leiden Christi			https://de.wiktionary.org/wiki/aussehen_wie_das_Leiden_Christi	
 außer Rand und Band geraten	290	290	außer Rand und Band + GERATEN		1	7 -> 1	1	7 -> 1							1				https://de.wiktionary.org/wiki/au%C3%9Fer_Rand_und_Band_geraten	https://en.wiktionary.org/wiki/au%C3%9Fer_Rand_und_Band_geraten
 außer sich sein	291	291	außer SICHD + SEIN		50	80 -> 50	51	81 -> 51							50				https://de.wiktionary.org/wiki/au%C3%9Fer_sich_sein	
 außer Spesen nichts gewesen	292	292	außer Spesen nichts gewesen		0	0	0	0							0				https://de.wiktionary.org/wiki/au%C3%9Fer_Spesen_nichts_gewesen	
@@ -542,7 +542,7 @@ der große Bruder	540	540	\b[Dd]e[rmns] große[nm]? Bruders? + MANUAL_REVIEW	der
 der Hecht im Karpfenteich	541	541	\b[Dd]e[rnms] Hechts? im Karpfenteich\b	der Hecht im Karpfenteich	0	0	0	0	0	0	0	0			0				https://de.wiktionary.org/wiki/der_Hecht_im_Karpfenteich	
 der Kelch geht an jemandem vorüber	542	542	der Kelch + (\bdr|\bdar|\b)an\b + \bvorüber + _GEHEN		0	237 -> 23 -> 0 -> 0	0	237 -> 25 -> 0 -> 0							0				https://de.wiktionary.org/wiki/der_Kelch_geht_an_jemandem_vor%C3%BCber	
 der kleine Mann	543	543	\b[Dd]e[rnms] kleine[nm]? Mann(e?s)?\b	der kleine Mann	27	27	30	30	9	9	10	10			27				https://de.wiktionary.org/wiki/der_kleine_Mann	
-der langen Rede kurzer Sinn	544	544	der langen Rede + kurzer Sinn		0	0 -> 0	0	0 -> 0							0	lange Rede kurzer Sinn		langer Rede kurzer Sinn	https://de.wiktionary.org/wiki/der_langen_Rede_kurzer_Sinn	
+der langen Rede kurzer Sinn	544	544	der langen Rede + kurzer Sinn		0	0 -> 0	0	0 -> 0							0	lange Rede, kurzer Sinn		langer Rede kurzer Sinn	https://de.wiktionary.org/wiki/der_langen_Rede_kurzer_Sinn	
 der Liebe keinen Abbruch tun	545	545	der Liebe keinen Abbruch + TUN		0	0 -> 0	0	0 -> 0							0		etwas keinen Abbruch tun		https://de.wiktionary.org/wiki/der_Liebe_keinen_Abbruch_tun	
 der Länge nach	546	546	der Länge nach		61	61	61	61							61				https://de.wiktionary.org/wiki/der_L%C3%A4nge_nach	
 der Narr muss ein Abzeichen haben	547	547	der Narr muss ein Abzeichen haben		0	0	0	0							0				https://de.wiktionary.org/wiki/der_Narr_muss_ein_Abzeichen_haben	
@@ -815,8 +815,8 @@ eine sichere Bank sein	813	813	eine sichere Bank + SEIN		0	0 -> 0	0	0 -> 0						
 eine Standpauke halten	814	814	eine Standpauke + HALTEN		3	3 -> 3	3	3 -> 3							3				https://de.wiktionary.org/wiki/eine_Standpauke_halten	
 eine weiße Weste haben	815	815	eine weiße Weste		4	4	4	4							4				https://de.wiktionary.org/wiki/eine_wei%C3%9Fe_Weste_haben	
 eine Wissenschaft für sich sein	816	816	eine Wissenschaft + für SICHA + SEIN		0	15 -> 0 -> 0	0	15 -> 0 -> 0							0				https://de.wiktionary.org/wiki/eine_Wissenschaft_f%C3%BCr_sich_sein	
-einem nackten Mann in die Tasche fassen	817	817	einem nackten Mann + in die Tasche + fass	einem nackten Mann + in die Tasche	0	0 -> 0 -> 0	0	0 -> 0 -> 0	0	0 -> 0	0	0 -> 0			0	einem nackten Mann in die Tasche + GREIFEN		einem nackten Mann in die Tasche greifen	https://de.wiktionary.org/wiki/einem_nackten_Mann_in_die_Tasche_fassen	
-einem nackten Mann in die Tasche greifen	818	818	einem nackten Mann in die Tasche + GREIFEN	einem nackten Mann + in die Tasche	0	0 -> 0	0	0 -> 0	0	0 -> 0	0	0 -> 0			0	einem nackten Mann in die Tasche + GREIFEN			https://de.wiktionary.org/wiki/einem_nackten_Mann_in_die_Tasche_greifen	
+einem nackten Mann in die Tasche fassen	817	817	einem nackten Mann + in die Tasche + fass	einem nackten Mann + in die Tasche	0	0 -> 0 -> 0	0	0 -> 0 -> 0	0	0 -> 0	0	0 -> 0			0	einem nackten Mann in die Tasche greifen		einem nackten Mann in die Tasche greifen	https://de.wiktionary.org/wiki/einem_nackten_Mann_in_die_Tasche_fassen	
+einem nackten Mann in die Tasche greifen	818	818	einem nackten Mann in die Tasche + GREIFEN	einem nackten Mann + in die Tasche	0	0 -> 0	0	0 -> 0	0	0 -> 0	0	0 -> 0			0	einem nackten Mann in die Tasche greifen			https://de.wiktionary.org/wiki/einem_nackten_Mann_in_die_Tasche_greifen	
 einem Schatten nachjagen	819	819	einem Schatten + \bnach(\b|j|z|g) + jag		0	3 -> 0 -> 0	0	3 -> 0 -> 0							0				https://de.wiktionary.org/wiki/einem_Schatten_nachjagen	
 einen abbeißen	820	820	einen + \bab(\b|b|z|g) + _BEIẞEN + MANUAL_REVIEW		6	179566 -> 7477 -> 6 -> 6	10	179567 -> 9287 -> 10 -> 10							6				https://de.wiktionary.org/wiki/einen_abbei%C3%9Fen	
 einen Abflug machen	821	821	einen Abflug + MACHEN		1	1 -> 1	1	1 -> 1							1	einen Abflug machen	einen Abgang machen		https://de.wiktionary.org/wiki/einen_Abflug_machen	
@@ -1091,7 +1091,7 @@ gedacht sein	1089	1089	gedacht + SEIN + MANUAL_REVIEW		1059	1551 -> 1059 -> 1059
 Gedanken lesen	1090	1090	Gedanken + LESEN		31	1796 -> 31	49	1798 -> 49							31				https://de.wiktionary.org/wiki/Gedanken_lesen	
 geduldig wie ein Lamm	1091	1091	wie ein Lamm + geduldig		0	2 -> 0	0	2 -> 0							0				https://de.wiktionary.org/wiki/geduldig_wie_ein_Lamm	
 Gefahr laufen	1092	1092	Gefahr + LAUFEN		90	2935 -> 90	105	2940 -> 105							90				https://de.wiktionary.org/wiki/Gefahr_laufen	
-gegangen werden	1093	1093	gegangen + WERDEN		276	1256 -> 276	277	1256 -> 277							276				https://de.wiktionary.org/wiki/gegangen_werden	
+gegangen werden	1093	1093	gegangen + WERDEN		276	1256 -> 276	277	1256 -> 277					1	0/100*276 found, so assume 0.5 matches	1				https://de.wiktionary.org/wiki/gegangen_werden	
 gegen den Strom schwimmen	1094	1094	gegen den Strom + SCHWIMMEN		7	18 -> 7	7	19 -> 7							7	gegen den Strom schwimmen			https://de.wiktionary.org/wiki/gegen_den_Strom_schwimmen	
 gegen eine Mauer reden	1095	1095	gegen eine Mauer + REDEN		0	7 -> 0	0	7 -> 0							0	gegen eine Wand reden			https://de.wiktionary.org/wiki/gegen_eine_Mauer_reden	
 gegen eine Wand reden	1096	1096	gegen eine Wand + REDEN		0	6 -> 0	0	6 -> 0							0	gegen eine Wand reden			https://de.wiktionary.org/wiki/gegen_eine_Wand_reden	
@@ -1258,7 +1258,7 @@ in Angst und Schrecken versetzen	1256	1256	Angst und Schrecken + versetz		27	50 
 in Asche legen	1257	1257	in Asche + LEGEN		2	5 -> 2	2	5 -> 2							2				https://de.wiktionary.org/wiki/in_Asche_legen	
 in Bausch und Bogen	1258	1258	in Bausch und Bogen		1	1	1	1							1				https://de.wiktionary.org/wiki/in_Bausch_und_Bogen	
 in besten Händen sein	1259	1259	in besten Händen		0	0	0	0							0	in guten Händen sein	in guten Händen sein	in guten Händen sein	https://de.wiktionary.org/wiki/in_besten_H%C3%A4nden_sein	
-in Betracht ziehen	1260	1260	in Betracht + ZIEHEN		316	666 -> 316	320	666 -> 320							316	in Betracht + ZIEHEN			https://de.wiktionary.org/wiki/in_Betracht_ziehen	https://en.wiktionary.org/wiki/in_Betracht_ziehen
+in Betracht ziehen	1260	1260	in Betracht + ZIEHEN		316	666 -> 316	320	666 -> 320							316	in Betracht ziehen			https://de.wiktionary.org/wiki/in_Betracht_ziehen	https://en.wiktionary.org/wiki/in_Betracht_ziehen
 in das Reich der Schatten hinabsteigen	1261	1261	in das Reich der Schatten + \bhinab(\b|s|z|g) + _STEIGEN		0	0 -> 0 -> 0	0	0 -> 0 -> 0							0				https://de.wiktionary.org/wiki/in_das_Reich_der_Schatten_hinabsteigen	
 in den Arsch gehen	1262	1262	in den Arsch + GEHEN		1	4 -> 1	1	4 -> 1							1				https://de.wiktionary.org/wiki/in_den_Arsch_gehen	
 in den Arsch kriechen	1263	1263	in den Arsch + KRIECHEN		0	4 -> 0	0	4 -> 0							0	in den Arsch kriechen			https://de.wiktionary.org/wiki/in_den_Arsch_kriechen	https://en.wiktionary.org/wiki/in_den_Arsch_kriechen
@@ -1696,7 +1696,7 @@ jemandes bessere Hälfte	1694	1694	SEINFN bessere Hälfte		2	2	2	2							2				ht
 jemandes Herr werden	1695	1695	Herr + WERDEN + MANUAL_REVIEW		617	2569 -> 617 -> 617	630	2602 -> 630 -> 630					6	0/50*617 found, so assume 0.5 matches	6	etwas Herr werden			https://de.wiktionary.org/wiki/jemandes_Herr_werden	
 jemandes Kreise stören	1696	1696	SEINFA Kreise + STÖREN		0	10 -> 0	1	10 -> 1							0				https://de.wiktionary.org/wiki/jemandes_Kreise_st%C3%B6ren	
 jemandes letztes Stündlein hat geschlagen	1697	1697	Stündlein + geschlagen + HABEN		1	2 -> 1 -> 1	1	2 -> 1 -> 1							1				https://de.wiktionary.org/wiki/jemandes_letztes_St%C3%BCndlein_hat_geschlagen	
-jemandes Mann sein	1698	1698	SEINMN Mann + SEIN		265	797 -> 265	266	797 -> 266							265				https://de.wiktionary.org/wiki/jemandes_Mann_sein	
+jemandes Mann sein	1698	1698	SEINMN Mann + SEIN		265	797 -> 265	266	797 -> 266					5	=1/50*265	5				https://de.wiktionary.org/wiki/jemandes_Mann_sein	
 jemandes Strümpfe ziehen Wasser	1699	1699	Strümpfe + (ziehen|zogen|gezogen) + Wasser		0	53 -> 1 -> 0	0	53 -> 1 -> 0							0				https://de.wiktionary.org/wiki/jemandes_Str%C3%BCmpfe_ziehen_Wasser	
 jetzt schlägts dreizehn	1700	1700	jetzt schlägt.?s dreizehn		0	0	0	0							0	jetzt schlägts dreizehn			https://de.wiktionary.org/wiki/jetzt_schl%C3%A4gts_dreizehn	
 Jubel, Trubel, Heiterkeit	1701	1701	Jubel + Trubel + Heiterkeit		1	89 -> 1 -> 1	1	89 -> 1 -> 1							1				https://de.wiktionary.org/wiki/Jubel%2C_Trubel%2C_Heiterkeit	
@@ -1778,11 +1778,11 @@ kurz angebunden	1776	1776	kurz angebunden		0	0	0	0							0				https://de.wiktion
 kurz und bündig	1777	1777	kurz und bündig		7	7	7	7							7				https://de.wiktionary.org/wiki/kurz_und_b%C3%BCndig	
 kurz vor Ultimo	1778	1778	kurz vor Ultimo		0	0	0	0							0				https://de.wiktionary.org/wiki/kurz_vor_Ultimo	
 Lack gesoffen haben	1779	1779	Lack gesoffen + HABEN		0	0 -> 0	0	0 -> 0							0				https://de.wiktionary.org/wiki/Lack_gesoffen_haben	
-Land gewinnen	1780	1780	Land + GEWINNEN + MANUAL_REVIEW		176	20104 -> 176 -> 176	209	20404 -> 209 -> 209							176				https://de.wiktionary.org/wiki/Land_gewinnen	https://en.wiktionary.org/wiki/Land_gewinnen
+Land gewinnen	1780	1780	Land + GEWINNEN + MANUAL_REVIEW		176	20104 -> 176 -> 176	209	20404 -> 209 -> 209					0	0/176	0				https://de.wiktionary.org/wiki/Land_gewinnen	https://en.wiktionary.org/wiki/Land_gewinnen
 Land unter	1781	1781	Land unter + MANUAL_REVIEW		64	64 -> 64	65	65 -> 65					2	2/64; includes a title	2				https://de.wiktionary.org/wiki/Land_unter	
 landauf, landab	1782	1782	landauf, landab		0	0	0	0							0				https://de.wiktionary.org/wiki/landauf%2C_landab	
-lange Rede, kurzer Sinn	1783	1783	lange Rede + kurzer Sinn		0	6 -> 0	0	6 -> 0							0	lange Rede kurzer Sinn		langer Rede kurzer Sinn	https://de.wiktionary.org/wiki/lange_Rede%2C_kurzer_Sinn	
-langer Rede kurzer Sinn	1784	1784	langer Rede + kurzer Sinn		0	0 -> 0	0	0 -> 0							0	lange Rede kurzer Sinn			https://de.wiktionary.org/wiki/langer_Rede_kurzer_Sinn	
+lange Rede, kurzer Sinn	1783	1783	lange Rede + kurzer Sinn		0	6 -> 0	0	6 -> 0							0	lange Rede, kurzer Sinn		langer Rede kurzer Sinn	https://de.wiktionary.org/wiki/lange_Rede%2C_kurzer_Sinn	
+langer Rede kurzer Sinn	1784	1784	langer Rede + kurzer Sinn		0	0 -> 0	0	0 -> 0							0	lange Rede, kurzer Sinn			https://de.wiktionary.org/wiki/langer_Rede_kurzer_Sinn	
 laut denken	1785	1785	laut + DENKEN		45	12256 -> 45	108	12258 -> 108							45				https://de.wiktionary.org/wiki/laut_denken	
 Laut geben	1786	1786	Laut + GEBEN + MANUAL_REVIEW		293	5766 -> 293 -> 293	879	12258 -> 879 -> 879					1	0/100 in sample or when filtering by the regex 'Laut[\.,]', but 'Laut g.b' finds one	1				https://de.wiktionary.org/wiki/Laut_geben	
 leben und leben lassen	1787	1787	leben und leben + LASSEN		2	2 -> 2	4	4 -> 4							2				https://de.wiktionary.org/wiki/leben_und_leben_lassen	
@@ -2503,7 +2503,7 @@ was man nicht im Kopf hat, hat man in den Beinen	2501	2501	was man nicht im Kopf
 was weiß ich	2502	2502	was weiß ich		0	0	0	0							0				https://de.wiktionary.org/wiki/was_wei%C3%9F_ich	
 Wasser auf jemandes Mühle leiten	2503	2503	Wasser auf SEINFA Mühle + LEITEN		0	1 -> 0	0	1 -> 0							0				https://de.wiktionary.org/wiki/Wasser_auf_jemandes_M%C3%BChle_leiten	https://en.wiktionary.org/wiki/Wasser_auf_jemandes_M%C3%BChle_leiten
 Wasser ins Meer tragen	2504	2504	Wasser + ins Meer + TRAGEN		0	12225 -> 19 -> 0	0	12263 -> 19 -> 0							0				https://de.wiktionary.org/wiki/Wasser_ins_Meer_tragen	
-Wasser lassen	2505	2505	Wasser + LASSEN		328	12225 -> 328	333	12263 -> 333							328				https://de.wiktionary.org/wiki/Wasser_lassen	
+Wasser lassen	2505	2505	Wasser + LASSEN		328	12225 -> 328	333	12263 -> 333					6	1/50*328	6				https://de.wiktionary.org/wiki/Wasser_lassen	
 Wasser predigen und Wein trinken	2506	2506	Wasser + predig + Wein + TRINKEN		0	12225 -> 0 -> 0 -> 0	0	12263 -> 0 -> 0 -> 0							0				https://de.wiktionary.org/wiki/Wasser_predigen_und_Wein_trinken	https://en.wiktionary.org/wiki/Wasser_predigen_und_Wein_trinken
 weder Hand noch Fuß haben	2507	2507	weder Hand noch Fuß + HABEN		0	0 -> 0	0	0 -> 0							0				https://de.wiktionary.org/wiki/weder_Hand_noch_Fu%C3%9F_haben	
 weder noch	2508	2508	weder noch		3	3	3	3							3				https://de.wiktionary.org/wiki/weder_noch	
@@ -2543,7 +2543,7 @@ wie bei Muttern	2541	2541	wie bei Muttern		0	0	0	0							0				https://de.wiktion
 wie Bolle	2542	2542	wie Bolle		0	0	0	0							0				https://de.wiktionary.org/wiki/wie_Bolle	
 wie Braunbier mit Spucke aussehen	2543	2543	wie Braunbier mit Spucke		0	0	0	0							0	wie Braunbier und Spucke aussehen		wie Braunbier und Spucke aussehen	https://de.wiktionary.org/wiki/wie_Braunbier_mit_Spucke_aussehen	
 wie Braunbier und Spucke aussehen	2544	2544	wie Braunbier und Spucke		0	0	0	0							0	wie Braunbier und Spucke aussehen			https://de.wiktionary.org/wiki/wie_Braunbier_und_Spucke_aussehen	
-wie das Leiden Christi aussehen	2545	2545	wie das Leiden Christi		0	0	0	0							0	wie das Leiden Christi			https://de.wiktionary.org/wiki/wie_das_Leiden_Christi_aussehen	
+wie das Leiden Christi aussehen	2545	2545	wie das Leiden Christi		0	0	0	0							0	aussehen wie das Leiden Christi			https://de.wiktionary.org/wiki/wie_das_Leiden_Christi_aussehen	
 wie die Feuerwehr	2546	2546	wie die Feuerwehr		1	1	1	1							1				https://de.wiktionary.org/wiki/wie_die_Feuerwehr	
 wie die Hölle	2547	2547	wie die Hölle		4	4	4	4							4				https://de.wiktionary.org/wiki/wie_die_H%C3%B6lle	
 wie die Nase des Mannes, so sein Johannes	2548	2548	wie die Nase des Mannes, so sein Johannes		0	0	0	0							0				https://de.wiktionary.org/wiki/wie_die_Nase_des_Mannes%2C_so_sein_Johannes	
@@ -2766,8 +2766,8 @@ aus etwas Kapital schlagen	2764	2764	aus + Kapital + SCHLAGEN		27	341206 -> 104 
 aus heiterem Himmel	2765	2765	aus heiterem Himmel		18	18	18	18							18		aus heiterem Himmel			https://en.wiktionary.org/wiki/aus_heiterem_Himmel
 ausbaden	2766	2766	\baus(\b|bade|zubaden|gebadet) + bade + MANUAL_REVIEW	\baus(\b|b|z|g) + bade + MANUAL_REVIEW	271	319747 -> 271 -> 271	960	336475 -> 960 -> 960	362	430273 -> 362 -> 362	1417	500563 -> 1417 -> 1417	5	=1/50*271	5					https://en.wiktionary.org/wiki/ausbaden
 außen hui, innen pfui	2767	2767	außen hui + innen pfui		0	0 -> 0	0	0 -> 0							0					https://en.wiktionary.org/wiki/au%C3%9Fen_hui%2C_innen_pfui
-außer Betracht bleiben	2768	2768	außer Betracht + BLEIBEN		4	9 -> 4	4	9 -> 4							4	in Betracht + ZIEHEN				https://en.wiktionary.org/wiki/au%C3%9Fer_Betracht_bleiben
-außer Betracht lassen	2769	2769	außer Betracht + LASSEN		3	9 -> 3	5	9 -> 5							3	in Betracht + ZIEHEN				https://en.wiktionary.org/wiki/au%C3%9Fer_Betracht_lassen
+außer Betracht bleiben	2768	2768	außer Betracht + BLEIBEN		4	9 -> 4	4	9 -> 4							4	in Betracht ziehen				https://en.wiktionary.org/wiki/au%C3%9Fer_Betracht_bleiben
+außer Betracht lassen	2769	2769	außer Betracht + LASSEN		3	9 -> 3	5	9 -> 5							3	in Betracht ziehen				https://en.wiktionary.org/wiki/au%C3%9Fer_Betracht_lassen
 außer Frage	2770	2770	außer Frage		32	32	32	32							32					https://en.wiktionary.org/wiki/au%C3%9Fer_Frage
 außer Kontrolle geraten	2771	2771	außer Kontrolle + GERATEN		88	107 -> 88	88	107 -> 88							88					https://en.wiktionary.org/wiki/au%C3%9Fer_Kontrolle_geraten
 außer sich	2772	2772	außer sich		70	70	70	70							70					https://en.wiktionary.org/wiki/au%C3%9Fer_sich
@@ -2787,7 +2787,7 @@ Blech reden	2785	2785	Blech + reden		0	275 -> 0	0	276 -> 0							0					https://e
 böses Erwachen	2786	2786	\b[Bb]öse[smn]? Erwachen\b		5	5	5	5							5					https://en.wiktionary.org/wiki/b%C3%B6ses_Erwachen
 Brief und Siegel	2787	2787	Brief und Siegel		1	1	1	1							1					https://en.wiktionary.org/wiki/Brief_und_Siegel
 Briefmarkensammlung	2788	2788	Briefmarkensammlung		5	5	5	5							5					https://en.wiktionary.org/wiki/Briefmarkensammlung
-Chinesisch sprechen	2789	2789	Chinesisch + sprechen + MANUAL_REVIEW		7	300 -> 7 -> 7	9	532 -> 9 -> 9					0	0/7	0					https://en.wiktionary.org/wiki/Chinesisch_sprechen
+Chinesisch sprechen	2789	2789	Chinesisch + sprechen + MANUAL_REVIEW		7	300 -> 7 -> 7	9	532 -> 9 -> 9					0	0/7	0		spanisch sprechen			https://en.wiktionary.org/wiki/Chinesisch_sprechen
 Crème de la Crème	2790	2790	Crème de la Crème		5	5	5	5							5					https://en.wiktionary.org/wiki/Cr%C3%A8me_de_la_Cr%C3%A8me
 da fährt die Eisenbahn drüber	2791	2791	die Eisenbahn + \b[Dd]a?rüber + FAHREN		0	387 -> 0 -> 0	0	387 -> 0 -> 0							0					https://en.wiktionary.org/wiki/da_f%C3%A4hrt_die_Eisenbahn_dr%C3%BCber
 da haben wir den Salat	2792	2792	den Salat + HABEN + MANUAL_REVIEW		0	1 -> 0 -> 0	0	1 -> 0 -> 0						no matches to review	0					https://en.wiktionary.org/wiki/da_haben_wir_den_Salat
@@ -2916,13 +2916,13 @@ fürs Protokoll	2918	2918	fürs Protokoll		0	0	0	0							0	für das Protokoll			
 ganz dicht sein	2919	2919	ganz dicht + MANUAL_REVIEW	ganz dicht + SEIN + MANUAL_REVIEW	3	3 -> 3	3	3 -> 3	2	3 -> 2 -> 2	2	3 -> 2 -> 2	0	0/3	0					https://en.wiktionary.org/wiki/ganz_dicht_sein
 ganz schön	2920	2920	ganz schön		22	22	23	23							22					https://en.wiktionary.org/wiki/ganz_sch%C3%B6n
 gehüpft wie gesprungen	2921	2921	gehüpft + wie gesprungen		0	4 -> 0	0	4 -> 0							0					https://en.wiktionary.org/wiki/geh%C3%BCpft_wie_gesprungen
-gelb vor Neid	2922	2922	gelb + vor Neid		0	2208 -> 0	0	2208 -> 0							0		gelb + vor Neid			https://en.wiktionary.org/wiki/gelb_vor_Neid
+gelb vor Neid	2922	2922	gelb + vor Neid		0	2208 -> 0	0	2208 -> 0							0		gelb vor Neid			https://en.wiktionary.org/wiki/gelb_vor_Neid
 gelinde gesagt	2923	2923	gelinde gesagt		2	2	2	2							2					https://en.wiktionary.org/wiki/gelinde_gesagt
 gemeiner Mitteleuropäer	2924	2924	[Gg]emeine[rnms]? Mitteleuropäer[ns]?		0	0	0	0							0					https://en.wiktionary.org/wiki/gemeiner_Mitteleurop%C3%A4er
 gesund und munter	2925	2925	gesund und munter		2	2	2	2							2					https://en.wiktionary.org/wiki/gesund_und_munter
 Gewalt antun	2926	2926	Gewalt + ANTUN		41	2857 -> 41	93	2869 -> 93							41					https://en.wiktionary.org/wiki/Gewalt_antun
 große Liebe	2927	2927	[Gg]roße[rn]? Lieben?		192	192	192	192							192					https://en.wiktionary.org/wiki/gro%C3%9Fe_Liebe
-grün vor Neid	2928	2928	grün + vor Neid		1	2657 -> 1	1	2657 -> 1							1		gelb + vor Neid			https://en.wiktionary.org/wiki/gr%C3%BCn_vor_Neid
+grün vor Neid	2928	2928	grün + vor Neid		1	2657 -> 1	1	2657 -> 1							1		gelb vor Neid			https://en.wiktionary.org/wiki/gr%C3%BCn_vor_Neid
 grüne Grenze	2929	2929	[Gg]rüne[rn]? Grenzen?		16	16	16	16							16					https://en.wiktionary.org/wiki/gr%C3%BCne_Grenze
 gut Ding will Weile haben	2930	2930	gut Ding + Weile + haben + WOLLEN		0	0 -> 0 -> 0 -> 0	0	0 -> 0 -> 0 -> 0							0					https://en.wiktionary.org/wiki/gut_Ding_will_Weile_haben
 gut Wetter machen	2931	2931	gut Wetter + MACHEN + MANUAL_REVIEW		0	2 -> 0 -> 0	0	2 -> 0 -> 0						no matches to review	0					https://en.wiktionary.org/wiki/gut_Wetter_machen
@@ -2940,7 +2940,7 @@ Herz aus Stein	2942	2942	Herz aus Stein		2	2	2	2							2					https://en.wiktiona
 hingehen, wo der Pfeffer wächst	2943	2943	\bhin(\b|z|g) + _GEHEN + wo der Pfeffer + WACHSEN		0	30664 -> 1715 -> 0 -> 0	1	35312 -> 2058 -> 1 -> 1							0					https://en.wiktionary.org/wiki/hingehen%2C_wo_der_Pfeffer_w%C3%A4chst
 hinters Licht führen	2944	2944	hinters Licht + FÜHREN		16	16 -> 16	16	16 -> 16							16	jemanden hinters Licht führen				https://en.wiktionary.org/wiki/hinters_Licht_f%C3%BChren
 hinwegfegen	2945	2945	\bhinweg(\b|feg|zufegen|gefegt) + _FEGEN	\bhinweg(\b|f|z|g) + _FEGEN	17	1646 -> 17	19	1663 -> 19	17	1734 -> 17	19	1752 -> 19			17					https://en.wiktionary.org/wiki/hinwegfegen
-hochnehmen	2946	2946	\bhoch(\b|n|zunehmen|genommen) + _NEHMEN	\bhoch(\b|n|z|g) + _NEHMEN	273	6850 -> 273	318	7491 -> 318	350	8466 -> 350	681	13643 -> 681			273					https://en.wiktionary.org/wiki/hochnehmen
+hochnehmen	2946	2946	\bhoch(\b|n|zunehmen|genommen) + _NEHMEN	\bhoch(\b|n|z|g) + _NEHMEN	273	6850 -> 273	318	7491 -> 318	350	8466 -> 350	681	13643 -> 681	5	=1/50*273; the match is for 'arrest' and not 'tease'/'wind up'	5					https://en.wiktionary.org/wiki/hochnehmen
 hochspielen	2947	2947	\bhoch(\b|spiel|zuspielen|gespielt) + spiel	\bhoch(\b|s|z|g) + spiel	142	6832 -> 142	233	7441 -> 233	229	9045 -> 229	1277	32806 -> 1277			142					https://en.wiktionary.org/wiki/hochspielen
 hohe Kante	2948	2948	[Hh]ohe[rn]? Kante		4	4	4	4							4	hohe Kante				https://en.wiktionary.org/wiki/hohe_Kante
 hohe Stirn	2949	2949	[Hh]ohe[rn]? Stirn		10	10	10	10							10					https://en.wiktionary.org/wiki/hohe_Stirn
@@ -2971,7 +2971,7 @@ im Sturm einnehmen	2973	2973	im Sturm + \bein(\b|n|z|g) + _NEHMEN		7	163 -> 31 -
 im Sturm nehmen	2974	2974	im Sturm + NEHMEN		6	163 -> 6	6	163 -> 6							6					https://en.wiktionary.org/wiki/im_Sturm_nehmen
 in acht Tagen	2975	2975	in acht Tagen + MANUAL_REVIEW		4	4 -> 4	4	4 -> 4					0	0/4; it was not possible to tell if these are idiomatic or literal, but literal meanings seemed more likely	0					https://en.wiktionary.org/wiki/in_acht_Tagen
 in Acht und Bann	2976	2976	in Acht und Bann		2	2	2	2							2					https://en.wiktionary.org/wiki/in_Acht_und_Bann
-in Betracht kommen	2977	2977	in Betracht + KOMMEN		345	666 -> 345	351	666 -> 351							345	in Betracht + ZIEHEN				https://en.wiktionary.org/wiki/in_Betracht_kommen
+in Betracht kommen	2977	2977	in Betracht + KOMMEN		345	666 -> 345	351	666 -> 351							345	in Betracht ziehen				https://en.wiktionary.org/wiki/in_Betracht_kommen
 in den Himmel heben	2978	2978	in den Himmel + HEBEN		4	233 -> 4	4	233 -> 4							4		in den Himmel heben			https://en.wiktionary.org/wiki/in_den_Himmel_heben
 in den Tee tun	2979	2979	in den Tee + TUN		0	0 -> 0	0	0 -> 0							0					https://en.wiktionary.org/wiki/in_den_Tee_tun
 in den Wind schlagen	2980	2980	in den Wind + SCHLAGEN		8	32 -> 8	9	32 -> 9							8	etwas in den Wind schlagen				https://en.wiktionary.org/wiki/in_den_Wind_schlagen
@@ -3107,7 +3107,7 @@ Schrei	3111	3111	letzter? Schrei + MANUAL_REVIEW		3	3 -> 3	3	3 -> 3					2	2/3; h
 schreiben	3112	3112	wie man + SCHREIBEN + MANUAL_REVIEW		20	898 -> 20 -> 20	27	903 -> 27 -> 27					0	0/20	0					https://en.wiktionary.org/wiki/schreiben
 Schubladendenken	3113	3113	Schubladendenken		4	4	4	4							4					https://en.wiktionary.org/wiki/Schubladendenken
 Schuss vor den Bug	3114	3114	Schuss + vor den Bug		0	861 -> 0	0	862 -> 0							0					https://en.wiktionary.org/wiki/Schuss_vor_den_Bug
-schwarzweiß	3115	3115	schwarzweiß		223	223	223	223							223		schwarzweiß			https://en.wiktionary.org/wiki/schwarzwei%C3%9F
+schwarzweiß	3115	3115	schwarzweiß		223	223	223	223					1	1/223	1		schwarzweiß			https://en.wiktionary.org/wiki/schwarzwei%C3%9F
 Schwarzweißdenken	3116	3116	Schwarzweißdenken		0	0	0	0							0		schwarzweiß			https://en.wiktionary.org/wiki/Schwarzwei%C3%9Fdenken
 Schwarzweißmalerei	3117	3117	Schwarzweißmalerei		7	7	7	7							7		schwarzweiß			https://en.wiktionary.org/wiki/Schwarzwei%C3%9Fmalerei
 Schweinsauge	3118	3118	Schweinsauge		0	0	0	0							0					https://en.wiktionary.org/wiki/Schweinsauge
@@ -3138,7 +3138,7 @@ Sitz im Leben	3142	3142	Sitz im Leben		7	7	7	7							7					https://en.wiktionary
 sitzen bleiben	3143	3143	sitzen + BLEIBEN + MANUAL_REVIEW		51	2084 -> 51 -> 51	52	2084 -> 52 -> 52					8	=8/50*51	8					https://en.wiktionary.org/wiki/sitzen_bleiben
 so spielt man mit Studenten	3144	3144	mit Student(en)? + spiel + MANUAL_REVIEW		1	32 -> 1 -> 1	1	33 -> 1 -> 1					0	0/1	0					https://en.wiktionary.org/wiki/so_spielt_man_mit_Studenten
 so tun, als ob	3145	3145	so + TUN + als ob		14	95885 -> 1162 -> 14	14	96049 -> 1860 -> 14							14					https://en.wiktionary.org/wiki/so_tun%2C_als_ob
-spanisch sprechen	3146	3146	spanisch + SPRECHEN		280	1676 -> 280	462	1676 -> 462							280					https://en.wiktionary.org/wiki/spanisch_sprechen
+spanisch sprechen	3146	3146	spanisch + SPRECHEN		280	1676 -> 280	462	1676 -> 462					1	0/200*280 found, so assume 0.5 matches	1		spanisch sprechen			https://en.wiktionary.org/wiki/spanisch_sprechen
 Spendierhosen	3147	3147	Spendierhosen		1	1	1	1							1	Spendierhosen				https://en.wiktionary.org/wiki/Spendierhosen
 Spitze des Eisbergs	3148	3148	die Spitze des Eisbergs		4	4	4	4							4	nur die Spitze des Eisbergs sein				https://en.wiktionary.org/wiki/Spitze_des_Eisbergs
 Spitzentanz	3149	3149	Spitzentanz		5	5	5	5							5					https://en.wiktionary.org/wiki/Spitzentanz
