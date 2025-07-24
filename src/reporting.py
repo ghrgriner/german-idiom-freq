@@ -73,7 +73,7 @@ if in_neither.any():
 df['source'] = np.where((df.link_de != '') & (df.link_en != ''),
                         'de+en', np.where(df.link_de != '', 'de', 'en'))
 
-out_df = df.head(N_FOR_LISTING)[['blank','headword','source','n_final','n_manual_cmt','main_form','related_headword','blank']]
+out_df = df.head(N_FOR_LISTING)[['blank','headword','source','n_final','n_manual_cmt','main_form','blank']]
 out_df.to_csv(os.path.join(REPORTING_DIR, 'listing.txt'),
                            sep='|', quoting=csv.QUOTE_NONE,
                            index=False)
