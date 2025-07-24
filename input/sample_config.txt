@@ -1091,7 +1091,7 @@ gedacht sein	50
 Gedanken lesen	
 geduldig wie ein Lamm	
 Gefahr laufen	
-gegangen werden	
+gegangen werden	100
 gegen den Strom schwimmen	
 gegen eine Mauer reden	
 gegen eine Wand reden	
@@ -1696,7 +1696,7 @@ jemandes bessere Hälfte
 jemandes Herr werden	50
 jemandes Kreise stören	
 jemandes letztes Stündlein hat geschlagen	
-jemandes Mann sein	
+jemandes Mann sein	50
 jemandes Strümpfe ziehen Wasser	
 jetzt schlägts dreizehn	
 Jubel, Trubel, Heiterkeit	
@@ -1778,7 +1778,7 @@ kurz angebunden
 kurz und bündig	
 kurz vor Ultimo	
 Lack gesoffen haben	
-Land gewinnen	
+Land gewinnen	200
 Land unter	all
 landauf, landab	
 lange Rede, kurzer Sinn	
@@ -2503,7 +2503,7 @@ was man nicht im Kopf hat, hat man in den Beinen
 was weiß ich	
 Wasser auf jemandes Mühle leiten	
 Wasser ins Meer tragen	
-Wasser lassen	
+Wasser lassen	50
 Wasser predigen und Wein trinken	
 weder Hand noch Fuß haben	
 weder noch	
@@ -2940,7 +2940,7 @@ Herz aus Stein
 hingehen, wo der Pfeffer wächst	
 hinters Licht führen	
 hinwegfegen	
-hochnehmen	
+hochnehmen	50
 hochspielen	
 hohe Kante	
 hohe Stirn	
@@ -3107,7 +3107,7 @@ Schrei	all
 schreiben	all
 Schubladendenken	
 Schuss vor den Bug	
-schwarzweiß	
+schwarzweiß	all
 Schwarzweißdenken	
 Schwarzweißmalerei	
 Schweinsauge	
@@ -3138,7 +3138,7 @@ Sitz im Leben
 sitzen bleiben	50
 so spielt man mit Studenten	all
 so tun, als ob	
-spanisch sprechen	
+spanisch sprechen	200
 Spendierhosen	
 Spitze des Eisbergs	
 Spitzentanz	
