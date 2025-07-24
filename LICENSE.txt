@@ -9,7 +9,8 @@ in the src/ directory for the license.
 License and attribution information for files in input/ and output/ directories.
 -------------------------------------------------------------
 Files in the input/ and output/ directories are made available
-under the CC BY-SA 4.0 license.
+under the CC BY-SA 4.0 license. The same is true for the README.md file
+and documentation on the repository wiki.
 
 URL of a human-readable summary of the CC BY-SA 4.0 license:
     https://creativecommons.org/licenses/by-sa/4.0/.
@@ -69,11 +70,14 @@ is available.
 
 --------------
 
-The following fields are © Ray Griner, 2025: the fields `re1` and `re2`
+The following fields are © Raymond Griner, 2025: the fields `re1` and `re2`
 in the file in the input/ directory, and the same fields in the
 file in the output/ directory as well as fields with names starting with
 starting with `n_` and `verb_search_cat_`, and the `main_form` and
 `related_headword` fields.
+
+Similarly, the README.md file and documentation on the repository wiki
+are © Raymond Griner, 2025.
 
 --------------
 
