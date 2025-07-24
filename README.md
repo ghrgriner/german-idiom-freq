@@ -316,8 +316,9 @@ does *not* indicate that we have reviewed the results and are satisfied that the
 majority of the matches represent the desired idiomatic usage.
 
 # Results
-The output file is linked [above](#Overview). We will likely at some point
-add summary tables and/or listings to the repository wiki (TBD).
+The output file is linked [above](#Overview). Brief summary results
+and a listing of the top-50 idioms by frequency are
+[available on the repository wiki](https://github.com/ghrgriner/german-idiom-freq/wiki/Results).
 
 # Discussion
 
