@@ -112,284 +112,15 @@ warnings.filterwarnings('ignore', 'This pattern has match groups')
 NOT_VERB_FRAGMENTS = ['bei','bekannt','gebunden','geduldig','gefressen',
                       'gestochen','gut','herum','keiner','los','mitgefangen',
                       'mitgehangen','sicher','weg','zusammen']
+
 # entries that start with underscore are for use in separable verbs, so they
 # do not have the '\b' to mark the start of the word boundary for the present
 # and past forms.
-VERB_FORMS = {'LIEGEN': r'\blieg|\bl[aä]g|\bgelegen',
-              # Most of the time the key is just the infinitive, perhaps
-              # preceded by an '_', but for 'hängen', we need to distinguish
-              # between the strong and weak variants
-              'HÄNGENHING': r'\bhäng|\bhing|\bgehangen',
-              'HÄNGENHÄNGTE': r'\bhäng|\bgehängt',
-              'STEHEN':  r'\bsteh|\bst[auüä]nd|\bgestanden',
-              '_STEHEN': r'steh|st[auüä]nd|gestanden',
-              'VERSTEHEN': r'\bversteh|\bverst[auüä]nd|\bverstanden',
-              'GEHEN': r'\bgeh|\bging|\bgegangen',
-              '_GEHEN': r'geh|ging|gegangen',
-              'ZU_GEHEN': (r'\bgeh.*\bzu\b|\bging.*\bzu\b|'
-                          r'\bzugeh|\bzuging|\bzuzugehen|\bzugegangen'),
-              'HER_GEHEN': (r'\bgeh.*\bher\b|\bging.*\bher\b|'
-                          r'\bhergeh|\bherging|\bherzugehen|\bhergegangen'),
-              'ZERGEHEN': r'\bzergeh|\bzerging|\bzergangen',
-              'VERGEHEN': r'\bvergeh|\bverging|\bvergangen',
-              'LESEN' : r'\blese|\blies|\bl[aä]ß|\bgelesen',
-              '_LESEN': r'lese|lies|l[aä]ß|gelesen',
-              'SEHEN' : r'\bsehe|\bsieh|\bs[aä]h|\bgesehen',
-              '_SEHEN': r'sehe|sieh|s[aä]h|gesehen',
-              'EMPFEHLEN': r'\bempf[aeäö]hl|\bempfiel|\bempfohlen',
-              'STEHLEN': r'\bst[aeäö]hl|\bstiel|gestohlen',
-              'NEHMEN' : r'\bnimm|\bn[aäe]hm|\bgenommen',
-              '_NEHMEN': r'nimm|n[aäe]hm|genommen',
-              'ZIEHEN': r'\bzieh|\bz[oö]g|\bgezogen',
-              '_ZIEHEN': r'zieh|z[oö]g|gezogen',
-              'VERZIEHEN': r'\bverzieh|\bverz[oö]g|\bverzogen',
-              'FLIEGEN': r'\bflieg|\bfl[oö]g|\bgeflogen',
-              'SCHIEBEN': r'\bschieb|\bsch[oö]b|\bgeschoben',
-              '_SCHIEBEN': r'schieb|sch[oö]b|geschoben',
-              'SCHIEẞEN': r'\bschieß|\bsch[oö]ss|\bgeschossen',
-              '_SCHIEẞEN': r'schieß|sch[oö]ss|geschossen',
-              'SCHLIEẞEN': r'\bschließ|\bschl[oö]ss|\bgeschlossen',
-              '_SCHLIEẞEN': r'schließ|schl[oö]ss|geschlossen',
-              'GENIEẞEN': r'\bgenieß|\bgen[oö]ss|\bgenossen',
-              'STOẞEN': r'\bst[oö]ß|\bstieß|\bgestoßen',
-              '_STOẞEN': r'st[oö]ß|stieß|gestoßen',
-              'KOMMEN': r'\bkomm|\bk[aä]m|\bgekommen',
-              '_KOMMEN': r'komm|k[aä]m|gekommen',
-              'BIETEN': r'\bbiet|\bbeut|\bb[oö]t|\bgeboten',
-              '_BIETEN': r'biet|beut|b[oö]t|geboten',
-              'VERBIETEN': r'\bverbiet|\bverbeut|\bverb[oö]t|\bverboten',
-              'RIECHEN': r'\briech|\br[oö]ch|\bgerochen',
-              'KRIECHEN': r'\bkriech|\bkr[oö]ch|\bgekrochen',
-              'SCHLAFEN': r'\bschl[aä]f|\bschlief|\bgeschlafen',
-              'HALTEN': r'\bh[aä]lt|\bhielt|\bgehalten',
-              '_HALTEN': r'h[aä]lt|hielt|gehalten',
-              'FALLEN': r'\bf[aä]ll|\bfiel|\bgefallen',
-              'LASSEN': r'\bl[aä]ss|\bließ|\bgelassen',
-              '_LASSEN': r'l[aä]ss|ließ|gelassen',
-              'BLASEN': r'\bbl[aä]s|\bblies|\bgeblasen',
-              'SAUGEN': r'\bsaug|\bsög|\bgesaugt|\bgesogen',
-              '_SAUGEN': r'saug|sög|gesaugt|gesogen',
-              'LAUFEN': r'\bl[aä]uf|\blief|\bgelaufen',
-              '_LAUFEN': r'l[aä]uf|lief|gelaufen',
-              'VERLAUFEN': r'\bverl[aä]uf|\bverlief|\bverlaufen',
-              'VERLIEREN': r'\bverlier|\bverl[oö]r|\bverloren',
-              '_FRIEREN': r'frier|\bfr[oö]r|gefroren',
-              'BRINGEN': r'\bbring|\bbr[aä]chte|\bgebracht',
-              '_BRINGEN': r'bring|br[aä]chte|gebracht',
-              'DENKEN': r'\bdenk|\bd[aä]chte|\bgedacht',
-              'SCHREIBEN': r'\bschreib|\bschrieb|\bgeschrieben',
-              'SCHWEIGEN': r'\bschweig|\bschwieg|\bgeschwiegen',
-              'BLEIBEN': r'\bbleib|\bblieb|\bgeblieben',
-              '_BLEIBEN': r'bleib|blieb|geblieben',
-              'TREIBEN': r'\btreib|\btrieb|\bgetrieben',
-              '_TREIBEN': r'treib|trieb|getrieben',
-              'REIBEN': r'\breib|\brieb|\bgerieben',
-              'STEIGEN': r'\bsteig|\bstieg|\bgestiegen',
-              '_STEIGEN': r'steig|stieg|gestiegen',
-              'SCHEIDEN': r'\bscheid|\bschied|\bgeschieden',
-              'WEISEN': r'\bweis|\bwies|\bgewiesen',
-              'VERWEISEN': r'\bverweis|\bverwies|\bverwiesen',
-              '_SCHIEßEN': r'schieß|sch[oö]ss|geschossen',
-              'PFEIFEN': r'\bpfeif|\bpfiff|\bgepfiffen',
-              'GREIFEN': r'\bgreif|\bgriff|\bgegriffen',
-              'SCHREITEN': r'\bschreit|\bschritt|\bgeschritten',
-              '_SCHREITEN': r'schreit|schritt|geschritten',
-              'REITEN': r'\breit|\britt|\bgeritten',
-              'SCHNEIDEN': r'\bschneid|\bschnitt|\bgeschnitten',
-              '_SCHNEIDEN': r'schneid|schnitt|geschnitten',
-              'SCHMEIẞEN' : r'\bschmeiß|\bschmiss|\bgeschmissen',
-              '_SCHMEIẞEN' : r'schmeiß|schmiss|geschmissen',
-              'SCHEIẞEN' : r'\bscheiß|\bschiss|\bgeschissen',
-              'REIẞEN': r'\breiß|\briss|\bgerissen',
-              '_REIẞEN': r'reiß|riss|gerissen',
-              'BEIẞEN': r'\bbeiß|\bbiss|\bgebissen',
-              '_BEIẞEN': r'beiß|biss|gebissen',
-              'GIEẞEN': r'\bgieß|\bgoss|\bgegossen',
-              'TREFFEN': r'\btr[ei]ff|\btr[aä]f|\bgetroffen',
-              'RUFEN': r'\bruf|\brief|gerufen',
-              'GERATEN': r'\bger[aä]t|\bgeriet|\bgeraten',
-              'BRATEN': r'\bbr[aä]t|\bbriet|\bgebraten',
-              'TRETEN': r'\btr[ea]t|\btritt|\bgetreten',
-              '_TRETEN': r'tr[ea]t|tritt|getreten',
-              'SITZEN': r'\bsitz|\bs[aä]ß|\bgesessen',
-              'BITTEN': r'\bbitte|\bb[aä]t|gebeten',
-              'ESSEN': r'\besse|\bisst|\b[aä]ß|\bgegessen',
-              'FRESSEN': r'\bfresse|\bfrisst|\bfr[aä]ß|\bgefressen',
-              'MESSEN': r'\bmesse|\bmisst|\bm[aä]ß|\bgemessen',
-              'STREICHEN': r'\bstreich|\bstrich|\bgestrichen',
-              'GLEICHEN': r'\bgleich|\bglich|\bgeglichen',
-              '_WEICHEN': r'weich|wich|gewichen',
-              'ERLEIDEN': r'\berleid|\berlitt|\berlitten',
-# Inseparable prefixes
-              'BEHALTEN': r'\bbeh[aä]lt|\bbehielt',
-              'BEGEBEN': r'\bbeg[eiaä]b|\bbegeben',
-              'BENEHMEN': r'\bbenimm|\bben[aäe]hm|\bbenommen',
-              'BEKOMMEN': r'\bbekomm|\bbek[aä]m|\bbekommen',
-              'VERLASSEN': r'\bverl[aä]ss|\bverließ|\bverlassen',
-              'BEFINDEN': r'\bbef[iaä]nd|\bbefunden|\bbefunden',
-              'ERGREIFEN': r'\bergreif|\bergriff|\bergriffen',
-              'ERWEISEN': r'\berweis|\berwies|\berwiesen',
-              'VERGLEICHEN': r'\bvergleich|\bverglich|\bverglichen',
-              'VERGIEẞEN': r'\bvergieß|\bvergoss|\bvergossen',
-              'VERDERBEN': r'\bverd[eiaüo]rb|\bverdorben', # o. verderbt
-# Inseparable prefixes and present/past differ only by a vowel
-              'ERFAHREN': r'\berf[aäuü]|\berfahren',
-# Infinitive not included in other patterns
-              'WOLLEN': r'\bwill|\bwollte|\bgewollt|\bwollen',
-              'MÜSSEN': r'\bmuss|\bmüsste|\bgemusst|\bmüssen',
-              'KÖNNEN': r'\bkann|\bk[oö]nnt|\bgekonnt|\bkönnen',
-              '_KÖNNEN': r'kann|k[oö]nnt|gekonnt|können',
-              'WISSEN': r'\bweiß|\bwisse|\bw[üu]sste|\bgewusst',
-# Irregular
-              'HABEN': (r'\bhab(e\b|t?\b|end?\b|es?t\b)|\bhas?t\b|'
-                        r'\bh[aä]tte(\b|s?t\b|en\b)|'
-                        r'\bgehabt'),
-              '_HABEN': r'habe|hast|hat|hätt|gehabt',
-              'SEIN': (r'\bbin\b|\bb?ist\b|\bsind\b|\bwar(\b|s?t\b|en\b)|'
-                       r'\bwär(e|s?t\b)|\bsei(\b|d\b|e)|\bgewesen'),
-              'TUN': r'\btu\b|\btue|\btu(s)?t\b|\bt[aä]t|getan|\btu[tn]\b',
-              'GLEICHTUN': (r'\btu\b|\btue|\btu(s)?t\b|\bt[aä]t|\bgetan|'
-                      r'\btu[tn]\b|\bgleichtu|\bgleicht[aä]t|gleichgetan'),
-              # Separable, but standard way will probably give lots of false
-              # positive hits.
-              'ZUTUN': (r'\btu\b|\btue|\btus?t\b|\bt[aä]t|getan|\btu[tn]\b'
-                        r'\bzutu|\bzut[aä]t|\bzuzutun|\bzugetan'),
-              'ANTUN': (r'\btu\b|\btue|\btus?t\b|\bt[aä]t|getan|\btu[tn]\b'
-                        r'\bantu|\bant[aä]t|\banantun|\bangetan'),
-# Present and preterite differ by only a vowel
-              'SPRINGEN': r'\bspr[iäa]ng|\bgesprungen',
-              '_SPRINGEN': r'spr[iäa]ng|gesprungen',
-              'ZWINGEN': r'\bzw[iaä]ng|\bgezwungen',
-              'SCHWINGEN': r'\bschw[iaä]ng|\bgeschwungen',
-              'FAHREN': r'\bf[aäu]hr|\bgefahren', # omit conj 2 on purpose
-              '_FAHREN': r'f[aäu]hr|gefahren', # omit conj 2 on purpose
-              'SPRECHEN': r'\bspr[eiäa]ch|\bgesprochen',
-              'VERSPRECHEN': r'\bverspr[eiäa]ch|\bversprochen',
-              'STERBEN': r'\bst[eiaü]rb|\bgestorben',
-              'STECHEN': r'\bst[eiäa]ch|\bgestochen',
-              'BRECHEN': r'\bbr[eiäa]ch|\bgebrochen',
-              '_BRECHEN': r'br[eiäa]ch|gebrochen',
-              'ZERBRECHEN': r'\bzerbr[eiäa]ch|\bzerbrochen',
-              'WINDEN': r'\bw[iaä]nd|\bgewunden',
-              '_WINDEN': r'w[iaä]nd|gewunden',
-              'FINDEN': r'\bf[iaä]nd|\bgefunden',
-              '_FINDEN': r'f[iaä]nd|gefunden',
-              'ERFINDEN': r'\berf[iaä]nd|\berfunden',
-              'BINDEN': r'\bb[iaä]nd|\bgebunden',
-              '_BINDEN': r'b[iaä]nd|gebunden',
-              'SCHWIMMEN': r'\bschw[iaäoö]mm|\bgeschwummen',
-              'GEWINNEN': r'\bgew[iaäö]nn|\bgewonnen',
-              'WACHSEN': r'\bw[aäuü]chs|\bgewachsen',
-              'WASCHEN': r'\bw[aäuü]sch|\bgewaschen',
-              'GRABEN': r'\bgr[äauü]b|\bgegraben',
-              '_GRABEN': r'gr[äauü]b|gegraben',
-              'BEGRABEN': r'\bbegr[äauü]b|\bbegraben',
-              'WERFEN': r'\bw[eiaü]rf|\bgeworfen',
-              '_WERFEN': r'w[eiaü]rf|geworfen',
-              'HELFEN': r'\bh[eiaüä]lf|\bgeholfen',
-              'HEBEN': r'\bh[eouöü]b|\bgehoben',
-              '_HEBEN': r'h[eouöü]b|gehoben',
-              'BEKENNEN': r'\bbek[ea]nn',
-              'BRENNEN': r'\bbrenn|\bbrannte|\bgebrannt',
-              'NENNEN': r'\bnenn|\bnannte|\bgenannt',
-              'RENNEN': r'\brenn|\brannte|\bgerannt',
-              'KENNEN': r'\bkenn|\bkannte|\bgekannt',
-              'VERBRENNEN': r'\bverbrenn|\bverbrannt',
-              'LÜGEN': r'\bl[üoö]g|\bgelogen',
-              'WENDEN': r'\bw[ea]nd|gewandt|\bgewendet',
-              'VERWENDEN': r'\bverw[ea]nd|verwandt|\bverwendet',
-              'TRINKEN': r'\btr[iaä]nk|\bgetrunken',
-              'STINKEN': r'\bst[iaä]nk|\bgestunken',
-              '_STINKEN': r'st[iaä]nk|gestunken',
-              'VERSINKEN': r'\bvers[iaä]nk|\bversunken',
-              'FANGEN': r'\bf[aäi]ng|\bgefangen',
-              'EMPFANGEN': r'\bempf[aäi]ng|\bempfangen',
-              '_FANGEN': r'f[aäi]ng|\bgefangen',
-              'TRAGEN': r'\btr[aäü]g|\bgetragen',
-              '_TRAGEN': r'tr[aäü]g|getragen',
-              'SCHLAGEN': r'\bschl[aäüu]g|\bgeschlagen',
-              '_SCHLAGEN': r'schl[aäüu]g|geschlagen',
-              'VERSCHLAGEN': r'\bverschl[aäüu]g|\bverschlagen',
-              'ZERSCHLAGEN': r'\bzerschl[aäüu]g|\bzerschlagen',
-              'GEBEN': r'\bg[eiaä]b|\bgegeben',
-              '_GEBEN': r'g[eiaä]b|gegeben',
-              'WERDEN': r'\bw[eiuaü]rd|geworden|\bworden',
-# selected weak verbs
-              'STELLEN': r'\bstell|\bgestellt',
-              'MACHEN': r'\bmach|\bgemacht',
-              '_MACHEN': r'mach|gemacht',
-              'RUHEN': r'\bruh|\bgeruht',
-              # Separable
-              'AUSRUHEN': (r'\bruh|\bgeruht|'
-                          r'\bausruh|\bauszuruhen|\bausgeruht'),
-              'MITZEICHNEN': (r'\bzeichne|\bgezeichnet|'
-                          r'\bmitzeichne|\bmitzuzeichnen|\bmitgezeichnet'),
-              'BAUEN': r'\bbau|\bgebaut',
-              'STÖREN': r'\bstör|\bgestört',
-              'PUPEN': r'\bpup|\bgepupt',
-              'TUTEN': r'\btute?|\bgetutet',
-              'FÜHLEN': r'\bfühl|\bgefühlt',
-              'FÜHREN': r'\bführ|\bgeführt',
-              # avoid just '\bnäh' because would match 'näher'
-              'NÄHEN': r'\bnähe\b|\bnäh(s)?t\b|\bnähte|\bgenäht',
-              'LIEBEN': r'\blieb|\bgeliebt',
-              'ÄRGERN': r'\bärger|\bgeärgert',
-              'STECKEN': r'\bsteck|\bgesteckt',
-              '_STECKEN': r'steck|gesteckt',
-              'SUCHEN': r'\bsuch|\bgesucht',
-              'ZEIGEN': r'\bzeig|\bgezeigt',
-              'REDEN': r'\bred|\bgeredet',
-              '_REDEN': r'red|geredet',
-              'SAGEN': r'\bsag|\bgesagt',
-              'WAGEN': r'\bwag|\bgewagt',
-              'NAGEN': r'\bnag|\bgenagt',
-              'RAUCHEN': r'\brauch|\bgeraucht',
-              'KRIEGEN': r'\bkrieg|\bgekriegt',
-              'LEITEN': r'\bleit|\bgeleitet',
-              'SETZEN': r'\bsetz|\bgesetz',
-              '_SETZEN': r'setz|gesetz',
-              'LEGEN': r'\bleg|\bgelegt',
-              'LEBEN': r'\bleb|\bgelebt',
-              'HOLEN': r'\bhol|\bgeholt',
-              '_HOLEN': r'hol|geholt',
-              'HAUEN': r'\bhau|\bgehaut',
-              '_HAUEN': r'hau|gehaut',
-              'TRAUEN': r'\btrau|\bgetraut',
-              'KAUEN': r'\bkau|\bgekaut',
-              'KLAUEN': r'\bklau|\bgeklaut',
-              'SCHAUEN': r'\bschau|\bgeschaut',
-              'REISEN': r'\breis|\bgereist',
-              '_REISEN': r'reis|gereist',
-              'KAUFEN': r'\bkauf|\bgekauft',
-              'FEGEN': r'\bfeg|\bgefegt',
-              '_FEGEN': r'feg|gefegt',
-              'LECKEN': r'\bleck|\bgeleckt',
-              'LERNEN': r'\blern|\bgelernt',
-              'LOBEN': r'\blob|\bgeloben',
-              'RÄUMEN': r'\bräum|\bgeräumt',
-              'BADEN': r'\bbad|\bgebadet',
-              'MALEN': r'\bmal[etse]|\bgemalt', # omit 'mal' b/c too similar
-              # write out the common forms in full, since 'üb' would match
-              # the very common 'über'
-              'ÜBEN': r'\büb(\b|en?\b|s?t\b|te)|\bgeübt',
-              # Separable, see ABASTEN note
-              'AUSÜBEN': (r'\büb(\b|en?\b|s?t\b|te)|\bgeübt'
-                  r'\bausüb(\b|e(nd?)?\b|s?t\b|te)|\bauszuüben|\bausgeübt'),
-              'LÖSEN': r'\blös|\bgelöst',
-              # Separable
-              'AUFLÖSEN': (r'\blös|\bgelöst'
-                           r'\bauflös|\baufzulösen|\baufgelöst'),
-              '_LEGEN': r'leg|gelegt',
-              # separable, but standard way of just searching for ab + aste
-              # will probably give a lot of false positive hits, so add here
-              # so \b can anchor the start.
-              'ABASTEN': (r'\baste|\babaste|\babzuasten|\babgeastet'),
-# Not a verb
-              'SICH': (r'\b[Mm]ich\b|\b[Dd]ich\b|\b[Ss]ich\b|\b[Uu]ns\b|'
-                      r'\b[Ee]uch\b|\b[Mm]ir\b|\b[Dd]ir\b'),
-# Misc
-              'MANUAL_REVIEW': ''
-             }
+
+#vf_df = pd.DataFrame.from_dict(VERB_FORMS, orient='index',
+#                               columns=['replacement'])
+#vf_df = vf_df.rename_axis('placeholder')
+#vf_df.to_csv('endehw_verbforms.txt', sep='\t', quoting=csv.QUOTE_NONE)
 
 # Prepositions and also 'es'
 PREP_OR_ES_SET = frozenset(['auf','an','aus','außer','bei','gegenüber',
@@ -452,7 +183,7 @@ _MATCH_Q = None
 #------------------------------------------------------------------------------
 def _all_caps_or_underscore(x):
     for char in x:
-        if not (char.isupper() or char == 'ß' or char == '_'): return False
+        if not (char.isupper() or char == '_'): return False
     return True
 
 def _replace_sichdab_forms(x):
@@ -481,28 +212,36 @@ def _replace_sein_forms(x):
         # since we use if, elif when processing
         raise ValueError(f'SEIN.. and SICH.. in same regex {x=} not supported')
     ret_x = x
-    ret_x = ret_x.replace('SEINMA',    # masc. acc.
-                          r'(\b[MDSmds]einen\b|\b[Ii]hren\b|\b[Uu]nseren\b)')
     ret_x = ret_x.replace('SEINMN',    # masc. nom.
                           r'(\b[MDSmds]ein\b|\b[Ii]hr\b|\b[Uu]nser\b)')
     ret_x = ret_x.replace('SEINNN',    # neut. nom.
                           r'(\b[MDSmds]ein\b|\b[Ii]hr\b|\b[Uu]nser\b)')
-    ret_x = ret_x.replace('SEINNA',    # neut. acc.
-                          r'(\b[MDSmds]ein\b|\b[Ii]hr\b|\b[Uu]nser\b)')
     ret_x = ret_x.replace('SEINFN',    # fem. nom.
                           r'(\b[MDSmds]eine\b|\b[Ii]hre\b|\b[Uu]nsere\b)')
+    ret_x = ret_x.replace('SEINPN',    # pl. nom.
+                          r'(\b[MDSmds]eine\b|\b[Ii]hre\b|\b[Uu]nsere\b)')
+    ret_x = ret_x.replace('SEINMA',    # masc. acc.
+                          r'(\b[MDSmds]einen\b|\b[Ii]hren\b|\b[Uu]nseren\b)')
+    ret_x = ret_x.replace('SEINNA',    # neut. acc.
+                          r'(\b[MDSmds]ein\b|\b[Ii]hr\b|\b[Uu]nser\b)')
     ret_x = ret_x.replace('SEINFA',    # fem. acc.
                           r'(\b[MDSmds]eine\b|\b[Ii]hre\b|\b[Uu]nsere\b)')
     ret_x = ret_x.replace('SEINPA',    # pl. acc.
                           r'(\b[MDSmds]eine\b|\b[Ii]hre\b|\b[Uu]nsere\b)')
-    ret_x = ret_x.replace('SEINPD',    # pl. dat.
-                          r'(\b[MDSmds]einen\b|\b[Ii]hren\b|\b[Uu]nseren\b)')
     ret_x = ret_x.replace('SEINMND',   # masc./neut. dat.
                           r'(\b[MDSmds]einem\b|\b[Ii]hrem\b|\b[Uu]nserem\b)')
+    ret_x = ret_x.replace('SEINFD',     # fem. dat.
+                          r'(\b[MDSmds]einer\b|\b[Ii]hrer\b|\b[Uu]nserer\b)')
+    ret_x = ret_x.replace('SEINPD',    # pl. dat.
+                          r'(\b[MDSmds]einen\b|\b[Ii]hren\b|\b[Uu]nseren\b)')
     ret_x = ret_x.replace('SEING',     # gen.
                           r'(\b[MDSmds]einer\b|\b[Ii]hrer\b|\b[Uu]nserer\b)')
     ret_x = ret_x.replace('SEINMNG',   # masc./neut. gen.
                           r'(\b[MDSmds]eines\b|\b[Ii]hres\b|\b[Uu]nseres\b)')
+    ret_x = ret_x.replace('SEINFG',     # fem. gen.
+                          r'(\b[MDSmds]einer\b|\b[Ii]hrer\b|\b[Uu]nserer\b)')
+    ret_x = ret_x.replace('SEINPG',     # pl. gen.
+                          r'(\b[MDSmds]einer\b|\b[Ii]hrer\b|\b[Uu]nserer\b)')
     if 'SEIN' in ret_x:
         raise ValueError(f'SEIN substitution not done in {x=})')
 
@@ -566,7 +305,7 @@ def _ext_seq(seq, n):
         return str(n)
 
 # ctr and note_id are currently unused but might be wanted when debugging
-def _process_one_re(headword, relist_as_str, prob_verb_stems,
+def _process_one_re(headword, relist_as_str, prob_verb_stems, verb_forms,
                     idiom_readonly, idiom_counts, re_idx):
     if re_idx == 1:
         idiom_readonly.append((IdiomReadRec(),IdiomReadRec()))
@@ -605,8 +344,8 @@ def _process_one_re(headword, relist_as_str, prob_verb_stems,
                             or re_list_len > 2 and last_man_rev))
                     and list_pos == last_non_sich_index)
         if prob_verb_stem and not _all_caps_or_underscore(regex):
-            if regex.upper() + 'EN' in VERB_FORMS:
-                print (f'WARNING: {regex=} also in VERB_FORMS')
+            if regex.upper() + 'EN' in verb_forms:
+                print (f'WARNING: {regex=} also in verb_forms')
             _add_to_prob_verb_stems(prob_verb_stems, regex, headword)
         if regex and _all_caps_or_underscore(regex):
             if (regex[0] != '_' and regex != 'MANUAL_REVIEW'
@@ -619,16 +358,16 @@ def _process_one_re(headword, relist_as_str, prob_verb_stems,
                          or headword.startswith(regex.lower()))):
                 pass
                 #print(f'WARNING: Verb {regex} found in {headword}.')
-            if regex not in VERB_FORMS:
-                raise ValueError(f'Missing entry for {regex} in VERB_FORMS')
+            if regex not in verb_forms:
+                raise ValueError(f'Missing entry for {regex} in verb_forms')
                 #print(f"ERROR: {regex}")
 
         if regex and regex in PREP_OR_ES_SET:
             regex = _add_da_and_caps(regex)
-        elif regex in VERB_FORMS:
+        elif regex in verb_forms:
             if regex not in ['SICH','MANUAL_REVIEW']:
                 has_verb_form = True
-            regex=VERB_FORMS[regex]
+            regex=verb_forms[regex]
         elif 'SEIN' in regex:
             regex = _replace_sein_forms(regex)
         elif 'SICHD' in regex or 'SICHA' in regex or 'SICHB' in regex:
@@ -642,12 +381,12 @@ def _process_one_re(headword, relist_as_str, prob_verb_stems,
         if prob_verb_stem:
             has_prob_verb_stem = True
 
-        # BITTEN + bett[el]' has both a verb in VERB_FORMS and a verb stem,
+        # BITTEN + bett[el]' has both a verb in verb_forms and a verb stem,
         # but if any other cases appear, want to warn.
         if (has_verb_form and has_prob_verb_stem
                and relist_as_str != 'BITTEN + bett[el]'):
             print(f'WARNING: {relist_as_str=} has verb in '
-                  'VERB_FORMS and prob_verb_stem')
+                  'verb_forms and prob_verb_stem')
             verb_search_cat = 'dict'
         elif has_verb_form:
             verb_search_cat = 'dict'
@@ -762,11 +501,11 @@ def _process_corpus_row(x):
                 else:
                     break
 
-def _process_idiom(headword, re1, re2, prob_verb_stems, idiom_readonly,
-                   idiom_counts):
-    _process_one_re(headword, re1, prob_verb_stems,
+def _process_idiom(headword, re1, re2, prob_verb_stems, verb_forms,
+                   idiom_readonly, idiom_counts):
+    _process_one_re(headword, re1, prob_verb_stems, verb_forms,
                     idiom_readonly, idiom_counts, 1)
-    _process_one_re(headword, re2, prob_verb_stems,
+    _process_one_re(headword, re2, prob_verb_stems, verb_forms,
                     idiom_readonly, idiom_counts, 2)
     #return {'re1': process_one_re(ctr, note_id, headword, re1, 1),
     #        're2': process_one_re(ctr, note_id, headword, re2, 2)}
@@ -806,7 +545,8 @@ def default_line_generator(corpus_files, max_rows_per_file):
                 #yield file_index, line
                 yield line
 
-def count_regexes(df, output_file, chunksize, n_cores=None,
+def count_regexes(df, output_file, chunksize, verb_forms=None,
+                  n_cores=None,
                   line_generator=None,
                   corpus_files=None, max_rows_per_file=None,
                   pvs_output_file=None, match_file=None):
@@ -827,6 +567,19 @@ def count_regexes(df, output_file, chunksize, n_cores=None,
         quoting. It will be the `df` data frame plus the columns
         `verb_search_cat_N`, `n_cum_N`, `n_seq_N`, `n_ic_cum_N`,
         `n_ic_seq_N`, where `N` is replaced by 1 and 2.
+    chunksize : int
+        Chunk size to pass to `multiprocessing.imap_unordered`, which
+        distributes the tasks among the `n_cores` processes.
+    verb_forms : Dict[str, str]
+        Dictionary where the key is the regex placeholder and the value
+        is the replacement string. This is primarily used to replace
+        a placeholder with a regex that captures the various declined form
+        of a verb. We use the convention that a placeholder should consist
+        of capital letters or underscores, and an error is generated if
+        there is a regex with this format not in this dict. However, we do
+        not currently give an error if a key in this dict does not satisfy
+        the capital-or-underscore requirement, but we recommend adhering to
+        this convention.
     n_cores : int (>0) or None [default]
         Number of cores to use for multiprocessing the input corpus files.
         A value of 0 is not currently supported. If `None`, this
@@ -835,9 +588,6 @@ def count_regexes(df, output_file, chunksize, n_cores=None,
         `None` were passed. Note that if `match_file` (see below) is not
         `None` then an additional process will be started to write the
         matches that is not counted in the value of this parameter.
-    chunksize : int
-        Chunk size to pass to `multiprocessing.imap_unordered`, which
-        distributes the tasks among the `n_cores` processes.
     line_generator : Callable[] or None
         A generator that takes no arguments and yields lines of text from
         the input files. If `None`, the default generator iterates over
@@ -886,6 +636,14 @@ def count_regexes(df, output_file, chunksize, n_cores=None,
     if n_cores == 0:
         raise ValueError('`n_cores == 0` not currently supported.')
 
+    bad_verb_form_keys = []
+    for key in verb_forms.keys():
+        if not _all_caps_or_underscore(key):
+            bad_verb_form_keys.append(key)
+    if bad_verb_form_keys:
+        raise ValueError('Keys in `verb_forms` should be capital letters'
+                         f' or underscores, not {bad_verb_form_keys=}')
+
     result_barrier = multiprocessing.Barrier(n_cores)
 
     # match_q: for text lines sent from workers to writer
@@ -914,6 +672,7 @@ def count_regexes(df, output_file, chunksize, n_cores=None,
     for row in df[['headword','re1','re2']].values:
         _process_idiom(headword=row[0], re1=row[1], re2=row[2],
                        prob_verb_stems=prob_verb_stems,
+                       verb_forms=verb_forms,
                        idiom_readonly=idiom_readonly,
                        idiom_counts=idiom_counts)
     if pvs_output_file is not None:

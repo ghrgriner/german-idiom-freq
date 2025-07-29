@@ -69,11 +69,17 @@ idiom_df = pd.read_csv(IDIOM_FILE, sep='\t', na_filter=False,
                        quoting=csv.QUOTE_NONE, nrows=idiom_rows)
 
 idiom_df['ID'] = idiom_df['orig order']
+vf_df = pd.read_csv('input/endehw_verb_forms.txt', sep='\t',
+                    quoting=csv.QUOTE_NONE)
+vf_df['replacement'] = vf_df.replacement.fillna('')
+verb_forms = {}
+for row in vf_df[['placeholder','replacement']].values:
+    verb_forms[row[0]] = row[1]
 
 # passing a line_generator is a bit faster than using the default
 # constructed by passing `corpus_files` and `max_rows_per_file`.
 count_regexes(df=idiom_df, n_cores=N_CORES, chunksize=CHUNKSIZE,
-              line_generator=line_generator,
+              line_generator=line_generator, verb_forms=verb_forms,
               #corpus_files=CORPUS_FILES, max_rows_per_file=NROWS,
               output_file=OUTPUT_FILE, pvs_output_file=PVS_OUTPUT_FILE)
 
