@@ -48,7 +48,7 @@ Wikimedia Foundation.
 
 # Input Files
 
-The input file used by [count\_regexes.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/count_regexes.py)
+The input file of idioms used by [run\_wp2022\_counts.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/run_wp2022_counts.py)
 has four variables.
 - **headword**: Headword on the Wiktionary page.
 - **orig order**: Sort order
@@ -60,12 +60,23 @@ has four variables.
   These counts were sometimes used in an exploratory manner, e.g., to
   determine which of two variant forms of an idiom were more common.
 
-Once `count_regexes.py` is run, the counts can be manually corrected
+There is also an input file of regular expression placeholders ([input/endehw\_verb\_forms.txt](https://github.com/ghrgriner/german-idiom-freq/blob/main/input/endehw_verb_forms.txt))
+used by the same program. The input text file is converted to a dictionary with
+key of `placeholder` and value of `replacement`, and the dictionary is
+passed to `count_regexes`. The variables on this file are:
+- **placeholder**: A string consisting of all capital letters or underscores.
+This as used as a placeholder in `re1` and `re2` in the previous input file.
+The placeholder is replaced with the regular expression in the `replacement`
+variable when the program is run.
+- **replacement**: See previous bullet.
+- **comment**: An optional explanatory comment.
+
+Once `run_wp2022_counts.py` is run, the counts can be manually corrected,
 if desired. The programs
 [save\_matches\_for\_sampling.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/save_matches_for_sampling.py)
 and
 [sample\_for\_review.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/sample_for_review.py)
-can be used to samples or full listings of selected idioms for review.
+can be used to generate samples or full listings of selected idioms for review.
 - **headword**: From first input file
 - **n_manual_sampsize**: Either 'all' or the sample size to use to
   create file(s) with the starting set of matches and the sample.
@@ -73,11 +84,11 @@ can be used to samples or full listings of selected idioms for review.
 
 The final file to run is [post\_process.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/post_process.py).
 This takes as input a third input file and merges these fields onto
-the file or counts obtained from `count_regexes.py` to generate the
+the file or counts obtained from `run_wp2022_counts.py` to generate the
 final output file. Various diagnostics are performed and listings created.
 see the docstring of the file for details.
 
-This third input file has the columns:
+This third input file of idioms has the columns:
 - **headword**: From first input file
 - **n_manual**: [Manually corrected](#Manual-Correction-of-Frequency) count
 - **n_manual_cmt**: Manual correction comment
