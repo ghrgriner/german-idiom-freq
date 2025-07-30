@@ -77,6 +77,7 @@ if desired. The programs
 and
 [sample\_for\_review.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/sample_for_review.py)
 can be used to generate samples or full listings of selected idioms for review.
+The input file of idioms used by this program has the variables:
 - **headword**: From first input file
 - **n_manual_sampsize**: Either 'all' or the sample size to use to
   create file(s) with the starting set of matches and the sample.
@@ -88,7 +89,7 @@ the file or counts obtained from `run_wp2022_counts.py` to generate the
 final output file. Various diagnostics are performed and listings created.
 see the docstring of the file for details.
 
-This third input file of idioms has the columns:
+This third input file of idioms has the variables:
 - **headword**: From first input file
 - **n_manual**: [Manually corrected](#Manual-Correction-of-Frequency) count
 - **n_manual_cmt**: Manual correction comment
