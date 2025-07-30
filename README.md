@@ -48,6 +48,12 @@ Wikimedia Foundation.
 
 # Input Files
 
+Three different input idiom files are used when running the programs.
+These files all contain the same values in the `headword` variable, but
+the other variables differ in each file. Multiple files are used so that
+the sequence of programs can be run in one pass. Variables on later files
+are created based on output from the preceding programs.
+
 The input file of idioms used by [run\_wp2022\_counts.py](https://github.com/ghrgriner/german-idiom-freq/blob/main/src/run_wp2022_counts.py)
 has four variables.
 - **headword**: Headword on the Wiktionary page.
@@ -60,7 +66,8 @@ has four variables.
   These counts were sometimes used in an exploratory manner, e.g., to
   determine which of two variant forms of an idiom were more common.
 
-There is also an input file of regular expression placeholders ([input/endehw\_verb\_forms.txt](https://github.com/ghrgriner/german-idiom-freq/blob/main/input/endehw_verb_forms.txt))
+There is also an input text file of regular expression placeholders
+([input/endehw\_verb\_forms.txt](https://github.com/ghrgriner/german-idiom-freq/blob/main/input/endehw_verb_forms.txt))
 used by the same program. The input text file is converted to a dictionary with
 key of `placeholder` and value of `replacement`, and the dictionary is
 passed to `count_regexes`. The variables on this file are:
