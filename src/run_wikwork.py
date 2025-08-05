@@ -1,50 +1,31 @@
-#    Example code for running `wikwork` package to get Wiktionary wikitext
+#    Example code for running `wikwork` package to get lemma main form.
 #    Copyright (C) 2025 Ray Griner (rgriner_fwd@outlook.com)
 
-"""Example code for running `wikwork` package to get Wiktionary wikitext
+"""Example code for running `wikwork` package to get lemma main form.
 
-The wikitext files will be in wikwork_output/wtxt.
+This doesn't use the wrapper in the `wikwork` package to retrieve data
+on all words in the input file and output at the end. Instead, it outputs
+each word one-at-a-time so that if there is an error retrieving a page (e.g.,
+a network timeout) we do not have to start over or rely on a cached file).
 
-The package will skip about ten of the headwords because it will skip
-page names with periods and quotation marks. These are the pages with
-revision=0 in the output text file.
-
-The wikitext from these pages can be downloaded manually by going to the
-page editor on the Wiktionary web site.
-
-To get the Lemmaverweis.txt file for use with post_process.py,
-create a Lemmaverweis subdirectory in the current directory and then
-change to the wikwork_output/wtxt subdirectory and run:
-
-> grep Lemmaverweis *.txt > ../../Lemmaverweis/Lemmaverweis.txt
-
-On Windows, you should be able to open a Windows Powershell and run (from
-within the directory):
-> sls Lemmaverweis *.txt > ../../Lemmaverweis/Lemmaverweis.txt
-
+In this example, only the lemma main form is saved to the output file (of the
+data in the wikitext).
 """
 
+import csv
 import logging
-
-from wikwork import wrapper, io_options
 import os
 
-#------------------------------------------------------------------------------
-# Set up logger, although will generate a lot of info messages that can be
-# ignored because it parses a lot of the wikitext but will warn when it
-# encounters wikitext templates that it doesn't know how to handle. These
-# warnings will mention the 'Lemmaverweis' template we are interested in, but
-# that's ok since we will not use the parsed output.
-#------------------------------------------------------------------------------
+from wikwork import io_options, german
+
 logger = logging.getLogger('wikwork')
 logger.setLevel(logging.INFO)
 
-fh = logging.FileHandler('run_wikwork.log', mode='w')
+fh = logging.FileHandler('get_lemma_main_form.log', mode='w')
 ch = logging.StreamHandler()
 
 # create formatter and add it to the handlers
-formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
 ch.setFormatter(formatter)
 # add the handlers to the logger
@@ -52,45 +33,93 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 #------------------------------------------------------------------------------
+# Parameters
+#------------------------------------------------------------------------------
+INPUT_WORDS_FILENAME = 'input_lvw.txt'
+HEADWORD_LANG_CODE = 'de'
+INPUT_WORDS_COLUMN_NAME = 'Word'
+OUTPUT_WORDS_FILENAME = 'output_lvw.txt'
+# After every API call, the program sleeps for this amount of seconds. The
+# 0.72 value assumes the user has an access token of 3600 calls/hr.
+SLEEP_TIME = 0.72
+CACHE_DIR = 'cache_dir_lvw'
+# These are passed in the request headers. It might be possible to run this
+# without an access token, but the permitted rate is lower than the rate with
+# a non-anonymous token.
+access_token = os.environ['MEDIAWIKI_TOKEN']
+user_email = os.environ['USER_EMAIL']
+
+#------------------------------------------------------------------------------
 # Main entry point
 #------------------------------------------------------------------------------
 
-# The first line should be 'headword' (or whatever you set the parameter
-# `input_words_column_name` to in `wrapper.words_wrapper`), followed by the
-# headwords.
-input_file = 'wikwork_input.txt'
+if not user_email:
+    raise ValueError('USER_EMAIL environment variable is empty or not set')
 
-# Users will need to set up these environment variables, review Mediawiki
-# terms of use and get an access token. These are only used when making
-# my_headers. The sleep time is calibrated assuming a token with a limit of
-# 5000 Rest API calls per hour. Users
-access_token = os.environ['MEDIAWIKI_TOKEN']
-user_email = os.environ['USER_EMAIL']
-sleep_time = 0.8
-
-#    'Authorization': f'Bearer {access_token}',
 my_headers = {
     'Authorization': f'Bearer {access_token}',
-    'User-Agent': f'(wikwork package) ({user_email})',
+    'User-Agent': f'(wikwork package) {user_email}',
 }
-del user_email
-del access_token
 
 io_opts = io_options.IOOptions(
-    output_dir='wikwork_output',
+    output_dir='clfm',
     project='Wiktionary',
-    cache_mode = io_options.CacheMode.READ_AND_WRITE,
+    cache_mode = io_options.CacheMode.NO_READ_OR_WRITE,
+    sleep_time = SLEEP_TIME,
     headers=my_headers)
+io_options = io_opts
 
-io_opts.audio_out_mode=io_options.AudioOutMode.NO_OVERWRITE
+logger = logging.getLogger(__name__)
 
-res = wrapper.words_wrapper(
-    input_words_filename=f'{input_file}',
-    headword_lang_code='de',
-    audio_html_lang_code='de',
-    io_options=io_opts,
-    input_words_column_name='headword',
-    fetch_word_page=True,
-    output_words_filename='wikwork_output.txt',
-)
+input_list = []
+with open(INPUT_WORDS_FILENAME, encoding='utf-8', newline='') as f:
+    reader = csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
+    input_list = [ row[INPUT_WORDS_COLUMN_NAME] for row in reader]
 
+logger.info('Processing %d words from %s in %s.wiktionary.org',
+            len(input_list), INPUT_WORDS_FILENAME, HEADWORD_LANG_CODE)
+
+with open(OUTPUT_WORDS_FILENAME, 'w', encoding='utf-8', newline='') as csvfile:
+    outwriter = csv.writer(csvfile, delimiter='\t', lineterminator='\n',
+                           quoting=csv.QUOTE_MINIMAL)
+
+    # additional variables in the subclass for printing
+    empty_entry = german.GermanEntry()
+
+    # Write header (headword, status_msg, revision,
+    #   filename1, prob_license1, ...)
+    flathead = ['headword','status_msg','revision','timestamp']
+    publicvars = [ var for var in vars(empty_entry).keys()
+                   if var[0] != '_' and var == 'lemma_main_form' ]
+    flathead.extend( colnm + '_1' for colnm in publicvars )
+    tuphead = ['filename','prob_licenses','prob_authors',
+               'prob_attribs', 'revision', 'download_status']
+    outwriter.writerow(flathead)
+
+    for i, word in enumerate(input_list):
+        word_info = german.GermanWord(headword=word,
+                            lang_code=HEADWORD_LANG_CODE)
+
+        if word_info.valid_input:
+            word_info.fetch_revision_info(io_options=io_options)
+        word_info.fetch_word_page(io_options=io_options)
+
+        if ((i+1) % 20) == 0:
+            print(f'File: {INPUT_WORDS_FILENAME}: Processed word {i+1}')
+
+        # Write the data
+        #for row in headword_list:
+        row = word_info
+        flattened = [row.headword, row.status_msg, row.revision,
+                     row.timestamp]
+        if row.entries:
+            for colnm in publicvars:
+                val = getattr(row.entries[0],colnm)
+                if isinstance(val, list):
+                    flattened.append('; '.join(val))
+                else:
+                    flattened.append(val)
+        else:
+            flattened.extend('' for colnm in publicvars)
+        outwriter.writerow(flattened)
+        csvfile.flush()

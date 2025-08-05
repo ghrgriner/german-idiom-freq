@@ -203,23 +203,20 @@ def check_main_form_most_freq(df_, var):
 
 LVW_DICT = {}
 def add_to_lvw_dict(x):
-    # x should be of the form:
-    #  'head_word.de.[0-9]+.txt:{{Lemmaverweis|main form}}'
-    # where 'head_word' is just the headword for the page with underscores
-    # replacing spaces. See `run_wikwork.py` for instructions for creating
-    # the text files.
     x_list = x.split(':')
-    end_re = re.compile(r'\.de\..*$')
-    nebenform = end_re.sub('', x_list[0]).replace('_', ' ')
-    mainform = x_list[1].replace('{{Lemmaverweis|','').replace('}}','')
-    if nebenform in LVW_DICT:
-        raise ValueError(f'{nebenform=} in dict twice')
-    else:
-        LVW_DICT[nebenform] = mainform
+    nebenform = x_list[0]
+    mainform = x_list[1]
+    if mainform:
+        if nebenform in LVW_DICT:
+            raise ValueError(f'{nebenform=} in dict twice')
+        else:
+            LVW_DICT[nebenform] = mainform
 
 def read_lemmaverweis():
-    lvw_df = pd.read_csv('Lemmaverweis/Lemmaverweis.txt', header=None,
-                   sep='\t', quoting=csv.QUOTE_NONE, names=['Value'])
+    lvw_df = pd.read_csv('Lemmaverweis/output_lvw.txt',
+                   sep='\t', quoting=csv.QUOTE_NONE)
+    lvw_df['lemma_main_form_1'] = lvw_df.lemma_main_form_1.fillna('')
+    lvw_df['Value'] = lvw_df.headword + ':' + lvw_df.lemma_main_form_1
     lvw_df.Value.map(add_to_lvw_dict)
 
 def check_both_languages(df_):
@@ -399,7 +396,6 @@ def check_manual_comment(df):
 #------------------------------------------------------------------------------
 # Main Entry Point
 #------------------------------------------------------------------------------
-#lvw_df = read_lemmaverweis()
 counts_df = pd.read_csv(COUNTS_FILE, sep='\t', quoting=csv.QUOTE_NONE,
                 usecols=['headword','orig order','re1','re2',
                          'n_cum_1','n_seq_1','n_ic_cum_1','n_ic_seq_1',
@@ -407,9 +403,9 @@ counts_df = pd.read_csv(COUNTS_FILE, sep='\t', quoting=csv.QUOTE_NONE,
                 dtype=str, keep_default_na=False,na_values=[])
 
 # users running this code after downloading from the repository will not have
-# access to the 'Lemmaverweis.txt' file but can just read in the
+# access to the 'output_lvw.txt' file but can just read in the
 # dewk_main_form_on_variant form from the uploaded output file and merge
-# it to counts_df. Users that want to create 'Lemmaverweis.txt' themselves
+# it to counts_df. Users that want to create 'output_lvw.txt' themselves
 # can follow the instructions in `run_wikwork.py`.
 
 read_lemmaverweis()
