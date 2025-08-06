@@ -433,6 +433,14 @@ The file `run_wp2022_counts.py` (which calls `count_regexes()` in `count_regexes
 takes about 2 hours on our laptop to run. The optional `run_wikwork.py`
 program probably takes an equivalent time to run, but we did not record the run-time.
 
+# Parallelization
+- `count_regexes.py` (called by `run_wp2022_counts.py` and `save_matches_for_sampling.py`)
+uses the `multiprocessing` package for parallelization.
+- `mpi_count_regexes.py` (called by `run_mpi_counts.py`) uses MPI for parallelization.
+  This generates the same results as `run_wp2022_counts`. We have not yet created an MPI
+  implementation of `save_matches_for_sampling.py` (which currently runs fast locally, about
+  5 minutes on a laptop).
+
 # References
 <a name="ref-dewk-mit-jdm-gehen">[1]</a>
 Wiktionary-Bearbeiter, "mit jemandem gehen," Wiktionary, https://de.wiktionary.org/w/index.php?title=mit_jemandem_gehen&oldid=9446291 (abgerufen am 6. Juli 2025).
