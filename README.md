@@ -436,10 +436,12 @@ program probably takes an equivalent time to run, but we did not record the run-
 # Parallelization
 - `count_regexes.py` (called by `run_wp2022_counts.py` and `save_matches_for_sampling.py`)
 uses the `multiprocessing` package for parallelization.
-- `mpi_count_regexes.py` (called by `run_mpi_counts.py`) uses MPI for parallelization.
-  This generates the same results as `run_wp2022_counts`. We have not yet created an MPI
-  implementation of `save_matches_for_sampling.py` (which currently runs fast locally, about
-  5 minutes on a laptop).
+- `mpi_count_regexes.py` (called by `run_mpi_counts.py`) uses `mpi4py.futures` for parallelization.
+  This was run using OpenMPI and generates the same results as `run_wp2022_counts` in the same
+  approximate run-time when run using the same number of processes (1 master and 16 workers) as
+  used by the `multiprocessing` implementation.
+  We have not yet created an MPI implementation of `save_matches_for_sampling.py` (which
+  currently runs fast locally, about 5 minutes on a laptop).
 
 # References
 <a name="ref-dewk-mit-jdm-gehen">[1]</a>
