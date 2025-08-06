@@ -95,9 +95,7 @@ import csv
 from dataclasses import dataclass, field
 from functools import partial
 from mpi4py.futures import MPIPoolExecutor, get_comm_workers
-from mpi4py import MPI
 import multiprocessing
-import os
 import re
 import warnings
 
@@ -451,16 +449,16 @@ def _return_results(_):
     # guarantee each pool process gets 1 task. One could finish fast and get 2.
     if _MATCH_Q is not None:
         _MATCH_Q.put(None)
-    _COMM.Barrier()
-    return _IDIOM_COUNTS
+    #_COMM.Barrier()
+    #return _IDIOM_COUNTS
+    comm_workers = get_comm_workers()
+    return comm_workers.reduce(_IDIOM_COUNTS, op=_sum_counts)
 
-def _worker_init(comm, match_q, idiom_readonly, idiom_counts):
-    global _COMM
+def _worker_init(match_q, idiom_readonly, idiom_counts):
     global _IDIOM_READONLY
     global _IDIOM_COUNTS
     global _MATCH_Q
 
-    _COMM = get_comm_workers()
     _IDIOM_READONLY = idiom_readonly
     _IDIOM_COUNTS = idiom_counts
     _MATCH_Q = match_q
@@ -536,6 +534,12 @@ def _reduce_counts(rcvd, idiom_counts):
                 idiom_counts[idx1][idx2].results[idx3] += val
             for idx3, val in enumerate(irec.ic_results):
                 idiom_counts[idx1][idx2].ic_results[idx3] += val
+
+def _sum_counts(x, y):
+    '''Add the results from two ragged arrays.
+    '''
+    _reduce_counts(x, y)
+    return y
 
 def default_line_generator(corpus_files, max_rows_per_file):
     all_file_ctr = 0
@@ -651,9 +655,9 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
         match_q = None
         final_q = None
     else:
-        raise ValueError('match_file must be None for MPI')
         match_q = multiprocessing.Queue()
         final_q = multiprocessing.Queue()
+        raise ValueError('match_file must be None for MPI')
 
     if '_counter' in df:
         raise ValueError('`_counter` already in input data frame')
@@ -686,8 +690,7 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
     with MPIPoolExecutor(
              max_workers=n_cores,
              initializer=_worker_init,
-             initargs=(None, match_q,
-                       idiom_readonly, idiom_counts)) as executor:
+             initargs=(match_q, idiom_readonly, idiom_counts)) as executor:
         if executor is not None:
             #buffersize = int(executor.num_workers*chunksize*1.5)
             buffersize = executor.num_workers*2
@@ -695,10 +698,11 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
                                   line_generator(), chunksize=chunksize,
                                   buffersize=buffersize):
                 pass
-            
+
             for counts in executor.map(_return_results,
                                    [0]*executor.num_workers, chunksize=1):
-                _reduce_counts(counts, idiom_counts)
+                if counts is not None:
+                    idiom_counts = counts
 
     #if n_cores != 0:
         #with multiprocessing.Pool(processes=n_cores,
@@ -726,14 +730,14 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
 
     ret_val = [ _fmt_output(x, idiom_readonly, idiom_counts)
                 for x in range(len(idiom_counts)) ]
-   
+
     varlist = ['verb_search_cat','n_cum','n_seq','n_ic_cum','n_ic_seq']
     indices = ['1','2']
     for ix in indices:
         for var in varlist:
             df[var + '_' + ix] = [ x['re' + ix][var] for x in ret_val]
-  
+
     df = df.sort_values(['_counter'])
     df = df.drop('_counter', axis=1)
     df.to_csv(output_file, sep='\t', quoting=csv.QUOTE_NONE, index=False)
- 
+
