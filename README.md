@@ -434,14 +434,22 @@ takes about 2 hours on our laptop to run. The optional `run_wikwork.py`
 program probably takes an equivalent time to run, but we did not record the run-time.
 
 # Parallelization
+The code was parallelized in two different ways (that give the same output):
 - `count_regexes.py` (called by `run_wp2022_counts.py` and `save_matches_for_sampling.py`)
 uses the `multiprocessing` package for parallelization.
-- `mpi_count_regexes.py` (called by `run_mpi_counts.py`) uses `mpi4py.futures` for parallelization.
-  This was run using OpenMPI and generates the same results as `run_wp2022_counts` in the same
+- `mpi_count_regexes.py` (called by `run_mpi_counts.py` and `mpi_save_matches.py`)
+  uses `mpi4py.futures` for parallelization. This was run using OpenMPI and generates the
+  same results as `run_wp2022_counts` in the same
   approximate run-time when run using the same number of processes (1 master and 16 workers) as
   used by the `multiprocessing` implementation.
-  We have not yet created an MPI implementation of `save_matches_for_sampling.py` (which
-  currently runs fast locally, about 5 minutes on a laptop).
+
+It's perhaps worth noting that the implementations that save the matches for sampling (i.e.,
+when setting `match_file` in `[mpi_]count_regexes()`) are a bit over-engineered in
+that they use a separate thread to write the matched lines to the output file. This requires various
+interprocess communicators (queues or `send`/`recv` pairs to send data from the workers to the writer thread,
+depending on the implementation). A simpler approach would simply have been to return a list of the lines to
+be written from each worker thread and then do the writing in the master thread by iterating over the workers'
+results. This simplification may be made in the future.
 
 # References
 <a name="ref-dewk-mit-jdm-gehen">[1]</a>
