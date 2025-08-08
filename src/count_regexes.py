@@ -569,10 +569,10 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
         this convention.
     n_cores : int (>0) or None [default]
         Number of cores to use for multiprocessing the input corpus files.
-        A value of 0 is not currently supported. If `None`, this
-        will be set to `os.process_cpu_count()` which (at the time of this
-        writing) is also the default `multiprocessing.Pool()` would use if
-        `None` were passed.
+        If 0, then no multiprocessing is used. If `None`, this will be set
+        to `os.process_cpu_count()` which (at the time of this writing) is
+        also the default `multiprocessing.Pool()` would use if `None` were
+        passed.
     line_generator : Callable[] or None
         A generator that takes no arguments and yields lines of text from
         the input files. If `None`, the default generator iterates over
@@ -616,9 +616,6 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
 
     if n_cores is None:
         n_cores = os.process_cpu_count()
-
-    if n_cores == 0:
-        raise ValueError('`n_cores == 0` not currently supported.')
 
     bad_verb_form_keys = []
     for key in verb_forms.keys():
@@ -674,9 +671,18 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
                                               [0]*n_cores, chunksize=1):
                 _reduce_counts(counts, idiom_counts)
     else:
-        pass
-        #for line in line_generator():
-        #    _process_corpus_row(line)
+        _worker_init(result_barrier, match_file, idiom_readonly, idiom_counts)
+        if match_file is None:
+            for line in line_generator():
+                _process_corpus_row(line)
+        else:
+            with open(match_file, 'w', encoding='utf-8') as f:
+                for line in line_generator():
+                    result = _process_corpus_row(line)
+                    if result is not None:
+                        for val in result:
+                            f.write(val + '\n')
+        idiom_counts = _IDIOM_COUNTS
 
     ret_val = [ _fmt_output(x, idiom_readonly, idiom_counts)
                 for x in range(len(idiom_counts)) ]
