@@ -572,9 +572,7 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
         A value of 0 is not currently supported. If `None`, this
         will be set to `os.process_cpu_count()` which (at the time of this
         writing) is also the default `multiprocessing.Pool()` would use if
-        `None` were passed. Note that if `match_file` (see below) is not
-        `None` then an additional process will be started to write the
-        matches that is not counted in the value of this parameter.
+        `None` were passed.
     line_generator : Callable[] or None
         A generator that takes no arguments and yields lines of text from
         the input files. If `None`, the default generator iterates over
