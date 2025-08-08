@@ -470,7 +470,7 @@ def _print_matches(match_file, n_cores, match_q, final_q):
                     final_q.put(None)
                     break
             else:
-                f.write(val)
+                f.write(val + '\n')
 
 # TODO: maybe in the future we will have the line_generator yield
 # a file_index and/or line_number as well
@@ -542,8 +542,8 @@ def default_line_generator(corpus_files, max_rows_per_file):
                 if all_file_ctr % 1000 == 0:
                     print(f"Input line: {all_file_ctr}")
                 all_file_ctr += 1
-                #yield file_index, line
-                yield line
+                #yield file_index, line.rstrip()
+                yield line.rstrip()
 
 def count_regexes(df, output_file, chunksize, verb_forms=None,
                   n_cores=None,

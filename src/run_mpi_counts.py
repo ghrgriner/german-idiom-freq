@@ -22,7 +22,6 @@ import csv
 import os
 
 import pandas as pd
-from mpi4py import MPI
 
 from mpi_count_regexes import mpi_count_regexes
 
@@ -56,8 +55,8 @@ def line_generator():
                 if all_file_ctr % 1000 == 0:
                     print(f"Input line: {all_file_ctr}")
                 all_file_ctr += 1
-                #yield file_index, line
-                yield line
+                #yield file_index, line.rstrip()
+                yield line.rstrip()
 
 #------------------------------------------------------------------------------
 # Main entry point
@@ -69,7 +68,7 @@ if __name__ == '__main__':
         idiom_rows = IDIOM_STOP - IDIOM_START
     idiom_df = pd.read_csv(IDIOM_FILE, sep='\t', na_filter=False,
                            quoting=csv.QUOTE_NONE, nrows=idiom_rows)
-    
+
     idiom_df['ID'] = idiom_df['orig order']
     vf_df = pd.read_csv('input/endehw_verb_forms.txt', sep='\t',
                         quoting=csv.QUOTE_NONE)
@@ -77,11 +76,11 @@ if __name__ == '__main__':
     verb_forms = {}
     for row in vf_df[['placeholder','replacement']].values:
         verb_forms[row[0]] = row[1]
-    
+
     # passing a line_generator is a bit faster than using the default
     # constructed by passing `corpus_files` and `max_rows_per_file`.
     mpi_count_regexes(df=idiom_df, chunksize=CHUNKSIZE,
                       line_generator=line_generator, verb_forms=verb_forms,
                       #corpus_files=CORPUS_FILES, max_rows_per_file=NROWS,
                       output_file=OUTPUT_FILE, pvs_output_file=PVS_OUTPUT_FILE)
-    
+

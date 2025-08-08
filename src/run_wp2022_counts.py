@@ -55,8 +55,8 @@ def line_generator():
                 if all_file_ctr % 1000 == 0:
                     print(f"Input line: {all_file_ctr}")
                 all_file_ctr += 1
-                #yield file_index, line
-                yield line
+                #yield file_index, line.rstrip()
+                yield line.rstrip()
 
 #------------------------------------------------------------------------------
 # Main entry point
