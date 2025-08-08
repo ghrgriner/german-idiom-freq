@@ -90,7 +90,7 @@ __all__ = ['count_regexes']
 
 import csv
 from dataclasses import dataclass, field
-from functools import partial
+from functools import partial, reduce
 import multiprocessing
 import os
 import re
@@ -518,6 +518,12 @@ def _reduce_counts(rcvd, idiom_counts):
             for idx3, val in enumerate(irec.ic_results):
                 idiom_counts[idx1][idx2].ic_results[idx3] += val
 
+def _sum_counts(x, y):
+    '''Add the results from two ragged arrays.
+    '''
+    _reduce_counts(x, y)
+    return y
+
 def default_line_generator(corpus_files, max_rows_per_file):
     all_file_ctr = 0
     #for file_index, file in enumerate(corpus_files):
@@ -667,9 +673,9 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
                             for val in result:
                                 f.write(val + '\n')
 
-            for counts in pool.imap_unordered(_return_results,
-                                              [0]*n_cores, chunksize=1):
-                _reduce_counts(counts, idiom_counts)
+            idiom_counts = reduce( _sum_counts,
+                                  pool.imap_unordered(_return_results,
+                                                     [0]*n_cores, chunksize=1))
     else:
         _worker_init(result_barrier, match_file, idiom_readonly, idiom_counts)
         if match_file is None:
