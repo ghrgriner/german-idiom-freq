@@ -453,7 +453,7 @@ def _return_results(_):
         _COMM_WORKERS.send(None, dest=_WRITER_RANK, tag=1)
     #_COMM.Barrier()
     #return _IDIOM_COUNTS
-    return _COMM_WORKERS.reduce(_IDIOM_COUNTS, op=_sum_counts)
+    return _COMM_WORKERS.allreduce(_IDIOM_COUNTS, op=_sum_counts)
 
 def _worker_init(match_file, idiom_readonly, idiom_counts):
     global _IDIOM_READONLY
@@ -478,7 +478,7 @@ def _print_matches(match_file, n_workers, master_rank):
                 if val is None:
                     sentinels_found += 1
                     if sentinels_found == n_workers - 1:
-                        comm_workers.reduce(_IDIOM_COUNTS, op=_sum_counts)
+                        comm_workers.allreduce(_IDIOM_COUNTS, op=_sum_counts)
                         comm.send(None, dest=master_rank, tag=2)
                         break
                 else:
