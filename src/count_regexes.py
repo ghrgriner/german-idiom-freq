@@ -173,10 +173,10 @@ _IDIOM_READONLY = None
 # Like above, but the workers will need to write to it. Each element in the
 # tuple is a `IdiomWriteRec`.
 _IDIOM_COUNTS = None
-# Will be used to pass text to be written to the match file from the worker
-# processes to the process that prints this text. This will remain `None` and
-# will not be used if `count_regexes.match_file is None`.
-_MATCH_Q = None
+# Non-None value used to indicate that text should be written to the match
+# file, and the workers should return a list of the text to write. Otherwise,
+# the workers return `None`.
+_MATCH_FILE = None
 
 #------------------------------------------------------------------------------
 # Functions
@@ -441,36 +441,18 @@ def _fmt_output(rl_entry, idiom_readonly, idiom_counts):
                                    idiom_readonly, idiom_counts, 2)}
 
 def _return_results(_):
-    # Need to wait to ensure this is called on every pool process.
-    # This is because even though we called .map with chunksize=1, this doesn't
-    # guarantee each pool process gets 1 task. One could finish fast and get 2.
-    if _MATCH_Q is not None:
-        _MATCH_Q.put(None)
     _RESULT_BARRIER.wait()
     return _IDIOM_COUNTS
 
-def _worker_init(barrier, match_q, idiom_readonly, idiom_counts):
+def _worker_init(barrier, match_file, idiom_readonly, idiom_counts):
     global _RESULT_BARRIER
     global _IDIOM_READONLY
     global _IDIOM_COUNTS
-    global _MATCH_Q
+    global _MATCH_FILE
     _RESULT_BARRIER = barrier
     _IDIOM_READONLY = idiom_readonly
     _IDIOM_COUNTS = idiom_counts
-    _MATCH_Q = match_q
-
-def _print_matches(match_file, n_cores, match_q, final_q):
-    sentinels_found = 0
-    with open(match_file, 'w', encoding='utf-8') as f:
-        while True:
-            val = match_q.get()
-            if val is None:
-                sentinels_found += 1
-                if sentinels_found == n_cores:
-                    final_q.put(None)
-                    break
-            else:
-                f.write(val + '\n')
+    _MATCH_FILE = match_file
 
 # TODO: maybe in the future we will have the line_generator yield
 # a file_index and/or line_number as well
@@ -479,6 +461,7 @@ def _print_matches(match_file, n_cores, match_q, final_q):
 #    _process_corpus_row(x)
 
 def _process_corpus_row(x):
+    ret_val = []
     #x_list = x.split(' ', maxsplit=1)
     #wgt = int(x_list[0])
     #text = x_list[1]
@@ -491,15 +474,19 @@ def _process_corpus_row(x):
                     _IDIOM_COUNTS[idx][idx2].ic_results[re_idx] += 1
                     if (case_sensitive_still_match
                         and i_rec.regexes[re_idx].search(x)):
-                        if (idx2 == 0 and re_idx + 1 == len_results
-                           and _MATCH_Q is not None):
-                            _MATCH_Q.put(
+                        if idx2 == 0 and re_idx + 1 == len_results:
+                            if _MATCH_FILE is not None:
+                                ret_val.append(
          f'{_IDIOM_READONLY[idx][idx2].headword}\t{x}')
                         _IDIOM_COUNTS[idx][idx2].results[re_idx] += 1
                     else:
                         case_sensitive_still_match = False
                 else:
                     break
+
+    if not ret_val:
+        ret_val = None
+    return ret_val
 
 def _process_idiom(headword, re1, re2, prob_verb_stems, verb_forms,
                    idiom_readonly, idiom_counts):
@@ -615,7 +602,6 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
     Nothing is returned (so an implicit `None`)
     '''
 
-    #
     if line_generator is None and corpus_files is None:
         raise ValueError('count_regexes: `line_generator` or '
                          '`corpus_files` must be set')
@@ -646,15 +632,6 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
 
     result_barrier = multiprocessing.Barrier(n_cores)
 
-    # match_q: for text lines sent from workers to writer
-    # final_q: for writer to tell main thread it is done
-    if match_file is None:
-        match_q = None
-        final_q = None
-    else:
-        match_q = multiprocessing.Queue()
-        final_q = multiprocessing.Queue()
-
     if '_counter' in df:
         raise ValueError('`_counter` already in input data frame')
     else:
@@ -678,34 +655,30 @@ def count_regexes(df, output_file, chunksize, verb_forms=None,
     if pvs_output_file is not None:
         _write_prob_verb_stems(prob_verb_stems, pvs_output_file)
 
-    if match_q is not None:
-        writer = multiprocessing.Process(target=_print_matches,
-                        args=(match_file, n_cores, match_q, final_q))
-        writer.start()
-
     if n_cores != 0:
         with multiprocessing.Pool(processes=n_cores,
                  initializer=_worker_init,
-                 initargs=(result_barrier, match_q,
+                 initargs=(result_barrier, match_file,
                            idiom_readonly, idiom_counts)) as pool:
-            for _ in pool.imap_unordered(_process_corpus_row,
-                            line_generator(), chunksize=chunksize):
-                pass
+            if match_file is None:
+                for _ in pool.imap_unordered(_process_corpus_row,
+                                line_generator(), chunksize=chunksize):
+                    pass
+            else:
+                with open(match_file, 'w', encoding='utf-8') as f:
+                    for result in pool.imap_unordered(_process_corpus_row,
+                                    line_generator(), chunksize=chunksize):
+                        if result is not None:
+                            for val in result:
+                                f.write(val + '\n')
+
             for counts in pool.imap_unordered(_return_results,
                                               [0]*n_cores, chunksize=1):
                 _reduce_counts(counts, idiom_counts)
-
-            if match_q is not None:
-                _ = final_q.get()
-                writer.join()
     else:
         pass
         #for line in line_generator():
         #    _process_corpus_row(line)
-
-        #if match_q is not None:
-        #    _ = final_q.get()
-        #    writer.join()
 
     ret_val = [ _fmt_output(x, idiom_readonly, idiom_counts)
                 for x in range(len(idiom_counts)) ]

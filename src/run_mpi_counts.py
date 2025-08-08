@@ -29,7 +29,7 @@ from mpi_count_regexes import mpi_count_regexes
 # Parameters
 #------------------------------------------------------------------------------
 # number of sentences in each file to process, set to 'None' for all
-#NROWS = 16000
+#NROWS = 160000
 NROWS = None
 IDIOM_START = 1
 IDIOM_STOP = None

@@ -443,14 +443,6 @@ uses the `multiprocessing` package for parallelization.
   approximate run-time when run using the same number of processes (1 master and 16 workers) as
   used by the `multiprocessing` implementation.
 
-It's perhaps worth noting that the implementations that save the matches for sampling (i.e.,
-when setting `match_file` in `[mpi_]count_regexes()`) are a bit over-engineered in
-that they use a separate thread to write the matched lines to the output file. This requires various
-interprocess communicators (queues or `send`/`recv` pairs to send data from the workers to the writer thread,
-depending on the implementation). A simpler approach would simply have been to return a list of the lines to
-be written from each worker thread and then do the writing in the master thread by iterating over the workers'
-results. This simplification may be made in the future.
-
 # References
 <a name="ref-dewk-mit-jdm-gehen">[1]</a>
 Wiktionary-Bearbeiter, "mit jemandem gehen," Wiktionary, https://de.wiktionary.org/w/index.php?title=mit_jemandem_gehen&oldid=9446291 (abgerufen am 6. Juli 2025).

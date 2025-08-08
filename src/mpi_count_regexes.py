@@ -95,7 +95,6 @@ import csv
 from dataclasses import dataclass, field
 from functools import partial
 from mpi4py.futures import MPIPoolExecutor, get_comm_workers
-from mpi4py import MPI
 import re
 import warnings
 
@@ -175,13 +174,10 @@ _IDIOM_READONLY = None
 # Like above, but the workers will need to write to it. Each element in the
 # tuple is a `IdiomWriteRec`.
 _IDIOM_COUNTS = None
-# Will be used to pass text to be written to the match file from the worker
-# processes to the process that prints this text. This will remain `None` and
-# will not be used if `count_regexes.match_file is None`.
+# Non-None value used to indicate that text should be written to the match
+# file, and the workers should return a list of the text to write. Otherwise,
+# the workers return `None`.
 _MATCH_FILE = None
-# Of the processes in the pool, this will be used as the writer if MATCH_FILE
-# is not None.
-_WRITER_RANK = 0
 
 #------------------------------------------------------------------------------
 # Functions
@@ -446,14 +442,7 @@ def _fmt_output(rl_entry, idiom_readonly, idiom_counts):
                                    idiom_readonly, idiom_counts, 2)}
 
 def _return_results(_):
-    # Need to wait to ensure this is called on every pool process.
-    # This is because even though we called .map with chunksize=1, this doesn't
-    # guarantee each pool process gets 1 task. One could finish fast and get 2.
-    if _MATCH_FILE is not None:
-        _COMM_WORKERS.send(None, dest=_WRITER_RANK, tag=1)
-    #_COMM.Barrier()
-    #return _IDIOM_COUNTS
-    return _COMM_WORKERS.allreduce(_IDIOM_COUNTS, op=_sum_counts)
+    return _COMM_WORKERS.reduce(_IDIOM_COUNTS, op=_sum_counts)
 
 def _worker_init(match_file, idiom_readonly, idiom_counts):
     global _IDIOM_READONLY
@@ -466,24 +455,6 @@ def _worker_init(match_file, idiom_readonly, idiom_counts):
     _MATCH_FILE = match_file
     _COMM_WORKERS = get_comm_workers()
 
-def _print_matches(match_file, n_workers, master_rank):
-    sentinels_found = 0
-    comm = MPI.COMM_WORLD
-    comm_workers = get_comm_workers()
-    comm_workers.Barrier()
-    if comm_workers.Get_rank() == _WRITER_RANK:
-        with open(match_file, 'w', encoding='utf-8') as f:
-            while True:
-                val = comm_workers.recv(source=MPI.ANY_SOURCE, tag=1)
-                if val is None:
-                    sentinels_found += 1
-                    if sentinels_found == n_workers - 1:
-                        comm_workers.allreduce(_IDIOM_COUNTS, op=_sum_counts)
-                        comm.send(None, dest=master_rank, tag=2)
-                        break
-                else:
-                    f.write(val + '\n')
-
 # TODO: maybe in the future we will have the line_generator yield
 # a file_index and/or line_number as well
 #def _process_file_and_line(x):
@@ -491,6 +462,7 @@ def _print_matches(match_file, n_workers, master_rank):
 #    _process_corpus_row(x)
 
 def _process_corpus_row(x):
+    ret_val = []
     #x_list = x.split(' ', maxsplit=1)
     #wgt = int(x_list[0])
     #text = x_list[1]
@@ -503,16 +475,18 @@ def _process_corpus_row(x):
                     _IDIOM_COUNTS[idx][idx2].ic_results[re_idx] += 1
                     if (case_sensitive_still_match
                         and i_rec.regexes[re_idx].search(x)):
-                        if (idx2 == 0 and re_idx + 1 == len_results
-                           and _MATCH_FILE is not None):
-                            _COMM_WORKERS.send(
-         f'{_IDIOM_READONLY[idx][idx2].headword}\t{x}',
-                                             dest=_WRITER_RANK, tag=1)
+                        if idx2 == 0 and re_idx + 1 == len_results:
+                            if _MATCH_FILE is not None:
+                                ret_val.append(
+         f'{_IDIOM_READONLY[idx][idx2].headword}\t{x}')
                         _IDIOM_COUNTS[idx][idx2].results[re_idx] += 1
                     else:
                         case_sensitive_still_match = False
                 else:
                     break
+    if not ret_val:
+        ret_val = None
+    return ret_val
 
 def _process_idiom(headword, re1, re2, prob_verb_stems, verb_forms,
                    idiom_readonly, idiom_counts):
@@ -587,7 +561,8 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
         `verb_search_cat_N`, `n_cum_N`, `n_seq_N`, `n_ic_cum_N`,
         `n_ic_seq_N`, where `N` is replaced by 1 and 2.
     chunksize : int
-        Chunk size to use when mapping the tasks (of processing corpus lines)
+        Chunk size to use when mapping the tasks (of processing corpus
+        lines).
     verb_forms : Dict[str, str]
         Dictionary where the key is the regex placeholder and the value
         is the replacement string. This is primarily used to replace
@@ -619,9 +594,9 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
         File name of output file that contains a list of the regular
         expressions that are probably verb stems. If `None`, the file will
         not be created.
-    match_file : None
-        Not used. Must be `None`. This option is not supported with
-        MPI-parallelization for now.
+    match_file : str or None
+        If not `None`, then all matches for the `re1` case-insenstive
+        pattern will be written to this file.
 
     Results
     -------
@@ -642,11 +617,6 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
             print('WARNING: `max_rows_per_file` will be ignored since '
                   '`line_generator` was set.')
 
-    #if n_cores is None:
-    #    n_cores = os.process_cpu_count() - 1
-
-    #if n_cores == 0:
-    #    raise ValueError('`n_cores == 0` not currently supported.')
     if n_cores is not None:
         raise ValueError('Only `n_cores = None` currently supported.')
 
@@ -657,15 +627,6 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
     if bad_verb_form_keys:
         raise ValueError('Keys in `verb_forms` should be capital letters'
                          f' or underscores, not {bad_verb_form_keys=}')
-
-    # match_q: for text lines sent from workers to writer
-    # final_q: for writer to tell main thread it is done
-    #if match_file is None:
-    #    match_q = None
-    #    final_q = None
-    #else:
-    #    match_q = multiprocessing.Queue()
-    #    final_q = multiprocessing.Queue()
 
     if '_counter' in df:
         raise ValueError('`_counter` already in input data frame')
@@ -690,68 +651,32 @@ def mpi_count_regexes(df, output_file, chunksize, verb_forms=None,
     if pvs_output_file is not None:
         _write_prob_verb_stems(prob_verb_stems, pvs_output_file)
 
-    #if match_q is not None:
-    #    writer = multiprocessing.Process(target=_print_matches,
-    #                    args=(match_file, n_cores, match_q, final_q))
-    #    writer.start()
-    rank = MPI.COMM_WORLD.Get_rank()
-
     with MPIPoolExecutor(
              max_workers=n_cores,
              initializer=_worker_init,
              initargs=(match_file, idiom_readonly, idiom_counts)
                         ) as executor:
         if executor is not None:
-
-            if match_file is not None:
-                #writer_future = executor.submit(_print_matches,
-                #                         match_file, n_cores, rank)
-                writer_future = executor.starmap(_print_matches,
-      [(match_file, executor.num_workers, rank)]*executor.num_workers)
-                n_workers_with_results = executor.num_workers - 1
-            else:
-                n_workers_with_results = executor.num_workers
-
             buffersize = executor.num_workers*2
-            for _ in executor.map(_process_corpus_row,
+            if match_file is None:
+                for _ in executor.map(_process_corpus_row,
                                   line_generator(), chunksize=chunksize,
                                   buffersize=buffersize):
-                pass
+                    pass
+            else:
+                with open(match_file, 'w', encoding='utf-8') as f:
+                    for result in executor.map(_process_corpus_row,
+                                  line_generator(), chunksize=chunksize,
+                                  buffersize=buffersize):
+                        if result is not None:
+                            for val in result:
+                                f.write(val + '\n')
 
             for counts in executor.map(_return_results,
-                                   [0]*n_workers_with_results, chunksize=1):
+                                   [0]*executor.num_workers, chunksize=1):
                 if counts is not None:
                     idiom_counts = counts
                     break
-
-            if match_file is not None:
-                _ = MPI.COMM_WORLD.recv(source=MPI.ANY_SOURCE, tag=2)
-                for _ in writer_future:
-                    pass
-
-    #if n_cores != 0:
-        #with multiprocessing.Pool(processes=n_cores,
-        #         initializer=_worker_init,
-        #         initargs=(result_barrier, match_q,
-        #                   idiom_readonly, idiom_counts)) as pool:
-        #    for _ in pool.imap_unordered(_process_corpus_row,
-        #                    line_generator(), chunksize=chunksize):
-        #        pass
-        #    for counts in pool.imap_unordered(_return_results,
-        #                                      [0]*n_cores, chunksize=1):
-        #        _reduce_counts(counts, idiom_counts)
-        #
-        #    if match_q is not None:
-        #        _ = final_q.get()
-        #        writer.join()
-    #else:
-        #pass
-        #for line in line_generator():
-        #    _process_corpus_row(line)
-
-        #if match_q is not None:
-        #    _ = final_q.get()
-        #    writer.join()
 
     ret_val = [ _fmt_output(x, idiom_readonly, idiom_counts)
                 for x in range(len(idiom_counts)) ]
